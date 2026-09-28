@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc_mount\ragnarok_mount_1\wait.GR2"
+MotionDuration           1.333333
+

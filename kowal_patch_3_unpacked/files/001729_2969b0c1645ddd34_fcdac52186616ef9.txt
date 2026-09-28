@@ -1,0 +1,53 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\monster\metinstone_witchforest_1\metinstone_witchforest_1.gr2"
+
+SmokeBoneName 	"metinstone02_00"
+List SmokeFileName	
+{
+	0		"D:\ymir work\effect\mehok\shining\stone\metinstone_witchforest_1.mse"
+	1		"D:\ymir work\effect\mehok\shining\stone\metinstone_witchforest_1.mse"
+	2		"D:\ymir work\effect\mehok\shining\stone\metinstone_witchforest_1.mse"
+	3		"D:\ymir work\effect\mehok\shining\stone\metinstone_witchforest_1.mse"
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "metinstone02_00"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           117.000000
+            Position         -20.000000 0.000000 100.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "metinstone02_00"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           145.000000
+            Position         -20.000000 0.000000 100.000000
+        }
+    }
+}

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc2\plechito_easter2024_pets\plechi_easter2024_pet8\stay01.GR2"
+MotionDuration           2.100000
+Accumulation             0.00	0.00	0.00
+

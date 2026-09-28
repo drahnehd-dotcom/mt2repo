@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc_pet\ervelia_pet_event01\wait.gr2"
+MotionDuration           7.000000
+

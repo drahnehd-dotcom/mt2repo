@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc_mount\ragnarok_mount_1\run.GR2"
+MotionDuration           0.666667
+Accumulation             0.00	-906.86	0.00
+

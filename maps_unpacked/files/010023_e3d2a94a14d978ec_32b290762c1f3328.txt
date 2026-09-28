@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	5	5
+BasePosition	460800	1100800
+TextureSet	textureset\endy_map2.txt
+Environment	defensewave_blue.msenv
+

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\realis_bloodmoon_pet\wait3.gr2"
+MotionDuration           1.733333
+Accumulation             0.000000	0.000000	0.000000
+

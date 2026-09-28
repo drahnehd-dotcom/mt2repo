@@ -1,0 +1,274 @@
+TextureSet
+
+TextureCount 27
+
+Start Texture001
+    "d:\ymir work\terrainmaps\tile01.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture001
+Start Texture002
+    "D:\ymir work\terrainmaps\b\field\field 01.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\terrainmaps\mehok\el\grass84.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture003
+Start Texture004
+    "d:\ymir work\terrainmaps\mehok\el\grass99.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture004
+Start Texture005
+    "d:\ymir work\terrainmaps\mehok\el\889.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture005
+Start Texture006
+    "d:\ymir work\terrainmaps\mehok\el\14.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture006
+Start Texture007
+    "d:\ymir work\terrainmaps\mehok\el\17.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture007
+Start Texture008
+    "d:\ymir work\terrainmaps\mehok\el\18.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture008
+Start Texture009
+    "d:\ymir work\terrainmaps\plechi_env_map\lava\field07.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture009
+Start Texture010
+    "d:\ymir work\terrainmaps\plechi_env_map\lava\1919.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture010
+Start Texture011
+    "d:\ymir work\terrainmaps\mehok\el\23.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture011
+Start Texture012
+    "d:\ymir work\terrainmaps\mehok\el\21.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture012
+Start Texture013
+    "d:\ymir work\terrainmaps\mehok\el\24.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture013
+Start Texture014
+    "d:\ymir work\terrainmaps\mehok\el\20.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture014
+Start Texture015
+    "d:\ymir work\terrainmaps\mehok\el\26.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture015
+Start Texture016
+    "d:\ymir work\terrainmaps\mehok\el\27.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture016
+Start Texture017
+    "d:\ymir work\terrainmaps\mehok\el\stone_tile_001.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture017
+Start Texture018
+    "d:\ymir work\terrainmaps\mehok\el\2020.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture018
+Start Texture019
+    "d:\ymir work\terrainmaps\mehok\el\1717.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture019
+Start Texture020
+    "D:\ymir work\terrainmaps\plechi_env_map\ice\ice10.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture020
+Start Texture021
+    "d:\ymir work\terrainmaps\plechi_env_map\ice\field00.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture021
+Start Texture022
+    "d:\ymir work\terrainmaps\plechi_env_map\ice\field02.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture022
+Start Texture023
+    "d:\ymir work\terrainmaps\plechi_env_map\ice\tile12.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture023
+Start Texture024
+    "D:\ymir work\terrainmaps\plechi_env_map\ice\snow09.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture024
+Start Texture025
+    "D:\ymir work\terrainmaps\b\stone\stone01.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture025
+Start Texture026
+    "d:\ymir work\terrainmaps\mehok\el\31.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture026
+Start Texture027
+    "d:\ymir work\terrainmaps\mehok\el\43.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture027

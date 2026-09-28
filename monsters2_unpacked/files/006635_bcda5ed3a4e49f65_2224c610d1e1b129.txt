@@ -1,0 +1,89 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_pirate_ship\plechi_pirateship_mainboss\skill01.GR2"
+MotionDuration           2.933333
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "eff_body"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/pirate_ship/boss2_skill01_making_body.mse"
+        EffectPosition       0.000000 0.000000 -300.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.350000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "eff_gun"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/pirate_ship/boss2_skill01_making_gun.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.940000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Root"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/monster/pirate_ship/boss2_skill01_splash.mse"
+        EffectPosition       0.000000 -200.000000 150.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         2.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "eff_mouth"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/pirate_ship/boss2_skill01_gunsmoke.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      2
+        StartingTime         0.940000
+        
+        DuringTime           0.600000
+        Power                120
+        AffectingRange       25000
+    }
+    Group Event05
+    {
+        MotionEventType      4
+        StartingTime         0.940000
+        DuringTime          0.600000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        3
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           500.000000
+            Position         0.000000 -600.000000 0.000000
+        }
+    }
+}

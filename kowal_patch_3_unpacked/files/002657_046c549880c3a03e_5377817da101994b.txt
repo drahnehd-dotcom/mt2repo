@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_ramadan2024\plechi_ramadan2024_boss1\stay00.GR2"
+MotionDuration           2.000000
+Accumulation             0.00	0.00	0.00
+

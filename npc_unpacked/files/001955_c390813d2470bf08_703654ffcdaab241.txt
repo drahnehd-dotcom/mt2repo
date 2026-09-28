@@ -1,0 +1,31 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechito_pirate_ship\plechi_pirship_statue_1\destroy.GR2"
+MotionDuration           4.333333
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.120000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Dummy01"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/npc/pirate_ship/statue1_destroy.mse"
+        EffectPosition       0.000000 0.000000 310.000000
+    }
+    Group Event01
+    {
+        MotionEventType      2
+        StartingTime         0.1200000
+        
+        DuringTime           0.500000
+        Power                120
+        AffectingRange       2500
+    }
+}

@@ -1,0 +1,1263 @@
+ACCE_ABSORB_CHANCE	Absorpce: %d%%
+ACCE_ABSORB_CHANCE2	%d%% - %d%%
+ACCE_CLEAR_ATTR_CONFIRM	Opravdu chceš vyčistit bonusy?
+ACHIEVEMENT_POINTS_TITLE	Body úspěchů
+ACHIEVEMENT_POINTS_USAGE	Využití bodů možné u NPC Hwa-Hee
+AFFECT_REMOVE_QUESTION	Určitě chceš odebrat %s?
+AFFECT_SHOWER_DELETE_BONUS	Ureiti chceš odebrat tento bonus?
+ALL_CHANNEL	Všechny kanály
+ALL_KINGDOMS	|cFF97AE99Všechna království|h|r
+ARCTIC_DUNGEON	Ledová jeskyně
+AUTO_SHOUT_BUTTON	Automatická zpráva (Zavolat)
+AUTO_SHOUT_INFO	Odesilání automatické zprávy aktivováno.
+AUTO_SHOUT_INFO2	Odesilání automatické zprávy deaktivováno.
+AUTO_SHOUT_INFO3	Poslední zpráva do zavolat nenalezena. Automatické odesílání zprávy do zavolat se spustí jakmile něco napíšeš.
+AVAILABLE	Dostupné: {}
+AVERAGE_DAMAGE_DUNGEON_1	Dandžn průmka 1
+AVERAGE_DAMAGE_DUNGEON_2	Císařova rokle
+BATTLEPASS_EXPIRED	Čas Battlepassu vypršel
+BATTLEPASS_EXP_ENDED	Ukončeno
+BATTLEPASS_MISSION_MISSING	Chybějící mise {}
+BATTLEPASS_PREMIUM_QUESTION_1	Opravdu chceš aktivovat premium battlepass?
+BATTLE_PASS_EXP	Dokončeno:
+BATTLE_PASS_QUEST_DESC_01	Zabij zadané množství příšer
+BATTLE_PASS_QUEST_DESC_02	Odměna: 2 body expů
+BATTLE_PASS_QUEST_DESC_03	Odměna: 1 body expů
+BATTLE_PASS_QUEST_DESC_04	Odměna: 2 body expů
+BATTLE_PASS_QUEST_DESC_05	Napiš zadané množství zpráv do zavolat
+BATTLE_PASS_QUEST_DESC_06	Vylepší zadané množství předmětů
+BATTLE_PASS_QUEST_NAME_01	Zabij příšery
+BATTLE_PASS_QUEST_NAME_02	Zabij bosse
+BATTLE_PASS_QUEST_NAME_03	Znič balvany
+BATTLE_PASS_QUEST_NAME_04	Dokonči dungeony
+BATTLE_PASS_QUEST_NAME_05	Napiš do zavolat
+BATTLE_PASS_QUEST_NAME_06	Vylepši předměty
+BIGGER_STAR_CHANCE	|cFF63f282VĚTŠÍ ŠANCE NA RYBÁŘSKOU HVĚZDU|h|r
+BK_ENVANTER_TEXT1	Tento inventář funguje nezávisle na normálním inventáři.
+BK_ENVANTER_TEXT2	Z tohoto inventáře nelze přesunout předměty do klasického inventáře.
+BK_ENVANTER_TEXT4	Každý předmět má svou oddělenou kategorii.
+BK_ENVANTER_TEXT5	Každá kategorie má 3 strany inventáře.
+BLEND_WINDOW_1	Nezvolil si žádný elixír!
+BLEND_WINDOW_2	Nemáš žádný ze zvolených elixíru v inventáři!
+BLUE_KINGDOM	|cFF8CADDBJinno|h|r
+BOARD_SAVE_POSITION	Nazwa zapisywanej pozycji:
+BONUS_END_IN	%s
+BONUS_EVENT	|cFF63f282Bonus Event:h|r
+BONUS_NEXT_EVENT	|Eemoji/key_rclick|e - Další event
+BONUS_NONE	Bonus: Žádný
+BONUS_PRESENT	Bonus: {flags}
+BONUS_START_IN	%s
+BUFFNPC_SELECTED_SKILL	Vybraná schopnost k tréninku: 
+BUFF_AFFECT_REMOVE_QUESTION	Určitě chceš odebrat %s?
+BUFF_INTELLIGENCE	Inteligence: {}
+BUFF_IS_BONUS_ACTIVE	Bonus aktivní
+BUFF_IS_BONUS_INACTIVE	Bonus neaktivní
+BUFF_SKILL_1	Požehnání
+BUFF_SKILL_2	Útok+
+BUFF_SKILL_3	Pomoc draka
+BUFF_SKILL_LEVEL_DESC_1	Odolnost proti tělesnému napadení: |cFFffce47+{}
+BUFF_SKILL_LEVEL_DESC_2	Šance na kritický zásah: |cFFffce47+{}|r
+CANCEL_TELEPORT	Nechci teleportovat
+CANNOT_DOING_PRIVATE_SHOP_OPEN	Dokud máš otevřen offline stánek, nemůžeš dělat nic jiného.
+CATEGORY_1	Vylepšovací předměty
+CATEGORY_10	Pasivní schopnosti
+CATEGORY_11	Propustky
+CATEGORY_12	Rukavice
+CATEGORY_13	Úkoly
+CATEGORY_14	Autobuff
+CATEGORY_15	Šerpy
+CATEGORY_16	Zesilka/Začarka
+CATEGORY_17	Velikonoční předměty
+CATEGORY_18	Jezdecká zvířata
+CATEGORY_19	Relikvie a tavby
+CATEGORY_2	Alchymie
+CATEGORY_20	Ryby
+CATEGORY_21	Výměna trofejí za truhly artefaktů
+CATEGORY_22	Vylepšovací kameny
+CATEGORY_23	Letní předměty
+CATEGORY_24	Letní kostýmy
+CATEGORY_3	Boostery
+CATEGORY_4	Úlomky zubaté
+CATEGORY_5	Úlomky války
+CATEGORY_6	Opasky
+CATEGORY_7	Legendární kameny duše
+CATEGORY_8	Mazlíček
+CATEGORY_9	Hodnost
+CATEGORY_ALCHEMY	Alchymie
+CATEGORY_COSTUMES_COSTUME_WEAPON	Kostýmové zbraně
+CATEGORY_JEWELRY_ARMOR_PENDANT	Talisman
+CATEGORY_JEWELRY_ARMOR_WRIST	Náramky
+CATEGORY_LEGEKD	Legendární kameny duše
+CATEGORY_MISJE	Úkoly
+CATEGORY_OWOCE	Hodnost
+CATEGORY_PASY	Opasky
+CATEGORY_POMOCNIK	Pomocník
+CATEGORY_PRZEPUSTKI	Propustky
+CATEGORY_REKAWICE	Rukavice
+CATEGORY_RIPER	Úlomky zubaté
+CATEGORY_ULEP	Vylepšovací předměty
+CATEGORY_UM_PASYWNE	Pasivní schopnosti
+CATEGORY_WOJNY	Úlomky války
+CATEGORY_WSPOMAGACZE	Boostery
+CATEGORY_ZWIERZAK	Mazlíček
+CHANCE_FORMAT	Šance: |cFF9dbbb1{}%
+CHANNEL_FORMAT	Kanal {0}
+CHAT_OPEN_LINK	Chcete otevřít tento odkaz?
+CHAT_OPEN_LINK_DANGER	Pozor! Tento odkaz může být nebezpečný!
+CHEQUE_ONLY_VALUE	Lze zadat pouze čísla.
+CHEQUE_SYSTEM_UNIT_CHEQUE	Won
+CHEST_DROP_INFO	|Eemoji/key_ctrl|e + |Eemoji/key_shift|e + |Eemoji/key_rclick|e
+CHEST_FIND_ITEMS_DESC_1	Najdi truhly ukrývající
+CHEST_FIND_ITEMS_DESC_2	tento předmět.
+CLICK_TO_BUY	Stiskni {click_icon}, pro koupi.
+COLLECITON_SEND_TOOLTIP	- Odevzdat předmět
+COLLECTIONER_CATEGORY_1	Bojovník
+COLLECTIONER_CATEGORY_2	Kovář (I)
+COLLECTIONER_CATEGORY_3	Kovář (II)
+COLLECTIONER_CATEGORY_4	Kovář (III)
+COLLECTIONER_CATEGORY_5	Kovář (IV)
+COLLECTIONER_CATEGORY_6	Kovář (V)
+COLLECTIONS_COLLECTED	Odevzdáno!
+COLLECTIONS_NOT_COLLECTED	Zatím nesebráno
+COLLECTION_MAIN_COMPLETE	Status: Odevzdáno.
+COLLECTION_MAIN_NOT_COMPLETE	Status: Neodevzdáno.
+COLLECTION_ORE_1	Bažiny
+COLLECTION_ORE_2	Kovář (I)
+COLLECTION_ORE_3	Kovář (II)
+COLLECTION_ORE_4	Kovář (III)
+COLLECTION_ORE_5	Kovář (IV)
+COLLECTION_ORE_6	Kovář (V)
+COLLECTION_PERCENT	Bonusová šance: {}%.
+COLLECTION_PERCENT_INCREASED	Bonusová šance: {}% + {}%.
+COLLECTION_PROGRESS	Postup: {}%.
+COLLECTION_SEND_ALL_TOOLTIP	- Odevzdat vše
+COLLECTION_THIS_ITEM_IS_COLLECTED	Tento předmět jsi již odevzdal.
+COLLECT_BONUS_NONE	-
+COLLECT_CATEGORY_BIOLOGICAL	Biologický výzkum
+COLLECT_CATEGORY_BOSS	Bossologie
+COLLECT_CATEGORY_COLLECTOR	Sběratel
+COLLECT_CATEGORY_HUNTING	Lov
+COLLECT_CATEGORY_STONE	Balvanologie
+COLLECT_COLLECTOR_ONLY_MESSAGE	Tuto možnost lze použít pouze u misí sběratele.
+COLLECT_LOCATION_CYCLOPS_VALLEY	Údolí kyklopů
+COLLECT_LOCATION_ENCHANTED_FOREST	Začarovaný les
+COLLECT_LOCATION_FIRE_LAND	Ohnivá země
+COLLECT_LOCATION_FIRST_CITIES	První města
+COLLECT_LOCATION_FROZEN_LAND	Mrazivá krajina
+COLLECT_LOCATION_LABEL	Lokace:
+COLLECT_LOCATION_NONE	-
+COLLECT_LOCATION_ORC_VALLEY	Údolí orků
+COLLECT_LOCATION_PHARAOH_DESERT	Poušť Faraona
+COLLECT_LOCATION_SECOND_CITIES	Druhá města
+COLLECT_LOCATION_SPIDER_CAVE	Jeskyně pavouků
+COLLECT_LOCATION_SWAMP	Bažiny
+COLLECT_LOCATION_UNKNOWN	Neznámá lokace
+COLLECT_REQUIRED_LEVEL	Potřebná úroveň: {}
+COSTUME_BODY	|cFFd8bb86Kostým
+COSTUME_BODY_FOR_BUFF	|cFFd8bb86Kostým autobuff
+COSTUME_HAIR	|cFFd8bb86Účes
+COSTUME_HAIR_FOR_BUFF	|cFFd8bb86Účes autobuff
+COSTUME_PICK_POSSIBILITY	(Možnost výběru kostýmu na zbraň)
+COSTUME_SASH	|cFFd8bb86Šerpa
+COSTUME_WEAPON	|cFFd8bb86Kostým na zbraň
+COSTUME_WEAPON_FOR_BUFF	|cFFd8bb86Kostým na zbraň autobuff
+DALSZE_ZAKATKI	Tajemná zákoutí
+DEMON_TOWER	Svatyně démonů
+DETAILS_CON	Vitalita
+DETAILS_DEX	Pohyblivost
+DETAILS_FAINT_RES	Odolnost proti bezvědomí
+DETAILS_INT	Inteligence
+DETAILS_SLOW_RES	Odolnost proti zpomalení
+DETAILS_STR	Síla
+DOUBLE_ACHIEVEMENT_POINTS	|cFF63f282DVOJNÁSOBNÝ DROP BODÚ ÚSPĚCHU Z BALVANŮ A BOSSŮ|h|r
+DOUBLE_BOSS_LOOT_EVENT	|cFF63f282Zvýšená šance na získání předmětu z bosse|h|r
+DOUBLE_DROP_LOOT_TOOLTIP	Šance na double drop 100%
+DOUBLE_METIN_LOOT_EVENT	|cFF63f282ŠANCE NA DVOJNÁSOBNÝ DROP Z KAMENŮ|h|r
+DOUBLE_MISSION_BOOK_EVENT	Double drop z knih misí
+DOUBLE_ORE_EVENT	|cFF63f282DVOJNÁSOBNÝ DROP RUDY|h|r
+DO_YOU_DROP_CHEQUE	Opravdu chceš upustit %d Won?
+DO_YOU_WANT_TO_CLOSE_OFFLINE_SHOP	Opravdu chceš uzavřít svůj stánek?
+DO_YOU_WANT_TO_REMOVE_ITEM	Opravdu chceš odebrat %s ze svého stánku?
+DRAGONSOUL_CHANCE	Šance: |cFFf4be00{}%|r
+DRAGONSOUL_ONLY_MYTHIC_CAN_BE_SWITCHED	|cFFff9494Změna bonusů je možná pouze u mýtické alchymie.|r
+DRAGONSOUL_PLACE_DRAGON_SOUL_FIRST	|cFFff9494Nejprve umísti dračí kámen.|r
+DRAGON_SOUL_ACTIVE	|cFF86e57fAlchymie aktivní|r
+DRAGON_SOUL_INACTIVE	|cFF888888Alchymie neaktivní|r
+DRAGONSOUL_PRICE	Cena: |cFFc99f36200.000.000 {}
+DRAGONSOUL_RENEW_TIME	Obnovení času
+DRAGONSOUL_WRONG_ATTR_CHANGE_ITEM	|cFFff9494Tento předmět nelze použít ke změně bonusů v alchymii.|r
+DROP_CHANCE	|cFFc9f1c0Šance na drop: {percentage:.2f}%
+DROP_CHEQUE_FAILURE_1000_OVER	Můžeš upustit maximálně 999 Won.
+DROP_ITEM_FAILURE_OFFLINE_SHOP	Nelze vyhodit předmět při otevírání stánku!
+DUNGEON_CHEST_LOOT_EVENT	|cFF63f282Bonusový drop truhel v dungeonech (bez rukavic +1ks , s rukavicemi +2ks, s VIP +3ks)|h|r
+DUNGEON_COOLDOWN_EVENT	Snížený cooldown u dungeonů
+DUNGEON_INFO_ACCESSIBLE	Zpřístupněno!
+DUNGEON_INFO_BUTTON_JOIN	Teleportovat
+DUNGEON_INFO_BUTTON_REJOIN	Vrátit se
+DUNGEON_INFO_COMPLETION_COUNT	Počet dokončení: %s
+DUNGEON_INFO_COOLDOWN	Zbývající čas: %s
+DUNGEON_INFO_COOLDOWN_REMAINING	Zbývající čas:
+DUNGEON_INFO_DEVIL_BONUS	Silný proti ďáblům (+
+DUNGEON_INFO_DO_YOU_TELEPORT	Chceš se teleportovat do lokace %s?
+DUNGEON_INFO_DROP_CHANCE	|cFFc9f1c0Šance na drop:
+DUNGEON_INFO_DROP_GLOVES_NORMAL	- |cFFf1e6c0Drop s rukavicemi: 13 ks.
+DUNGEON_INFO_DROP_GLOVES_VIP	- |cFFf1e6c0Drop s rukavicemi (VIP): 14 ks.
+DUNGEON_INFO_DUNGEON_TYPE	Režim: %s
+DUNGEON_INFO_DURATION	Doba trvání: %s
+DUNGEON_INFO_ELEMENT_ATK_BONUS	Platí bonus
+DUNGEON_INFO_ELEMENT_DEF_AND_RES_BONUS	Obrany a odolnosti
+DUNGEON_INFO_ELEMENT_UNKOWN_BONUS	Neznámý bonus
+DUNGEON_INFO_ENTRACE	Vstup z mapy: %s
+DUNGEON_INFO_FASTEST_COMPLETION	Nejrychlejší průchod: %s
+DUNGEON_INFO_FASTEST_TIME	Nejrychlejší čas: %s
+DUNGEON_INFO_GLOVES_BONUSES	|cFFecffb7Možné bonusy (1 - 3):
+DUNGEON_INFO_GRETEST_DAMAGE	Nejvyšší poškození: %s
+DUNGEON_INFO_HIGHEST_DMG	Nejvyšší poškození: %s
+DUNGEON_INFO_LEVEL_LIMIT	Úroveň pro vstup: %s-%s
+DUNGEON_INFO_LOCATION	Lokace: %s
+DUNGEON_INFO_MINIMAP_TOOL_TIP	Informace o dungeonu
+DUNGEON_INFO_MONSTER_TYPE	Rasa monster: %s
+DUNGEON_INFO_NONE	None
+DUNGEON_INFO_NOT_FOUND	No dungeons have been found.
+DUNGEON_INFO_ORC_BONUS	Silný proti orkům (+
+DUNGEON_INFO_PARTY_LIMIT	Limit hráčů ve skupině: od %d do %d
+DUNGEON_INFO_PASS_ITEM	Potřebná propustka: %s
+DUNGEON_INFO_STATUS_AVAILABLE	Dostupný
+DUNGEON_INFO_STATUS_CLOSED	Nedostupný
+DUNGEON_INFO_STATUS_COOLDOWN	Je nutné počkat
+DUNGEON_INFO_STATUS_HIGH_LEVEL	Příliš nízká úroveň!
+DUNGEON_INFO_STATUS_LOW_LEVEL	Příliš vysoká úroveň!
+DUNGEON_INFO_TOOL_TIP	Dungeony
+DUNGEON_INFO_TOOL_TIP_01	In this window you can find all the available dungeons.
+DUNGEON_INFO_TOOL_TIP_02	Each dungeon listed in the left panel shows various
+DUNGEON_INFO_TOOL_TIP_03	information about it as well as showing which items
+DUNGEON_INFO_TOOL_TIP_04	the finall boss drops.
+DUNGEON_INFO_TOOL_TIP_05	You are also able to teleport to the entrance of the
+DUNGEON_INFO_TOOL_TIP_06	dungeon if it's available.
+DUNGEON_INFO_TOOL_TIP_07	In the right panel you can find your results as well
+DUNGEON_INFO_TOOL_TIP_08	as the global ranking of the top 10 players.
+DUNGEON_INFO_TOTAL_FINISHED	Dokončeno: %d
+DUNGEON_INFO_TYPE	Typ: %s
+DUNGEON_INFO_TYPE_01	Globální
+DUNGEON_INFO_TYPE_02	Skupinový
+DUNGEON_INFO_TYPE_03	Cechovní
+DURATION	Doba trvání
+EASTER_MAP_2025	Velikonoční mapa
+EMPIRE_WAR_EVENT	Válka říší (Lv %d - Lv %d)
+ENLIGHTENMENT_MISSING_ITEM	Nemáš potřebný předmět %s(x%d)
+ENLIGHTENMENT_NOT_ENOUGH_POINTS	Nemáš dostatek bodů úspěchu!
+ENLIGHTENMENT_NOT_ENOUGH_WON	Nemáš dostatek Wonů!
+ENLIGHTENMENT_NOT_ENOUGH_YANG	Nemáš dostatek Yangů!
+ENVANTER_ILE_AC	Otevírat společně s inventářem
+ESTIMATED_SELLING_PRICE	|cFFb0a996Cena za jeden kus.
+EVENT_TOOLTIP_DOESNT_HAVE_EVENT	|cFFd66d6dV tento den neprobíhají žádné eventy|h|r
+EVENT_TOOLTIP_TITLE	[%s] Aktivní eventy:
+EXCHANGE_MONEY	Částka
+EXP_EVENT	|cFF63f282Zvýšený EXP: %d%%|r
+FAST_EXCHANGE_TITLE	Rychlá výměna
+FISHWIKI_CATCHED_FISHES	Počet vylovených: |cFF79fc790|h
+FISHWIKI_CATCHED_FISHES_COUNT	Počet vylovených: |cFF79fc79%d|h
+FISHWIKI_GIVE_10_FISHES	Odevzdej 10ks |cFF79fc79Duhového Pstruha|h|r s minimální délkou |cFF79fc79100 cm.|h
+FISHWIKI_GIVE_CHANCE	Šance na úspěšné odevzdání: |cFF79fc7925%|h
+FISHWIKI_GIVE_CHANCE_SUCCESS	Šance na úspěšné odevzdání: |cFF79fc79%d%%|h
+FISHWIKI_GIVE_FISHES	Odevzdej %d ks. |cFF79fc79%s|h|r s minimální délkou |cFF79fc79%d cm.|h
+FISHWIKI_LENGTH_RANKING	Žebříček největších vylovených ryb: |cFF79fc79|h
+FISHWIKI_LENGTH_RANKING_BEST	Žebříček největších vylovených ryb: |cFF79fc79%s|h
+FISHWIKI_LONGEST_FISH	Nejdelší vylovená: |cFF79fc790 cm.|h
+FISHWIKI_LONGEST_FISH_CM	Nejdelší vylovená: |cFF79fc79%.2f cm.|h
+FISHWIKI_MAIN_WINDOW	Rybářská kolekce
+FISHWIKI_MOST_EXPENSIVE_FISH	Nejdražší vylovená: |cFF79fc790 Yang|h
+FISHWIKI_MOST_EXPENSIVE_FISH_YANG	Nejdražší vylovená: |cFF79fc79%s Yang|h
+FISHWIKI_PROGRESS_STATE	%d/|cFF79fc79%d|h
+FISHWIKI_REWARD_FOR_MISSION	Odměna: |cFF79fc79Silný proti příšerám +5%|h
+FISHWIKI_REWARD_FOR_MISSION_FISH	Odměna: |cFF79fc79%s|h
+FISHWIKI_ROD_LEVEL	Rybářský prut +%d
+FISHWIKI_ROD_LEVEL_0	Rybářský prut +0
+FISHWIKI_SHOW_RANKING	Ukaž žebříček
+FISH_GIVE_MISSION_BTN	Odevzdat rybu
+FISH_LENGTH_DEFAULT	0.00 cm.
+FISH_PROGRESS_INFO	11/|cFFFBA5EE20|h
+FISH_ROD_REQUIREMENT	od +0 do +15
+FRUIT_OF_LIFE_DESC_1	|cFFbcfe90Přidá {} bodů hodnosti.
+FRUIT_OF_LIFE_DESC_2	|cFFbcfe90Lze použít do {} bodů hodnosti.
+FRUIT_OF_LIFE_DESC_2_1	|cFFbcfe90Lze použít od {} do {} bodů hodnosti.
+GAME_PICK_CHEQUE	Obdržel jsi %d Won.
+HALLOWEEN_EVENT	Halloween
+HELL_DUNGEON	Brány pekel
+INTROLOGIN_ACCOUNT_DELETED	Úeet byl odstraněn.
+INTROLOGIN_ACCOUNT_NOT_LOADED	Nemáš uložený žádný účet.
+INTROLOGIN_ACCOUNT_REQUIRED	Pro odstranění účtu musíš mít uložený účet.
+INTROLOGIN_ENTER_CREDENTIALS	Pro uložení účtu zadej údaje k úetu.
+INTROLOGIN_NOT_SAVED	Nezapsáno.
+INTROLOGIN_NO_ACCOUNT	Pro odstranění účtu musíš mít uložený účet.
+INTROLOGIN_SAVED	Účet byl uložen.
+INTROSELECT_EMPIRE	Království {}
+INVENTORY_ADDITIONAL_BONUSES_1	Dodatečné bonusy
+INVENTORY_ADDITIONAL_BONUSES_2	Celé kolo run +5:
+INVENTORY_ADDITIONAL_BONUSES_3	Celkové poškození +5%
+INVENTORY_ADDITIONAL_BONUSES_4	Průměrná škoda +15%
+INVENTORY_ADDITIONAL_BONUSES_5	Silný proti lidem +25%
+INVENTORY_ADDITIONAL_BONUSES_6	Całe Koło Run +9:
+INVENTORY_ADDITIONAL_BONUSES_7	Celkové poškození +10%
+INVENTORY_ADDITIONAL_BONUSES_8	Průměrná škoda +25%
+INVENTORY_ADDITIONAL_BONUSES_9	Silný proti lidem +40%
+INVENTORY_BOX_TOOLTIP	Truhly
+INVENTORY_CICEK_TOOLTIP	Elixíry
+INVENTORY_DROP_TO_INVENTORY	Drop do inventáře
+INVENTORY_DROP_TO_INVENTORY_DESC1	Vypnutí této možnosti způsobí to, že
+INVENTORY_DROP_TO_INVENTORY_DESC2	budou předměty padat do klasického inventáře
+INVENTORY_EFSUN_TOOLTIP	Užitečné předměty
+INVENTORY_MOVE_ALL	Přesunout vše
+INVENTORY_MOVE_ALL_DESC_1	Přesune všechny předměty z klasického
+INVENTORY_MOVE_ALL_DESC_2	inventáře do aktuální otevřené kategorie
+INVENTORY_MOVE_TO_SPECIAL_INVENTORY	Přesunout do speciálního inventáře
+INVENTORY_OPENING_WHILE_FAST_MOVING_1	Otevírat při rychlém přesunu předmětů aktivováno.
+INVENTORY_OPENING_WHILE_FAST_MOVING_2	Otevírat při rychlém přesunu předmětů deaktivováno.
+INVENTORY_OPENING_WHILE_MOVING	Otevřít při přesouvání
+INVENTORY_OPEN_TOGETHER_WITH_EQUIPMENT	Otevírat společně s inventářem
+INVENTORY_OPEN_WITH_INVENTORY_1	Otevírání s inventářem - aktivováno
+INVENTORY_OPEN_WITH_INVENTORY_2	Otevírání s inventářem - deaktivováno
+INVENTORY_OPTION_INFO_1	Zapnutí této možnosti způsobí to, že
+INVENTORY_OPTION_INFO_2	se otevře okno kategorie daného předmětu při
+INVENTORY_OPTION_INFO_3	přesouvání předmětu do speciálního inventáře.
+INVENTORY_OPTION_INFO_4	Klávesová zkratka: {} + {}
+INVENTORY_PANEL_ACTIVATE	{} - Aktivovat
+INVENTORY_PANEL_ARTIFACTS	Artefakty
+INVENTORY_PANEL_AUTO_BUFF	Panel autobuffa
+INVENTORY_PANEL_BLOCK_EXP	Antiexp
+INVENTORY_PANEL_BONUS_TABLE	Tabulka bonusů
+INVENTORY_PANEL_BOOSTERS	Elixíry
+INVENTORY_PANEL_CHANGE_EQ	Změna vybavení
+INVENTORY_PANEL_COLLECTIONER	Kolekce
+INVENTORY_PANEL_DUNGEONS	Okno dungeonů
+INVENTORY_PANEL_MISSIONS	Okno misí
+INVENTORY_PANEL_MOUNT	Jezdecké zvíře
+INVENTORY_PANEL_OFFLINE_SHOP	Offline stánek
+INVENTORY_PANEL_PET_WINDOW	Mazlíček
+INVENTORY_PANEL_POLY_SHOP	Vyhledávání v obchodech
+INVENTORY_PANEL_QUICK_EQ	Změna vybavení
+INVENTORY_PANEL_QUICK_WARP	Tp Balvany/Boss
+INVENTORY_PANEL_RUNES	Runy
+INVENTORY_PANEL_SAFEBOX_ITEMSHOP	Sklad / Itemshop
+INVENTORY_PANEL_SAVE_POSITION	Zapisování lokací
+INVENTORY_PANEL_SHOP	Obchod
+INVENTORY_PANEL_SPECIAL_INV	Speciální inventář
+INVENTORY_PANEL_SWITCH_BOT	Switchbot
+INVENTORY_PANEL_TELEPORTATION	Mapa teleportace
+INVENTORY_PANEL_TRASH_BIN	Koš
+INVENTORY_PANEL_USE	{} - Otevřít okno
+INVENTORY_PANEL_WEEKLY_RANK	Týdenní žebříček
+INVENTORY_PULL_OUT_ITEM	{} - Vyjmout
+INVENTORY_SEPARATE_ALL	Rozdělit vše
+INVENTORY_SEPARATE_ITEMS	Rozdělit
+INVENTORY_SHOW_CHEST_DROP	Náhled dropu
+INVENTORY_SKILL_BOOK_TOOLTIP	Knihy
+INVENTORY_SOUL_STONE_ONLY	Vyměnit můžeš pouze kameny duše!
+INVENTORY_SPECIAL_INVENTORY_IS_FULL	Speciální inventář {} je plný.
+INVENTORY_STACK_ALL	{} + {} - Setřídit všude
+INVENTORY_STACK_ITEMS	Setřídit předměty
+INVENTORY_STACK_ITEMS_IN_CATEGORY	{} - Setřídit v kategorii
+INVENTORY_STONES_ONLY	Vložit můžeš pouze kameny duše.
+INVENTORY_STONE_TOOLTIP	Kameny duše a Alchymie
+INVENTORY_UPGRADE_ITEM_TOOLTIP	Vylepšovací předměty
+INVENTORY_USE_SOME_ITEMS	Použít {}x
+ITEMSHOP_ADDITIONAL_TIME	Doba trvání
+ITEMSHOP_ATTRIBUTE_EXP	|cFFFFCF48(PVM)|r
+ITEMSHOP_ATTRIBUTE_PVP	|cFFFFCF48(PvP)|r
+ITEMSHOP_CANNOT_BUY_MORE_THAN_20	Nemůžeš koupit více jak 20 kusů.
+ITEMSHOP_CASH_UNIT	|cFFFFCF48DM|r
+ITEMSHOP_CATEGORY_01	Zesílení předmětů
+ITEMSHOP_CATEGORY_02	Kostýmy
+ITEMSHOP_CATEGORY_03	Účesy
+ITEMSHOP_CATEGORY_04	Jezdecká zvířata
+ITEMSHOP_CATEGORY_05	Mazlíčci
+ITEMSHOP_CATEGORY_06	Kostýmy na zbraň
+ITEMSHOP_CATEGORY_07	Speciální předměty
+ITEMSHOP_CATEGORY_08	Alchymie
+ITEMSHOP_CATEGORY_09	Šerpy
+ITEMSHOP_CATEGORY_10	Kostýmy na šerpu
+ITEMSHOP_CATEGORY_11	Kupony DM
+ITEMSHOP_CATEGORY_12	VIP
+ITEMSHOP_CATEGORY_13	Jiné
+ITEMSHOP_CATEGORY_14	Balíčky
+ITEMSHOP_CATEGORY_15	Velikonoce
+ITEMSHOP_COUNT	Zadal jsi špatný počet.
+ITEMSHOP_DETAIL_CHECK	Klikni na tlačítko "zakoupit" pro více podrobností
+ITEMSHOP_DISCOUNT	Slevy:
+ITEMSHOP_DISCOUNT_END	Konec slevy
+ITEMSHOP_DO_YOU_BUY_ITEM1	Opravdu chceš zakoupit %s za %s?
+ITEMSHOP_DO_YOU_BUY_ITEM2	Opravdu chceš zakoupit %s %s za %s?
+ITEMSHOP_EDITOR_ADD_ITEM	Přidat předmět
+ITEMSHOP_EDITOR_ITEM_PREFIX	• %s
+ITEMSHOP_INVENTORY_FULL	Nedostatek místa v inventáři.
+ITEMSHOP_LIMITED_COUNT	Limitovaný: |cFFf5ce42%d / %d
+ITEMSHOP_MISSING_DESCRIPTION	Chybějící popis předmětu.
+ITEMSHOP_NON_EDITOR	Nejsi editorem, toto nemůžeš udělat.
+ITEMSHOP_NOT_ENOUGH_COINS	Nemáš dostatek dračích mincí.
+ITEMSHOP_POPUP_ITEMS_LIMITED	Jsou dostupné nové limitované předměty,
+ITEMSHOP_POPUP_ITEMS_NEW	Přidány nové předměty do ItemShopu,
+ITEMSHOP_POPUP_ITEMS_PROMO	V ItemShopu jsou nové slevy,
+ITEMSHOP_POPUP_ITEM_LIMITED	|cFFc7ffb6%s|r je nyní dostupný v ItemShopu po omezený čas.
+ITEMSHOP_POPUP_ITEM_NEW	|cFFc7ffb6%s|r byl přidán do ItemShopu.
+ITEMSHOP_POPUP_ITEM_PROMO	|cFFc7ffb6%s|r je nyní ve slevě.
+ITEMSHOP_POPUP_SECOND_LINE	- Klikni, pro náhled.
+ITEMSHOP_PREMIUM_AUTOLOOT	Třetí ruka
+ITEMSHOP_PREMIUM_EXP	Bonusový exp
+ITEMSHOP_PREMIUM_FISH_MIND	Větší šance na vzácnější rybu
+ITEMSHOP_PREMIUM_GOLD	Větší šance na drop yangů
+ITEMSHOP_PREMIUM_ITEM	Větší šance na drop
+ITEMSHOP_PREMIUM_MARRIAGE_FAST	Snížená doba manželství
+ITEMSHOP_PREMIUM_SAFEBOX	Větší sklad
+ITEMSHOP_SELECT_ATTRIBUTE	Vyber |cffffcf48BONUSY|r pro tvůj předmět
+ITEMSHOP_SELECT_ATTRIBUTE_ERROR	Musíš vybrat bonusy pro tvůj předmět
+ITEMSHOP_SELECT_BONUS	Vyber bonusy
+ITEMSHOP_SELECT_EMPTY	Žádný
+ITEMSHOP_SELECT_ITEM	Vyber předmět
+ITEMSHOP_SELECT_SOCKET	Vyber kámen duše
+ITEMSHOP_TOOLTIP_DETAILS	Tento předmět je prodáván ve vícero provedeních. Klikni na "zakoupit", pokud chceš zjistit více podrobností.
+ITEMSHOP_UNKNOWN_ERROR	Neznámá chyba
+ITEMSHOP_WARP	Musíš počkat 10 sekund.
+ITEMSHOP_WHEEL_CHANCE	Šance: %.02f%%
+ITEMSHOP_WHEEL_COST	Cena za zatočení:
+ITEMSHOP_TIME_LABEL	Čas:
+ITEMSHOP_NO_TIME_LIMIT	Bez limitu
+ITEMSHOP_COUNT_LABEL	Počet:
+ITEMSHOP_PRICE_LABEL	Cena:
+ITEM_DROP_EVENT	|cFF63f282Zvýšený drop: %d%%|r
+ITEM_LOTTERY_END_DATE	Zakończenie loterii: %s
+ITEM_LOTTERY_ITEM_COUNT_WINDOW_TITLE	Wprowadź ilość przedmiotów
+ITEM_LOTTERY_TOTAL_COUNT	Przedmiotow w puli: %d
+ITEM_PRICE_TITLE	[ Cena předmětu ]
+JUNGLE_DUNGEON	Starověká džungle
+KEY_F11	F11
+KEY_F12	F12
+KEY_RETURN	ENTER
+LEFTOVER_BONUS_TIME	Zbývající čas bonusu:
+LEFTOVER_TIME	Zbývající čas:
+LOGIN_CHANNEL_ONLINE	Online
+LOGIN_FAILURE_HWID	Na tomto zařízení se nelze přihlásit!
+LOGIN_FAILURE_LOADING_IN_PROGRESS	Probíhá načítání souborů hry...
+LOGIN_FAILURE_PIN	Špatně zadaný název, heslo nebo pin.
+LOGIN_INPUT_PIN	Napiš svůj pin.
+LOGIN_MAX_ACCOUNTS	Maximální počet účtů dosažen.
+LOGIN_PLACEHOLDER_ID	Přihlášení
+LOGIN_PLACEHOLDER_PASSWORD	Heslo
+LOGIN_PLACEHOLDER_PIN	PIN
+LOGIN_SELECT_CHANNEL	Vyber kanál!
+LOGIN_WRONG_VERSION	Verze hry je zastaralá! Použij patcher.
+MALZEME_DEPOSU	Informace:
+MAP_75	Údolí kyklopů
+MAP_LAS	Les duchů
+MAP_MINE	Těžební mapa
+MAP_NONE	Neznámá lokace
+MAP_OGNISTA	Ohnivá země
+MAP_PAJAKI	Jeskyně pavouků
+MAP_PUSTYNIA	Poušť Faraona
+MAP_SOHAN	Hora Sohan
+MAP_THREEWAY	Údolí orků
+MAP_ZACZAROWANY	Začarovaný les
+MESSENGER_TEAM	Tým
+MINIMAP_FPS_INFO	Fps:{:3d}
+MINIMAP_SERVER_INFO_REGULAR	|cFFe0c18cKowalMT2|r, CH{}
+MINING_CHEST_EVENT	|cFF63f282ŠANCE NA SPADNUTÍ TRUHLY TĚŽENÍ Z RUD|h|r
+MINING_EVENT_RENEWAL_HIT_DELAY	Nelze to udělat tak rychle.
+MINI_GAME_RUMI_EXIT_QUESTION2	Aktuální počet bodů bude vyměněn za odměny.
+MINI_GAME_RUMI_START_QUESTION2	Chceš hrát?
+MOONLIGHT_EVENT	|cFF63f282Drop měsíčních pokladnich|r
+MOUNT_BONUS_NONE	Žádný bonus
+MOUNT_DOYUMHWAN_MAP_NAME	Ohnivá země
+MOUNT_SOHAN_MAP_NAME	Hora Sohan
+MOUNT_TOOLTIP_APPLY_ATTBONUS_BOSS	Silný proti bossům
+MOUNT_TOOLTIP_APPLY_ATTBONUS_MONSTER	Silný proti příšerám
+MOUNT_TOOLTIP_APPLY_ATTBONUS_STONE	Silný proti balvanům
+MOUNT_TOOLTIP_ATTBONUS_DUNGEON	Silný proti bossům (dungeon)
+MOUNT_TOOLTIP_MAX_HP	Max. ZB
+MOUNT_TOOLTIP_MOUNT_SPEED	Rychlost jezdce
+MOUNT_WINDOW_BONUSES	|cffbd99ff|H|h[ Aktuální bonusy ]|H|h
+MOUNT_WINDOW_CURRENT_EXP	|cffBEB4A8|H|hZkušenosti:|H|h |cff18f28d|H|h{} BZK|H|h
+MOUNT_WINDOW_FEED_ITEM_1	|cffc99573|H|h(Ur. 1-24)|H|h
+MOUNT_WINDOW_FEED_ITEM_2	|cffc99573|H|h(Ur. 25-49)|H|h
+MOUNT_WINDOW_FEED_ITEM_3	|cffc99573|H|h(Ur. 50-74)|H|h
+MOUNT_WINDOW_FEED_ITEM_4	|cffc99573|H|h(Ur. 75-100)|H|h
+MOUNT_WINDOW_INFO_LEVEL	Každá úroveň ti poskytne lepší bonusy
+MOUNT_WINDOW_LEVEL	|cffb482ff|H|hÚroveň {}
+MOUNT_WINDOW_NEED_EXP	|cffBEB4A8|H|hPotřebné zkušenosti:|H|h |cff15bf70|H|h{} BZK|H|h
+MOUNT_YONGBI_MAP_NAME	Poušť Yongbi
+MOVE_ITEM_FAILURE_OFFLINE_SHOP	Nelze přesunout tento předmět při otevírání stánku!
+MULTIPLE_PURCHASE	Vícenásobný nákup: {key_shift}+{key_rclick}
+NEW_AFFECT_AUTO_METIN_FARM	Fronta na Balvany (VIP)	SNA
+NONE_AFFECT	Žádný bonus
+NORMAL_EVENT_TIME	Od: |cFFdbffa1%s|r do: |cFFdbffa1%s|r
+NPC_SEARCH	Najdi NPC
+NPC_SEARCH_TEXT	Objeví se na těchto mapách:
+OFFLINESHOP_AVERAGE_PRICE	Jednotková: {}
+OFFLINESHOP_AVERAGE_PRICE2	Všechny: {}
+OFFLINESHOP_AVERAGE_PRICE_INFO	<Informace o průměrné ceně>
+OFFLINESHOP_AVERAGE_PRICE_NO_INFO	Nenalezen průměrný počet!
+OFFLINESHOP_CHANGE_ALL_PRICE	Aktualizovat všechny ceny stejného předmětu
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION	Zjistěte nový název obchodu
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION2	Nový název:
+OFFLINESHOP_FILTER_TITLE	Filtry
+OFFLINESHOP_INPUT_INFO	Zadej cenu za kterou chceš
+OFFLINESHOP_INPUT_INFO2	tento předmět prodat
+OFFLINESHOP_NOTIF_CLOSE_ALL	Zavřít všechno
+OFFLINESHOP_NOTIF_ITEM_INFO	%s x%d prodáno za %d.
+OFFLINESHOP_NO_MONEY_TO_WITHDRAW	Žádné yangy k výběru.
+OFFLINESHOP_NO_NAME	Váš obchod nemá jméno!
+OFFLINESHOP_RESULT_PER_PAGE	Počet výsledků na stránku
+OFFLINESHOP_RESULT_PER_PAGE_ITEM	25 předmětů na stránku
+OFFLINESHOP_RESULT_PER_PAGE_ITEM2	50 předmětů na stránku
+OFFLINESHOP_RESULT_PER_PAGE_ITEM3	100 předmětů na stránku
+OFFLINESHOP_SELL_WITH_AVG_PRICE	Prodej za průměrnou cenu
+OFFLINESHOP_SELL_WITH_AVG_PRICE2	Prodat o 10% nad průměr. cenou
+OFFLINESHOP_SELL_WITH_AVG_PRICE3	Prodat o 10% pod průměr. cenou
+OFFLINESHOP_SET_NAME	<- Napište název svého obchodu ->
+OFFLINESHOP_SHOP_COLOR	Nastavit barvu názvu obchodu
+OFFLINESHOP_SHOP_DECO_0	Normální
+OFFLINESHOP_SHOP_DECO_1	1001 nocí
+OFFLINESHOP_SHOP_DECO_2	Král BBQ
+OFFLINESHOP_SHOP_DECO_3	Lovci pokladů
+OFFLINESHOP_SHOP_DECO_4	Ohnivý prodavač
+OFFLINESHOP_SHOP_DECO_5	Zbrojíř
+OFFLINESHOP_SHOP_DECO_TITLE	Ozdobení obchodu
+OFFLINESHOP_TITLE_NAME	Název
+OFFLINESHOP_TITLE_OTHER	Ostatní
+OFFLINESHOP_TITLE_PRICE	Cena
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE	|Eemoji/key_rclick|e - Přidat předmět do obchodu
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE2	|Eemoji/key_ctrl|e + |Eemoji/key_rclick|e - Rychlé přidání předmětu do obchodu
+OFFLINESHOP_TOTAL_PRICE_OF_SHOP	Celková cena všech předmětů v obchodu
+OFFLINESHOP_TOTAL_YANG_AMOUNT	Celkem: {}
+OFFLINE_SHOP	Offline stánek
+OFFLINE_SHOP_ADD_ITEM	Přidat předmět
+OFFLINE_SHOP_ADD_ITEM_WINDOW	Přidej předmět do svého stánku
+OFFLINE_SHOP_BANK	Vyplatit
+OFFLINE_SHOP_BANK_BAD_VALUE	Špatně zapsaná hodnota!
+OFFLINE_SHOP_BANK_EX	Napiš hodnotu, kterou chceš vybrat:
+OFFLINE_SHOP_BANK_INFO	Hodnota vydělaných yangů a wonů se obnovuje každých 5 sekund!
+OFFLINE_SHOP_BANK_TITLE	Výdělek
+OFFLINE_SHOP_BANK_VALUE	Tvůj aktuální výdělek:
+OFFLINE_SHOP_BANK_WAIT	Musíš počkat 30 sekund před dalším výběrem yangů!
+OFFLINE_SHOP_BUY_ITEM	Chcete koupit %s %dx za %s?
+OFFLINE_SHOP_BUY_ITEM2	Chcete koupit %s za %s?
+OFFLINE_SHOP_CANNOT_SELL_ITEM	Tento předmět nelze prodat ve stánku!
+OFFLINE_SHOP_CH	Kanál
+OFFLINE_SHOP_CLOSE	Zavřít stánek
+OFFLINE_SHOP_CTIME	Zbývající čas:
+OFFLINE_SHOP_DAY	Dny:
+OFFLINE_SHOP_DELETE_ITEM	Odebrat předmět
+OFFLINE_SHOP_DELETE_ITEM_WINDOW	Odeber předmět do svého stánku
+OFFLINE_SHOP_EMOJI_TOOLTIP	|Eemoji/key_ctrl|e + |Eemoji/key_rclick|e - Odebrat předmět
+OFFLINE_SHOP_EMOJI_TOOLTIP2	|Eemoji/key_rclick|e - Aktualizovat cenu/y předmětu
+OFFLINE_SHOP_EMOJI_TOOLTIP3	|Eemoji/key_ctrl|e + |Eemoji/key_rclick|e - Vzít předmět
+OFFLINE_SHOP_EMPTY	Žádné informace
+OFFLINE_SHOP_HOUR	Hodiny:
+OFFLINE_SHOP_INPUT_PRICE_DIALOG_TITLE	Cena
+OFFLINE_SHOP_IS_EMPTY	Tvůj stánek je prázdný!
+OFFLINE_SHOP_LEFT_TIME	Zbývající čas: %s
+OFFLINE_SHOP_LOC	Lokace
+OFFLINE_SHOP_LOCALIZATION_01	%s
+OFFLINE_SHOP_LOCALIZATION_02	(%d, %d)
+OFFLINE_SHOP_LOCALIZATION_03	CH%d
+OFFLINE_SHOP_MAP	Mapa
+OFFLINE_SHOP_NAME	Název stánku:
+OFFLINE_SHOP_NO_ITEMS_IN_SHOP	Abyste mohli vytvořit obchod, musíte do něj vložit předměty!
+OFFLINE_SHOP_OPEN	Otevřít stánek
+OFFLINE_SHOP_PLAYER_NAME	Offline stánek hráč -
+OFFLINE_SHOP_REMAINING_TIME	Zbývající čas: 0 dní
+OFFLINE_SHOP_SEARCH	Vyhledávání
+OFFLINE_SHOP_TIME	Dní: %d, Hodin: %s
+OFFLINE_SHOP_TIMEE	Zbývajíčí čas
+OFFLINE_SHOP_WARNING	Pokud zde nevidíte předmět, který hledáte, protože je skladiště plné, uvidíte další předměty, jakmile budete sbírat předměty ze skladu.
+OFFLINE_SHOP_WARNING1	Nyní kupuješ předměty pomocí pravého tlačítka, buď opatrný!
+OFFLINE_SHOP_WITHDRAW_YANG	Vybrat
+OFFSHOP_DECORATION_SET	Nastavit dekoraci obchodu
+ONLY_CHANNEL	Kanál: %d
+PASSIVE_SKILLS_FULLED_DESC_1	Jestliže máš všechny pasivní schopnosti
+PASSIVE_SKILLS_FULLED_DESC_2	na úrovni P získáš
+PASSIVE_SKILLS_FULLED_DESC_3	|cFFffce47+{}|r do schopnosti
+PASSIVE_SKILLS_FULLED_SHAMAN_DESC_1	Jestliže máš všechny schopnosti pomocníka
+PASSIVE_SKILLS_FULLED_SHAMAN_DESC_2	na úrovni P získáš
+PASSIVE_SKILLS_FULLED_SHAMAN_DESC_3	|cFFffce47+{}|r do schopnosti
+PET_INFO_1	V případě, že máš všechny schopnosti na P,
+PET_INFO_2	obdržíš dodatečný bonus |cFFc8ff9c+30%|r ke všem schopnostem.
+PET_INFO_3	Zvolená schopnost: {}
+PET_SKILL_EXTRA_BONUS	z toho +{} z bonusu (vše na P)
+PET_INFO_4	Bonus navíc: |cFFc8ff9c+{}
+PET_SKILL_1	Vitalita
+PET_SKILL_10	Průnik
+PET_SKILL_11	Král bossů
+PET_SKILL_2	Šílenství
+PET_SKILL_3	Statečnost
+PET_SKILL_4	Zaostřování
+PET_SKILL_5	Moc
+PET_SKILL_6	Všemohoucnost
+PET_SKILL_7	Absorpce
+PET_SKILL_8	Zuřivost
+PET_SKILL_9	Obrněnost
+PET_SKILL_GRADE_NORMAL	Normální
+PET_SKILL_GRADE_APPRENTICE	Učeň
+PET_SKILL_GRADE_ADEPT	Adept
+PET_SKILL_GRADE_MASTER	Mistr
+PET_SKILL_GRADE_LABEL	Stupeň: %s  |  Úr. %d
+PKT_OSIAG_LOCALE_GAME	BÚ
+PKT_OSIAG_SYSTEM_PICK_PKT_OSIAG	testtest: %d
+PK_MODE_FREE	VOLNÝ
+PK_MODE_PEACE	MÍR
+PK_MODE_PROTECT	OCHRANA
+PK_MODE_REVENGE	POMSTA
+PK_MODE_UNKNOWN	NEZNÁMÝ
+POLYMARBLE_STAGE	|cFFffce47Stupeň {}
+POLYMORPH_AFFECT_REMOVE_QUESTION	Opravdu chceš zrušit proměnu?
+POLYMORPH_AFFECT_TOOLTIP	Proměna	SNA
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP	Premium není aktivní!\n-- Výhody prémiového účtu --\n *Vzdálený nákup\n *Více nákupů
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP2	Premium aktivní!\n-- Výhody prémiového účtu --\n *Vzdálený nákup\n *Více nákupů
+PREMIUM_OVERIN_TOOLTIP	Pouze uživatelé s prémiovým účtem mohou tuto funkci používat.
+PREMIUM_OVERIN_TOOLTIP2	Můžete použít {} k aktivaci této funkce.
+PREMIUM_PRIVATE_ITEM_ADD_DIFFERENCE_PRICE_WARNING	Nelze prodávat předmět v různých cenách.
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_WON2	Hodnota výdělku + počet prodaných wonů nemůže překračovat maximální limit.
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_YANG2	Hodnota výdělku + počet prodaných yangů nemůže překračovat maximální limit.
+PREMIUM_PRIVATE_SALE_CUSTOMER	Hráč: %s
+PREMIUM_PRIVATE_SALE_TIME	Data: %s
+PREMIUM_PRIVATE_SHOP_AUTO_MARKET_PRICE_INPUT_TOOLTIP	Automaticky prodat za tržní cenu.
+PREMIUM_PRIVATE_SHOP_BUILD_RESTRICTED	Na tomto místě nelze otevřít stánek.
+PREMIUM_PRIVATE_SHOP_HYPERLINK_HELP_TOOLTIP	Použij CTRL + Tlačítko myši pro přidání předmětu do stánku.
+PREMIUM_PRIVATE_SHOP_INVALID_ITEM_CHECKIN_POSITION	Nelze přidat více předmětů do tvého stánku.
+PREMIUM_PRIVATE_SHOP_LOCKED_SLOT_QUESTION	Chceš odemknout tento slot?
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE	[Aktualní výdělek]
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE_HINT_MSG	Upozornění: Tržní cena nezohledňuje kvalitu předmětu.
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE_NOT_AVAILABLE	Nedostupné.
+PREMIUM_PRIVATE_SHOP_MODIFY_STATE_OPEN_FAIL_TIME	Chvíli počkej před otevřením stánku.
+PREMIUM_PRIVATE_SHOP_NOT_MODIFY_STATE	Nemůžeš to udělat, když tvůj stánek není spravován..
+PREMIUM_PRIVATE_SHOP_NO_BUNDLE_ITEM	Nemůžeš otevřít stánek bez měšce.
+PREMIUM_PRIVATE_SHOP_NO_PREMIUM_BUNDLE_ITEM	Bez Kašmíru nemůžeš změnit vzhled tvého stánku.
+PREMIUM_PRIVATE_SHOP_SHORT_TITLE	Prosím napiš delší název.
+PREMIUM_PRIVATE_SHOP_TIME_EXPIRED	Premium vypršelo
+PREMIUM_PRIVATE_SHOP_TOTAL_WORTH	Prodejní cena:
+PREMIUM_PRIVATE_SHOP_UNLOCK_KEY_MISSING	Pro odemknutí potřebuješ magický klíč.
+PREMIUM_PRIVATE_SHOP_WARP_HELP_TOOLTIP	Klikni pro teleportaci ke stánku.
+PREMIUM_PRIVATE_SHOP_WITHDRAW_QUESTIONG	Opravdu chceš vybrat yangy ze svého stánku?
+PRICE_FORMAT	Cena: |cFFffc700{} {} |cFFb8b8b8{} {}
+PRIVATESHOPSEARCH_ABLITY_POTION	Rosa
+PRIVATESHOPSEARCH_ACCESSORY_SOCKET	Jemné plátno
+PRIVATESHOPSEARCH_ARMOR	Výbava
+PRIVATESHOPSEARCH_ARROW	Šípy
+PRIVATESHOPSEARCH_BELL	Zvony
+PRIVATESHOPSEARCH_BELT	Opasky
+PRIVATESHOPSEARCH_BLEND	Lektvary
+PRIVATESHOPSEARCH_BLOOD_PEARL	Krvavě rudá perla
+PRIVATESHOPSEARCH_BLUE_PEARL	Modrá perla
+PRIVATESHOPSEARCH_BODY	Brnění
+PRIVATESHOPSEARCH_BOW	Luky
+PRIVATESHOPSEARCH_BUYTIME	Přeješ si koupit zvolený předmět?
+PRIVATESHOPSEARCH_CLAW	Drápy
+PRIVATESHOPSEARCH_CLEAR_POTION	Elixíry
+PRIVATESHOPSEARCH_COSTUME	Kostýmy
+PRIVATESHOPSEARCH_COSTUMEBODY	Kostým
+PRIVATESHOPSEARCH_COSTUMEHAIR	Účes
+PRIVATESHOPSEARCH_COSTUME_ACCE	Šerpy
+PRIVATESHOPSEARCH_COSTUME_ACCE_SKIN	Kostýmy na šerpu
+PRIVATESHOPSEARCH_COSTUME_AURA	Kostým aury
+PRIVATESHOPSEARCH_COSTUME_MOUNT	Jezdecká zvířata
+PRIVATESHOPSEARCH_CRYSTAL	Křišťál
+PRIVATESHOPSEARCH_DAGGER	Dýky
+PRIVATESHOPSEARCH_DEAD	Mrtvý
+PRIVATESHOPSEARCH_DETACHMENT	Příručka kamenů
+PRIVATESHOPSEARCH_DIAMOND	Diamant
+PRIVATESHOPSEARCH_DS	Alchymie Dračích kamenů
+PRIVATESHOPSEARCH_DS_BLACK	Onyx
+PRIVATESHOPSEARCH_DS_BLUE	Safír
+PRIVATESHOPSEARCH_DS_GREEN	Nefrit
+PRIVATESHOPSEARCH_DS_RED	Rubín
+PRIVATESHOPSEARCH_DS_WHITE	Diamant
+PRIVATESHOPSEARCH_DS_YELLOW	Granát
+PRIVATESHOPSEARCH_EAR	Náušnice
+PRIVATESHOPSEARCH_FAN	Vějíře
+PRIVATESHOPSEARCH_FISH	Ryby
+PRIVATESHOPSEARCH_FOOTS	Boty
+PRIVATESHOPSEARCH_GEM	Drahokamy
+PRIVATESHOPSEARCH_GIFTBOX	Truhly
+PRIVATESHOPSEARCH_GLOVE	Rukavice
+PRIVATESHOPSEARCH_HEAD	Přilbice
+PRIVATESHOPSEARCH_LIVE	Naživu
+PRIVATESHOPSEARCH_MATERIAL	Materiály
+PRIVATESHOPSEARCH_METIN	Kameny ducha
+PRIVATESHOPSEARCH_NECK	Náhrdelníky
+PRIVATESHOPSEARCH_NEED_ITEM_BUY	Bez správného měšce si nemůžeš koupit žádný předmět.
+PRIVATESHOPSEARCH_NEED_ITEM_FIND	Bez správného měšce nemůžeš hledat žádný předmět.
+PRIVATESHOPSEARCH_NODELAY_POTION	Předměty pro ZB
+PRIVATESHOPSEARCH_ORE	Ruda
+PRIVATESHOPSEARCH_OTHER_COSTUMES	Ostatní kostýmy
+PRIVATESHOPSEARCH_PET	Systém mazlíků
+PRIVATESHOPSEARCH_PETAGG	Vejce mazlíků
+PRIVATESHOPSEARCH_PETSKILLBOOK	Knihy schopností zvířete
+PRIVATESHOPSEARCH_PICK	Krumpáče
+PRIVATESHOPSEARCH_POTION	Lektvary
+PRIVATESHOPSEARCH_QUEST	Úkol
+PRIVATESHOPSEARCH_QUIVER	Toulce
+PRIVATESHOPSEARCH_RESOURCE	Vylepšovací předměty
+PRIVATESHOPSEARCH_ROD	Rybářské pruty
+PRIVATESHOPSEARCH_SELECTITEM	Vyber předmět.
+PRIVATESHOPSEARCH_SHIELD	Štíty
+PRIVATESHOPSEARCH_SKILLBOOK	Knihy schopností
+PRIVATESHOPSEARCH_SKILLFORGET	Kniha zapomnění
+PRIVATESHOPSEARCH_SKIN_AURA	Kostým aury
+PRIVATESHOPSEARCH_SKIN_MOUNT	Kostým jezdce
+PRIVATESHOPSEARCH_SKIN_PET	Kostým mazlíčka
+PRIVATESHOPSEARCH_SKIN_SASH	Kostým šerpy
+PRIVATESHOPSEARCH_SPECIAL	Různé
+PRIVATESHOPSEARCH_STONE	Fragmenty energie
+PRIVATESHOPSEARCH_SWORD	Jednoruční meče
+PRIVATESHOPSEARCH_TREASUREBOX	Truhly
+PRIVATESHOPSEARCH_TUNING	Pergameny
+PRIVATESHOPSEARCH_TWOSWORD	Dvouruční meče
+PRIVATESHOPSEARCH_UNIQUE	Unikátní
+PRIVATESHOPSEARCH_USEITEM	Spotřební předměty
+PRIVATESHOPSEARCH_USESPECIAL	Různé
+PRIVATESHOPSEARCH_WEAPON	Zbraně
+PRIVATESHOPSEARCH_WHITE_PEARL	Bílá perla
+PRIVATESHOPSEARCH_WRIST	Náramky
+PRIVATE_SHOP_BUY_ITEM_SELECTED_FAILURE	Nelze odebrat předmět, který byl již koupen nebo odstraněn.
+PRIVATE_SHOP_BUY_ITEM_SELECTED_OVERFLOW	Můžeš vybrat maximální 10 předmětů.
+PRIVATE_SHOP_BUY_VNUM_ITEM_NOT_SELECTED	Vyber předmět, který chceš zakoupit.
+PRIVATE_SHOP_CLOSE_QUESTION	Chceš zavřít soukromý stánek?
+PRIVATE_SHOP_SEARCH_APPLY_FILTER_QUESTION	Opravdu chceš použít '%s' filtr?
+PRIVATE_SHOP_SEARCH_GENDER_FEMALE	Žena
+PRIVATE_SHOP_SEARCH_GENDER_MALE	Muž
+PRIVATE_SHOP_SEARCH_LIMIT_LEVEL	Úroveň hráče
+PRIVATE_SHOP_SEARCH_LIMIT_REFINEMENT	Stupeň vylepšení
+PRIVATE_SHOP_SEARCH_LIMIT_STACK	Stoh
+PRIVATE_SHOP_SEARCH_MAX	Max.
+PRIVATE_SHOP_SEARCH_MIN	Min.
+PRIVATE_SHOP_SEARCH_PLAYER_NAME_NOT_SELECTED	Napiš název hráče.
+PRIVATE_SHOP_SEARCH_REMOVE_FILTER_QUESTION	Opravdu chceš odebrat filtr '%s'?
+PRIVATE_SHOP_SEARCH_SELECT_ALCHEMY_CLARITY	Vyber čirost
+PRIVATE_SHOP_SEARCH_SELECT_ALCHEMY_LEVEL	Vyber úroveň
+PRIVATE_SHOP_SEARCH_SELECT_ATTR	Vyber atributy: %d
+PRIVATE_SHOP_SEARCH_SELECT_GENDER	Vyber pohlaví
+PRIVATE_SHOP_SEARCH_SELECT_JOB	Vyber zaměření
+PRIVATE_SHOP_SEARCH_SELECT_NONE	Žádný
+PRIVATE_SHOP_SEARCH_SELECT_SASH_ABSORPTION	Absorpce šerpy
+PRIVATE_SHOP_SEARCH_TITLE_ALCHEMY	Alchymie
+PRIVATE_SHOP_SEARCH_TITLE_ATTRIBUTES	Atributy
+PRIVATE_SHOP_SEARCH_TITLE_CLASSIFIERS	Klasifikátory
+PRIVATE_SHOP_SEARCH_TITLE_LIMITS	Limity
+PVP_EVENT_TIME	Začátek za: %s
+PVP_LEVEL0	[Legenda Kowal]
+PVP_LEVEL1	[Velevládce Kowal]
+PVP_LEVEL10	[Agresivní]
+PVP_LEVEL11	[Úskočný]
+PVP_LEVEL12	[Zlomyslný]
+PVP_LEVEL13	[Krutý]
+PVP_LEVEL2	[Vládce Kowal]
+PVP_LEVEL3	[Velmistr]
+PVP_LEVEL4	[Vládce]
+PVP_LEVEL5	[Neporazitelný]
+PVP_LEVEL6	[Všemohoucí]
+PVP_LEVEL7	[Statečný]
+PVP_LEVEL8	[Rekrut]
+PVP_LEVEL9	[Neutrální]
+QUEST_CATEGORY_00	Hlavní úkoly
+QUEST_CATEGORY_01	Vedlejší úkoly
+QUEST_CATEGORY_02	Zabíjení
+QUEST_CATEGORY_03	Sběratelské úkoly
+QUEST_CATEGORY_04	Eventové úkoly
+QUEST_CATEGORY_05	Denní úkoly
+QUEST_CATEGORY_06	Systémy a schopnosti
+QUEST_CATEGORY_07	Denní úkoly
+RANKING_LEVEL_PREFIX	Lv. {}
+RANKING_TOP_15	Ranking TOP 15
+RANKING_WINDOW_CATEGORY_ALCHEMY	Zušlechtěno dračích kamenů
+RANKING_WINDOW_CATEGORY_BOSSES	Popraveno bossů
+RANKING_WINDOW_CATEGORY_DRAGON_COINS	Utraceno dračích mincí
+RANKING_WINDOW_CATEGORY_DUNGEONS	Dungeony
+RANKING_WINDOW_CATEGORY_FISHING	Rybaření
+RANKING_WINDOW_CATEGORY_LEVEL	Dosažená úroveň
+RANKING_WINDOW_CATEGORY_MINING	Těžení
+RANKING_WINDOW_CATEGORY_MONSTERS	Zabité příšery
+RANKING_WINDOW_CATEGORY_REFINE	Vylepšeno předmětů
+RANKING_WINDOW_CATEGORY_STONES	Zničeno balvanů
+RANKING_WINDOW_LEVEL_RANK_LIMIT	V žebříčku úrovní se zobrazují postavy s úrovní 75+.
+RANKING_WINDOW_LOADING_IN_PROGRESS	Nelze změnit kategorii, pokud zrovna probíhá načítání obsahu z jiné kategorie.
+RANKING_WINDOW_NO_CHARACTERS	Žádné postavy
+RANKING_WINDOW_NO_POSITION	Žádná pozice
+RANKING_WINDOW_POSITION	Umístění %s
+RANKING_WINDOW_RANKING_TITLE	Žebříček
+RANKING_WINDOW_SERVER_RANKING_DO_NOT_RESET	Serverový žebříček se neresetuje.
+RANKING_WINDOW_WEEKLY_RANK_RESET_TIME	Reset žebříčku proběhne za:|cFFF19BFF
+RANKING_WINDOW_WEEKLY_RANK_RESET_TIME_UPDATE	Reset žebříčku proběhne za: |cFFcf9bff%s
+RANKING_WINDOW_WEEKLY_RANK_RESET_TIME_UPDATE1	Reset žebříčku proběhne za: |cFFcf9bff0 sek.
+RANKING_WINDOW_WEERKLY_RANK_UNAVAILABLE	Týdenní žebríček je nedostupný.
+RED_KINGDOM	|cFFFBB497Shinsoo|h|r
+REFINEWINDOW_DO_NOT_CLOSE_WINDOW	Nezavírat okno
+REFINEWINDOW_FIND_IN_SHOPS	Najít předmět ve stáncích
+REFINEWINDOW_PRICE_1	Cena: {}
+REFINE_FAILURE_CAN_NOT_ATTACH	%s nelze přidat k předmětu.
+REMAINING_TIME_DAYS	Dní
+REMAINING_TIME_HOURS	Hod.
+REMAINING_TIME_MINUTES	Min.
+REMAINING_TIME_SECONDS	Sek.
+REMOVE_ITEM_DO_YOU_REMOVE	Opravdu chceš odstranit vybrané předměty?
+RENDER_TARGET_PREVIEW_ITEM	Náhled modelu
+RESP_AVAILABLE	Dostupný
+RESP_DROP_TEXT	Po kliknutí na toto tlačítko se ti zobrazí drop z dané příšery.
+RESP_DROP_TITLE	Informace o příšeře
+RESP_MOB_TEXT	Jakmile je tento checkbox zaškrtnutý, bude se ti po najetí na příšeru zobrazovat její model.
+RESP_MOB_TITLE	Zobrazit model příšery
+RESP_PAGE_COUNT	Strana %d / %d
+RESP_RESP_TEXT	Jakmile je tento checkbox zaškrtnutý, bude se ti po najetí na tlačítko "teleportovat" zobrazovat poloha přišery na mapě.
+RESP_RESP_TITLE	Náhled mapy
+REVIVE_AUTO_TOWN_MESSAGE	Návrat do města za: {}
+RUNE_DECK5_TOOLTIP	Runy - Dodatečný bonus (Úroveň +5)
+RUNE_DECK9_TOOLTIP	Runy - Dodatečný bonus (Úroveň +9)
+SASH_ABSORBED_ITEM	Absorbovaný předmět
+SAVE_MAPS_BUSY	|cfffad3a5%s|r
+SAVE_MAPS_EMPTY	|cffe7a6a6- Žádná uložená data -|r
+SAVE_MAPS_OVERWRITE_DESC	Stávající data budou přepsána!
+SAVE_MAPS_SAVE_DESC	Popiš co nejlépe uloženou lokaci pro lepší orientaci.
+SAVE_MAPS_SAVE_TITLE	Zadej název lokace
+SCORPION_DUNGEON	Ruiny škorpiona
+SEARCH_IN_SHOPS_SHORTCUT	Vyhledat v obchodech
+SECONDARY_LEVEL_0	Žádná
+SECONDARY_LEVEL_1	Bronzová I
+SECONDARY_LEVEL_10	Vševědoucí
+SECONDARY_LEVEL_11	Železná I
+SECONDARY_LEVEL_12	Železná II
+SECONDARY_LEVEL_13	Železná III
+SECONDARY_LEVEL_14	Hvězdná
+SECONDARY_LEVEL_15	Královská
+SECONDARY_LEVEL_16	Platinová I
+SECONDARY_LEVEL_17	Platinová II
+SECONDARY_LEVEL_18	Platinová III
+SECONDARY_LEVEL_19	Platinová IV
+SECONDARY_LEVEL_2	Bronzová II
+SECONDARY_LEVEL_20	Platinová V
+SECONDARY_LEVEL_21	Diamantová I
+SECONDARY_LEVEL_22	Diamantová II
+SECONDARY_LEVEL_23	Diamantová III
+SECONDARY_LEVEL_24	Diamantová IV
+SECONDARY_LEVEL_25	Diamantová V
+SECONDARY_LEVEL_26	Rubínová I
+SECONDARY_LEVEL_27	Rubínová II
+SECONDARY_LEVEL_28	Rubínová III
+SECONDARY_LEVEL_29	Rubínová IV
+SECONDARY_LEVEL_3	Bronzová III
+SECONDARY_LEVEL_30	Rubínová V
+SECONDARY_LEVEL_4	Stříbrná I
+SECONDARY_LEVEL_5	Stříbrná II
+SECONDARY_LEVEL_6	Stříbrná III
+SECONDARY_LEVEL_7	Zlatá I
+SECONDARY_LEVEL_8	Zlatá II
+SECONDARY_LEVEL_9	Zlatá III
+SECONDARY_LEVEL_BONUS_NONE	Žádný bonus
+SECURITY_ANSWER_IS_WRONG	Odpověď je nesprávná, zkuste to znovu! Poznámka: Při nesprávném zvolení se čas snižuje o 5 sekund.
+SECURITY_ANSWER_SUCCESS	Ověření proti botům úspěšně dokončeno, můžete pokračovat v hraní.
+SECURITY_CLEAR	Vymazat
+SECURITY_CONFIRM	Potvrdit
+SECURITY_FIND_THE_DIFFERENT	Klikněte na obrázek, který se liší od ostatních!
+SECURITY_NUMBERS_RESET_POS	Pokud jste dostali čísla mimo okno a nemůžete na ně kliknout, stiskněte toto tlačítko!
+SECURITY_REMAINING_TIME	Zbývající čas: {:.1f}
+SECURITY_SELECT_ANSWER	Napište čísla nahoře!
+SECURITY_SORT_IMAGES	Seřaďte čísla přetažením směrem k {}!
+SECURITY_SORT_IMAGES2	malá po velkou
+SECURITY_SORT_IMAGES3	velká po malou
+SECURITY_YOU_HAVE_ONE_MORE_CHANGE	Nesprávná volba, zkuste to znovu! Při další nesprávné volbě budete odpojeni.
+SELECT_ASSASSIN	Zabiják
+SELECT_CREATE_NEW	Vytvořit novou postavu
+SELECT_EMPIRE_CHUNJO	Chunjo
+SELECT_EMPIRE_JINNO	Jinno
+SELECT_EMPIRE_SHINSOO	Shinsoo
+SELECT_LEVEL_CLASS_FORMAT	Úr. %s %s | %s
+SELECT_LEVEL_FORMAT	Úr. %s %s
+SELECT_NOT_CHOSEN	Nevybráno
+SELECT_PLAYTIME_FORMAT	%s min
+SELECT_SHAMAN	Šaman
+SELECT_SURA	Sura
+SELECT_WARRIOR	Bojovník
+SELL_PRICE	|cFFffc700Prodejní cena:
+SHIP_DUNGEON_1	Loď duchů (I)
+SHIP_DUNGEON_2	Loď duchů (II)
+SHOP_BUY_NOTIF_0	byl prodán.
+SHOP_BUY_NOTIF_1	yang byl přidán do vašeho skladu.
+SHOP_MONEY_NOT_ENOUGH	Nedostatek yang!
+SHOP_MONEY_NOT_ENOUGH2	Celková cena produktů, které chcete přidat do košíku, nesmí být vyšší než váš zůstatek.
+SHOP_NOT_ENOUGH_CHEQUE	Máš málo Wonů.
+SHOP_NOT_ENOUGH_MONEY_CHEQUE	Nemáš dostatek wonů nebo yangů.
+SHOP_NOT_ENOUGH_PKT_OSIAG	Nemáš dostatek bodů úspěchu.
+SHOP_SEARCH_ACCE_GRADE_FILTER_0	Obyčejná
+SHOP_SEARCH_ACCE_GRADE_FILTER_1	Jemná
+SHOP_SEARCH_ACCE_GRADE_FILTER_2	Noblesní
+SHOP_SEARCH_ACCE_GRADE_FILTER_3	Uživ.
+SHOP_SEARCH_ACCE_GRADE_FILTER_TITLE	Úroveň šerpy
+SHOP_SEARCH_ADD_ITEMS_TO_THE_CART_FIRST	Pro provedení této akce musíte nejprve vybrat předměty.
+SHOP_SEARCH_ADD_TO_BASKET	Přidat předmět do košíku
+SHOP_SEARCH_ALL	Všechny kategorie
+SHOP_SEARCH_BUY_CONFIRM	Opravdu chceš koupit %s?
+SHOP_SEARCH_BUY_CONFIRM2	Chcete se teleportovat do obchodu obsahujícího %s?
+SHOP_SEARCH_BUY_SELECTED_ITEMS	Koupit vybrané předměty
+SHOP_SEARCH_BUY_SELECTED_ITEMS_CONFIRM	Opravdu chceš koupit tyto %d předměty?
+SHOP_SEARCH_CLEAR_CART_FIRST	Tuto akci můžete provést pouze tehdy, když nejsou vybrány žádné předměty.
+SHOP_SEARCH_DS_CLARITY_FILTER_0	Matná
+SHOP_SEARCH_DS_CLARITY_FILTER_1	Průhledná
+SHOP_SEARCH_DS_CLARITY_FILTER_2	Bezchybná
+SHOP_SEARCH_DS_CLARITY_FILTER_3	Brilantní
+SHOP_SEARCH_DS_CLARITY_FILTER_4	Excelentní
+SHOP_SEARCH_DS_CLARITY_FILTER_TITLE	Čirost Dračí Alchymie
+SHOP_SEARCH_DS_GRADE_FILTER_0	Diamantová
+SHOP_SEARCH_DS_GRADE_FILTER_1	Rubínová
+SHOP_SEARCH_DS_GRADE_FILTER_2	Jantárová
+SHOP_SEARCH_DS_GRADE_FILTER_3	Safírová
+SHOP_SEARCH_DS_GRADE_FILTER_4	Granátová
+SHOP_SEARCH_DS_GRADE_FILTER_5	Onyxová
+SHOP_SEARCH_DS_GRADE_FILTER_TITLE	Úroveň Dračí Alchymie
+SHOP_SEARCH_ENTER_ITEMNAME	Hledat podle jména předmětu
+SHOP_SEARCH_FILTER_0_0	Min. Počet
+SHOP_SEARCH_FILTER_0_1	Max. Počet
+SHOP_SEARCH_FILTER_1_0	Min. Úroveň
+SHOP_SEARCH_FILTER_1_1	Max. Úroveň
+SHOP_SEARCH_FILTER_2_0	Min. Abs.
+SHOP_SEARCH_FILTER_2_1	Max. Abs.
+SHOP_SEARCH_FILTER_3_0	Min. Průměr
+SHOP_SEARCH_FILTER_4_0	Min. Cena
+SHOP_SEARCH_FILTER_4_1	Max. Cena
+SHOP_SEARCH_ITEM_PRICE_PER_COUNT	Cena za kus: %s
+SHOP_SEARCH_MULTIBUY_ACTIVATED	Aktivoval/a jsi hromadný nákup, nyní vyber předměty.
+SHOP_SEARCH_NOT_RESULT_FOUND	Nenalezeny žádné výsledky!
+SHOP_SEARCH_PREMIUM_NEEDED_FOR_THIS_ACTION	K této akci potřebujete prémiový účet.
+SHOP_SEARCH_REMOVE_FROM_THE_BASKET	Odstranit předmět z košíku
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME	Hledat podle jména hráče
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME2	Hledat podle jména hráče
+SHOP_SEARCH_SHORTCUT_SEARCH	|Eemoji/key_shift|e + |Eemoji/key_j|e - Vyhledávání předmětů v obchodech
+SHOP_SEARCH_TITLE	Vyhledávání v obchodech
+SHOP_SEARCH_WAIT	Počkejte %d sekund, abyste mohli znovu provést tuto akci.
+SHOP_TIMER_FORMAT	{} dni, {} godz, {} min.
+SKILLS_MAX_LEVEL	Maximální úroveň.
+SKILL_AFFECT_REMOVE_QUESTION	Opravdu chceš tuto schopnost zrušit?
+SKILL_DAMAGE_DUNGEON_2	Ztracená pevnost zapomnění
+SKILL_DAMAGE_DUNGEON_3	Hrobka Prastarého Barona
+SKILL_DAMAGE_DUNGEON_4	Dandžn schopknzí 3
+SKILL_DATA_129_DESC_1	|cFFc1c1c1Poškození +{}%
+SPECIAL_INVENTORY_BOOKS	Knihy
+SPECIAL_INVENTORY_CHESTS	Truhly
+SPECIAL_INVENTORY_DEWS	Rosy
+SPECIAL_INVENTORY_REFINE	Vylepšovací předměty
+SPECIAL_INVENTORY_STONES_ALCHEMY	Kameny a Alchymie
+SPECIAL_INVENTORY_USABLE	Užitečné předměty
+SPIDER_DUNGEON	Síň královny pavouků
+STATS_ADD	Přidat
+STATUS_GUI_TXT	Počet:
+STONE_CRAFTING_DESC	Kámen duše +{} - {}x  Úlomek kamene
+STONE_CRAFTING_QUICK_ADD	{} + {} - Rychlé přidání
+SUMMER_DUNGEON	Solargonova Jeskyně
+SWITCHBOT_ALTERNATIVE	Alternativní
+SWITCHBOT_CLEAR_ATTR	Odebrat bonus
+SWITCHBOT_CLEAR_CONFIGURATION	Vyčistit
+SWITCHBOT_CONFIGURATION_TITLE	Tvoje šablony
+SWITCHBOT_EMPTY_ATTR	- Musíš vybrat bonus -
+SWITCHBOT_INSTANT	Okamžité protočení
+SWITCHBOT_INSTANT_COUNT_TITLE	Počet protočení:
+SWITCHBOT_SELECT_ITEM_FIRST	Musíš vybrat předmět, kterým chceš tento předmět prohodit.
+SWITCHBOT_LOAD_CONFIGURATION	Načíst
+SWITCHBOT_SAVE	Uložit
+SWITCHBOT_SAVE_BUTTON	Úložiště
+SWITCHBOT_SELECT_ATTR	Výběr bonusu
+SWITCHBOT_START	Start
+SWITCHBOT_STOP	Stop
+SWITCHBOT_TITLE	Switchbot
+SWITCH_AVERAGE_EVENT	|cFF63f282Šance natočit průmku 63%|r
+SWITCH_AVERAGE_EVENT_TEXT	|cFF63f282Šance na větší průměrnou škodu|r
+SWITCH_RARE_EVENT	|cFF63f282Ulehčené točení 6/7 bonusů|r
+SWITCH_RUNE_EVENT	|cFF63f282Ulehčené točení relkvií|r
+SWITCH_RUNE_EVENT_TEXT	|cFF63f282Větší šance na relikvie 3. stupně|r
+SYSTEM_OPTION_CPU_TILING_1	Modus CPU-Tiling může zvýšit rychlost slabšího počítače.
+SYSTEM_OPTION_CPU_TILING_2	Pokud se vyskytují problémy s grafikou, zvol ,Nastavení systému‘ nebo ,CONFIG.exe‘
+SYSTEM_OPTION_CPU_TILING_3	a přepni do GPU-Tiling módu
+SYSTEM_OPTION_GPU_TILING_1	Modus GPU-Tiling může na slabších počítačích běžet pomalu
+SYSTEM_OPTION_GPU_TILING_2	Pokud se vyskytují problémy s grafikou, zvol ,Nastavení systému‘ nebo ,CONFIG.exe‘
+SYSTEM_OPTION_GPU_TILING_3	a přepni do módu CPU-Tiling
+SYSTEM_OPTION_TILING_EXIT	Na změnu Tiling-módu musí hra být restartována.
+TARGET_LEVEL_ELITKA	Elita
+TARGET_LEVEL_LEGENDA	Legenda
+TARGET_RACE_FLAG_ANIMAL	Zvíře
+TARGET_RACE_FLAG_BOSS	Boss
+TARGET_RACE_FLAG_DARK	Temnota
+TARGET_RACE_FLAG_DESERT	Pouštní
+TARGET_RACE_FLAG_DEVIL	Ďábel
+TARGET_RACE_FLAG_DUNGEON	Dungeon
+TARGET_RACE_FLAG_EARTH	Země
+TARGET_RACE_FLAG_ELEC	Blesk
+TARGET_RACE_FLAG_FIRE	Oheň
+TARGET_RACE_FLAG_HUMAN	Člověk
+TARGET_RACE_FLAG_ICE	Led
+TARGET_RACE_FLAG_INSECT	Hmyz
+TARGET_RACE_FLAG_LEGENDA	Legenda
+TARGET_RACE_FLAG_MILGYO	Ezoterik
+TARGET_RACE_FLAG_ORC	Ork
+TARGET_RACE_FLAG_STONE	Balvan
+TARGET_RACE_FLAG_TREE	Lesní
+TARGET_RACE_FLAG_UNDEAD	Nemrtvý
+TARGET_RACE_FLAG_WIND	Vítr
+TARGET_RACE_FLAG_WLADCA	Vládce
+TARGET_RACE_NON	Žádný
+TELEPORT_BUTTON	Teleportovat
+TITLE_BONUS	Bonus
+TOOLTIP_APPLY_3	mazlíčka s bonusy PVM:
+TOOLTIP_APPLY_33050_1	Silný proti příšerám +15%
+TOOLTIP_APPLY_33051_1	Max. ZB +2000
+TOOLTIP_APPLY_33051_2	Silný proti lidem +15%
+TOOLTIP_APPLY_ATTBONUS_BOSS	Silný proti bossům +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_BOSS_POLY	Silný proti bossům +%d%%
+TOOLTIP_APPLY_ATTBONUS_ENCHANT_DARK_POLY	Silný proti temnotě +%d%%
+TOOLTIP_APPLY_ATTBONUS_HUMAN_POLY	Silný proti lidem +%d%%
+TOOLTIP_APPLY_ATTBONUS_KLASY	Silný proti všem postavám +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_LEGENDA	Silný proti Legendám +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MAX_HP_POLY	Max. ZB: +%d
+TOOLTIP_APPLY_ATTBONUS_MONSTER_POLY	Silný proti příšerám +%d%%
+TOOLTIP_APPLY_ATTBONUS_STONE	Silný proti balvanům +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_STONE_POLY	Silný proti balvanům +%d%%
+TOOLTIP_APPLY_ATTBONUS_WLADCA	Silný proti vládcům +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WLADCA_POLY	Silný proti vládcům +%d%%
+TOOLTIP_APPLY_DMG_BONUS	Útok +%d%%	SA
+TOOLTIP_APPLY_FINAL_DMG_BONUS	Celkové poškození +%d%%	SA
+TOOLTIP_APPLY_RESIST_KLASY	Odolnost proti všem postavám +%d%%	SA
+TOOLTIP_APPLY_SKILE_BUFF_BOOK_BONUS	Šance na úspěšný trénink schopnosti autobuffa zvýšena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_BUFF_NO_BOOK_DELAY	V případě, že se trénink schopnosti autobuffa nepovede, budeš jej moci trénovat ihned znovu.	SNA
+TOOLTIP_APPLY_SKILE_PAS_BOOK_BONUS	Šance na úspěšný trénink pasivních schopností zvýšena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_PAS_NO_BOOK_DELAY	V případě, že se trénink pasivní schopnosti nepovede, budeš je moci trénovat ihned znovu.	SNA
+TOOLTIP_APPLY_SKILE_PET_BOOK_BONUS	Šance na úspěšný trénink schopností mazlíčka zvýšena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_PET_NO_BOOK_DELAY	V případě, že se trénink schopnosti mazlíčka nepovede, budeš jej moci trénovat ihned znovu.	SNA
+TOOLTIP_ATTBONUS_DUNGEON	Síla v dungeonech +%d%%	SA
+TOOLTIP_ATTBONUS_ELEMENT	Silný proti elementům +%d%%	SA
+TOOLTIP_ATTBONUS_ELEMENT_POLY	Silný proti elementům +%d%%
+TOOLTIP_ATTBONUS_PVM_SKILL	PVM Poškození schopností +%d%%	SA
+TOOLTIP_BONUS_CAN_BE_USE_X_TIMES	Tento bonus se použije: %dx
+TOOLTIP_BUYPRICE_TEXT	|cFF96e000[Prodejní cena]|r
+TOOLTIP_DEFBONUS_ELEMENT	Odolnost proti elementům +%d%%	SA
+TOOLTIP_DOUBLE_LOOT_DROP	Šance na double drop +%d%%	SA
+TOOLTIP_DOUBLE_LOOT_SUMMER	Šance na double drop ve třpytivé laguně +%d%%	SA
+TOOLTIP_DROP_INFO_PREFIX	• %s
+TOOLTIP_DROP_INFO_RANGE_COUNT	Možné získat: %s - %s
+TOOLTIP_DROP_INFO_SINGLE_COUNT	Možné získat:
+TOOLTIP_ENCHANTED	|cFFc8ff9cZesíleno
+TOOLTIP_FISHINGROD_CAN_USE	Bonus se použije ještě: %dx
+TOOLTIP_FISHING_BIGGER_FISH_CHANCE	Šance na větší rybu +%d%%	SA
+TOOLTIP_FISHING_INSTANT_CATCH_CHANCE	+%d%% Šance na okamžitý úlovek	SA
+TOOLTIP_FISHING_MORE_POINTS_CHANCE	Šance na více bodů +%d%%	SA
+TOOLTIP_FISHING_MORE_YANG_MULTIPLIER	Více yangů z ryby +%d%%	SA
+TOOLTIP_FISHING_NEXT_SECTION_CHANCE	Šance na vzácnější rybu +%d%%	SA
+TOOLTIP_FISHING_SKILL_BONUS_BIGGER_FISH	Šance na větší rybu +%d%%
+TOOLTIP_FISHING_SKILL_BONUS_INSTANT	Šance na okamžitý úlovek +%d%%
+TOOLTIP_FISHING_SKILL_BONUS_NEXT	Následující bonusy za úroveň:
+TOOLTIP_FISHING_SKILL_BONUS_NOW	Aktuální bonusy za úroveň:
+TOOLTIP_FISHING_SKILL_BONUS_POINTS	Šance na více bodů +%d%%
+TOOLTIP_FISHING_SKILL_BONUS_RARE	Šance na vzácnější rybu +%d%%
+TOOLTIP_FISHING_SKILL_BONUS_YANG	Více yangů z ryby +%d%%
+TOOLTIP_FISHING_SKILL_MAX	Schopnost je na maximální úrovni!
+TOOLTIP_FISHING_SUCCESSFULL_COUNT	Úspěšně vylovených ryb: %s
+TOOLTIP_FISHING_SUCCESS_CHANCE	Šance na chycení ryby +%d%%	SA
+TOOLTIP_FISH_PRICE	Cena: %s
+TOOLTIP_ITEMSHOP_UNIQUE_ITEM	[Unikátní předmět %d z %d]
+TOOLTIP_ITEM_ENLIGHT_LIMIT_LEVEL	Od úrovně zatracení: %d
+TOOLTIP_ITEM_MOUNT_LIMIT_LEVEL	|cffBEB4A8|H|hOd úrovně jezdeckého zvířete:|H|h |cff18f28d|H|h%d|H|h
+TOOLTIP_MALL_ITEMBONUS_STATIC_NEW	Zvýšená šance na drop předmětů.	SNA
+TOOLTIP_MALL_PICKUP	Automatické sbírání předmětů.	SNA
+TOOLTIP_MALL_PREMIUM_MINE	Šance na vytěžení rudy +5%, Šance na větší počet rudy +5%, Šance na více bodů +20%, Zkrácení času těžení o 1 sekundu.	SNA
+TOOLTIP_MINING_LESS_MINE_TIME	Zkrácení času těžení %dsek.	SA
+TOOLTIP_MINING_MORE_ORES_CHANCE	Šance na více kusů rudy +%d%%	SA
+TOOLTIP_MINING_MORE_POINTS	Šance na více bodů +%d%%	SA
+TOOLTIP_MINING_SUCCESS_CHANCE	Šance na vytěžení rudy +%d%%	SA
+TOOLTIP_MINING_SKILL_BONUS_NOW	Aktuální bonusy za úroveň:
+TOOLTIP_MINING_SKILL_BONUS_NEXT	Následující bonusy za úroveň:
+TOOLTIP_MINING_SKILL_BONUS_ORE	Šance na vytěžení rudy +%d%%
+TOOLTIP_MINING_SKILL_BONUS_MORE_ORE	Šance na více kusů rudy +%d%%
+TOOLTIP_MINING_SKILL_BONUS_TIME	Zkrácení času těžení -%dsek.
+TOOLTIP_MINING_SKILL_BONUS_RELIC	Šance na jádro reliktu +%d%%
+TOOLTIP_MINING_SKILL_MAX	Schopnost je na maximální úrovni!
+TOOLTIP_MINING_MINED_COUNT	Vytěženo rudy: %s
+TOOLTIP_FISHING_FISHED_COUNT	Vyloveno ryb: %s
+BUFF_SKILL_CRIT_CHANCE	Šance na kritický zásah: |cFFffce47+{}%
+BUFF_SKILL_ATTACK_VALUE	Hodnota útoku: |cFFffce47+{}
+ENLIGHTENMENT_MAX_HP	Max. ZB
+ENLIGHTENMENT_MAX_SP	Max. PM
+ENLIGHTENMENT_AVG_DAMAGE	Průměrná škoda
+ENLIGHTENMENT_SKILL_DAMAGE	Poškození schopností
+ENLIGHTENMENT_HUMAN_RESIST	Odolnost proti lidem
+ENLIGHTENMENT_HUMAN_RESIST_PIERCE	Průnik odolnosti proti lidem
+TOOLTIP_PASYWKI_MASTER	Pasivní schopnosti - Dodatečný bonus
+TOOLTIP_REMAINING	Zbývá: %.2f%%
+TOOLTIP_RESIST_BOSS	Odolnost proti bossům: %d%%	SA
+TOOLTIP_RESIST_MONSTER	Odolnost proti příšerám: %d%%	SA
+TOOLTIP_RESIST_WLADCA	Odolnost proti vládcům: %d%%	SA
+TOOLTIP_STAT_BONUS	Statistiky +%s	SA
+TOOLTIP_TOGGLE_ACTIVE	Aktivní
+TOURNAMENT_ALL_CHARACTER	Všechna zaměření
+TOURNAMENT_EVENT	Turnaj PvP (%s - Lv %d - Lv %d)
+TURN_IN_COMPLETE	|cFF66d678Odevzdáno
+UI_LOCATION_01	Zapsat
+UI_LOCATION_02	Načíst
+UI_LOCATION_03	Odebrat
+UI_LOCATION_04	Nezapsaná pozice
+UI_LOCATION_05	Tato pozice je již zabraná, použij jinou
+UI_LOCATION_06	Nejprve dokonči zápis předchozí pozice
+UI_LOCATION_07	Tuto pozici nelze použít
+UI_LOCATION_08	Maximální délka názvu je %d znaků
+UNIFIED_EXCHANGE_FORMAT	|cFFffc7001kkk {money_icon} |r= |cFFb8b8b81 {cheque_icon}
+UNIFIED_EXCHANGE_REVERSE_FORMAT	|cFFb8b8b81 {cheque_icon} |r= |cFFffc7001kkk {money_icon}
+UNIFIED_EXCHANGE_TITLE	Výměna měn
+UNSAVED_POSITION	Pozycja niezapisana
+UPGRADE_CHANCE	Šance na vylepšení: |c{color}{percentage}%
+UPGRADE_CHANCE_EXTRA	Šance na vylepšení: |c{color}{percentage}% (+{percentageExtra}%)
+USE_ITEM_FAILURE_OFFLINE_SHOP	Tento předmět nelze použít při otevřeném stánku!
+VALENTINE_EVENT	|cFFf263f0Drop valentýnských čokolád|r
+WEEKLY_RANKING_TITLE	Týdenní žebříček (Sezóna {})
+WEEKLY_RANK_NO_TITLE	Žádný titul
+WEEKLY_RANK_SEASON_END	Konec sezóny: |cFFdeffb3{}d. {}h. {}min.
+WHEEL_GAME_CHEQUE_MODE	Za Wony
+WHEEL_GAME_CURRENT_MODE_GOLD_WHEEL	Současný mód: Wony
+WHEEL_GAME_CURRENT_MODE_ITEM_WHEEL	Současný mód: Žetony do kola štěstí
+WHEEL_GAME_ITEM_GOLD_COST	1x - 300 Wonů.
+WHEEL_GAME_ITEM_MODE	Za Letní Žetony
+WHEEL_GAME_ITEM_WHEEL_COST	Cena: 1x Žeton
+WHEEL_GAME_SKIP_ANIMATION	Přeskočit animaci
+WHEEL_GAME_TITLE	Kolo štěstí
+WHEEL_OF_FORTUNE_CAT_1	Kolo štěstí (1)
+WHEEL_OF_FORTUNE_CAT_2	Kolo štěstí (2)
+WHEEL_OF_FORTUNE_CAT_3	Letní Kolo štěstí
+WHEEL_OF_FORTUNE_REWARDS	Odměny:
+WHEEL_REWARD_TEXT	Obdržel jsi
+WHEEL_REWARD_TEXT_1	odměnu najdeš v inventáři
+WHEEL_REWARD_TITLE	Kolo štěstí
+WHELL_OF_FORTUNE_EVENT	Kolo štěstí
+WONEXCHANGE_CONFIRM_QUESTION_1	Chceš prodat %d Won za %s Yangů.
+WONEXCHANGE_CONFIRM_QUESTION_2	Chceš zakopit %d Won za %s Yangů.
+WONEXCHANGE_CONFIRM_QUESTION_3	Pokračovat?
+WORLDBOSS_GUARD_NAME	Oznámení
+WUKONG_DUNGEON	Hory Wukonga
+YANG_DROP_EVENT	|cFF63f282Šance na dvojnásobný drop YANG|r
+YELLOW_KINGDOM	|cFFFDE696Chunjo|h|r
+WARP_WINDOW_SEARCH_MAPS	Vyhledat lokaci...
+WARP_WINDOW_ORC	|cffbaa079Ork|r
+WARP_WINDOW_MYSTICS	|cffee73f0Ezoterik|r
+WARP_WINDOW_ICE	|cff6ccbebLed|r
+WARP_WINDOW_DARK	|cff7e07e0Temnota|r
+DUNGEON_TRACK_DUNGEON_6	Hlubiny Gorgony
+DUNGEON_TRACK_DUNGEON_8	Dungeon 8
+DUNGEON_TRACK_DUNGEON_9	Dungeon 9
+DUNGEON_TRACK_DUNGEON_10	Dungeon 10
+DUNGEON_TRACK_DUNGEON_11	Dungeon 11
+DUNGEON_TRACK_TITLE_DUNGEONS	Dungeony
+DUNGEON_TRACK_TITLE_MAPS	Mapy
+DUNGEON_TRACK_GROUP_INFO	Group Request:
+DUNGEON_TRACK_COOLDOWN_INFO	Cooldown:
+DUNGEON_TRACK_TICKET_INFO	Propustka
+DUNGEON_TRACK_SHOP_INFO	Dungeon Obchod
+DUNGEON_TRACK_TELEPORT_ENTER	Teleportovat do dungeonu
+DUNGEON_TRACK_WARP	Teleportovat ke vstupu
+DUNGEON_TRACK_TEST	Test if you can kill the dungeon boss, without paying the Entry Ticket. Polymorph Marble is usable for free.
+DUNGEON_TRACK_PERSONAL_STATISTICS	Moje statistiky
+DUNGEON_TRACK_TRUE	True
+DUNGEON_TRACK_FALSE	False
+DUNGEON_TRACK_MOVE_UP	Posunout nahoru
+DUNGEON_TRACK_BONUS	Bonus
+DUNGEON_TRACK_RANK_LEVEL	Level
+DUNGEON_TRACK_RESET_INFO	Resetuje se za:
+WARP_WINDOW_MAP_1	Království Jinno
+WARP_WINDOW_MAP_2	Bakra
+WARP_WINDOW_MAP_3	Království Shinsoo
+WARP_WINDOW_MAP_4	Jayang
+WARP_WINDOW_MAP_5	Vzdálené kouty
+WARP_WINDOW_MAP_6	Hora Sohan
+WARP_WINDOW_MAP_7	Údolí Orků
+WARP_WINDOW_MAP_8	Les
+WARP_WINDOW_MAP_9	Pavoučí doupě
+WARP_WINDOW_MAP_10	Posvátné údolí
+WARP_WINDOW_MAP_11	Starobylá poušť
+WARP_WINDOW_MAP_12	Mrazivá krajina
+WARP_WINDOW_MAP_16	Rybářské pobřeží
+WARP_WINDOW_MAP_17	Bažiny
+WARP_WINDOW_MAP_18	Zakleté údolí
+DUNGEON_TRACK_CHECKBOX	Odeslat upozornění když je k dispozici
+DUNGEON_TRACK_COMPLETED	Dokončeno
+WARP_WINDOW_MAPS_LOW	Nízké mapy
+WARP_WINDOW_MAPS_HIGH	Vysoké mapy
+WARP_WINDOW_MAPS_SPECIAL	Speciální mapy
+WARP_WINDOW_MAP_13	Ohnivé pustiny
+WARP_WINDOW_MAP_14	Začarovaný les
+WARP_WINDOW_MAP_15	Skrytý důl
+DUNGEON_TRACK_LEVEL_INFO	Požadovaný lvl:
+DUNGEON_TRACK_DAILY_LIMIT_INFO	Denní limit:
+DUNGEON_TRACK_DMG	Poškození
+DUNGEON_TRACK_FASTEST	Nejrychlejší
+DUNGEON_TRACK_SLOW_INFO	Prosím zpomal.
+DUNGEON_TRACK_MOVE_DOWN	Posunout dolů
+DUNGEON_TRACK_HIDE	Skrýt
+DUNGEON_TRACK_DEACTIVE	Neaktivní
+DUNGEON_TRACK_WHISPER_MESSAGE	%s je připraven.
+DUNGEON_TRACK_RANK_INDEX	Pořadí
+DUNGEON_TRACK_RANK_NAME	Jméno
+DUNGEON_TRACK_RANK_COMPLETED_TITLE	Celkem dokončeno
+DUNGEON_TRACK_RANK_FASTEST_TITLE	Nejrychlejší čas
+DUNGEON_TRACK_RANK_DMG_TITLE	Max poškození bossovi
+DUNGEON_TRACK_DAILY_INFO	Denní vstupy:
+DUNGEON_TRACK_DAILY_LIMIT_REACHED	Denní limit
+DUNGEON_TRACK_DUNGEON_1	Sál Pavoučí Královny
+DUNGEON_TRACK_DUNGEON_2	Věž démonů
+DUNGEON_TRACK_DUNGEON_3	Chrám Wukong
+DUNGEON_TRACK_DUNGEON_4	Škorpioní jeskyně
+DUNGEON_TRACK_DUNGEON_5	Arktická jeskyně
+DUNGEON_TRACK_DUNGEON_6	Pekelná brána
+DUNGEON_TRACK_DUNGEON_7	Svatyně
+DUNGEON_TRACK_DUNGEON_8	Jeskyně duchů
+DUNGEON_TRACK_DUNGEON_9	Jeskyně duchů II
+DUNGEON_TRACK_DUNGEON_10	Pouštní kaňon
+DUNGEON_TRACK_DUNGEON_11	Orčí věž
+DUNGEON_TRACK_DUNGEON_12	Úkryt baronky
+DUNGEON_TRACK_LV	Úr.
+DUNGEON_TRACK_MAP_PRICE	Cena: %s
+DUNGEON_TRACK_MAP_RACE	Rasa: %s
+DUNGEON_TRACK_MAP_ELEMENT	Živel: %s
+
+OFFLINESHOP_REFILL_TIME_BUTTON	Obnovit čas
+OFFLINESHOP_REFILL_TIME_QUESTION	Chceš obnovit čas stánku za 1.000.000.000 yangů?
+OFFLINESHOP_REFILL_TIME_CANNOT	Nelze obnovit stánek na více času.
+OFFLINESHOP_YANG_DEFAULT	0 Yang
+WARP_WINDOW_RACE_ANIMALS	|cffbaa079Zvířata|r
+WARP_WINDOW_RACE_HUMANS	|cffbaa079Lidé|r
+WARP_WINDOW_RACE_INSECTS	|cffbaa079Hmyz|r
+WARP_WINDOW_RACE_DEMONS	|cffbaa079Démoni|r
+WARP_WINDOW_RACE_DEMIGODS	|cffbaa079Polobohové|r
+WARP_WINDOW_RACE_UNDEAD	|cffbaa079Nemrtví|r
+WARP_WINDOW_ELEM_DARK	|cff9966ccTemnota|r
+WARP_WINDOW_ELEM_FIRE	|cffff6633Oheň|r
+WARP_WINDOW_ELEM_ICE	|cff66ccffLed|r
+WARP_WINDOW_ELEM_POISON	|cff66cc33Jed|r
+WARP_WINDOW_RACE_MONSTERS	|cffbaa079Příšery|r
+WARP_WINDOW_RACE_DEVILS	|cffbaa079Ďáblové|r
+REMOVE_ITEM_SUCCESS	Odstraněno: %s x%d
+CARDS_LOTTERY_CHOOSE	Vyber jednu kartu.
+CUBE_CHANCE_LABEL	Šance
+REFINEWINDOW_POSSIBLE_SOURCES	Možné zdroje
+REFINEWINDOW_SOURCE_MONSTERS	Příšery
+REFINEWINDOW_SOURCE_ITEMS	Předměty
+REFINEWINDOW_FIND_IN_SHOPS	Najít předmět v obchodech
+BATTLEPASS_MISSION_DROP_DAILY	Dropni z příšer %d předmětů.
+BATTLEPASS_MISSION_DROP_WEEKLY	Dropni z příšer %d předmětů.
+BATTLEPASS_MISSION_REFINE_DAILY	Vylepši %dx předmět.
+BATTLEPASS_MISSION_REFINE_WEEKLY	Vylepši %dx předmět.
+BATTLEPASS_MISSION_KILL_DAILY	Zabij %d příšer.
+BATTLEPASS_MISSION_KILL_WEEKLY	Zabij %d příšer.
+BATTLEPASS_MISSION_CRAFT_DAILY	Vykrafti %dx jakýkoliv předmět.
+BATTLEPASS_MISSION_CRAFT_WEEKLY	Vykrafti %dx jakýkoliv předmět.
+BATTLEPASS_MISSION_CHEST_DAILY	Otevři %dx truhlu.
+BATTLEPASS_MISSION_CHEST_WEEKLY	Otevři %dx truhlu.
+BATTLEPASS_MISSION_BOSS_DAILY	Zabij %dx kteréhokoliv bosse.
+BATTLEPASS_MISSION_BOSS_WEEKLY	Zabij %dx kteréhokoliv bosse.
+BATTLEPASS_MISSION_STONES_DAILY	Znič %dx kterýkoliv balvan.
+BATTLEPASS_MISSION_STONES_WEEKLY	Znič %dx kterýkoliv balvan.
+TELEPORT_LEVEL_RANGE	Rozsah úrovně: %d-%d
+TELEPORT_LEVEL_MIN	Od úrovně %d
+ITEMSHOP_WHEEL_MAIN_PRIZE	Hlavní výhra:
+WARP_WINDOW_MAP_20	Grota Wygnańců
+WARP_WINDOW_MAP_21	Červený les
+WARP_WINDOW_MAP_22	Chrám Hwang
+WARP_WINDOW_MAP_23	Orčí věž
+WARP_WINDOW_MAP_24	Úkryt baronky

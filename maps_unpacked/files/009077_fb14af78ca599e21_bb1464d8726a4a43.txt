@@ -1,0 +1,15 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	1	1
+BasePosition	307200	1100800
+TextureSet	textureset\valygos\exp04.txt
+Environment	valygos_ice2.msenv
+
+SpecialWaterPath	"D:/ymir work/special/ice"
+SpecialWaterCount	1
+

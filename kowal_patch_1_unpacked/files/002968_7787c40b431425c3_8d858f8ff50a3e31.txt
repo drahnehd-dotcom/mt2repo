@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\easter_npc_vandaa\wait.GR2"
+MotionDuration           1.666667
+

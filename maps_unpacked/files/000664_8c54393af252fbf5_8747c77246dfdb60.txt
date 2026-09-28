@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	3	4
+BasePosition	1203200	204800
+TextureSet	textureset\1_group_dung.txt
+Environment	ervelia_snake.msenv
+

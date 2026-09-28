@@ -1,0 +1,13 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	2	3
+BasePosition	972800	537600
+TextureSet	textureset\plechito_demon_dungeon23.txt
+Environment	plechito_demon_dungeon.msenv
+TerrainVisible	0
+

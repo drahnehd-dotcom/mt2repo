@@ -1,0 +1,236 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/monster2/legenda_pieklo/skill2.gr2"
+MotionDuration           5.166667
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     18
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         2.081768
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill01.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.798191
+        DuringTime           2.000000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        3.000000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           1450.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.808977
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill01.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         1.262004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 500.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      1
+        StartingTime         1.462004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 -500.000000 0.000000
+    }
+    Group Event05
+    {
+        MotionEventType      1
+        StartingTime         1.662004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       500.000000 0.000000 0.000000
+    }
+    Group Event06
+    {
+        MotionEventType      1
+        StartingTime         1.862004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       -500.000000 0.000000 0.000000
+    }
+    Group Event07
+    {
+        MotionEventType      1
+        StartingTime         2.062004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 500.000000 0.000000
+    }
+    Group Event08
+    {
+        MotionEventType      1
+        StartingTime         2.262004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 -500.000000 0.000000
+    }
+    Group Event09
+    {
+        MotionEventType      1
+        StartingTime         2.462004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       500.000000 0.000000 0.000000
+    }
+    Group Event10
+    {
+        MotionEventType      1
+        StartingTime         2.662004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       -500.000000 0.000000 0.000000
+    }
+    Group Event11
+    {
+        MotionEventType      1
+        StartingTime         2.862004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 500.000000 0.000000
+    }
+    Group Event12
+    {
+        MotionEventType      1
+        StartingTime         3.062004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       0.000000 -500.000000 0.000000
+    }
+    Group Event13
+    {
+        MotionEventType      1
+        StartingTime         3.262004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       500.000000 0.000000 0.000000
+    }
+    Group Event14
+    {
+        MotionEventType      1
+        StartingTime         3.462004
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/legenda_pieklo/skill02.mse"
+        EffectPosition       -500.000000 0.000000 0.000000
+    }
+    Group Event15
+    {
+        MotionEventType      1
+        StartingTime         0.798191
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/smhtower_boss/skill04.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event16
+    {
+        MotionEventType      1
+        StartingTime         0.722686
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-R-Finger42"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/monster2/smhtower_boss/skill05.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event17
+    {
+        MotionEventType      1
+        StartingTime         0.560891
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip001"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/monster2/smhtower_boss/skill02.mse"
+        EffectPosition       0.000000 0.000000 65.000000
+    }
+}

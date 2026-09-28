@@ -1,0 +1,15 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	3	3
+BasePosition	358400	1100800
+TextureSet	textureset\01_mehok_magma.txt
+Environment	environment_lava.msenv
+
+SpecialWaterPath	"D:/ymir work/special/lava"
+SpecialWaterCount	30
+

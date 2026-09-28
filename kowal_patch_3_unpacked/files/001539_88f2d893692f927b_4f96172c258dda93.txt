@@ -1,0 +1,55 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_wind_boss_2\att2.GR2"
+MotionDuration           2.333333
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.178845
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bone125"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/v2/56.mse"
+        EffectPosition       -300.000000 -300.000000 300.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.188587
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bone125"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/v2/56.mse"
+        EffectPosition       300.000000 -300.000000 300.000000
+    }
+    Group Event02
+    {
+        MotionEventType      4
+        StartingTime         1.188587
+        DuringTime           0.500000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.500000
+        ExternalForce        0.500000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

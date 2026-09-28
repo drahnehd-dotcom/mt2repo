@@ -1,0 +1,14 @@
+TextureSet
+
+TextureCount 1
+
+Start Texture001
+    "d:\ymir work\terrainmaps\Dungeon\field 01.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001

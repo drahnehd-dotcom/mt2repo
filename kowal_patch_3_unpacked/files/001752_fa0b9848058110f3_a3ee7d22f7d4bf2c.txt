@@ -1,0 +1,53 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\monster\metinston_mehok_27\metinston_mehok_27.GR2"
+
+SmokeBoneName 	"root"
+List SmokeFileName	
+{
+	0		"D:\ymir work\effect\mehok\shining\stone\d_3.mse"
+	1		"D:\ymir work\effect\mehok\shining\stone\d_3.mse"
+	2		"D:\ymir work\effect\mehok\shining\stone\d_3.mse"
+	3		"D:\ymir work\effect\mehok\shining\stone\d_3.mse"
+}
+
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Dummy001"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           120.000000
+            Position         -30.000000 0.000000 130.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Dummy001"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           170.000000
+            Position         -30.000000 0.000000 130.000000
+        }
+    }
+}

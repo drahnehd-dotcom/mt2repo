@@ -1,0 +1,13 @@
+
+---
+
+## 2026-05-29 — Resp/Teleport (F8): ukrycie przedziału lvl w nagłówku
+
+Panel "Teleportacja do Władców / Metinów" (F8 → `interfacemodule.OpenRespWindow`
+→ `uiRespawn.RespawnDialog`) pokazywał w nagłówku po prawej trzy "badge":
+czas resp, **przedział lvl** (np. "125-155") i typ/żywioł. Na życzenie ukryty
+przedział lvl — zawsze "---".
+
+**Fix:** `pack/root/uiRespawn.py` `_refresh_level()` — usunięte liczenie
+`level±15` z `nonplayer.GetMonsterLevel`, metoda zawsze ustawia
+`badgeLevelValue.SetText("---")`. Czysto klienckie, bez rebuildu.

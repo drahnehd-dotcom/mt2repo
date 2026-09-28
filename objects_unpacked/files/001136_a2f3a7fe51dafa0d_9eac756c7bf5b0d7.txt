@@ -1,0 +1,2 @@
+Diffuse=LV_Carcerem_Object_Gate02_D_NWCREX
+Normal=LV_Carcerem_Object_Gate02_N_NWCREX

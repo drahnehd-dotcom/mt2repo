@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechi_frozen_dragon\stay02.GR2"
+MotionDuration           2.400000
+Accumulation             0.00	0.00	0.00
+

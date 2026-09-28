@@ -1,0 +1,817 @@
+BoundingSphereRadius   450.000000
+BoundingSpherePosition 0.000000 0.000000 300.000000
+
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 285.000000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        10
+    
+        CycleLength             1.000000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            0
+        EmitterAdvancedType     0
+        EmitterEmitFromEdgeFlag  0
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.001143 7.731959
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 0.300000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 5.000000
+        }
+        List TimeEventLifeTime
+        {
+            0.000000 2.000000
+        }
+        List TimeEventSizeX
+        {
+            0.000000 64.000000
+            1.000000 80.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 64.000000
+            1.000000 80.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 3
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 0
+        RotationSpeed                8.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.029000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+            0.000000 0.000000
+            0.228571 0.000000
+            0.382857 10.000000
+            0.480000 0.000000
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.000000 0.412371
+            1.000000 0.505155
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.412371
+            1.000000 0.505155
+        }
+        List TimeEventColorRed
+        {
+            0.000000 0.000000
+            0.446154 0.776471
+            0.907692 0.000000
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.000000
+            0.446154 0.619608
+            0.907692 0.000000
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.000000
+            0.446154 0.494118
+            0.907692 0.000000
+        }
+        List TimeEventAlpha
+        {
+            0.120000 0.000000
+            0.285714 0.092784
+            0.457143 0.329897
+            0.611429 0.061856
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\pc\sura\effect\fear.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 90.278999
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        5
+    
+        CycleLength             0.100000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            3
+        EmitterAdvancedType     0
+        EmittingRadius          100.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 1.546391
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 2.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 154.639175
+        }
+        List TimeEventLifeTime
+        {
+            0.002857 200.000000
+        }
+        List TimeEventSizeX
+        {
+            0.002286 36.283188
+        }
+        List TimeEventSizeY
+        {
+            0.003429 18.584070
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 2
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 0
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.030000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.000000 0.082474
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.082474
+        }
+        List TimeEventColorRed
+        {
+            0.000000 1.000000
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.819608
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.631373
+        }
+        List TimeEventAlpha
+        {
+            0.000000 1.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "fear_loop_3.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 100.933998
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        20
+    
+        CycleLength             0.100000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            3
+        EmitterAdvancedType     0
+        EmittingRadius          100.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 1.546391
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 2.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 154.639175
+        }
+        List TimeEventLifeTime
+        {
+            0.002857 200.000000
+        }
+        List TimeEventSizeX
+        {
+            0.000000 64.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 64.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 2
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 0
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.030000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.000000 0.032470
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.032470
+        }
+        List TimeEventColorRed
+        {
+            0.000000 1.000000
+            0.628205 1.000000
+            0.987179 1.000000
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.819608
+            0.628205 0.819608
+            0.987179 0.670588
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.631373
+            0.628205 0.631373
+            0.987179 0.254902
+        }
+        List TimeEventAlpha
+        {
+            0.000000 1.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "fear_loop_3.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 283.000000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        20
+    
+        CycleLength             0.100000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            0
+        EmitterAdvancedType     0
+        EmitterEmitFromEdgeFlag  0
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.002857 15.929204
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 30.927835
+        }
+        List TimeEventLifeTime
+        {
+            0.016571 1.438053
+        }
+        List TimeEventSizeX
+        {
+            0.000000 150.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 150.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 5
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                0
+        RotationType                 2
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.029000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.057143 0.610619
+            0.342857 0.575221
+            0.605714 0.716814
+            0.760000 0.787611
+            0.925714 0.654867
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.411340
+            0.394286 0.610619
+            0.811429 0.481340
+            1.000000 0.311340
+        }
+        List TimeEventColorRed
+        {
+            0.010256 0.823529
+        }
+        List TimeEventColorGreen
+        {
+            0.010256 0.611765
+        }
+        List TimeEventColorBlue
+        {
+            0.010256 0.439216
+        }
+        List TimeEventAlpha
+        {
+            0.000000 0.000000
+            0.479487 0.380000
+            0.782051 0.000000
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\pc\sura\effect\ochrona5.tga"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 283.000000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        20
+    
+        CycleLength             0.100000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            0
+        EmitterAdvancedType     0
+        EmitterEmitFromEdgeFlag  0
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.002857 15.929204
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 30.927835
+        }
+        List TimeEventLifeTime
+        {
+            0.016571 1.438053
+        }
+        List TimeEventSizeX
+        {
+            0.000000 150.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 150.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 5
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                0
+        RotationType                 2
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.029000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.074286 0.362832
+            0.280000 0.442478
+            0.474286 0.495575
+            0.725714 0.539823
+            0.937143 0.566372
+        }
+        List TimeEventScaleY
+        {
+            0.028571 0.212389
+            0.365714 0.380531
+            0.811429 0.481340
+            1.000000 0.311340
+        }
+        List TimeEventColorRed
+        {
+            0.010256 0.411765
+        }
+        List TimeEventColorGreen
+        {
+            0.010256 0.392157
+        }
+        List TimeEventColorBlue
+        {
+            0.010256 0.380392
+        }
+        List TimeEventAlpha
+        {
+            0.000000 0.000000
+            0.479487 0.380000
+            0.782051 0.000000
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "fear_loop_1.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 14.900000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        20
+    
+        CycleLength             0.100000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            0
+        EmitterAdvancedType     0
+        EmitterEmitFromEdgeFlag  0
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.002857 15.929204
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 30.927835
+        }
+        List TimeEventLifeTime
+        {
+            0.016571 1.438053
+        }
+        List TimeEventSizeX
+        {
+            0.000000 150.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 150.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 5
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                3
+        RotationType                 2
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.029000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.074286 0.362832
+            0.280000 0.442478
+            0.474286 0.495575
+            0.725714 0.539823
+            0.937143 0.566372
+        }
+        List TimeEventScaleY
+        {
+            0.028571 0.212389
+            0.365714 0.380531
+            0.811429 0.481340
+            1.000000 0.311340
+        }
+        List TimeEventColorRed
+        {
+            0.010256 0.247059
+        }
+        List TimeEventColorGreen
+        {
+            0.010256 0.215686
+        }
+        List TimeEventColorBlue
+        {
+            0.010256 0.164706
+        }
+        List TimeEventAlpha
+        {
+            0.000000 0.000000
+            0.479487 0.380000
+            0.782051 0.000000
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "fear_loop_7.dds"
+        }
+    }
+}
+Group Mesh
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 0.000000
+    }
+    
+    MeshFileName               	"fear_loop_wind.mde"
+    MeshAnimationLoopEnable    	1
+    MeshAnimationLoopCount     	0
+    MeshAnimationFrameDelay    	0.030000
+    
+    MeshElementCount           	1
+    Group MeshElement00
+    {
+        BillboardType              	0
+        BlendingEnable             	1
+        BlendingSrcType            	3
+        BlendingDestType           	2
+        
+        TextureAnimationLoopEnable 	1
+        TextureAnimationFrameDelay 	0.020000
+        TextureAnimationStartFrame 	0
+        
+        ColorOperationType         	4
+        ColorFactor                	0.513726 0.313726 0.000000 1.000000
+        List TimeEventAlpha
+        {
+        }
+    }
+}

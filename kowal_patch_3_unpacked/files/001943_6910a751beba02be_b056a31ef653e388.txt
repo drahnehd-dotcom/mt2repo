@@ -1,0 +1,35 @@
+BoundingSphereRadius   80.000000
+BoundingSpherePosition 0.000000 0.000000 50.000000
+
+Group Mesh
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" -19.082001 0.000000 53.195000
+    }
+    
+    MeshFileName               	"wing.mde"
+    MeshAnimationLoopEnable    	1
+    MeshAnimationLoopCount     	0
+    MeshAnimationFrameDelay    	0.120000
+    
+    MeshElementCount           	1
+    Group MeshElement00
+    {
+        BillboardType              	0
+        BlendingEnable             	1
+        BlendingSrcType            	3
+        BlendingDestType           	2
+        
+        TextureAnimationLoopEnable 	1
+        TextureAnimationFrameDelay 	99999.023438
+        TextureAnimationStartFrame 	0
+        
+        ColorOperationType         	5
+        ColorFactor                	0.564706 0.329412 0.192157 1.000000
+        List TimeEventAlpha
+        {
+        }
+    }
+}

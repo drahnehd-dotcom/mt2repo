@@ -1,0 +1,4 @@
+Diffuse=LV_Binterrante_Tile_Snow05_D_PYO
+Normal=LV_Binterrante_Tile_Snow03_N_PYO
+Specular=LV_Binterrante_Tile_Snow_Sparkle_M_PYO
+SpecPower=LV_Binterrante_Tile_Snow_Sparkle_M_PYO

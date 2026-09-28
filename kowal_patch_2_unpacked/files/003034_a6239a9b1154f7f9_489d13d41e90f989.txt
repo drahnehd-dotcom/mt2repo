@@ -1,0 +1,35 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\npc\realis_bloodmoon_pet\realis_bloodmoon_pet.gr2"
+
+Group ShapeData
+{
+    PathName            "D:\ymir work\npc\realis_bloodmoon_pet\"
+    ShapeDataCount      1
+
+    Group ShapeData00
+    {
+        ShapeIndex       0
+
+        Model            "realis_bloodmoon_pet.gr2"
+        SourceSkin       "tex_01.dds"
+        TargetSkin       "tex_01.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_bloodmoon_pet\bottom.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+}

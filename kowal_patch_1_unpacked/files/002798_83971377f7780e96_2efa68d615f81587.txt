@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\mehok_boss_1\run.GR2"
+MotionDuration           1.300000
+Accumulation             0.00	-1689.16	0.00
+

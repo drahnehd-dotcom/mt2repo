@@ -1,0 +1,94 @@
+TextureSet
+
+TextureCount 9
+
+Start Texture001
+    "d:\ymir work\terrainmaps\daimao\da_icedungeon\snow (3).dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "d:\ymir work\terrainmaps\daimao\da_icedungeon\grass1.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\terrainmaps\daimao\da_zima3\grass (6).dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "d:\ymir work\terrainmaps\daimao\da_icedungeon\groundv2.dds"
+    3.000000
+    3.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "d:\ymir work\terrainmaps\n\snow.m\field 02.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+Start Texture006
+    "d:\ymir work\terrainmaps\n\snow.m\field 03.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture006
+Start Texture007
+    "d:\ymir work\terrainmaps\daimao\0daimao_winter\stone16.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
+Start Texture008
+    "d:\ymir work\terrainmaps\daimao\da_icedungeon\dirtv2.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture008
+Start Texture009
+    "d:\ymir work\terrainmaps\daimao\0daimao_winter\berge.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture009

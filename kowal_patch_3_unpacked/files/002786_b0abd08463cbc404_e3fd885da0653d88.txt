@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster2\valygos_map140_boss\run.GR2"
+MotionDuration           1.133333
+Accumulation             0.00	-874.0382	0.00
+

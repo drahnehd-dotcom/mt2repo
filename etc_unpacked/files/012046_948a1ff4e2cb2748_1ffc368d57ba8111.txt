@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "public_store_002.dds"
+left 310
+top 130
+right 325
+bottom 143

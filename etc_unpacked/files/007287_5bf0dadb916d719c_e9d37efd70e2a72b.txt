@@ -1,0 +1,96 @@
+ScriptType         EnvironmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.260212 0.821566 -0.507267
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.909804 0.886275 0.839216 1.000000
+        Ambient       0.431373 0.431373 0.403922 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.909804 0.886275 0.839216 1.000000
+        Ambient       0.581373 0.581373 0.553922 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       0.917647 0.890196 0.847059 1.000000
+    Ambient       0.592157 0.584314 0.529412 1.000000
+    Emissive      0.494118 0.486275 0.447059 1.000000
+}
+
+Group Fog
+{
+    Enable        1
+    NearDistance  1000.000000
+    FarDistance   25000.000000
+    Color         0.603922 0.603922 0.556863 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.556863 0.329412 0.329412 0.000000
+    AlphaSrc      1
+    AlphaDest     1
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 1500.000000 3500.000000 1500.000000
+    GradientLevelUpper    4
+    GradientLevelLower    1
+    FrontFaceFileName	   "D:\ymir work\environment\skybox\environment02_front.dds"
+    BackFaceFileName	   "D:\ymir work\environment\skybox\environment02_back.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\skybox\environment02_left.dds"
+    RightFaceFileName	   "D:\ymir work\environment\skybox\environment02_right.dds"
+    TopFaceFileName	   "D:\ymir work\environment\skybox\environment02_top.dds"
+    BottomFaceFileName	   "D:\ymir work\environment\skybox\environment02_bottom.dds"
+    
+    CloudScale            0.000000 0.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     0.000000 0.000000
+    CloudSpeed            0.000000 0.000000
+    CloudTextureFileName  ""
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+        
+        0.231373 0.403922 0.729412 0.000000
+        0.376471 0.498039 0.729412 0.000000
+        
+        0.376471 0.498039 0.729412 0.000000
+        0.568627 0.678431 0.882353 0.000000
+        
+        0.568627 0.678431 0.882353 0.000000
+        0.850980 0.901961 1.000000 0.000000
+        
+        0.850980 0.901961 1.000000 0.000000
+        0.533333 0.564706 0.623529 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              0.000000
+    MainFlareEnable            0
+    MainFlareTextureFileName   "D:\Ymir Work\environment\sunflare.dds"
+    MainFlareSize              0.000000
+}
+

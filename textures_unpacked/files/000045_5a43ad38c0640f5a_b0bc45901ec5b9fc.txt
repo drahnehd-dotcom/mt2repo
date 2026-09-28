@@ -1,0 +1,154 @@
+TextureSet
+
+TextureCount 15
+
+Start Texture001
+    "d:\ymir work\terrainmaps\plechi_env_map\dark.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture001
+Start Texture002
+    "d:\ymir work\terrainmaps\plechi_env_map\grass\grass20.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\terrainmaps\plechi_env_map\grass\grass97.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture003
+Start Texture004
+    "d:\ymir work\terrainmaps\plechi_env_map\grass\grass98.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture004
+Start Texture005
+    "d:\ymir work\terrainmaps\plechi_env_map\field\field40.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture005
+Start Texture006
+    "d:\ymir work\terrainmaps\plechi_env_map\field\field70.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture006
+Start Texture007
+    "d:\ymir work\terrainmaps\plechi_env_map\grass\grass96.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture007
+Start Texture008
+    "d:\ymir work\terrainmaps\plechi_env_map\grass\grass99.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture008
+Start Texture009
+    "d:\ymir work\terrainmaps\plechi_env_map\field\field71.dds"
+    7.000000
+    7.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture009
+Start Texture010
+    "d:\ymir work\terrainmaps\plechi_env_map\field\field72.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture010
+Start Texture011
+    "d:\ymir work\terrainmaps\plechi_env_map\tile\tile55.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture011
+Start Texture012
+    "d:\ymir work\terrainmaps\plechi_env_map\stone\stone14.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture012
+Start Texture013
+    "d:\ymir work\terrainmaps\plechi_env_map\stone\stone78.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture013
+Start Texture014
+    "d:\ymir work\zone\plechi_dungeon\easter2024\room_floor_tex.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture014
+Start Texture015
+    "d:\ymir work\zone\plechi_dungeon\easter2024\room_wall_tex.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture015

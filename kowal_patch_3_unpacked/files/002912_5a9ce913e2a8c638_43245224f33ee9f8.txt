@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\Nexus_work\Nexus_npc_19\attack00.GR2"
+MotionDuration           0.900000
+Accumulation             0.00	0.00	0.00
+

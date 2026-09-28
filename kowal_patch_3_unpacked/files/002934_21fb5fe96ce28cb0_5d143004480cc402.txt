@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/npc2/pirateocto_mark/walk.GR2"
+MotionDuration           1.666666
+Accumulation             0.00	-150.14	0.00
+

@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster2\valygos_map140_elite\attack.GR2"
+MotionDuration           2.333333
+

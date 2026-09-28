@@ -1,0 +1,3 @@
+Diffuse=Gorilla_Brazier_Diff
+Normal=Gorilla_Brazier_Norm
+Specular=Gorilla_Brazier_Spec

@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\metinston_mehok_24\wait.GR2"
+MotionDuration           1.000000
+

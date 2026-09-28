@@ -1,0 +1,2 @@
+Diffuse=LV_Binterrante_Toiledan_Entrance02_D_LHJ
+Normal=LV_Binterrante_Toiledan_Entrance02_N_LHJ

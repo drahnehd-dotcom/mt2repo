@@ -1,0 +1,132 @@
+NoLoadSound	1
+BoundingSphereRadius   500.000000
+BoundingSpherePosition 0.000000 0.000000 400.000000
+
+Group Particle
+{
+    StartTime           0.248000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 93.802002
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        60
+    
+        CycleLength             0.300000
+        CycleLoopEnable         0
+        LoopCount               0
+    
+        EmitterShape            2
+        EmitterAdvancedType     0
+        EmittingSize            80.000000 80.000000 120.000000
+        EmitterEmitFromEdgeFlag  0
+        EmittingDirection       0.020000 0.020000 0.100000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.002857 0.927835
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 35.567009
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 3.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 51.546391
+        }
+        List TimeEventLifeTime
+        {
+            0.000000 0.263920
+            1.205710 1.108247
+        }
+        List TimeEventSizeX
+        {
+            0.000000 64.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 64.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 3
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 1
+        RotationSpeed                300.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 0
+        StretchEnable                0
+    
+        TexAniType                   4
+        TexAniDelay                  0.024000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+            0.000000 20.618557
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.005714 0.090000
+        }
+        List TimeEventScaleY
+        {
+            0.011429 0.090000
+        }
+        List TimeEventColorRed
+        {
+            0.002564 0.000000
+        }
+        List TimeEventColorGreen
+        {
+            0.002564 0.866667
+        }
+        List TimeEventColorBlue
+        {
+            0.002564 0.196078
+        }
+        List TimeEventAlpha
+        {
+            0.000000 1.000000
+            0.843590 0.305128
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 51.958763
+            1.000000 360.000000
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\effect\etc\levelup_2\2-star.dds"
+            "D:\ymir work\effect\etc\levelup_2\2-starsmall.dds"
+        }
+    }
+}

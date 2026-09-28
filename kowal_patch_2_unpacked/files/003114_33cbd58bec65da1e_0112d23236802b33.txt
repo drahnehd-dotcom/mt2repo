@@ -1,0 +1,7 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc_mount\mehok_halloween_2021_4\run.GR2"
+MotionDuration           0.800000
+Accumulation             0.00	-1522.58	0.00
+
+

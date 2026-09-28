@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_ice_mon_4\att2.GR2"
+MotionDuration           2.333333
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.198330
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01-R-Finger12"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/el/22.mse"
+        EffectPosition       0.000000 -150.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.867084
+        DuringTime           0.000000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.000000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           300.000000
+            Position         0.000000 -100.000000 0.000000
+        }
+    }
+}

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechi_dd_mount\stay00.GR2"
+MotionDuration           1.333333
+Accumulation             0.00	0.00	0.00
+

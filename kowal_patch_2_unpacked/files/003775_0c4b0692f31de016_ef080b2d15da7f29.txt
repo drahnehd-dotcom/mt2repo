@@ -1,0 +1,58 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\pc\sura\skill\gwigeom.GR2"
+MotionDuration           2.000000
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.340633
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/gwigeom_4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.360097
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/pc/sura/effect/gwigeom_make.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.238443
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 L Finger1"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/sura/effect/moon.mse"
+        EffectPosition       0.000000 0.000000 430.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.355231
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01 L Finger2"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/sura/effect/moon2.mse"
+        EffectPosition       0.000000 0.000000 150.000000
+    }
+}

@@ -1,0 +1,194 @@
+TextureSet
+
+TextureCount 19
+
+Start Texture001
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\00.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\01.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\02.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\03.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\04.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005
+Start Texture006
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\05.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture006
+Start Texture007
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\06.dds"
+    6.000000
+    6.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture007
+Start Texture008
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\07.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture008
+Start Texture009
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\08.dds"
+    2.000000
+    2.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture009
+Start Texture010
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\09.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture010
+Start Texture011
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\10.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture011
+Start Texture012
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\11.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture012
+Start Texture013
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\12.dds"
+    8.000000
+    8.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture013
+Start Texture014
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\13.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture014
+Start Texture015
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\14.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture015
+Start Texture016
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\15.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture016
+Start Texture017
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\16.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture017
+Start Texture018
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\17.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture018
+Start Texture019
+    "d:\ymir work\terrainmaps\0000000_alune_zywiol_2\18.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture019

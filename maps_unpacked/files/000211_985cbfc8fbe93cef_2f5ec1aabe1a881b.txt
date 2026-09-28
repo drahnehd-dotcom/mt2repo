@@ -1,0 +1,14 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	2	2
+BasePosition	1049600	1228800
+TextureSet	textureset\metin2_n_saguidungeon.txt
+Environment	alune_map_blysk.msenv
+
+TerrainVisible 0 
+

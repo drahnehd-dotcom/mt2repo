@@ -1,0 +1,633 @@
+BoundingSphereRadius   100.000000
+BoundingSpherePosition 0.000000 0.000000 70.000000
+
+Group Mesh
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 0.000000
+    }
+    
+    MeshFileName               	"sword_glow.mde"
+    MeshAnimationLoopEnable    	1
+    MeshAnimationLoopCount     	0
+    MeshAnimationFrameDelay    	0.020000
+    
+    MeshElementCount           	1
+    Group MeshElement00
+    {
+        BillboardType              	0
+        BlendingEnable             	1
+        BlendingSrcType            	5
+        BlendingDestType           	2
+        
+        TextureAnimationLoopEnable 	1
+        TextureAnimationFrameDelay 	0.020000
+        TextureAnimationStartFrame 	0
+        
+        ColorOperationType         	4
+        ColorFactor                	0.058824 0.384314 0.058824 1.000000
+        List TimeEventAlpha
+        {
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 4.730000 0.000000 72.415001
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        30
+    
+        CycleLength             1.000000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            2
+        EmitterAdvancedType     0
+        EmittingSize            0.000000 0.000000 90.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.200000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.011429 0.000000
+            2.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 10.000000
+            2.000000 4.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 10.000000
+        }
+        List TimeEventLifeTime
+        {
+            0.011429 1.969910
+        }
+        List TimeEventSizeX
+        {
+            0.000000 180.000000
+            0.282857 120.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 180.000000
+            0.331429 120.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 12
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                0
+        RotationType                 4
+        RotationSpeed                30.000000
+        RotationRandomStartingBegin  360
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.028000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.011429 0.210000
+            0.971429 0.100000
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.210000
+            0.982857 0.100000
+        }
+        List TimeEventColorRed
+        {
+            0.000000 0.411765
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.411765
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.411765
+        }
+        List TimeEventAlpha
+        {
+            0.071795 0.000000
+            0.317949 0.620000
+            0.671795 0.600000
+            0.989744 0.000000
+        }
+        List TimeEventRotation
+        {
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\effect\plechito\weapons\smoke14.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 4.366000 3.251000 43.243000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        15
+    
+        CycleLength             1.000000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            2
+        EmitterAdvancedType     0
+        EmittingSize            40.000000 30.000000 70.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 1.500000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 2.000000
+            1.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 10.000000
+            2.000000 4.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 10.000000
+        }
+        List TimeEventLifeTime
+        {
+            0.011429 1.969910
+        }
+        List TimeEventSizeX
+        {
+            0.000000 40.000000
+            0.000000 30.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 40.000000
+            0.000000 30.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 5
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                0
+        RotationType                 4
+        RotationSpeed                50.000000
+        RotationRandomStartingBegin  360
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 1
+        StretchEnable                0
+    
+        TexAniType                   0
+        TexAniDelay                  0.028000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+            0.000000 -20.000000
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.010000 0.210000
+            0.900000 0.100000
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.210000
+            0.900000 0.100000
+        }
+        List TimeEventColorRed
+        {
+            0.200000 0.470588
+            0.730769 0.458824
+        }
+        List TimeEventColorGreen
+        {
+            0.200000 0.360784
+            0.730769 0.396078
+        }
+        List TimeEventColorBlue
+        {
+            0.200000 0.227451
+            0.730769 0.341176
+        }
+        List TimeEventAlpha
+        {
+            0.071795 0.000000
+            0.276923 0.760000
+            0.707692 0.420000
+            0.989744 0.000000
+        }
+        List TimeEventRotation
+        {
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\effect\plechito\weapons\point13.dds"
+        }
+    }
+}
+Group Mesh
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 2.861000 0.000000 0.000000
+    }
+    
+    MeshFileName               	"D:\ymir work\effect\plechito\weapons\halloween2024_2\sword_light.mde"
+    MeshAnimationLoopEnable    	1
+    MeshAnimationLoopCount     	0
+    MeshAnimationFrameDelay    	0.025000
+    
+    MeshElementCount           	1
+    Group MeshElement00
+    {
+        BillboardType              	0
+        BlendingEnable             	1
+        BlendingSrcType            	5
+        BlendingDestType           	2
+        
+        TextureAnimationLoopEnable 	1
+        TextureAnimationFrameDelay 	0.020000
+        TextureAnimationStartFrame 	0
+        
+        ColorOperationType         	4
+        ColorFactor                	0.058824 0.509804 0.074510 1.000000
+        List TimeEventAlpha
+        {
+            0.000000 0.500000
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 3.151000 76.166000
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        3
+    
+        CycleLength             0.700000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            2
+        EmitterAdvancedType     0
+        EmittingSize            25.000000 25.000000 80.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.000000 0.000000 0.000000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 20.000000
+        }
+        List TimeEventLifeTime
+        {
+            0.000000 2.100000
+        }
+        List TimeEventSizeX
+        {
+            0.000000 60.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 60.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 5
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 0
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 0
+        StretchEnable                0
+    
+        TexAniType                   1
+        TexAniDelay                  0.030000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.000000 0.500000
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.500000
+        }
+        List TimeEventColorRed
+        {
+            0.000000 0.164706
+            0.171795 0.000000
+            0.456410 0.105882
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.792157
+            0.171795 0.854902
+            0.456410 0.400000
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.274510
+            0.171795 0.278431
+            0.456410 0.105882
+        }
+        List TimeEventAlpha
+        {
+            0.000000 0.000000
+            0.053846 0.600000
+            0.400000 0.600000
+            0.451282 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_01.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_02.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_03.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_04.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_05.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_06.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_07.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_08.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_09.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_10.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_11.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_12.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_13.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_14.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_15.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_16.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_17.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_18.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_19.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_20.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_21.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_22.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_23.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_24.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_25.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_26.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_27.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_28.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_29.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_30.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_31.dds"
+            "D:\ymir work\effect\plechito\weapons\halloween2024_2\smoke\smoke_1_32.dds"
+        }
+    }
+}
+Group Particle
+{
+    StartTime           0.000000
+    List TimeEventPosition
+    {
+        0.000000 "MOVING_TYPE_DIRECT" 0.000000 0.000000 59.415001
+    }
+    
+    Group EmitterProperty
+    {
+        MaxEmissionCount        5
+    
+        CycleLength             0.500000
+        CycleLoopEnable         1
+        LoopCount               0
+    
+        EmitterShape            2
+        EmitterAdvancedType     0
+        EmittingSize            40.000000 20.000000 60.000000
+        EmitterEmitFromEdgeFlag  1
+        EmittingDirection       0.030000 0.030000 0.030000
+    
+        List TimeEventEmittingSize
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingAngularVelocity
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionX
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionY
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingDirectionZ
+        {
+            0.000000 0.000000
+        }
+        List TimeEventEmittingVelocity
+        {
+            0.000000 4.000000
+        }
+        List TimeEventEmissionCountPerSecond
+        {
+            0.000000 20.000000
+        }
+        List TimeEventLifeTime
+        {
+            0.000000 0.500000
+        }
+        List TimeEventSizeX
+        {
+            0.000000 16.000000
+        }
+        List TimeEventSizeY
+        {
+            0.000000 16.000000
+        }
+    }
+    
+    Group ParticleProperty
+    {
+        SrcBlendType                 12
+        DestBlendType                2
+        ColorOperationType           4
+        BillboardType                1
+        RotationType                 0
+        RotationSpeed                0.000000
+        RotationRandomStartingBegin  0
+        RotationRandomStartingEnd    0
+    
+        AttachEnable                 0
+        StretchEnable                0
+    
+        TexAniType                   2
+        TexAniDelay                  0.020000
+        TexAniRandomStartFrameEnable 0
+    
+        List TimeEventGravity
+        {
+        }
+        List TimeEventAirResistance
+        {
+        }
+        List TimeEventScaleX
+        {
+            0.000000 0.500000
+        }
+        List TimeEventScaleY
+        {
+            0.000000 0.500000
+        }
+        List TimeEventColorRed
+        {
+            0.000000 0.149020
+        }
+        List TimeEventColorGreen
+        {
+            0.000000 0.850980
+        }
+        List TimeEventColorBlue
+        {
+            0.000000 0.309804
+        }
+        List TimeEventAlpha
+        {
+            0.561538 0.600000
+            1.000000 0.000000
+        }
+        List TimeEventRotation
+        {
+            0.000000 0.000000
+        }
+        List TextureFiles
+        {
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_01.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_02.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_03.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_04.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_05.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_06.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_07.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_08.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_09.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_10.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_11.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_12.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_13.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_14.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_15.dds"
+            "D:\ymir work\effect\plechito\monster\halloween2024\crow_ani_1_16.dds"
+        }
+    }
+}

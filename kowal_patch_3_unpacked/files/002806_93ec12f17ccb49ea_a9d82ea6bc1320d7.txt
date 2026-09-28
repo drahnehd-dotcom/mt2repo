@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster2\valygos_map140_elite\wait.GR2"
+MotionDuration           4.000000
+

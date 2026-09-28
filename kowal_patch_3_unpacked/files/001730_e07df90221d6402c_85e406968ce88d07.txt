@@ -1,0 +1,5 @@
+GENERAL SPAWN metinstone_drop.msa 100
+GENERAL WAIT metinstone_loop.msa 100
+GENERAL NORMAL_ATTACK metinstone_attack.msa 100
+GENERAL FRONT_DEAD metinstone_blow.msa 100
+GENERAL BACK_DEAD metinstone_blow.msa 100 

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\Nexus_work\Nexus_npc_19\run.GR2"
+MotionDuration           1.066667
+Accumulation             0.00	-1280.00	0.00
+

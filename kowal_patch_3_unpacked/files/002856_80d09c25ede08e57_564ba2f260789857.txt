@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\npc\Asenis_Rybak_Mount_3\wait.GR2"
+MotionDuration           1.966666
+

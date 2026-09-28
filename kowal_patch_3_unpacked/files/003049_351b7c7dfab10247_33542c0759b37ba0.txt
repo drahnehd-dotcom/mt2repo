@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc2\plechito_summer2023_pets\plechi_sum23_pet6\run.GR2"
+MotionDuration           0.500000
+Accumulation             0.00	-202.91	0.00
+

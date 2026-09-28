@@ -1,0 +1,43 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_ice_boss_1\att3.GR2"
+MotionDuration           1.900000
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.495825
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001_R_Foot"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/v2/48.mse"
+        EffectPosition       0.000000 0.000000 200.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         0.503758
+        DuringTime           0.500000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.500000
+        ExternalForce        0.500000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\Asenis_Rybak_Mount_4\run.GR2"
+MotionDuration           2.300000
+Accumulation             0.00	-2000.00	0.00

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc2\plechi_thuderspirit_pet\stay02.GR2"
+MotionDuration           2.533333
+Accumulation             0.00	0.00	0.00
+

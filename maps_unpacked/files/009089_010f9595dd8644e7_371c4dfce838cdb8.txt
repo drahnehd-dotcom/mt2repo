@@ -1,0 +1,15 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	1	1
+BasePosition	25600	537600
+TextureSet	textureset\valygos\exp02.txt
+Environment	valygos_desert2.msenv
+
+SpecialWaterPath	"D:/ymir work/special/purple"
+SpecialWaterCount	30
+

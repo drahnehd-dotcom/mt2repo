@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechito_easter2024_mounts\plechi_easter2024_mount6\stay02.GR2"
+MotionDuration           2.300000
+Accumulation             0.00	0.00	0.00
+

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_mirage_island\plechi_mirisland_monster18\run.GR2"
+MotionDuration           0.700000
+Accumulation             0.00	-517.07	0.00
+

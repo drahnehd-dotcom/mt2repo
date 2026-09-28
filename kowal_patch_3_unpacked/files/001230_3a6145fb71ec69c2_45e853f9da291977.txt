@@ -1,0 +1,67 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster\c07\atk1.gr2"
+MotionDuration           5.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.082811
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Weapon_R_Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/cref/c07/ligh4.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.922756
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "px_head_18_03"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/cref/c07/impact.mse"
+        EffectPosition       0.000000 -200.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         1.372303
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "px_head_18_03"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/cref/c07/tornado.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         1.372303
+        DuringTime           0.100000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.000000
+        ExternalForce        0.100000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           200.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

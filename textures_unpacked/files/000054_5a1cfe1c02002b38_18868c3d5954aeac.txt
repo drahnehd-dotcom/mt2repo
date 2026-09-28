@@ -1,0 +1,54 @@
+TextureSet
+
+TextureCount 5
+
+Start Texture001
+    "d:\ymir work\zone\plechi_dungeon\spider_dungeon\spider_dg_field.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture001
+Start Texture002
+    "d:\ymir work\zone\plechi_dungeon\spider_dungeon\spider_dg_field00.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture002
+Start Texture003
+    "d:\ymir work\zone\plechi_dungeon\spider_dungeon\spider_dg_rock00.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture003
+Start Texture004
+    "d:\ymir work\zone\plechi_dungeon\spider_dungeon\spider_dg_rock01.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture004
+Start Texture005
+    "d:\ymir work\zone\plechi_dungeon\spider_dungeon\spider_dg_rock02.dds"
+    5.000000
+    5.000000
+    0.000000
+    0.000000
+    0
+    0
+    0
+End Texture005

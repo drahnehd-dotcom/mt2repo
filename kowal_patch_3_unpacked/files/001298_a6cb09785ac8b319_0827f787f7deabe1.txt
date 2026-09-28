@@ -1,0 +1,52 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_dark_boss_1\skill2.GR2"
+MotionDuration           3.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.997912
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip001-L-Finger02"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/hamza/37.mse"
+        EffectPosition       -50.000000 -350.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         1.929019
+        DuringTime           0.200000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 -400.000000 0.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      2
+        StartingTime         2.004175
+        
+        DuringTime           0.600000
+        Power                2000
+        AffectingRange       1000
+    }
+}

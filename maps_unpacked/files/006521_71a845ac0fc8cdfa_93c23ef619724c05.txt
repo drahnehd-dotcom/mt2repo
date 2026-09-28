@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	3	4
+BasePosition	1024000	204800
+TextureSet	textureset\metin2_kopalnia.txt
+Environment	vasto_m.msenv
+

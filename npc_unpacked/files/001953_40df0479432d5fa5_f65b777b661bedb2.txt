@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechito_pirate_ship\plechi_pirship_npc\stay01.GR2"
+MotionDuration           5.000000
+Accumulation             0.00	0.00	0.00
+

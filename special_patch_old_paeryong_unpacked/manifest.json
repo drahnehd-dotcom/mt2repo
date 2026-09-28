@@ -1,0 +1,426 @@
+{
+  "format": "KowalMT2-ZARC-v4",
+  "source_path": "D:\\Pliki\\kowalmt2_Nowe\\special_patch_old_paeryong",
+  "source_name": "special_patch_old_paeryong",
+  "header_file": "header.bin",
+  "header": {
+    "version": 2,
+    "meta_key": 5999166653518725458,
+    "meta_size": 1360,
+    "data_start": 1464,
+    "count_a": 17,
+    "count_b": 17,
+    "meta_hash": 13678663032449178420,
+    "seed": 4103782199455316132
+  },
+  "files": [
+    {
+      "index": 0,
+      "hash0": 15505058383939508211,
+      "hash1": 1354846575440952399,
+      "size": 27385,
+      "first_chunk": 0,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000000_d72d08736c6817f3_12cd61c8364ffc4f.txt",
+      "sha256": "5877d97d4a7e9bb798cdf7c4f31c7383b4563e57bf173263ab466679fd8e494d",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 1464,
+          "packed_size": 1473,
+          "unpacked_size": 27385,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 18166607214335708419
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "hash0": 15491934462711812395,
+      "hash1": 10589368621900949735,
+      "size": 795,
+      "first_chunk": 1,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000001_d6fe68506591d12b_92f4fea82012e8e7.txt",
+      "sha256": "18b1ee3e527270fc493ac5294298535b440ebe701fc1a5514c5b3cc8ab68e4ad",
+      "chunks": [
+        {
+          "index": 1,
+          "offset": 2937,
+          "packed_size": 319,
+          "unpacked_size": 795,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 3100191709516793131
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "hash0": 5248764464149744885,
+      "hash1": 16256757454033014562,
+      "size": 34233,
+      "first_chunk": 2,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000002_48d75b789356ccf5_e19b9ac5bf524f22.txt",
+      "sha256": "8aa6ce6dd455847def7616357a77d1c8c7886dcaaa291f9186c9ad02cf1a11dc",
+      "chunks": [
+        {
+          "index": 2,
+          "offset": 3256,
+          "packed_size": 1696,
+          "unpacked_size": 34233,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 4433014688707765920
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "hash0": 9281163813127073567,
+      "hash1": 1292990326388249409,
+      "size": 51660,
+      "first_chunk": 3,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000003_80cd515077a62f1f_11f19fd9ee635341.txt",
+      "sha256": "373fda9a5cb1bf2ddfb699c83d32a2a97b38f81ea4d7f1c329c5a027ddd3bb89",
+      "chunks": [
+        {
+          "index": 3,
+          "offset": 4952,
+          "packed_size": 1762,
+          "unpacked_size": 51660,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 2214770665188020740
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "hash0": 6310139354339824065,
+      "hash1": 504179031005512651,
+      "size": 69303,
+      "first_chunk": 4,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000004_57921e4f6aa351c1_06ff34284e48c3cb.txt",
+      "sha256": "a26d1cc74a6357ac550f32b74c6644b737e00fb79cef0c4f00f076b2f3b750ca",
+      "chunks": [
+        {
+          "index": 4,
+          "offset": 6714,
+          "packed_size": 1990,
+          "unpacked_size": 69303,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 3737760158762784679
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "hash0": 18304790419038273440,
+      "hash1": 14201605359963873776,
+      "size": 121448,
+      "first_chunk": 5,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000005_fe07ade736bfffa0_c5163cd4e0ee21f0.bin",
+      "sha256": "13c25888e3656e56e80fcb8c52a5f111139c4c0c8f9e5939fb5733a5b638c0f5",
+      "chunks": [
+        {
+          "index": 5,
+          "offset": 8704,
+          "packed_size": 71990,
+          "unpacked_size": 121448,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 17673743996049711881
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "hash0": 11092499544539298199,
+      "hash1": 9908212264554339609,
+      "size": 1838,
+      "first_chunk": 6,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000006_99f07990af727997_89810a8f03ee1d19.txt",
+      "sha256": "31576678ebef466c5cb53d79f4e9682007c8adb47ba7abc42f443af39f6dab10",
+      "chunks": [
+        {
+          "index": 6,
+          "offset": 80694,
+          "packed_size": 470,
+          "unpacked_size": 1838,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 1960896893534325561
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "hash0": 11700061698330524773,
+      "hash1": 15540681606940140542,
+      "size": 888,
+      "first_chunk": 7,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000007_a25ef8200324fc65_d7ab97955d1d23fe.bin",
+      "sha256": "e0a5aaeecddeb1d92730708df34ebcf86c32002620a23cf84628e19135beabc3",
+      "chunks": [
+        {
+          "index": 7,
+          "offset": 81164,
+          "packed_size": 517,
+          "unpacked_size": 888,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 10775003815690801464
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "hash0": 5272450776745080304,
+      "hash1": 1506810889114663881,
+      "size": 1258,
+      "first_chunk": 8,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000008_492b820bfb9f75f0_14e944852d5ebbc9.txt",
+      "sha256": "361ca050ac96dcd73a1afa756b999d0123fc8c0a6832a5256d5caa0865801458",
+      "chunks": [
+        {
+          "index": 8,
+          "offset": 81681,
+          "packed_size": 473,
+          "unpacked_size": 1258,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 2776549895371141569
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "hash0": 9959559198355061679,
+      "hash1": 12990805224286736098,
+      "size": 1479,
+      "first_chunk": 9,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000009_8a377652a96d7baf_b4489c85f3e64ee2.txt",
+      "sha256": "b3cee9bedefa7e86941bfba35d9c72c07a7d1236b821c231f5af05da02c7fb0a",
+      "chunks": [
+        {
+          "index": 9,
+          "offset": 82154,
+          "packed_size": 508,
+          "unpacked_size": 1479,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 6099724272162854779
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "hash0": 5566096879414882195,
+      "hash1": 14642817004995494468,
+      "size": 1479,
+      "first_chunk": 10,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000010_4d3ebf9f12ef2f93_cb35bc7c2dce4244.txt",
+      "sha256": "54c2fb02992e5204be97baf3909b0e5d8208bfabf77c32d1cb6d3ff0df0f394f",
+      "chunks": [
+        {
+          "index": 10,
+          "offset": 82662,
+          "packed_size": 508,
+          "unpacked_size": 1479,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 13556937981408293034
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "hash0": 13699852254625441114,
+      "hash1": 13930390041187169858,
+      "size": 106328,
+      "first_chunk": 11,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000011_be1fa70a6848a55a_c152afefa399b642.bin",
+      "sha256": "f929454b045ded789f56fe467f52bc41f96b3de9f2ba40bc2eff44d4ec4d2ec6",
+      "chunks": [
+        {
+          "index": 11,
+          "offset": 83170,
+          "packed_size": 61459,
+          "unpacked_size": 106328,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 10603367408085426327
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "hash0": 16251185233609324961,
+      "hash1": 16429279736140899833,
+      "size": 1839,
+      "first_chunk": 12,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000012_e187cede145b79a1_e40086dfbc33a5f9.txt",
+      "sha256": "68fdbc10f4fccc42ddf02d6527ea0643053a345b140d9ee3d3bb48aab6677f0d",
+      "chunks": [
+        {
+          "index": 12,
+          "offset": 144629,
+          "packed_size": 451,
+          "unpacked_size": 1839,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 6824042357829502946
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "hash0": 5716295944675084253,
+      "hash1": 14858147109801529296,
+      "size": 888,
+      "first_chunk": 13,
+      "packed_info": 4294967297,
+      "chunk_count": 1,
+      "file_flags": 1,
+      "reserved": 0,
+      "output_path": "files/000013_4f545ce01d5d47dd_ce32be1314378fd0.bin",
+      "sha256": "e0a5aaeecddeb1d92730708df34ebcf86c32002620a23cf84628e19135beabc3",
+      "chunks": [
+        {
+          "index": 13,
+          "offset": 145080,
+          "packed_size": 517,
+          "unpacked_size": 888,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 14277140878698723408
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "hash0": 3012265481653164612,
+      "hash1": 11015625533455328285,
+      "size": 1259,
+      "first_chunk": 14,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000014_29cdb77ef31b9a44_98df5d0f3453e41d.txt",
+      "sha256": "16cd20ee6173e7c0ee4b9a11fcc3174c345ce504910c7fea42e72e74d0007da6",
+      "chunks": [
+        {
+          "index": 14,
+          "offset": 145597,
+          "packed_size": 455,
+          "unpacked_size": 1259,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 15940612640595167793
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "hash0": 17406837865085643926,
+      "hash1": 5192618372544905461,
+      "size": 1480,
+      "first_chunk": 15,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000015_f19182d01b3fac96_480fe2e5edb4c0f5.txt",
+      "sha256": "637cfbc4e7d54fb1219c3a752f55f6955433792f488427c5553e182a59deb630",
+      "chunks": [
+        {
+          "index": 15,
+          "offset": 146052,
+          "packed_size": 492,
+          "unpacked_size": 1480,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 3199029391485617247
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "hash0": 7766354955568043309,
+      "hash1": 16115416911968303560,
+      "size": 1480,
+      "first_chunk": 16,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000016_6bc7a2af263a552d_dfa5764c5d3179c8.txt",
+      "sha256": "7cb0aa903d03c8fd843aaff5d8de1a01ba6ebc9562a226786d1981e52dbc837f",
+      "chunks": [
+        {
+          "index": 16,
+          "offset": 146544,
+          "packed_size": 491,
+          "unpacked_size": 1480,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 1611102168431849361
+        }
+      ]
+    }
+  ]
+}

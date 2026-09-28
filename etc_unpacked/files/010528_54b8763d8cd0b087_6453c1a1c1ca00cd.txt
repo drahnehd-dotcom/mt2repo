@@ -1,0 +1,7 @@
+title subImage
+version 2.0
+image "buffnpc.dds"
+left 0
+top 190
+right 286
+bottom 324

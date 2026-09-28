@@ -1,0 +1,102 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster\c35\atksp1.gr2"
+MotionDuration           3.033334
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      4
+        StartingTime         1.870564
+        DuringTime           0.100000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.000000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event01
+    {
+        MotionEventType      4
+        StartingTime         2.221295
+        DuringTime           0.100000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.000000
+        ExternalForce        0.000000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.354628
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "hand_l"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/thorn/hand2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         0.531942
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "hand_r"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/thorn/hand2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      1
+        StartingTime         1.697147
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "hand_l"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/thorn/hand1.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event05
+    {
+        MotionEventType      1
+        StartingTime         1.728810
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "hand_r"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/thorn/hand1.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

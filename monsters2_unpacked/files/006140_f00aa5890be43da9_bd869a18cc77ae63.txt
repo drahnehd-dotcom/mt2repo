@@ -1,0 +1,89 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_demon_dungeon\plechi_demon_mainboss\skill00.GR2"
+MotionDuration           2.266667
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     6
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "eff_hand1"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/demon_dungeon/boss2_skill00_making_hand.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "eff_hand2"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/demon_dungeon/boss2_skill00_making_hand.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Root"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/monster/demon_dungeon/boss2_skill00_making_symbol.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         1.450000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Root"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/monster/demon_dungeon/boss2_skill00_splash.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event04
+    {
+        MotionEventType      2
+        StartingTime         1.450000
+        
+        DuringTime           0.200000
+        Power                120
+        AffectingRange       25000
+    }
+    Group Event05
+    {
+        MotionEventType      4
+        StartingTime         1.450000
+        DuringTime          0.300000
+        EnableHitProcess     0
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        3
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 -450.000000 0.000000
+        }
+    }
+}

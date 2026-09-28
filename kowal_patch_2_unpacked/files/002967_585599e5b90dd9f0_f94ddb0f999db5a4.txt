@@ -1,0 +1,27 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\npc\pet_harley\pet_lefaya.GR2"
+
+Group ShapeData
+{
+    PathName 		 "D:\ymir work\npc\pet_harley\"
+    ShapeDataCount 		 1
+	
+	Group ShapeData00
+ {
+  ShapeIndex   0
+
+	Model    "pet_lefaya.gr2"
+	SourceSkin   "p_lefayta_02.dds"
+	TargetSkin   "p_lefayta_02.dds"
+	SourceSkin2   "p_lefayta_00.dds"
+	TargetSkin2   "p_lefayta_00.dds"	
+	SourceSkin3   "p_lefayta_01.dds"
+	TargetSkin3   "p_lefayta_01.dds"
+ }
+}
+Group AttachingData
+{
+    AttachingDataCount       0
+    
+}

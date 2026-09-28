@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "plechito_mirage_island_atlas.dds"
+left 0
+top 0
+right 512
+bottom 512

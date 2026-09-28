@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\Ymir Work\npc\Asek_Alune_Wielkanoc_Mount_4\wait1.GR2"
+MotionDuration           3.100000
+

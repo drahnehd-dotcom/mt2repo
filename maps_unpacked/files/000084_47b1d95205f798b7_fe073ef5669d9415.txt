@@ -1,0 +1,14 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	2	2
+BasePosition	1203200	1152000
+TextureSet	textureset\pusty.txt
+Environment	Alune_2024_wiosna.msenv
+
+TerrainVisible 0
+

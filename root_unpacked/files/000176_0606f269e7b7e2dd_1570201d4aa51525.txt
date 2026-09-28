@@ -1,0 +1,1496 @@
+ACCE_DEL_ABSORDITEM	Absorbovat p�edm�t a t�m jej zni�it?
+ACCE_DEL_SERVEITEM	�erpa 2 bude zni�ena, pokud jejich kombinace sel�e.
+AFF_LOVE_POINT	Body za l�sku: %d%%
+ALIGNMENT_NAME	Hodnost:
+AURA_DRAIN_PER	Absorp�n� pom�r: %.1f%%
+AURA_LEVEL_STEP	�rove� %d (stupe� %d)
+AURA_TITLE_ABSORB	P�en�st hodnoty do Kost�mu s aurou
+AURA_TITLE_EVOLUTION	Vyvinout Kost�m s aurou
+AURA_TOOLTIP_NEED_YANG	%s Yang�
+AURA_TOOLTIP_NEXT	Nov�
+AURA_TOOLTIP_RESOURCE	Spot�ebn� p�edm�ty
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+CANNOT_ATTACK_DEST_IN_SAFE	Soupe� je p��li� daleko.
+CANNOT_ATTACK_SELF_IN_SAFE	Odtud nem��u za�to�it na nep��tele.
+CANNOT_EQUIP_IN_EXCHANGE	Kdy� obchoduje�, nem��e� m�nit v�zbroj.
+CANNOT_EQUIP_IN_SHOP	Kdy� obchoduje�, nem��e� m�nit v�zbroj.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Nem��e� soukrom� st�nek otev��t na ve�ejn�m m�st�.
+CANNOT_SHOOT_DEST_IN_SAFE	Nep��tel je p��li� daleko.
+CANNOT_SHOOT_EMPTY_ARROW	Pot�ebuji ��p.
+CANNOT_SHOOT_SELF_IN_SAFE	Odtud nem��u za�to�it na nep��tele.
+CANNOT_SKILL_APPROACH	Jsem si jist�, �e se u� bl� nedostanu.
+CANNOT_SKILL_ATTACK	Nem��u na to za�to�it.
+CANNOT_SKILL_DEST_IN_SAFE	Soupe� je p��li� daleko.
+CANNOT_SKILL_EQUIP_FISHING_ROD	Bez pou�it� ryb��sk�ho prutu nem��e� ryba�it.
+CANNOT_SKILL_HAVE_TO_RIDE	Pot�ebuji nejd��v kon�, ne� to pou�iji.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	Nem�m pr�zdnou l�hev.
+CANNOT_SKILL_NEED_POISON_BOTTLE	Nem�m l�hev s jedem.
+CANNOT_SKILL_NEED_TARGET	Kdo je c�l?
+CANNOT_SKILL_NOT_ENOUGH_HP	Nem�m dostatek ZB!
+CANNOT_SKILL_NOT_ENOUGH_SP	Nem�m dostatek MB!
+CANNOT_SKILL_NOT_HORSE_SKILL	Kdy� jedu na koni, tohle nem��u pou��t.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Tuto schopnost nem��u nasadit ve spojen� s touto zbran�.
+CANNOT_SKILL_NOT_YET_LEARN	Tuto schopnost jsem se je�t� nenau�il.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	To p�sob� jen na �leny skupiny.
+CANNOT_SKILL_ONLY_FOR_CORPSE	To p�sob� jen na mrtv�.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Tuto schopnost nem��u pou��t ve spojen� s ryb��sk�m prutem.
+CANNOT_SKILL_SELF_IN_SAFE	Odtud nem��u za�to�it.
+CANNOT_SKILL_USE_SELF	Toto nem��u pou��t s�m na sob�.
+CANNOT_SKILL_WAIT_COOLTIME	Tuto schopnost nem��u zat�m pou��t.
+CANNOT_USE	Toto nem��e� pou��t.
+CANNOT_WHISPER_DEST_REFUSE	%s zablokoval �ept�n�.	SA
+CANNOT_WHISPER_NOT_LOGON	%s nen� online.	SA
+CANNOT_WHISPER_SELF_REFUSE	Nem��e� s nik�m �eptat, pokud jsi kompletn� zablokoval �ept�n�.	SNA
+CATEGORY_ARMOR_ARMOR_BODY	Brn�n�
+CATEGORY_ARMOR_ARMOR_HEAD	P�ilby
+CATEGORY_ARMOR_ARMOR_SHIELD	�t�ty
+CATEGORY_COSTUMES	Kost�my
+CATEGORY_COSTUMES_COSTUME_BODY	Kost�my
+CATEGORY_COSTUMES_COSTUME_HAIR	��esy
+CATEGORY_COSTUMES_COSTUME_WEAPON	Vzhledy zbran�
+CATEGORY_COSTUMES_SASH	�erpy
+CATEGORY_DRAGON_STONE	Alchymie Dra��ch kamen�
+CATEGORY_EQUIPMENT_ARMOR	V�bava
+CATEGORY_EQUIPMENT_WEAPON	Zbran�
+CATEGORY_ETC	Ostatn�
+CATEGORY_JEWELRY_ARMOR_EAR	N�u�nice
+CATEGORY_JEWELRY_ARMOR_FOOTS	Boty
+CATEGORY_JEWELRY_ARMOR_NECK	N�hrdeln�ky
+CATEGORY_JEWELRY_ARMOR_WRIST	N�ramky
+CATEGORY_WEAPON_WEAPON_ARROW	��py
+CATEGORY_WEAPON_WEAPON_BELL	Zvony
+CATEGORY_WEAPON_WEAPON_BOW	Luky
+CATEGORY_WEAPON_WEAPON_DAGGER	D�ky
+CATEGORY_WEAPON_WEAPON_FAN	V�j��e
+CATEGORY_WEAPON_WEAPON_SWORD	Jednoru�n� zbran�
+CATEGORY_WEAPON_WEAPON_TWO_HANDED	Dvouru�n� zbran�
+CHANNEL	Kan�l
+CHANNEL_NOTIFY_FULL	Tento kan�l je pln�! Zvol si pros�m jin�.
+CHARACTER_CREATE_MODE	Tvorba postavy
+CHARACTER_NAME	N�zev
+CHATTING_SETTING_CLEAR_QUESTION	Reset?
+CHATTING_SETTING_SETTING	Nastaven�
+CHAT_ALL	V�ichni
+CHAT_DICE_INFO	Hodit
+CHAT_GUILD	Cech
+CHAT_INFORMATION	Informace
+CHAT_INSULT_STRING	V�ta obsahuje nep��pustn� slova.
+CHAT_LOG	Zobrazit star� zpr�vy [L]
+CHAT_LOG_TITLE	Log chatu
+CHAT_NORMAL	Norm�ln�
+CHAT_NOTICE	Server
+CHAT_PARTY	Skupina
+CHAT_SEND_CHAT	Poslat chat
+CHAT_SEND_MEMO	Poslat �epot [Shift+Enter]
+CHAT_SHOUT	Zavolat
+CHAT_SHOUT_LIMIT	M��e� volat jenom ka�d�ch 15 vte�in.
+CHEQUE_SYSTEM_SELL_PRICE	[Prodejn� cena]
+CHEQUE_SYSTEM_UNIT_WON	Won
+CHEQUE_SYSTEM_UNIT_YANG	Yang
+CHEQUE_SYSTEM_WON	%s Won�
+CHEQUE_SYSTEM_YANG	%s Yang�
+CREATE_ERROR_GM_NAME	V n�zvu postavy nesm� pou��t ,GM�.
+CREATE_ERROR_INSULT_NAME	Toto jm�no je nep��pustn�.
+CREATE_EXIST_SAME_NAME	Tento n�zev je u� zad�n pro jinou postavu.
+CREATE_FAILURE	Nem��e� vytvo�it tuto postavu.
+CREATE_GM_NAME	GM
+CREATE_INPUT_NAME	Zadej jm�no.
+CUBE_CATEGORY_ETC	Atd.
+DAY	d
+DETAILS_1	S�la proti pololidem
+DETAILS_12	Hodnota �toku
+DETAILS_13	Hodnota obrany
+DETAILS_14	Pr�m�rn� po�kozen�
+DETAILS_15	Pr�m. odol. po�k.
+DETAILS_16	Po�kozen� schopnost�
+DETAILS_17	Odolnost proti po�. schop.
+DETAILS_18	�tok magi�/zbran�
+DETAILS_19	Magick� �tok
+DETAILS_2	Odol.proti pololidem
+DETAILS_20	�ance na krit. z�sah
+DETAILS_21	Pronikav� z�sah
+DETAILS_24	Odol. proti blesku
+DETAILS_25	Odol. proti ledu
+DETAILS_26	Odol. proti temnot�
+DETAILS_27	Odolnost proti ohni
+DETAILS_28	Odolnost proti v�tru
+DETAILS_29	Odolnost proti Zemi
+DETAILS_3	S�la proti Ork�m
+DETAILS_36	S�la proti v�le�.
+DETAILS_37	S�la proti ninj�m
+DETAILS_38	S�la proti Sur�m
+DETAILS_39	S�la proti �aman�m
+DETAILS_4	S�la proti nemrtv�m
+DETAILS_41	Obrana proti v�le�.
+DETAILS_42	Obrana proti ninj�m
+DETAILS_43	Obrana proti Sur�m
+DETAILS_44	Obrana proti �aman�m
+DETAILS_46	Obrana proti me��m
+DETAILS_47	Obrana pr. ob. me��m
+DETAILS_48	Obrana proti d�k�m
+DETAILS_5	S�la proti monstr�m
+DETAILS_50	Obrana proti zvon�m
+DETAILS_51	Obrana proti v�j���m
+DETAILS_52	Obrana proti ��p�m
+DETAILS_53	�ance na bezv�dom�
+DETAILS_54	�ance na zpomalen�
+DETAILS_55	�ance na otr�ven�
+DETAILS_56	Odolnost v��i jedu
+DETAILS_59	Kraden� ZB
+DETAILS_6	S�la pr. p�. Zv�ro.
+DETAILS_60	Kraden� MB
+DETAILS_61	Obnova ZB
+DETAILS_62	Obnova MB
+DETAILS_63	Blokov�n� �toku
+DETAILS_64	Vyhnut� �toku ��py
+DETAILS_65	Odra�en� �t. zbran�
+DETAILS_66	Obnova ZB p�i zabit�
+DETAILS_67	Obnova MB p�i zabit�
+DETAILS_68	Dvojit� BZK
+DETAILS_69	Dvojit� Yangy
+DETAILS_7	S�la proti zv��at�m
+DETAILS_70	�ance na pad. p�edm.
+DETAILS_76	Odolnost proti magii
+DETAILS_8	Siln� pr. ezoterik�m
+DETAILS_9	S�la proti ��blu
+DO_YOU_BUY_ITEM1	Chce� koupit %s za %s Yang�?
+DO_YOU_BUY_ITEM2	Chce� koupit %s (%s kus�) za %s Yang�?
+DO_YOU_BUY_ITEM3	Chce� koupit %s za %s Won� a %s Yang�?
+DO_YOU_BUY_ITEM4	Chce� koupit %s (%s kus�) za %s Won� a %s Yang�?
+DO_YOU_DROP_MONEY	Chce� nechat padnout %d Yang?
+DO_YOU_SELL_ITEM1	Chce� prodat %s za %s Yang�?
+DO_YOU_SELL_ITEM2	Chce� prodat %s (%s kus�) za %s Yang�?
+DRAGON_SOUL_CANNOT_REFINE	Dra�� k�men nelze zu�lechtit.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Dra�� k�men je ji� na nejvy��� �rovni.
+DRAGON_SOUL_EQUIP_WARNING1	Je t�k� odebrat Dra�� k�men, jakmile je jednou p�id�n.
+DRAGON_SOUL_EQUIP_WARNING2	Opravdu si p�eje� pokra�ovat?
+DRAGON_SOUL_EXPIRED	Propadl� Dra�� k�men
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Toto je �patn� Dra�� k�men.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Toto nen� Dra�� k�men.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Toto nen� spr�vn� Dra�� k�men.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nem� dostatek surovin pro zu�lecht�n�.
+DRAGON_SOUL_STEP_LEVEL1	�irost: matn�,
+DRAGON_SOUL_STEP_LEVEL2	�irost: �ist�,
+DRAGON_SOUL_STEP_LEVEL3	�irost: bezchybn�,
+DRAGON_SOUL_STEP_LEVEL4	�irost: brilantn�,
+DRAGON_SOUL_STEP_LEVEL5	�irost: excelentn�,
+DRAGON_SOUL_STRENGTH	�rove�: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	B�hem tohoto procesu m��e b�t Dra�� k�men zni�en.
+DRAGON_SOUL_UNEQUIP_WARNING2	Opravdu si p�eje� pokra�ovat?
+DRAGON_SOUL_UNMATCHED_SLOT	Toto je �patn� �chyt.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Nem��e� nechat spadnout vybaven� p�edm�t.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Nem��e� nechat spadnout ��dn� p�edm�t, kdy� m� otev�en� soukrom� st�nek.
+DROP_MONEY_FAILURE_1000_OVER	M��e� nechat spadnout maxim�ln� 999 Yang�.
+EMOTION_ANGRY	K zlosti
+EMOTION_ATTRACTIVE	Poku�en�
+EMOTION_BANTER	U�t�pa�n�
+EMOTION_CHEERS_1	J�sot 1
+EMOTION_CHEERS_2	J�sot 2
+EMOTION_CHEERUP	J�sat
+EMOTION_CHOOSE_ONE	Zvol si c�l.
+EMOTION_CLAP	Potlesk
+EMOTION_CLAP_KISS	Pusa
+EMOTION_CONGRATULATION	�t�cha
+EMOTION_DANCE_1	Tanec 1
+EMOTION_DANCE_2	Tanec 2
+EMOTION_DANCE_3	Tanec 3
+EMOTION_DANCE_4	Tanec 4
+EMOTION_DANCE_5	Tanec 5
+EMOTION_DANCE_6	Gumsan Style
+EMOTION_FORGIVE	Odpu�t�n�
+EMOTION_FRENCH_KISS	L�b�n� jazykem
+EMOTION_JOY	Radost
+EMOTION_SAD	Smutn�
+EMOTION_SHY	Odm�tnut�
+EMOTION_SLAP	R�na
+EMPIRE_A	Kr�lovstv� Shinsoo
+EMPIRE_B	Kr�lovstv� Chunjo
+EMPIRE_C	Kr�lovstv� Jinno
+EMPIRE_SELECT_MODE	Volba kr�lovstv�
+EXCHANGE_CANNOT_GIVE	S t�mto p�edm�tem se ned� obchodovat.
+EXCHANGE_CANT_EDIT_MONEY	Ted' nem��e� zm�nit ��stku.
+EXCHANGE_FAILURE_EQUIP_ITEM	Vybaven� p�edm�ty nem��e� vym�nit.
+EXCHANGE_MONEY	��stka
+EXCHANGE_TITLE	Obchodovat s %s (%d)
+FISHING_FAILURE	Ztratil jsi n�vnadu na ryby.
+FISHING_NOTIFY1	Vypad� to, �e %s zabralo.
+FISHING_NOTIFY2	Vypad� to, �e na h��ku je %s.
+FISHING_SUCCESS1	Chytil jsi %s!
+FISHING_SUCCESS2	Vyt�hl jsi z vody %s!
+FISHING_UNKNOWN	N�co mi sebralo n�vnadu, ale nev�m, co to bylo.
+FISHING_WRONG_PLACE	Tady nem��u lovit ryby.
+FOR_FEMALE	Pro �eny
+FOR_MALE	Pro mu�e
+GAME_CANNOT_MINING	Kdy� jede� na koni, nem��e� t�it nerostn� suroviny.
+GAME_CANNOT_PICK_ITEM	Nem��e� sebrat tento p�edm�t, proto�e jsi ho neuko�istil.
+GAME_INIT_ERROR_CURSOR	My�� kurzor nemohl b�t um�st�n.
+GAME_INIT_ERROR_DIRECTX	Aby hra fungovala, mus� b�t instalov�n DirectX 8.1.\nNainstaluj DirectX 8.1 nebo vy���.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Nebylo nalezeno ��dn� grafick� vybaven�, kter� tato hra vy�aduje.\nP�esv�d�i se, zda m� spr�vn� instalovanou VGA-kartu.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Grafick� za��zen� nebylo nalezeno.\nP�esv�d�i se, zda m� k dispozici VGA-kartu.\nAlternativn� m��e� zaktivovat zrychlen� hardware.\n(Nastav zrychlen� hardware na maximum v:\nOvl�dac� panely-->Zobrazen�-->Nastaven�-->Roz���en�-->registra�n� karta Odstran�n� probl�m�)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Grafick� karta tv�ho po��ta�e nepodporuje modus okna ve 32bitov�m m�du.\nP�epni na 16bitov� modus nebo pou�ij celoplo�n� zobrazen�.
+GAME_INIT_ERROR_ITEM_PROTO	Nejsou k dispozici ��dn� �daje o p�edm�tech.\nNainstaluj hru znovu.
+GAME_INIT_ERROR_MAIN_WINDOW	Hlavn� okno nemohlo b�t vytvo�eno.
+GAME_INIT_ERROR_MOB_PROTO	Nejsou k dispozici ��dn� �daje o p��er�ch.\nNainstaluj hru znovu.
+GAME_INIT_ERROR_NETWORK	Nebylo vytvo�eno spojen� po s�ti.\nP�ezkou�ej p�ipojen� na internet.
+GAME_PICK_MONEY	Obdr�el jsi %s Yang�.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	V��ka nen� 128 pixel�.
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	V��ka nen� 12 pixel�.
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	���ka nen� 16 pixel�.
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	���ka nen� 64 pixel�.
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Hra nepodporuje tento obr�zek.
+GUILDMARK_UPLOADER_ERROR_PATH	P�esu� soubory do slo�ky metin2/upload.
+GUILDMARK_UPLOADER_ERROR_SELECT	Nebyl zvolen ��dn� obrazov� soubor.
+GUILDWAR_CTF_TITLE	Zajmout vlajku
+GUILDWAR_NORMAL_TITLE	Poln� bitva
+GUILDWAR_WARP_TITLE	D�ji�t� v�lky cech�
+GUILD_BOARD_ID	�len
+GUILD_BOARD_TEXT	Zpr�va
+GUILD_BUILDING_GRADE	Hodnost
+GUILD_BUILDING_NAME	N�zev budovy
+GUILD_CANNOT_HEAL_GSP_ANYMORE	Energie dra��ho ducha je pln� obnovena.
+GUILD_COMMENT	Ps�t
+GUILD_CREATE_ERROR_INSULT_NAME	N�zev cechu je nep��pustn�.
+GUILD_DEFAULT_GRADE	�lenov� cechu
+GUILD_DELETE	Smazat
+GUILD_DEPOSIT	Deponovat
+GUILD_DO_YOU_HEAL_GSP	Chce� pou��t %d Yang� na obnovu %d jednotek Dra��ho ducha?
+GUILD_DO_YOU_JOIN	 t� pozval. P�eje� si vstoupit do cechu?
+GUILD_EMPTY_AREA	Plan� zem�
+GUILD_FACILITY	Vedlej�� budova
+GUILD_GEM	Drahokam
+GUILD_HEADQUARTER	Hlavn� budova
+GUILD_HEAL_GSP	Obnovit dra��ho ducha
+GUILD_INFO_ENEMY_GUILD_EMPTY	��dn�
+GUILD_MARK_NOT_ENOUGH_LEVEL	Je zapot�eb� minim�ln� �rovn� 3.
+GUILD_MEMBER_JOB	Typ
+GUILD_MEMBER_KNIGHT	Bojovn�k
+GUILD_MEMBER_LEVEL	�rove�
+GUILD_MEMBER_NAME	�len
+GUILD_MEMBER_RANK	Hodnost
+GUILD_MEMBER_SPECIFIC_GRAVITY	Darovan� BZK
+GUILD_NAME	N�zev cechu
+GUILD_NOT_ENOUGH_MATERIAL	Nem� dostatek stavebn�ho materi�lu pro tuto budovu.
+GUILD_NOT_ENOUGH_MONEY	Nem� dostatek Yang� pro tuto budovu.
+GUILD_NO_NOTICE_PERMISSION	Nejsi opr�vn�n, zve�ej�ovat ozn�men�.
+GUILD_OBJECT	Objekty
+GUILD_OFFER_EXP	Zku�enost k investov�n�
+GUILD_SHORT_EXP	Nedostatek zku�enost�.
+GUILD_TILE_BASEINFO	Informace o �zem�
+GUILD_TILE_BOARD	Zpr�vy cechu
+GUILD_TILE_GRADE	Administrace pr�v
+GUILD_TILE_INFO	Informace o cechu
+GUILD_TILE_MEMBER	�len
+GUILD_TILE_SKILL	Schopnosti  cechu
+GUILD_WAR_LIMIT_30MIN	�as: 30 minut
+GUILD_WAR_REWARD_POTION	Odm�na: V�t�z obdr�� elix�ry
+GUILD_WAR_USE_BATTLE_MAP	Lokalita: d�ji�t� cechovn� v�lky
+GUILD_WAR_USE_NORMAL_MAP	Lokalita: norm�ln� mapa
+GUILD_WAR_WIN_CHECK_SCORE	Nejvy��� v�sledek vyhraje v�lku.
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Zmocni se praporu protivn�ka
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	a doprav jej na vlastn� z�kladnu.
+GUILD_WAR_WIN_WIPE_OUT_GUILD	P�emo� v�echny soupe�i, abys vyhr�l.
+GUILD_WITHDRAW	�stup
+GUILD_YOU_DO_NOT_JOIN	Nepat�� k ��dn�mu cechu.
+HORSE_HEALTH0	Mrtv�
+HORSE_HEALTH1	Hladov�j�c�
+HORSE_HEALTH2	Hladov�
+HORSE_HEALTH3	Pln�
+HORSE_LEVEL1	Norm�ln� k��
+HORSE_LEVEL2	Opanc��ovan� k��
+HORSE_LEVEL3	Vojensk� k��
+HOUR	h
+HOW_MANY_ITEM_DO_YOU_DROP1	Chce� nechat padnout %s?
+HOW_MANY_ITEM_DO_YOU_DROP2	Chce� nechat padnout %s %d?
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Zadat vymaz�vaj�c� k�d ze spr�vy kont.
+INPUT_PRIVATE_CODE_DIALOG_TITLE	Smazat postavu
+INVENTORY_REALLY_USE_ITEM	Pou�it p�edm�t na tento p�edm�t?
+JOB_ASSASSIN	Ninja
+JOB_ASSASSIN0	��dn�
+JOB_ASSASSIN1	D�kov� ninja
+JOB_ASSASSIN2	Ninja na d�lku
+JOB_SHAMAN	�aman
+JOB_SHAMAN0	��dn�
+JOB_SHAMAN1	Dra�� �aman
+JOB_SHAMAN2	�aman l��itel
+JOB_SURA	Sura
+JOB_SURA0	��dn�
+JOB_SURA1	Zbra�ov� Sura
+JOB_SURA2	Magick� Sura
+JOB_WARRIOR	V�le�n�k
+JOB_WARRIOR0	��dn�
+JOB_WARRIOR1	V�le�n�k na t�lo
+JOB_WARRIOR2	Ment�ln� v�le�n�k
+JOB_WOLFMAN	Lycan
+JOB_WOLFMAN0	Lycan amat�r
+JOB_WOLFMAN1	Instinkt
+JOB_WOLFMAN2	N.A.
+KEYCHANGE_DONT_SAVE_EXIT	Ukon�it bez ulo�en�?
+KEYCHANGE_IMPOSSIBLE_CHANGE	[CTRL], [ALT], [SHIFT] zde nejsou povoleny!
+KEYCHANGE_SAVE_EXIT	Ulo�it a ukon�it?
+KEY_0	�
+KEY_0_LALT	ALT + �
+KEY_0_LCONTROL	CTRL + �
+KEY_0_LSHIFT	SHIFT + �
+KEY_1	+
+KEY_1_LALT	ALT + +
+KEY_1_LCONTROL	CTRL + +
+KEY_1_LSHIFT	SHIFT + +
+KEY_2	�
+KEY_2_LALT	ALT + �
+KEY_2_LCONTROL	CTRL + �
+KEY_2_LSHIFT	SHIFT + �
+KEY_3	�
+KEY_3_LALT	ALT + �
+KEY_3_LCONTROL	CTRL + �
+KEY_3_LSHIFT	SHIFT + �
+KEY_4	�
+KEY_4_LALT	ALT + �
+KEY_4_LCONTROL	CTRL + �
+KEY_4_LSHIFT	SHIFT + �
+KEY_5	�
+KEY_5_LALT	ALT + �
+KEY_5_LCONTROL	CTRL + �
+KEY_5_LSHIFT	SHIFT + �
+KEY_6	�
+KEY_6_LALT	ALT + �
+KEY_6_LCONTROL	CTRL + �
+KEY_6_LSHIFT	SHIFT + �
+KEY_7	�
+KEY_7_LALT	ALT + �
+KEY_7_LCONTROL	CTRL + �
+KEY_7_LSHIFT	SHIFT + �
+KEY_8	�
+KEY_8_LALT	ALT + �
+KEY_8_LCONTROL	CTRL + �
+KEY_8_LSHIFT	SHIFT + �
+KEY_9	�
+KEY_9_LALT	ALT + �
+KEY_9_LCONTROL	CTRL + �
+KEY_9_LSHIFT	SHIFT + �
+KEY_A	A
+KEY_ADD	+
+KEY_A_LALT	ALT + A
+KEY_A_LCONTROL	CTRL + A
+KEY_A_LSHIFT	SHIFT + A
+KEY_B	B
+KEY_B_LALT	ALT + B
+KEY_B_LCONTROL	CTRL + B
+KEY_B_LSHIFT	SHIFT + B
+KEY_C	C
+KEY_COMMA	,
+KEY_COMMA_LALT	ALT + ,
+KEY_COMMA_LCONTROL	CTRL + ,
+KEY_COMMA_LSHIFT	SHIFT + ,
+KEY_C_LALT	ALT + C
+KEY_C_LCONTROL	CTRL + C
+KEY_C_LSHIFT	SHIFT + C
+KEY_D	D
+KEY_DOWN	�ipka dol�
+KEY_D_LALT	ALT + D
+KEY_D_LCONTROL	CTRL + D
+KEY_D_LSHIFT	SHIFT + D
+KEY_E	E
+KEY_E_LALT	ALT + E
+KEY_E_LCONTROL	CTRL + E
+KEY_E_LSHIFT	SHIFT + E
+KEY_F	F
+KEY_F1	F1
+KEY_F10	F10
+KEY_F10_LALT	ALT + F10
+KEY_F10_LCONTROL	CTRL + F10
+KEY_F10_LSHIFT	SHIFT + F10
+KEY_F1_LALT	ALT + F1
+KEY_F1_LCONTROL	CTRL + F1
+KEY_F1_LSHIFT	SHIFT + F1
+KEY_F2	F2
+KEY_F2_LALT	ALT + F2
+KEY_F2_LCONTROL	CTRL + F2
+KEY_F2_LSHIFT	SHIFT + F2
+KEY_F3	F3
+KEY_F3_LALT	ALT + F3
+KEY_F3_LCONTROL	CTRL + F3
+KEY_F3_LSHIFT	SHIFT + F3
+KEY_F4	F4
+KEY_F4_LALT	ALT + F4
+KEY_F4_LCONTROL	CTRL + F4
+KEY_F4_LSHIFT	SHIFT + F4
+KEY_F5	F5
+KEY_F5_LALT	ALT + F5
+KEY_F5_LCONTROL	CTRL + F5
+KEY_F5_LSHIFT	SHIFT + F5
+KEY_F6	F6
+KEY_F6_LALT	ALT + F6
+KEY_F6_LCONTROL	CTRL + F6
+KEY_F6_LSHIFT	SHIFT + F6
+KEY_F7	F7
+KEY_F7_LALT	ALT + F7
+KEY_F7_LCONTROL	CTRL + F7
+KEY_F7_LSHIFT	SHIFT + F7
+KEY_F8	F8
+KEY_F8_LALT	ALT + F8
+KEY_F8_LCONTROL	CTRL + F8
+KEY_F8_LSHIFT	SHIFT + F8
+KEY_F9	F9
+KEY_F9_LALT	ALT + F9
+KEY_F9_LCONTROL	CTRL + F9
+KEY_F9_LSHIFT	SHIFT + F9
+KEY_F_LALT	ALT + F
+KEY_F_LCONTROL	CTRL + F
+KEY_F_LSHIFT	SHIFT + F
+KEY_G	G
+KEY_GRAVE	;
+KEY_GRAVE_LALT	ALT + ;
+KEY_GRAVE_LCONTROL	CTRL + ;
+KEY_GRAVE_LSHIFT	SHIFT + ;
+KEY_G_LALT	ALT + G
+KEY_G_LCONTROL	CTRL + G
+KEY_G_LSHIFT	SHIFT + G
+KEY_H	H
+KEY_H_LALT	ALT + H
+KEY_H_LCONTROL	CTRL + H
+KEY_H_LSHIFT	SHIFT + H
+KEY_I	I
+KEY_I_LALT	ALT + I
+KEY_I_LCONTROL	CTRL + I
+KEY_I_LSHIFT	SHIFT + I
+KEY_J	J
+KEY_J_LALT	ALT + J
+KEY_J_LCONTROL	CTRL + J
+KEY_J_LSHIFT	SHIFT + J
+KEY_K	K
+KEY_K_LALT	ALT + K
+KEY_K_LCONTROL	CTRL + K
+KEY_K_LSHIFT	SHIFT + K
+KEY_L	L
+KEY_LALT	ALT
+KEY_LCONTROL	CTRL
+KEY_LEFT	�ipka doleva
+KEY_LSHIFT	SHIFT
+KEY_L_LALT	ALT + L
+KEY_L_LCONTROL	CTRL + L
+KEY_L_LSHIFT	SHIFT + L
+KEY_M	M
+KEY_M_LALT	ALT + M
+KEY_M_LCONTROL	CTRL + M
+KEY_M_LSHIFT	SHIFT + M
+KEY_N	N
+KEY_NUMLOCK	NUMLOCK
+KEY_NUMPAD0	NUMPAD 0
+KEY_NUMPAD1	NUMPAD 1
+KEY_NUMPAD2	NUMPAD 2
+KEY_NUMPAD3	NUMPAD 3
+KEY_NUMPAD4	NUMPAD 4
+KEY_NUMPAD5	NUMPAD 5
+KEY_NUMPAD6	NUMPAD 6
+KEY_NUMPAD7	NUMPAD 7
+KEY_NUMPAD8	NUMPAD 8
+KEY_NUMPAD9	NUMPAD 9
+KEY_N_LALT	ALT + N
+KEY_N_LCONTROL	CTRL + N
+KEY_N_LSHIFT	SHIFT + N
+KEY_O	O
+KEY_O_LALT	ALT + O
+KEY_O_LCONTROL	CTRL + O
+KEY_O_LSHIFT	SHIFT + O
+KEY_P	P
+KEY_PERIOD	.
+KEY_PERIOD_LALT	ALT + .
+KEY_PERIOD_LCONTROL	CTRL + .
+KEY_PERIOD_LSHIFT	SHIFT + .
+KEY_PGDN	PAGE DOWN
+KEY_PGUP	PAGE UP
+KEY_P_LALT	ALT + P
+KEY_P_LCONTROL	CTRL + P
+KEY_P_LSHIFT	SHIFT + P
+KEY_Q	Q
+KEY_Q_LALT	ALT + Q
+KEY_Q_LCONTROL	CTRL + Q
+KEY_Q_LSHIFT	SHIFT + Q
+KEY_R	R
+KEY_RIGHT	�ipka doprava
+KEY_R_LALT	ALT + R
+KEY_R_LCONTROL	CTRL + R
+KEY_R_LSHIFT	SHIFT + R
+KEY_S	S
+KEY_SPACE	MEZERN�K
+KEY_SUBTRACT	-
+KEY_SYSRQ	PRTSCR
+KEY_S_LALT	ALT + S
+KEY_S_LCONTROL	CTRL + S
+KEY_S_LSHIFT	SHIFT + S
+KEY_T	T
+KEY_TAB	TAB
+KEY_T_LALT	ALT + T
+KEY_T_LCONTROL	CTRL + T
+KEY_T_LSHIFT	SHIFT + T
+KEY_U	U
+KEY_UP	�ipka nahoru
+KEY_U_LALT	ALT + U
+KEY_U_LCONTROL	CTRL + U
+KEY_U_LSHIFT	SHIFT + U
+KEY_V	V
+KEY_V_LALT	ALT + V
+KEY_V_LCONTROL	CTRL + V
+KEY_V_LSHIFT	SHIFT + V
+KEY_W	W
+KEY_W_LALT	ALT + W
+KEY_W_LCONTROL	CTRL + W
+KEY_W_LSHIFT	SHIFT + W
+KEY_X	X
+KEY_X_LALT	ALT + X
+KEY_X_LCONTROL	CTRL + X
+KEY_X_LSHIFT	SHIFT + X
+KEY_Y	Z
+KEY_Y_LALT	ALT + Z
+KEY_Y_LCONTROL	CTRL + Z
+KEY_Y_LSHIFT	SHIFT + Z
+KEY_Z	Y
+KEY_Z_LALT	ALT + Y
+KEY_Z_LCONTROL	CTRL + Y
+KEY_Z_LSHIFT	SHIFT + Y
+LEFT_TIME	Zb�vaj�c� �as
+LOGIN_CONNECT_FAILURE	Chyba p�i spojen� se serverem.
+LOGIN_CONNECT_SUCCESS	Byl jsi p�ipojen na server.
+LOGIN_CONNETING	Pros�me po�kej, ne� se p�ipoj� na server.
+LOGIN_FAILURE_ALREAY	Tv�j ��et je u� p�ipojen.
+LOGIN_FAILURE_BE_SAME_KEY	Probl�m s p�ihl�en�m
+LOGIN_FAILURE_BLOCK_ID	Tento ��et byl zablokov�n.
+LOGIN_FAILURE_BLOCK_LOGIN	Uzav�en� server: Pros�m, zvolte si n�kter� z jin�ch server�!
+LOGIN_FAILURE_NOBILL	Tento ��et nem� ��dn� hrac� �as.
+LOGIN_FAILURE_NOT_AVAIL	��et nen� dostupn�.
+LOGIN_FAILURE_NOT_EXIST_ID	Konto neexistuje nebo je chybn� heslo.
+LOGIN_FAILURE_REPAIR_ID	Pro tento ��et byly p�edm�ty obnoveny.
+LOGIN_FAILURE_SAMELOGIN	N�kdo se p�ipojil na tv�j ��et.
+LOGIN_FAILURE_SHUTDOWN	Server zat�m nen� p��stupn�.
+LOGIN_FAILURE_TOO_MANY_USER	Nemohl jsi nav�zat spojen�, proto�e pr�v� hraje p��li� mnoho hr���.
+LOGIN_FAILURE_UNKNOWN	Z nezn�m�ch d�vod� jsi se nemohl p�ihl�sit.
+LOGIN_FAILURE_WEB_BLOCK	Byl jsi na webov� str�nce zablokov�n. Pros�m zkontroluj si e-maily.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER	Zadal jsi �patn� ��slo.
+LOGIN_FAILURE_WRONG_MATRIX_CARD_NUMBER_TRIPLE	Zadal jsi t�ikr�t �patn� ��slo. Tvoje p�ipojen� bude p�eru�eno.
+LOGIN_FAILURE_WRONG_PASSWORD	Chybn� jm�no nebo heslo.
+LOGIN_INPUT_ID	Zadej ID.
+LOGIN_INPUT_PASSWORD	Zadej heslo.
+LOGIN_PROCESSING	P�ihl�en� prob�h�...
+MALL_CANNOT_INSERT	Tento p�edm�t nem��e� um�stit.
+MALL_PASSWORD_TITLE	Heslo
+MAP_A1	Oblast Yongan
+MAP_A3	Oblast Yayang
+MAP_C1	Oblast Pyungmoo
+MAP_C3	Oblast Bakra
+MAP_NUSLUCK	Zem� obr�
+MAP_SNOW	Hora Sohan
+MAP_TREE	Lungsam (Les duch�)
+MAP_TRENT	Les duch�
+MAP_TRENT02	�erven� les
+MAP_WL	Had� pole
+MESSENGER_ADD_FRIEND	P�idat p��tele
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s t� p�ij�mal za p��tele.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Akceptovat?
+MESSENGER_DO_YOU_DELETE	Smazat?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Chce� smazat ��slo na mobil?
+MESSENGER_EMPTY_LIST	Pr�zdn�
+MESSENGER_FAMILY	Rodina
+MESSENGER_FRIEND	P��tel�
+MESSENGER_GUILD	Cech
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Zadej ��slo potvrzen�, kter� bylo odesl�no na tv�j mobil.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Zadat ��slo potvrzen�
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Zadej ��slo na mobil na zas�lan� SMS.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Chce� te� zadat ��slo?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Zadat ��slo na mobil
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Poslat zpr�vu
+MINIMAP	Otev��t minimapu
+MINIMAP_CANNOT_SEE	Minimapu nelze zobrazit.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	Vekou mapu nelze zobrazit.
+MINIMAP_DEC_SCALE	Odd�lit
+MINIMAP_INC_SCALE	P�ibl�it
+MINIMAP_OBSERVER_COUNT	%d div�k
+MINIMAP_SHOW_AREAMAP	Velk� mapa
+MINI_GAME_RUMI_DISCARD_QUESTION	Opravdu chce� zahodit tuto kartu?
+MINI_GAME_RUMI_EXIT_QUESTION	P�eje� si ukon�it hru a vz�t si odm�nu?\nTv� sk�re a zbyl� karty budou smaz�ny!
+MINI_GAME_RUMI_START_QUESTION	Abys mohl hr�t, mus� zaplatit poplatek %d Yang�. Tak� bude� pot�ebovat %d sad(u) karet.\nP�eje� si zah�jit hru?
+MINUTE	min
+MONETARY_UNIT0	Yang
+MONEY_INPUT_DIALOG_SELLPRICE	Prodejn� cena:
+MOVE_CHANNEL_CANCEL	Storno
+MOVE_CHANNEL_NOTICE	Jsi p�ipojen na kan�l %d.
+MOVE_CHANNEL_NOT_MOVE	Nem��e� zm�nit kan�l.
+MOVE_CHANNEL_SELECT	OK
+MOVE_CHANNEL_TITLE	Kan�ly
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nem��e� p�esunout tento p�edm�t, kdy� jsi otev�el soukrom� st�nek.
+MUSIC_EMPTY_MUSIC_LIST	Bez hudby v pozad�
+MUSIC_METIN2_DEFAULT_THEMA	Standardn� hudba Metin2
+MUSIC_NOT_SELECT_MUSIC	Nebyl zvolen hudebn� soubor.
+NEEFD_REST	Mus� si nejd��v odpo�inout.
+NOT_YET_SUPPORT	Nen� podporov�no.
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Pokud nen�le�� k ��dn�mu cechu, nem��e� zaktivovat cechovn� modus.
+OPTION_PVPMODE_NOT_SUPPORT	Konfiguraci PvP-m�du nem��e� pou��t.
+OPTION_PVPMODE_PROTECT	Abys mohl p�ej�t do PvP-m�du, mus� dos�hnout minim�ln� �rovn� %d.
+PARTY_BONUS_ATTACKER	Hodnota �toku: +%d	SA
+PARTY_BONUS_BERSERKER	Rychlost �toku: +%d	SA
+PARTY_BONUS_BUFFER	Trv�n� schopnost�: +%d	SA
+PARTY_BONUS_DEFENDER	Obrana +%d%%	SA
+PARTY_BONUS_EXP	Bonus BZK: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	Obnova ZB p�i zabit� +%d%%	SA
+PARTY_BONUS_TANKER	Max. ZB: +%d	SA
+PARTY_BREAK_UP	Zru�it skupinu
+PARTY_DO_YOU_ACCEPT	 by se r�d p�idal do skupiny.
+PARTY_DO_YOU_JOIN	 t� pozval do skupiny. P�ijmout?
+PARTY_EXP_DISTRIBUTION_MODE	Rozlo�en� BZK
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Podle �rovn�
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Vy��� �rove� obdr�� v�ce BZK.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Rovnom�rn� rozlo�en�
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	V�ichni �lenov� skupiny obdr�� stejn� po�et BZK.
+PARTY_HEAL_ALL_MEMBER	V�e znovuobnovit
+PARTY_INCREASE_AREA_150	Dosah skupiny byl zv��en o faktor 1,5.	SNA
+PARTY_INCREASE_AREA_200	Dosah skupiny byl zv��en o faktor 2.	SNA
+PARTY_LEAVE	Opustit skupinu
+PARTY_MEMBER_OFFLINE	[Offline]
+PARTY_RECALL_MEMBER	P�ivolat �lena skupiny.
+PARTY_REQUEST_DENIED	Tv�j po�adavek byl zam�tnut.
+PARTY_SET_ATTACKER	Ur�it �to�n�ka.
+PARTY_SET_BERSERKER	Ur�it zu�ivce.
+PARTY_SET_BUFFER	Ur�it blok�tora
+PARTY_SET_DEFENDER	Ur�it obr�nce.
+PARTY_SET_NORMAL	Odvolat nastaven�.
+PARTY_SET_SKILL_MASTER	Ur�it mistra schopnost�.
+PARTY_SET_TANKER	Zalo�it bojovn�ka zbl�zka.
+PARTY_SKILL_ATTACKER	Z�kladn� hodnota �toku �to�n�ka +%.0f
+PARTY_SKILL_BERSERKER	Rychlost �toku zu�ivce +%.0f
+PARTY_SKILL_BUFFER	Doba trv�n� schopnost� blok�tora +%.0f
+PARTY_SKILL_DEFENDER	Obrana jako obr�nce +%.0f%%
+PARTY_SKILL_SKILL_MASTER	Obnoven� ZB p�i Mistrovi schopnost� +%.0f%%
+PARTY_SKILL_TANKER	Max. ZB bojovn�k zbl�zka +%.0f
+PARTY_SKILL_WARP	Schopen, p�ivolat �leny skupiny.
+PASSWORD_TITLE	Heslo ke skladi�ti
+PICK_ITEM_TITLE	Po�et p�edm�t�
+PICK_MONEY_TITLE	��stka
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_WON	Hodnota v�c�, kter� d� k prodeji, nesm� p�ekro�it ur�itou cenu.
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_YANG	Hodnota v�c�, kter� d� k prodeji, nesm� p�ekro�it ur�itou cenu.
+PREMIUM_PRIVATE_MODIFY_LIMIT_WON	Je to v�ce ne� 3 000 Won�. Pros�m, seber si nyn� sv� pen�ze.
+PREMIUM_PRIVATE_MODIFY_LIMIT_YANG	Je to v�ce ne� 2 miliardy Yang�. Pros�m, seber si nyn� sv� pen�ze.
+PREMIUM_PRIVATE_SHOP_CLOSE_QUESTIONG	Chce� zav��t soukrom� st�nek?
+PREMIUM_PRIVATE_SHOP_MODIFY_STATE_OPEN_FAIL	St�nek nen� moment�ln� otev�en, proto�e je spravov�n.
+PREMIUM_PRIVATE_SHOP_POSITION	%s (%d,%d) - CH-%d
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_LIMIT_WON	Nem��e� sebrat pen�ze, proto�e bys m�l v�ce ne� 3 000 Won�.
+PREMIUM_PRIVATE_TAX_ADJUSTMENT_LIMIT_YANG	Nem��e� sebrat pen�ze, proto�e bys m�l v�ce ne� 2 miliardy Yang�.
+PRIVATESHOPSEARCH_BUYTIME	P�eje� si koupit zvolen� p�edm�t?
+PRIVATESHOPSEARCH_DS	Alchymie Dra��ch kamen�
+PRIVATESHOPSEARCH_DS_BLACK	Onyx
+PRIVATESHOPSEARCH_DS_BLUE	Saf�r
+PRIVATESHOPSEARCH_DS_GREEN	Nefrit
+PRIVATESHOPSEARCH_DS_RED	Rub�n
+PRIVATESHOPSEARCH_DS_WHITE	Diamant
+PRIVATESHOPSEARCH_DS_YELLOW	Gran�t
+PRIVATESHOPSEARCH_NEED_ITEM_BUY	Bez spr�vn�ho m�ce si nem��e� koupit ��dn� p�edm�t.
+PRIVATESHOPSEARCH_NEED_ITEM_FIND	Bez spr�vn�ho m�ce nem��e� hledat ��dn� p�edm�t.
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Tento p�edm�t nem��e� prod�vat v soukrom�m st�nku.
+PRIVATE_SHOP_CLOSE_QUESTION	Chce� zav��t soukrom� st�nek?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	N�zev soukrom�ho st�nku.
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Cena
+PRIVATE_SHOP_SEARCH_VNUM_ITEM_NOT_SELECTED	Zvol p�edm�t pro vyhled�n�.
+PVP_MODE_GUILD	Cechovn� m�d PvP byl zaktivov�n
+PVP_MODE_KILL	M�d voln�ho PvP byl zaktivov�n
+PVP_MODE_NORMAL	M�r v PvP byl zaktivov�n
+PVP_MODE_PROTECT	Ochrana PvP byla aktivov�na.
+PVP_MODE_REVENGE	Agresivn� PvP byl zaktivov�n.
+PVP_OPTION_KILL	Volno
+PVP_OPTION_NORMAL	M�r
+PVP_OPTION_PROTECT	Ochrana
+PVP_OPTION_REVENGE	Nep��telsk�
+QUEST_MIN	min.
+QUEST_SEC	sek.
+QUEST_TIMEOVER	�as vypr�el
+QUEST_UNLIMITED_TIME	Bez �asov�ho omezen�
+QUICKSLOT_REGISTER_DISABLE_ITEM	Tento p�edm�t nem��e b�t p�id�n k poli rychl�ho p��stupu.
+RANKING	Hodnost
+RECEIVE_MESSAGE	%s ti poslal/a zpr�vu.
+REFINE_COST	N�klady na zlep�en�: %d Yang
+REFINE_DESTROY_WARNING	P�edm�t by se mohl zu�lecht�n�m zni�it.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Opravdu chce� vylep�it tento p�edm�t?
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	Pokud se to nezda��, p�edm�t bude zni�en. P�eje� si pokra�ovat?
+REFINE_DOWN_GRADE_WARNING	P�edm�t by se mohl zu�lecht�n�m zhor�it.
+REFINE_DO_YOU_SEPARATE_METIN	Chce� odstranit v�echny kameny ducha?
+REFINE_FAILURE	To nefunguje! Selhali jsme.
+REFINE_FAILURE_EQUIP_ITEM	Nem��e� vylep�ovat pou��van� p�edm�ty.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Nelze odstranit k�men ducha.
+REFINE_FAILURE_NEED_BETTER_SCROLL	Pot�ebuje� lep�� pergamen zlep�ov�n�.
+REFINE_FAILURE_NO_GOLD_SOCKET	Neexistuje ��dn� �chytka ze zlata, do kter�ho lze p�idat %s.
+REFINE_FAILURE_NO_MORE_SOCKET	Nem��e� p�idat ��dn� dal�� �chyty.
+REFINE_FAILURE_NO_SOCKET0	Neexistuje ��dn� �chyt, do kter�ho lze p�idat %s.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	K tomuto p�edm�tu nelze p�idat ��dn� �chyt.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Tento p�edm�t nelze zlep�it.
+REFINE_SUCCESS	Toto zlep�en� p�edm�tu bylo �sp�n�.
+REFINE_SUCCESS_PROBALITY	�ance na zlep�en�: %d%%
+REFINE_WARNING2	Chce� si pokra�ovat ve vylep�ov�n�?
+SAFEBOX_ERROR	Zadal jsi �patn� heslo.
+SAFEBOX_SELL_DISABLE_SAFEITEM	Nem��e� prodat ��dn� z ulo�en�ch p�edm�t�.
+SAFEBOX_WRONG_PASSWORD	Hesla mus� b�t identick�.
+SCREENSHOT_SAVE1	je ulo�en v
+SCREENSHOT_SAVE2	Slo�ka screenshot�
+SCREENSHOT_SAVE_FAILURE	Ulo�en� screenshotu se nezda�ilo.
+SECOND	sek
+SELECT_CAN_NOT_DELETE	Tuto postavu nem��e� smazat.
+SELECT_CHANGED_NAME	Zm�nil jsi n�zev postavy.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Tento n�zev postavy u� existuje.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Zkus to znovu.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Toto je �patn� jm�no postavy.
+SELECT_CHANGE_NAME_TITLE	Zm�nit n�zev postavy
+SELECT_DELEING	Maz�n�...
+SELECT_DELETED	Vymaz�n� �sp�n�.
+SELECT_DO_YOU_DELETE_REALLY	Chce� pokra�ovat?
+SELECT_EMPTY_SLOT	Toto je pr�zdn� pole.
+SELECT_INPUT_CHANGING_NAME	Zadej nov� n�zev postavy.
+SELECT_NOT_JOIN_GUILD	��dn� cech
+SHOP_BUY_INFO	Zvol p�edm�t, kter� chce� koupit, v obchodn�m okn�.
+SHOP_CANNOT_SELL_EQUIPMENT	Vybaven� p�edm�t nem��e� prodat.
+SHOP_CANNOT_SELL_ITEM	Tento p�edm�t nen� na prodej.
+SHOP_ERROR_UNKNOWN	Nezn�m� chyba v obchod�: %s
+SHOP_INVALID_POS	Tento p�edm�t nen� vhodn�.
+SHOP_INVENTORY_FULL	V invent��i u� nen� m�sto.
+SHOP_NOT_ENOUGH_MONEY	Nem� dostatek Won� nebo Yang�
+SHOP_NOT_ENOUGH_MONEY_EX	Nem� dostatek Yang�.
+SHOP_SELL_INFO	Zvol p�edm�t, kter� chce� prodat, v okn� invent��e.
+SHOP_SOLDOUT	Vyprod�no
+SHOT_ERROR_UNKNOWN	Nezn�m� chyba v �toku na d�lku: %s
+SKILL_BLEEDING	Krv�cen�
+SKILL_BOHO	Reflektovat
+SKILL_CHEONGEUN	Siln� t�lo
+SKILL_EUNHYEONG	Neviditeln�
+SKILL_FIRE	Sp�lit
+SKILL_FISHMIND	Koule na ryby je aktivn�
+SKILL_GEOMGYEONG	Aura me�e
+SKILL_GICHEON	Pomoc draka
+SKILL_GONGPO	Strach
+SKILL_GRADE_NAME_GRAND_MASTER	%s velmistr
+SKILL_GRADE_NAME_MASTER	%s mistr
+SKILL_GRADE_NAME_PERFECT_MASTER	%s perfektn� mistr
+SKILL_GROUP_ASSASSIN_1	�epel
+SKILL_GROUP_ASSASSIN_2	Luk
+SKILL_GROUP_HORSE	Jezdeck� um�n�
+SKILL_GROUP_SHAMAN_1	Drak
+SKILL_GROUP_SHAMAN_2	Uzdraven�
+SKILL_GROUP_SURA_1	Zbran�
+SKILL_GROUP_SURA_2	Magie
+SKILL_GROUP_WARRIOR_1	T�lo
+SKILL_GROUP_WARRIOR_2	Ment�ln�
+SKILL_GWIGEOM	Za�arovan� �epel
+SKILL_GYEONGGONG	Polehou�ku na�lapovat
+SKILL_HEUKSIN	Tmav� ochrana
+SKILL_HOSIN	Po�ehn�n�
+SKILL_INC_ATKSPD	Rychlost �toku zv��ena
+SKILL_INC_MOVSPD	Rychlost pohybu zv��ena
+SKILL_JEONGWI	Bojov� zu�en�
+SKILL_JEUNGRYEOK	�tok +
+SKILL_JUMAGAP	Za�arovan� brn�n�
+SKILL_KWAESOK	Rychlost
+SKILL_MUYEONG	Duch plamene
+SKILL_NEED_EMPTY_BOTTLE	Nem�m ��dnou pr�zdnou l�hev
+SKILL_NEED_POISON_BOTTLE	Nem�m ��dnou l�hev s jedem
+SKILL_ONLY_FOR_GUILD_WAR	Tuto schopnost m��e� pou��t jenom ve v�lce cech�.
+SKILL_PABEOP	Zru�it kouzlo
+SKILL_POWERFUL_STRIKE	Omra�uj�c� �tok
+SKILL_SLOW	Pomalu
+SKILL_STUN	Omr��it
+SKILL_SUMMON_DESCRIPTION	�ance za��k�v�n�: %d%%
+SKILL_TOOLTIP_INT	Inteligence
+SKILL_TOOLTIP_LEVEL	�rove�
+SKILL_TOXICDIE	Otr�ven�
+STAT_MINUS_CON	P�izp�soben� vitality (zb�vaj�c� �ance: %d)
+STAT_MINUS_DEX	P�izp�soben� pohyblivosti (zb�vaj�c� �ance: %d)
+STAT_MINUS_INT	P�izp�soben� inteligence (zb�vaj�c� �ance: %d)
+STAT_MINUS_STR	P�izp�soben� s�ly (zb�vaj�c� �ance: %d)
+STAT_TOOLTIP_ATT	Hodnota �toku
+STAT_TOOLTIP_ATT_SPEED	Rychlost �toku
+STAT_TOOLTIP_CAST_SPEED	Rychlost kouzel
+STAT_TOOLTIP_CON	ZB a obrana se zlep��
+STAT_TOOLTIP_DEX	�tok a vyh�b�n� se zlep��
+STAT_TOOLTIP_INT	Zvy�uje MB, �tok magi� a obranu
+STAT_TOOLTIP_MOVE_SPEED	Rychlost pohybu
+STAT_TOOLTIP_STR	Hodnota �toku a po�kozen� se zlep��
+SYMBOLLIST_TITLE	Nahl�sit prapor cechu
+TARGET_BUTTON_ACCEPT_FIGHT	Souhlasit
+TARGET_BUTTON_AVENGE	Pomsta
+TARGET_BUTTON_BUILDING_DESTROY	Zni�it
+TARGET_BUTTON_DISMOUNT	Sesednout
+TARGET_BUTTON_EMOTION_ALLOW	Emoce
+TARGET_BUTTON_EXCHANGE	Obchodov�n�
+TARGET_BUTTON_EXCLUDE	Vylou�it
+TARGET_BUTTON_EXIT_OBSERVER	Ukon�it div�ck� modus
+TARGET_BUTTON_FIGHT	Souboj
+TARGET_BUTTON_FRIEND	P��tel
+TARGET_BUTTON_INVITE_GUILD	Pozv�nka od cechu
+TARGET_BUTTON_INVITE_PARTY	Pozv�nka od skupiny
+TARGET_BUTTON_LEAVE_PARTY	Opustit skupinu
+TARGET_BUTTON_REQUEST_ENTER_PARTY	P�istoupit ke skupin�
+TARGET_BUTTON_VIEW_EQUIPMENT	V�zbroj
+TARGET_BUTTON_WHISPER	�eptat
+TARGET_LEVEL_BOSS	Boss
+TARGET_LEVEL_KING	Stupe� 5.
+TARGET_LEVEL_KNIGHT	Stupe� 3.
+TARGET_LEVEL_PAWN	Stupe� 1.
+TARGET_LEVEL_S_KNIGHT	Stupe� 4.
+TARGET_LEVEL_S_PAWN	Stupe� 2.
+TASKBAR_ATTACK	Za�to�it
+TASKBAR_AUTO	�to�it automaticky
+TASKBAR_CAMERA	Kamera
+TASKBAR_EXP	Zku�enost
+TASKBAR_HP	ZB
+TASKBAR_MOVE	Pohybovat
+TASKBAR_SKILL	Schopnost
+TASKBAR_SP	MB
+TASKBAR_ST	VB
+THING_COUNT	v�ichni
+TOOLTIP_AFFECT_PREMIUM_PRIVATE_SHOP	Osobn� pr�miov� obchod	SNA
+TOOLTIP_ANTI_CRITICAL_PCT	Odolnost proti kritick�m z�sah�m +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Odolnost proti pronikav�m z�sah�m +%d%%	SA
+TOOLTIP_ANTI_SELL	Nem��e se prod�vat v obchod�.
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Siln� proti zv��at�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Siln� proti ninj�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Siln� proti ��blu +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	Siln� proti pololidem +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	Siln� proti ezoterik�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	Siln� proti p��er�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	Siln� proti Ork�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	Siln� proti �aman�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	Siln� proti sur�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Siln� proti nemrtv�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	Siln� proti v�le�n�k�m +%d%%	SA
+TOOLTIP_APPLY_BLOCK	�ance odvr�tit t�lesn� �tok %d%%	SA
+TOOLTIP_APPLY_CRITICAL_PCT	+%d%% �ance na kritick� z�sah	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	%d%% �ance dostat p�i z�sahu MB nazp�t	SA
+TOOLTIP_APPLY_DODGE	%d%% �ance vyhnout se ��p�m	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	%d%% �ance na bonus BZK	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	%d%% �ance pustit dvojn�sobek Yang�	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Imunn� proti p�d�m	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Ochrana proti zpomalen�	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Ochrana proti bezv�dom�	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	%d%% �ance, nechat dvojn�sobn� spadnout p�edm�ty	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	%d%% �ance obnovit ZB	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	%d%% �ance obnovit MB	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% �ance p�evz�t soupe�ovy MB	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Max. ZB +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	Max. MB +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	��dn� n�sledky
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Neztrat� ��dn� zku�enostn� body, pokud bude tv� postava o�ivena na m�st�, kde zem�ela.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	+%d%% �ance na pronikav� z�sah	SA
+TOOLTIP_APPLY_POISON_PCT	�ance na otr�ven�: %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Odolnost v��i jedu %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	Lektvar %d%% n�r�st efektu	SA
+TOOLTIP_APPLY_REFLECT_CURSE	%d%% �ance odrazit kletbu	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% �ance odrazit p��m� t�lesn� �tok	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	�ance na obranu proti �tok�m ninj� %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Obrana proti zvon�m %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Obrana proti d�k�m %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Obrana proti v�j���m %d%%	SA
+TOOLTIP_APPLY_RESIST_HUMAN	Odolnost proti pololidem %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	�ance ubr�nit se proti �tok�m �aman� %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	�ance na obranu proti �tok�m sur� %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Obrana proti me��m %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Obrana proti obouru�n�m me��m %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	�ance na obranu proti �tok�m v�le�n�k� %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	Odolnost proti v�tru %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	�ance p�i u�en� z knih je zlep�ena o faktor 2,5	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Pokud se u�en� nezda��, m��e� hned ��st je�t� jednou.	SNA
+TOOLTIP_APPLY_SLOW_PCT	�ance na zpomalen�: %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	Po�kozen� %d%% je absorbov�no ZB.	SA
+TOOLTIP_APPLY_STEAL_SP	Po�kozen� %d%% je absorbov�no MB.	SA
+TOOLTIP_APPLY_STUN_PCT	�ance na bezv�dom�: %d%%	SA
+TOOLTIP_ARMOR	Brn�n�
+TOOLTIP_ARROW	��p
+TOOLTIP_ASSASSIN	Ninja
+TOOLTIP_ATT_GRADE	Hodnota �toku +%d	SA
+TOOLTIP_ATT_SPEED	Rychlost �toku +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Elix�r Slunce
+TOOLTIP_AUTO_POTION_REST	Zb�v�: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Elix�r M�s�ce
+TOOLTIP_AUTO_POTION_USING	Aktivn�
+TOOLTIP_BOW_DISTANCE	Dosah +%dm	SA
+TOOLTIP_BUYPRICE	Cena: %s
+TOOLTIP_CAST_SPEED	Rychlost kouzla +%d%%	SA
+TOOLTIP_CON	Vitalita +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Bonus za kost�m %d%%	SA
+TOOLTIP_DEF_GRADE	Obrana +%d	SA
+TOOLTIP_DEX	Pohyblivost +%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Nebesa	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	Zem�	SNA
+TOOLTIP_EAR	N�u�nice
+TOOLTIP_ENERGY	Energie %d	SA
+TOOLTIP_FISHINGROD_EXP	Body: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	�rove�: %d
+TOOLTIP_FISHINGROD_UPGRADE1	D�t ryb��ovi
+TOOLTIP_FISHINGROD_UPGRADE2	abys dostal
+TOOLTIP_FISHINGROD_UPGRADE3	zlep�enou udici
+TOOLTIP_FISH_LEN	D�lka: %.2fcm
+TOOLTIP_HELMET	P��lba
+TOOLTIP_HP_REGEN	Obnoven� ZB +%d%%	SA
+TOOLTIP_INT	Inteligence +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	Hodnota �toku %d
+TOOLTIP_ITEM_ATT_POWER	Hodnota �toku %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Hodnota �toku %d
+TOOLTIP_ITEM_ATT_SPEED	Rychlost �toku %s
+TOOLTIP_ITEM_DEF_GRADE	Obrana %d
+TOOLTIP_ITEM_FAST	Rychle
+TOOLTIP_ITEM_LIMIT_CON	Horn� hranice vitality: %d
+TOOLTIP_ITEM_LIMIT_DEX	Horn� hranice pohyblivosti: %d
+TOOLTIP_ITEM_LIMIT_INT	Horn� hranice inteligence: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	Od �rovn�: %d
+TOOLTIP_ITEM_LIMIT_STR	Horn� hranice s�ly: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Magick� hodnota �toku %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Magick� hodnota �toku %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	Magick� obrana %d
+TOOLTIP_ITEM_NORMAL	Norm�ln�
+TOOLTIP_ITEM_SLOW	Pomalu
+TOOLTIP_ITEM_VERY_FAST	Velmi rychle
+TOOLTIP_ITEM_VERY_SLOW	Velmi pomalu
+TOOLTIP_ITEM_WEARABLE_JOB	[ Lze vyzbrojit ]
+TOOLTIP_LOTTERY_STEP_NUMBER	%d
+TOOLTIP_LOTTO_NUMBER	��astn� ��slo: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	Magick� �tok +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	Magick� hodnota �toku +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	Magick� obrana +%d	SA
+TOOLTIP_MALL_ATTBONUS	Hodnota �toku  +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Hodnota �toku	SNA
+TOOLTIP_MALL_AUTOLOOT	Yangy se automaticky sesb�raj�.	SNA
+TOOLTIP_MALL_DEFBONUS	Obrana +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Obrana	SNA
+TOOLTIP_MALL_EXPBONUS	BZK +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_P_STATIC	iCafe bonus BZK +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	50 % v�ce BZK	SNA
+TOOLTIP_MALL_FISH_MIND	�ance ulovit rybu je zv��ena.	SNA
+TOOLTIP_MALL_GOLDBONUS	�ance na spadl� Yangy zv��ena o%d %%	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Dvojit� �ance na spadl� Yangy	SNA
+TOOLTIP_MALL_ITEMBONUS	�ance na spadl� p�edm�ty zv��ena o%d %%	SA
+TOOLTIP_MALL_ITEMBONUS_P_STATIC	iCafe �ance na padnut� p�edm�tu plus %.1f%%	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	�ance na spadl� p�edm�ty zv��ena o 200 %.	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	Body za l�sku nar�staj� rychleji.	SNA
+TOOLTIP_MALL_SAFEBOX	Na sklad� je k dispozici v�ce m�sta.	SNA
+TOOLTIP_MAX_HP	Max. ZB +%d	SA
+TOOLTIP_MAX_HP_PCT	Max. ZB +%d%%	SA
+TOOLTIP_MAX_SP	Max. MB +%d	SA
+TOOLTIP_MAX_SP_PCT	Max. MB +%d%%	SA
+TOOLTIP_MAX_STAMINA	Max. vytrvalost +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Magick� �tok/�tok zbran�  +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	Chyba v GPS(%d, %d)
+TOOLTIP_MOV_SPEED	Rychlost pohybu %d%%	SA
+TOOLTIP_NECK	N�hrdeln�k
+TOOLTIP_NEED_ALL_SP	Pot�ebn� MB: max.
+TOOLTIP_NEED_GSP	Pot�ebn� dra�� duch: %d
+TOOLTIP_NEED_HP	Pot�ebn� ZB: %d
+TOOLTIP_NEED_HP_PER_SEC	ZB / sek:  %d
+TOOLTIP_NEED_SP	Pot�ebn� MB: %d
+TOOLTIP_NEED_SP_PER_SEC	MB / sek:  %d
+TOOLTIP_NEXT_SKILL_LEVEL_1	P��t� �rove�: %d (max. %d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Pr�m�rn� �koda %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Pr�m�rn� odolnost proti �kod� %d%%	SA
+TOOLTIP_PARTY_SKILL_LEVEL	Aktu�ln� �rove�: %d
+TOOLTIP_PICK_EXP	Body: %d / %d
+TOOLTIP_PICK_LEVEL	�rove�: %d
+TOOLTIP_PICK_UPGRADE1	D�t d�evorubci
+TOOLTIP_PICK_UPGRADE2	abys dostal lep��
+TOOLTIP_PICK_UPGRADE3	kop��.
+TOOLTIP_POTION_CURE	D�t negativn� efekty do p�vodn�ho stavu.
+TOOLTIP_POTION_MIN	min.
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Rychlost �toku: +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	ZB: +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	ZB: +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Rychlost pohybu: +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	MB: +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	MB: +%d
+TOOLTIP_POTION_SEC	sek.
+TOOLTIP_POTION_TIME	Doba:
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	Je zapot�eb� %s �rove� %d
+TOOLTIP_REQUIREMENT_STAT_LEVEL	Je zapot�eb� %s %d
+TOOLTIP_RESIST_BOW	Obrana proti ��p�m %d%%	SA
+TOOLTIP_RESIST_DARK	Odolnost v��i temnot� +%d%%	SA
+TOOLTIP_RESIST_EARTH	Odolnost Zemi +%d%%	SA
+TOOLTIP_RESIST_ELEC	Odolnost proti blesku %d%%	SA
+TOOLTIP_RESIST_FIRE	Odolnost proti ohni %d%%	SA
+TOOLTIP_RESIST_ICE	Odolnost ledu +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Odolnost proti magii %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Zb�v�: %d
+TOOLTIP_SEALED	Du�evn� pouto
+TOOLTIP_SELLPRICE	Cena: %s
+TOOLTIP_SHAMAN	�aman
+TOOLTIP_SHIELD	�t�t
+TOOLTIP_SHOES	Boty
+TOOLTIP_SKILL	Schopnost	SNA
+TOOLTIP_SKILLBOOK_NAME	Kniha schopnost�
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Hodnota �toku: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Hodnota �toku:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Rychlost �toku: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Obrana:
+TOOLTIP_SKILL_AFFECT_DODGE	Soupe�ova hodnota �toku:
+TOOLTIP_SKILL_AFFECT_HEAL	Obnovit ZB:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Rychlost pohybu: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	�ance odrazit t�lesn� �tok:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Odolnost proti t�lesn� �jm�:
+TOOLTIP_SKILL_COOL_TIME	Doba nab�jen�:
+TOOLTIP_SKILL_DAMAGE_BONUS	Po�kozen� schopnost�: %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Odolnost proti po�kozen� schopnost� %d%%	SA
+TOOLTIP_SKILL_DURATION	Doba trv�n�: %d vte�in
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Kniha zapomn�n�
+TOOLTIP_SKILL_LEVEL	Aktu�ln� �rove�: %d
+TOOLTIP_SKILL_LEVEL_MASTER	Aktu�ln� �rove�: %d (mistr)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	Aktu�ln� �rove�: %d (max. %d)
+TOOLTIP_SOCKET_EMPTY	Pr�zdn�
+TOOLTIP_SOCKET_REFINABLE_ITEM	[P�edm�t s �chytem]
+TOOLTIP_SP_REGEN	Obnoven� MB +%d%%	SA
+TOOLTIP_STR	S�la +%d	SA
+TOOLTIP_SURA	Sura
+TOOLTIP_TIME_CHARGER_FIX	�as nab�jen� %d vte�in.	SA
+TOOLTIP_TIME_CHARGER_PER	�as nab�jen� %d%%	SA
+TOOLTIP_UNIQUE	Jedine�n�
+TOOLTIP_UNSEAL_LEFT_TIME	Zru�en� du�evn�ho pouta za: %dH %dM
+TOOLTIP_WARRIOR	V�le�n�k
+TOOLTIP_WEAPON	Zbra�
+TOOLTIP_WOLFMAN	Lycan
+TOOLTIP_WRISTLET	N�ramek
+UI_ACCEPT	P�ijmout
+UI_BOLD_FONT	Tahoma:12b
+UI_CANCEL	Zru�it
+UI_CLOSE	Zav��t
+UI_DEF_FONT	Tahoma:12
+UI_DEF_FONT_LARGE	Tahoma:14
+UI_DEF_FONT_SMALL	Tahoma:9
+UI_DENY	Odm�tnout
+UI_ITEM	P�edm�t
+UI_LEFT_TIME	Zb�vaj�c� �as: %d sek.
+UI_NEXT	D�le
+UI_NEXTPAGE	Dal��
+UI_NOCONTENTS	Bez obsahu
+UI_NONAME	Chyb� jm�no
+UI_OK	OK
+UI_POS_UNKNOWN	Nezn�m� m�sto
+UI_PREVPAGE	zp�t
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload mus� b�t proveden je�t� jednou
+USE_ITEM_FAILURE_PRIVATE_SHOP	Pokud jsi otev�el soukrom� st�nek, nem��e� pou��t tento p�edm�t.
+ACCE_ABSORB_CHANCE	Absorpce: %d%%	
+ACCE_ABSORB_CHANCE2	%d%% - %d%%	
+AFFECT_REMOVE_QUESTION	Ur�it� chce� odebrat %s?	
+ALIGN_BONUS_1_1	Siln� proti lidem +100	
+ALIGN_BONUS_1_2	Siln� proti p��er�m: +100	
+ALIGN_BONUS_1_3	Celkov� po�kozen� +10%	
+ALIGN_BONUS_1_4	Max. ZB +40.000	
+ALIGN_BONUS_2_1	Siln� proti lidem +75	
+ALIGN_BONUS_2_2	Siln� proti p��er�m: +75	
+ALIGN_BONUS_2_3	Celkov� po�kozen� +5%	
+ALIGN_BONUS_2_4	Max. ZB +30.000	
+ALIGN_BONUS_3_1	Siln� proti lidem: +50	
+ALIGN_BONUS_3_2	Siln� proti p��er�m: +50	
+ALIGN_BONUS_3_3	Celkov� po�kozen� +3%	
+ALIGN_BONUS_3_4	Max. ZB +20.000	
+ALIGN_BONUS_4_1	Siln� proti lidem: +35	
+ALIGN_BONUS_4_2	Siln� proti p��er�m: +35	
+ALIGN_BONUS_4_3	Max. ZB +15.000	
+ALIGN_BONUS_5_1	Siln� proti lidem: +25	
+ALIGN_BONUS_5_2	Siln� proti p��er�m: +25	
+ALIGN_BONUS_5_3	Max. ZB +10.000	
+ALIGN_BONUS_6_1	Siln� proti lidem: +15	
+ALIGN_BONUS_6_2	Siln� proti p��er�m: +15	
+ALIGN_BONUS_6_3	Max. ZB +5.000	
+ALIGN_BONUS_7_1	Siln� proti lidem: +10	
+ALIGN_BONUS_7_2	Siln� proti p��er�m: +10	
+ALIGN_BONUS_7_3	Max. ZB +2.500	
+ALL_CHANNEL	V�echny kan�ly	
+ALL_KINGDOMS	|cFF97AE99V�echna kr�lovstv�|h|r	
+BATTLE_PASS_EXP	Dokon�eno:	
+BATTLE_PASS_QUEST_DESC_01	Zabij zadan� mno�stv� p��er	
+BATTLE_PASS_QUEST_DESC_02	Odm�na: 2 body exp�	
+BATTLE_PASS_QUEST_DESC_03	Odm�na: 1 body exp�		
+BATTLE_PASS_QUEST_DESC_04	Odm�na: 2 body exp�		
+BATTLE_PASS_QUEST_DESC_05	Napi� zadan� mno�stv� zpr�v do zavolat	
+BATTLE_PASS_QUEST_DESC_06	Vylep�� zadan� mno�stv� p�edm�t�	
+BATTLE_PASS_QUEST_NAME_01	Zabij p��ery	
+BATTLE_PASS_QUEST_NAME_02	Zabij bosse	
+BATTLE_PASS_QUEST_NAME_03	Zni� balvany	
+BATTLE_PASS_QUEST_NAME_04	Dokon�i dungeony
+BATTLE_PASS_QUEST_NAME_05	Napi� do zavolat	
+BATTLE_PASS_QUEST_NAME_06	Vylep�i p�edm�ty	
+BK_ENVANTER_TEXT1	Tento invent�� funguje nez�visle na norm�ln�m invent��i.	
+BK_ENVANTER_TEXT2	Nelze p�esunout p�edm�ty z tohoto invent��e do norm�ln�ho invent��e.	
+BK_ENVANTER_TEXT3		
+BK_ENVANTER_TEXT4	Ka�d� p�edm�t m� svou odd�lenou kategorii.	
+BK_ENVANTER_TEXT5	Ka�d� kategorie m� 3 strany invent��e.	
+BK_ENVANTER_TEXT6		
+BLUE_KINGDOM	|cFF8CADDBJinno|h|r	
+BONUS_END_IN	%s	
+BONUS_EVENT	Bonus Event:	
+BONUS_NEXT_EVENT	|Eemoji/key_rclick|e - Dal�� event	
+BONUS_START_IN	%s	
+BUFF_AFFECT_REMOVE_QUESTION	Ur�it� chce� odebrat %s?	
+CATEGORY_ALCHEMY	Alchymie	
+CATEGORY_LEGEKD	Legend�rn� kameny du�e	
+CATEGORY_MISJE	�koly	
+CATEGORY_OWOCE	Hodnost	
+CATEGORY_PASY	Opasky	
+CATEGORY_POMOCNIK	Pomocn�k	
+CATEGORY_PRZEPUSTKI	Propustky	
+CATEGORY_REKAWICE	Rukavice	
+CATEGORY_RIPER	�lomky zubat�	
+CATEGORY_ULEP	Vylep�ovac� p�edm�ty	
+CATEGORY_UM_PASYWNE	Pasivn� schopnosti	
+CATEGORY_WOJNY	�lomky v�lky	
+CATEGORY_WSPOMAGACZE	Boostery	
+CATEGORY_ZWIERZAK	Mazl��ek	
+CHEQUE_ONLY_VALUE	Lze zadat pouze ��sla.	
+CHEQUE_SYSTEM_UNIT_CHEQUE	Won	
+CHEST_DROP_INFO	|Eemoji/key_ctrl|e + |Eemoji/key_shift|e + |Eemoji/key_rclick|e	
+COLLECITON_SEND_TOOLTIP	- Odevzdat p�edm�t	
+COLLECTION_SEND_ALL_TOOLTIP	- Odevzdat v�e	
+COLLECTION_THIS_ITEM_IS_COLLECTED	Tento p�edm�t si ji� odevzdal.	
+DALSZE_ZAKATKI	Tajemn� z�kout�
+DETAILS_CON	Vitalita	
+DETAILS_DEX	Pohyblivost	
+DETAILS_FAINT_RES	Odolnost proti bezv�dom�	
+DETAILS_INT	Inteligence	
+DETAILS_SLOW_RES	Odolnost proti zpomalen�	
+DETAILS_STR	S�la	
+DOUBLE_BOSS_LOOT_EVENT	Double drop z boss�	
+DOUBLE_METIN_LOOT_EVENT	Double drop z balvan�	
+DOUBLE_MISSION_BOOK_EVENT	Double drop z knih mis�	
+DO_YOU_DROP_CHEQUE	Opravdu chce� upustit %d Won?	
+DO_YOU_WANT_TO_CLOSE_OFFLINE_SHOP	Chce� uzav��t tv�j st�nek?	
+DO_YOU_WANT_TO_REMOVE_ITEM	Opravdu chce� odebrat %s z tv�ho st�nku?	
+DROP_CHEQUE_FAILURE_1000_OVER	M��e� upustit maxim�ln� 999 Won.	
+DROP_ITEM_FAILURE_OFFLINE_SHOP	Nelze vyhodit tento p�edm�t p�i otev�r�n� st�nku!	
+DUNGEON_CHEST_LOOT_EVENT	Zv��en� �ance na drop truhel z boss�	
+DUNGEON_COOLDOWN_EVENT	Sn�en� cooldown u dungeon�	
+DUNGEON_INFO_COOLDOWN	Cooldown: %s	
+DUNGEON_INFO_DO_YOU_TELEPORT	Czy chcesz teleportowa� si� do %s?	
+DUNGEON_INFO_DURATION	Czas trwania: %s	
+DUNGEON_INFO_ELEMENT_ATK_BONUS	Dzia�aj�cy bonus	
+DUNGEON_INFO_ELEMENT_DEF_AND_RES_BONUS	Defense and Resistance Bonus	
+DUNGEON_INFO_ELEMENT_UNKOWN_BONUS	Unkown bonus required	
+DUNGEON_INFO_ENTRACE	Wej�cie: %s	
+DUNGEON_INFO_FASTEST_TIME	Najszybszy Czas: %s	
+DUNGEON_INFO_HIGHEST_DMG	Najwy�sze DMG: %s	
+DUNGEON_INFO_LEVEL_LIMIT	Limit Lvl: %d do %d	
+DUNGEON_INFO_LOCATION	Lokacja: %s	
+DUNGEON_INFO_MINIMAP_TOOL_TIP	Dungeon Information	
+DUNGEON_INFO_NONE	None	
+DUNGEON_INFO_NOT_FOUND	No dungeons have been found.	
+DUNGEON_INFO_PARTY_LIMIT	Limit cz�onk�w grupy: od %d do %d	
+DUNGEON_INFO_STATUS_AVAILABLE	Dost�pne	
+DUNGEON_INFO_STATUS_CLOSED	Niedost�pne	
+DUNGEON_INFO_STATUS_COOLDOWN	Odczekaj	
+DUNGEON_INFO_STATUS_HIGH_LEVEL	Za ma�y poziom!	
+DUNGEON_INFO_STATUS_LOW_LEVEL	Zbyt du�y poziom!	
+DUNGEON_INFO_TOOL_TIP	Wyprawy	
+DUNGEON_INFO_TOOL_TIP_01	In this window you can find all the available dungeons.	
+DUNGEON_INFO_TOOL_TIP_02	Each dungeon listed in the left panel shows various	
+DUNGEON_INFO_TOOL_TIP_03	information about it as well as showing which items	
+DUNGEON_INFO_TOOL_TIP_04	the finall boss drops.	
+DUNGEON_INFO_TOOL_TIP_05	You are also able to teleport to the entrance of the	
+DUNGEON_INFO_TOOL_TIP_06	dungeon if it's available.	
+DUNGEON_INFO_TOOL_TIP_07	In the right panel you can find your results as well	
+DUNGEON_INFO_TOOL_TIP_08	as the global ranking of the top 10 players.	
+DUNGEON_INFO_TOTAL_FINISHED	Uko�czenia: %d	
+DUNGEON_INFO_TYPE	Typ: %s	
+DUNGEON_INFO_TYPE_01	Globalny	
+DUNGEON_INFO_TYPE_02	Grupa	
+DUNGEON_INFO_TYPE_03	Gildia	
+EMPIRE_WAR_EVENT	V�lka ��� (Lv %d - Lv %d)	
+ENVANTER_ILE_AC	Otev�rat spole�n� s invent��em	
+EVENT_TOOLTIP_DOESNT_HAVE_EVENT	Na tento den nejsou ��dn� ud�losti.	
+EVENT_TOOLTIP_TITLE	[%s] Aktivn� eventy:	
+EXP_EVENT	Zv��en� EXP: %d%%	
+GAME_PICK_CHEQUE	Obdr�el jsi %d Won.	
+HALLOWEEN_EVENT	Halloween	
+INVENTORY_BOX_TOOLTIP	Truhly	
+INVENTORY_CICEK_TOOLTIP	Elix�ry	
+INVENTORY_EFSUN_TOOLTIP	U�ite�n� p�edm�ty	
+INVENTORY_SKILL_BOOK_TOOLTIP	Knihy	
+INVENTORY_STONE_TOOLTIP	Legendarn� kameny a Alchymie	
+INVENTORY_UPGRADE_ITEM_TOOLTIP	Vylep�ovac� p�edm�ty	
+ITEMSHOP_ADDITIONAL_TIME	Doba trv�n�	
+ITEMSHOP_ATTRIBUTE_EXP	|cFFFFCF48(PVM)|r	
+ITEMSHOP_ATTRIBUTE_PVP	|cFFFFCF48(PvP)|r	
+ITEMSHOP_CASH_UNIT	|cFFFFCF48DM|r	
+ITEMSHOP_CATEGORY_01	Zes�len� p�edm�t�	
+ITEMSHOP_CATEGORY_02	Kost�my	
+ITEMSHOP_CATEGORY_03	��esy	
+ITEMSHOP_CATEGORY_04	Jezdeck� zv��ata	
+ITEMSHOP_CATEGORY_05	Mazl��ci	
+ITEMSHOP_CATEGORY_06	Kost�my na zbra�	
+ITEMSHOP_CATEGORY_07	Speci�ln� p�edm�ty	
+ITEMSHOP_CATEGORY_08	Alchymie	
+ITEMSHOP_CATEGORY_09	�erpy	
+ITEMSHOP_CATEGORY_10	Embl�my	
+ITEMSHOP_CATEGORY_11	Kupony DM	
+ITEMSHOP_CATEGORY_12	VIP	
+ITEMSHOP_CATEGORY_13	Jin�	
+ITEMSHOP_CATEGORY_14	Sety	
+ITEMSHOP_COUNT	Zadal jsi �patn� po�et.	
+ITEMSHOP_DETAIL_CHECK	Klikni na tla��tko "zakoupit" pro v�ce podrobnost�	
+ITEMSHOP_DISCOUNT	Slevy:	
+ITEMSHOP_DISCOUNT_END	Konec slevy	
+ITEMSHOP_DO_YOU_BUY_ITEM1	Opravdu chce� zakoupit %s za %s?	
+ITEMSHOP_DO_YOU_BUY_ITEM2	Opravdu chce� zakoupit %s %s za %s?	
+ITEMSHOP_EDITOR_ADD_ITEM	P�idat p�edm�t	
+ITEMSHOP_EDITOR_ITEM_PREFIX	� %s	
+ITEMSHOP_INVENTORY_FULL	Nedostatek m�sta v invent��i.	
+ITEMSHOP_LIMITED_COUNT	Limitovan�: |cFFf5ce42%d / %d	
+ITEMSHOP_NON_EDITOR	Nejsi editorem, toto nem��e� ud�lat.	
+ITEMSHOP_NOT_ENOUGH_COINS	Nem� dostatek dra��ch minc�.	
+ITEMSHOP_POPUP_ITEMS_LIMITED	Jsou dostupn� nov� limitovan� p�edm�ty,	
+ITEMSHOP_POPUP_ITEMS_NEW	P�id�ny nov� p�edm�ty do ItemShopu,	
+ITEMSHOP_POPUP_ITEMS_PROMO	V ItemShopu jsou nov� slevy,	
+ITEMSHOP_POPUP_ITEM_LIMITED	|cFFc7ffb6%s|r je nyn� dostupn� v ItemShopu po omezen� �as.	
+ITEMSHOP_POPUP_ITEM_NEW	|cFFc7ffb6%s|r byl p�id�n do ItemShopu.	
+ITEMSHOP_POPUP_ITEM_PROMO	|cFFc7ffb6%s|r je nyn� ve slev�.	
+ITEMSHOP_POPUP_SECOND_LINE	- Klikni, pro n�hled.	
+ITEMSHOP_PREMIUM_AUTOLOOT	T�et� ruka	
+ITEMSHOP_PREMIUM_EXP	Bonusov� exp	
+ITEMSHOP_PREMIUM_FISH_MIND	V�t�� �ance na vz�cn�j�� rybu	
+ITEMSHOP_PREMIUM_GOLD	V�t�� �ance na drop yang�	
+ITEMSHOP_PREMIUM_ITEM	V�t�� �ance na drop	
+ITEMSHOP_PREMIUM_MARRIAGE_FAST	Sn�en� doba man�elstv�	
+ITEMSHOP_PREMIUM_SAFEBOX	V�t�� sklad	
+ITEMSHOP_SELECT_ATTRIBUTE	Vyber |cffffcf48BONUSY|r pro tv�j p�edm�t
+ITEMSHOP_SELECT_ATTRIBUTE_ERROR	Mus� vybrat bonusy pro tv�j p�edm�t	
+ITEMSHOP_SELECT_BONUS	Vyber bonusy	
+ITEMSHOP_SELECT_EMPTY	��dn�	
+ITEMSHOP_SELECT_ITEM	Vyber p�edm�t	
+ITEMSHOP_SELECT_SOCKET	Vyber k�men du�e	
+ITEMSHOP_TOOLTIP_DETAILS	Tento p�edm�t je prod�v�n ve v�cero proveden�ch. Klikni na "zakoupit", pokud chce� zjistit v�ce podrobnost�.	
+ITEMSHOP_UNKNOWN_ERROR	Nezn�m� chyba	
+ITEMSHOP_WARP	Mus� po�kat 10 sekund.	
+ITEMSHOP_WHEEL_CHANCE	�ance: %.02f%%	
+ITEMSHOP_WHEEL_COST	Cena za zato�en�:
+ITEMSHOP_TIME_LABEL	Czas:
+ITEMSHOP_NO_TIME_LIMIT	Brak limitu
+ITEMSHOP_COUNT_LABEL	Ilo��:
+ITEMSHOP_PRICE_LABEL	Cena:
+ITEM_DROP_EVENT	Zv��en� drop: %d%%
+KEY_F11	F11	
+KEY_F12	F12	
+KEY_RETURN	ENTER	
+LOGIN_FAILURE_HWID	Na tomto za��zen� se nelze p�ihl�sit!	
+LOGIN_FAILURE_LOADING_IN_PROGRESS	Prob�h� na��t�n� soubor� hry...	
+LOGIN_FAILURE_PIN	�patn� zadan� n�zev, heslo nebo pin.	
+LOGIN_INPUT_PIN	Napi� sv�j pin.	
+LOGIN_WRONG_VERSION	Verze hry je zastaral�! Pou�ij patcher.	
+MALZEME_DEPOSU	Informace:	
+MAP_75	�dol� kyklop�	
+MAP_LAS	Les duch�	
+MAP_MINE	T�ebn� mapa	
+MAP_NONE	Nezn�m� lokace	
+MAP_OGNISTA	Ohniv� zem�	
+MAP_PAJAKI	Jeskyn� pavouk�	
+MAP_PUSTYNIA	Pou�� Faraona	
+MAP_SOHAN	Hora Sohan	
+MAP_THREEWAY	�dol� ork�	
+MAP_ZACZAROWANY	Za�arovan� les	
+MESSENGER_TEAM	T�m	
+MINI_GAME_RUMI_EXIT_QUESTION2	Aktu�ln� po�et bod� bude vym�n�n za odm�ny.	
+MINI_GAME_RUMI_START_QUESTION2	Chce� hr�t?	
+MOONLIGHT_EVENT	Drop m�s��n�ch pokladnic	
+MOUNT_DOYUMHWAN_MAP_NAME	Ohniv� zem�	
+MOUNT_SOHAN_MAP_NAME	Hora Sohan	
+MOUNT_YONGBI_MAP_NAME	Pou�� Yongbi	
+MOVE_ITEM_FAILURE_OFFLINE_SHOP	Nelze p�esouvat tento p�edm�t p�i otev�r�n� st�nku!	
+NEW_AFFECT_AUTO_METIN_FARM	Fronta na Balvany (VIP)	SNA
+NEW_AFFECT_AUTO_HUNT	Auto Hunt
+NONE_AFFECT	��dn� bonus	
+NORMAL_EVENT_TIME	Od: |cFFdbffa1%s|r do: |cFFdbffa1%s|r	
+NPC_SEARCH	Najdi NPC	
+NPC_SEARCH_TEXT	Objev� se na t�chto map�ch:	
+OFFLINE_SHOP	Offline st�nek	
+OFFLINE_SHOP_ADD_ITEM	P�idat p�edm�t	
+OFFLINE_SHOP_ADD_ITEM_WINDOW	P�idat p�edm�t do st�nku	
+OFFLINE_SHOP_BANK	Vybrat yangy	
+OFFLINE_SHOP_BANK_BAD_VALUE	Zadal jsi �patn� po�et!	
+OFFLINE_SHOP_BANK_INFO	Po�et vyd�lan�ch yang� se obnovuje ka�d�ch 5 sekund!	
+OFFLINE_SHOP_BANK_WAIT	Mus� po�kat 30 sekund p�ed dal��m v�b�rem yang�!	
+OFFLINE_SHOP_CANNOT_SELL_ITEM	Tento p�edm�t nelze prodat ve st�nku!	
+OFFLINE_SHOP_DELETE_ITEM	Odebrat p�edm�t
+OFFLINE_SHOP_DELETE_ITEM_WINDOW	Odebrat p�edm�ty ze st�nku
+OFFLINE_SHOP_INPUT_PRICE_DIALOG_TITLE	Cena	
+OFFLINE_SHOP_IS_EMPTY	Tv�j st�nek je pr�zdn�!	
+OFFLINE_SHOP_WARNING1	Nyn� kupuje� p�edm�ty pomoc� prav�ho tla��tka, bu� opatrn�!	
+ONLY_CHANNEL	Kan�l: %d	
+PET_SKILL_1	Vitalita	
+PET_SKILL_2	��lenstv�	
+PET_SKILL_3	State�nost	
+PET_SKILL_4	Zaost�ov�n�	
+PET_SKILL_5	Moc	
+PET_SKILL_6	V�emohoucnost	
+PET_SKILL_7	Absorpce	
+PET_SKILL_8	Zu�ivost	
+PET_SKILL_9	Obrn�nost	
+PET_SKILL_10	Pr�nik	
+PET_SKILL_11	Kr�l boss�	
+PKT_OSIAG_LOCALE_GAME	B�	
+PKT_OSIAG_SYSTEM_PICK_PKT_OSIAG	testtest: %d	
+POLYMORPH_AFFECT_REMOVE_QUESTION	Opravdu chce� zru�it prom�nu?	
+POLYMORPH_AFFECT_TOOLTIP	Prom�na	SNA
+PREMIUM_PRIVATE_ITEM_ADD_DIFFERENCE_PRICE_WARNING	Nelze prod�vat p�edm�t v r�zn�ch cen�ch.	
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_WON2	Hodnota v�d�lku + po�et prodan�ch won� nem��e p�ekra�ovat maxim�ln� limit.	
+PREMIUM_PRIVATE_ITEM_ADD_LIMIT_YANG2	Hodnota v�d�lku + po�et prodan�ch yang� nem��e p�ekra�ovat maxim�ln� limit.	
+PREMIUM_PRIVATE_SALE_CUSTOMER	Hr��: %s	
+PREMIUM_PRIVATE_SALE_TIME	Data: %s	
+PREMIUM_PRIVATE_SHOP_AUTO_MARKET_PRICE_INPUT_TOOLTIP	Automaticky prodat za tr�n� cenu.	
+PREMIUM_PRIVATE_SHOP_BUILD_RESTRICTED	Na tomto m�st� nelze otev��t st�nek.	
+PREMIUM_PRIVATE_SHOP_HYPERLINK_HELP_TOOLTIP	Pou�ij CTRL + Tla��tko my�i pro p�id�n� p�edm�tu do st�nku.	
+PREMIUM_PRIVATE_SHOP_INVALID_ITEM_CHECKIN_POSITION	Nelze p�idat v�ce p�edm�t� do tv�ho st�nku.	
+PREMIUM_PRIVATE_SHOP_LOCKED_SLOT_QUESTION	Chce� odemknout tento slot?	
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE	[Aktualn� v�d�lek]	
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE_HINT_MSG	Upozorn�n�: Tr�n� cena nezohled�uje kvalitu p�edm�tu.	
+PREMIUM_PRIVATE_SHOP_MARKET_PRICE_NOT_AVAILABLE	Nedostupn�.	
+PREMIUM_PRIVATE_SHOP_MODIFY_STATE_OPEN_FAIL_TIME	Chv�li po�kej p�ed otev�en�m st�nku.	
+PREMIUM_PRIVATE_SHOP_NOT_MODIFY_STATE	Nem��e� to ud�lat, kdy� tv�j st�nek nen� spravov�n..	
+PREMIUM_PRIVATE_SHOP_NO_BUNDLE_ITEM	Nem��e� otev��t st�nek bez m�ce.	
+PREMIUM_PRIVATE_SHOP_NO_PREMIUM_BUNDLE_ITEM	Bez Ka�m�ru nem��e� zm�nit vzhled tv�ho st�nku.	
+PREMIUM_PRIVATE_SHOP_SHORT_TITLE	Pros�m napi� del�� n�zev.	
+PREMIUM_PRIVATE_SHOP_TIME_EXPIRED	Premium vypr�elo	
+PREMIUM_PRIVATE_SHOP_TOTAL_WORTH	Prodejn� cena:	
+PREMIUM_PRIVATE_SHOP_UNLOCK_KEY_MISSING	Pro odemknut� pot�ebuje� magick� kl��.	
+PREMIUM_PRIVATE_SHOP_WARP_HELP_TOOLTIP	Klikni pro teleportaci ke st�nku.	
+PREMIUM_PRIVATE_SHOP_WITHDRAW_QUESTIONG	Opravdu chce� vybrat yangy ze sv�ho st�nku?	
+PRIVATE_SHOP_BUY_ITEM_SELECTED_FAILURE	Nelze odebrat p�edm�t, kter� byl ji� koupen nebo odstran�n.	
+PRIVATE_SHOP_BUY_ITEM_SELECTED_OVERFLOW	M��e� vybrat maxim�ln� 10 p�edm�t�.	
+PRIVATE_SHOP_BUY_VNUM_ITEM_NOT_SELECTED	Vyber p�edm�t, kter� chce� zakoupit.	
+PRIVATE_SHOP_SEARCH_APPLY_FILTER_QUESTION	Opravdu chce� pou��t '%s' filtr?	
+PRIVATE_SHOP_SEARCH_GENDER_FEMALE	�ena	
+PRIVATE_SHOP_SEARCH_GENDER_MALE	Mu�	
+PRIVATE_SHOP_SEARCH_LIMIT_LEVEL	�rove� hr��e	
+PRIVATE_SHOP_SEARCH_LIMIT_REFINEMENT	Stupe� vylep�en�	
+PRIVATE_SHOP_SEARCH_LIMIT_STACK	Stoh	
+PRIVATE_SHOP_SEARCH_MAX	Max.	
+PRIVATE_SHOP_SEARCH_MIN	Min.	
+PRIVATE_SHOP_SEARCH_PLAYER_NAME_NOT_SELECTED	Napi� n�zev hr��e.	
+PRIVATE_SHOP_SEARCH_REMOVE_FILTER_QUESTION	Opravdu chce� odebrat filtr '%s'?	
+PRIVATE_SHOP_SEARCH_SELECT_ALCHEMY_CLARITY	Vyber �irost	
+PRIVATE_SHOP_SEARCH_SELECT_ALCHEMY_LEVEL	Vyber �rove�	
+PRIVATE_SHOP_SEARCH_SELECT_ATTR	Vyber atributy: %d	
+PRIVATE_SHOP_SEARCH_SELECT_GENDER	Vyber pohlav�	
+PRIVATE_SHOP_SEARCH_SELECT_JOB	Vyber zam��en�	
+PRIVATE_SHOP_SEARCH_SELECT_NONE	��dn�	
+PRIVATE_SHOP_SEARCH_SELECT_SASH_ABSORPTION	Absorpce �erpy	
+PRIVATE_SHOP_SEARCH_TITLE_ALCHEMY	Alchymie	
+PRIVATE_SHOP_SEARCH_TITLE_ATTRIBUTES	Atributy	
+PRIVATE_SHOP_SEARCH_TITLE_CLASSIFIERS	Klasifik�tory	
+PRIVATE_SHOP_SEARCH_TITLE_LIMITS	Limity	
+PVP_EVENT_TIME	Za��tek za: %s	
+PVP_LEVEL0	[Vl�dce Zaris]	
+PVP_LEVEL1	[Velmistr]		
+PVP_LEVEL2	[Vl�dce]	
+PVP_LEVEL3	[Neporaziteln�]	
+PVP_LEVEL4	[V�emohouc�]	
+PVP_LEVEL5	[State�n�]	
+PVP_LEVEL6	[Rekrut]	
+PVP_LEVEL7	[Neutr�ln�]	
+PVP_LEVEL8	[Agresivn�]	
+PVP_LEVEL9	[�sko�n�]	
+PVP_LEVEL10	[Zlomysln�]	
+PVP_LEVEL11	[Krut�]
+QUEST_CATEGORY_00	Hlavn� �koly	
+QUEST_CATEGORY_01	Vedlej�� �koly	
+QUEST_CATEGORY_02	Zab�jen�	
+QUEST_CATEGORY_03	Sb�ratelsk� �koly	
+QUEST_CATEGORY_04	Eventov� �koly	
+QUEST_CATEGORY_05	Denn� �koly	
+QUEST_CATEGORY_06	Syst�my a schopnosti	
+QUEST_CATEGORY_07	Denn� �koly	
+RED_KINGDOM	|cFFFBB497Shinsoo|h|r	
+REFINE_FAILURE_CAN_NOT_ATTACH	%s nelze p�idat k p�edm�tu.
+REMOVE_ITEM_DO_YOU_REMOVE	Opravdu chce� odstranit vybran� p�edm�ty?	
+RESP_AVAILABLE	Dostupn�	
+RESP_DROP_TEXT	Po kliknut� na toto tla��tko se ti zobraz� drop z dan� p��ery.
+RESP_DROP_TITLE	Informace o p��e�e
+RESP_MOB_TEXT	Jakmile je tento checkbox za�krtnut�, bude se ti po najet� na p��eru zobrazovat jej� model.
+RESP_MOB_TITLE	Zobrazit model p��ery
+RESP_PAGE_COUNT	Strana %d / %d	
+RESP_RESP_TEXT	Jakmile je tento checkbox za�krtnut�, bude se ti po najet� na tla��tko "teleportovat" zobrazovat poloha p�i�ery na map�.
+RESP_RESP_TITLE	N�hled mapy	
+REVIVE_AUTO_TOWN_MESSAGE	N�vrat do m�sta za: {}	
+RUNE_DECK5_TOOLTIP	Runy - Dodate�n� bonus (�rove� +5)	
+RUNE_DECK9_TOOLTIP	Runy - Dodate�n� bonus (�rove� +9)	
+SHOP_NOT_ENOUGH_CHEQUE	M� m�lo Won�.	
+SHOP_NOT_ENOUGH_MONEY_CHEQUE	Nem� dostatek won� nebo yang�.	
+SHOP_NOT_ENOUGH_PKT_OSIAG	Nem� dostatek bod� �sp�chu.	
+SKILL_AFFECT_REMOVE_QUESTION	Opravdu chce� tuto schopnost zru�it?	
+STATUS_GUI_TXT	Po�et:	
+SWITCHBOT_CLEAR_ATTR	Odebrat bonus	
+SWITCHBOT_CLEAR_CONFIGURATION	Vy�istit	
+SWITCHBOT_CONFIGURATION_TITLE	Tvoje �ablony	
+SWITCHBOT_EMPTY_ATTR	- Mus� vybrat bonus -	
+SWITCHBOT_LOAD_CONFIGURATION	Na��st	
+SWITCHBOT_SAVE	Ulo�it	
+SWITCHBOT_SAVE_BUTTON	�lo�i�t�
+SWITCHBOT_SELECT_ATTR	V�b�r bonusu	
+SWITCHBOT_START	Start	
+SWITCHBOT_STOP	Stop	
+SWITCHBOT_TITLE	Switchbot	
+SYSTEM_OPTION_CPU_TILING_1	Modus CPU-Tiling m��e zv��it rychlost slab��ho po��ta�e.
+SYSTEM_OPTION_CPU_TILING_2	Pokud se vyskytuj� probl�my s grafikou, zvol ,Nastaven� syst�mu� nebo ,CONFIG.exe�
+SYSTEM_OPTION_CPU_TILING_3	a p�epni do GPU-Tiling m�du
+SYSTEM_OPTION_GPU_TILING_1	Modus GPU-Tiling m��e na slab��ch po��ta��ch b�et pomalu
+SYSTEM_OPTION_GPU_TILING_2	Pokud se vyskytuj� probl�my s grafikou, zvol ,Nastaven� syst�mu� nebo ,CONFIG.exe�
+SYSTEM_OPTION_GPU_TILING_3	a p�epni do m�du CPU-Tiling
+SYSTEM_OPTION_TILING_EXIT	Na zm�nu Tiling-m�du mus� hra b�t restartov�na.
+TARGET_LEVEL_ELITKA	Elita	
+TARGET_LEVEL_LEGENDA	Legenda	
+TOOLTIP_APPLY_3	mazl��ka s bonusy PVM:	
+TOOLTIP_APPLY_33050_1	Siln� proti p��er�m +15%	
+TOOLTIP_APPLY_33051_1	Max. ZB +2000	
+TOOLTIP_APPLY_33051_2	Siln� proti lidem +15%	
+TOOLTIP_APPLY_ATTBONUS_BOSS	Siln� proti boss�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_KLASY	Siln� proti v�em postav�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_LEGENDA	Siln� proti Legend�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_STONE	Siln� proti balvan�m +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WLADCA	Siln� proti vl�dc�m +%d%%	SA
+TOOLTIP_APPLY_DMG_BONUS	�tok +%d%%	SA
+TOOLTIP_APPLY_FINAL_DMG_BONUS	Celkov� po�kozen� +%d%%	SA
+TOOLTIP_APPLY_RESIST_KLASY	Odolnost proti v�em postav�m +%d%%	SA
+TOOLTIP_APPLY_SKILE_BUFF_BOOK_BONUS	�ance na �sp�n� tr�nink schopnosti autobuffa zv��ena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_BUFF_NO_BOOK_DELAY	V p��pad�, �e se tr�nink schopnosti autobuffa nepovede, bude� jej moci tr�novat ihned znovu.	SNA
+TOOLTIP_APPLY_SKILE_PAS_BOOK_BONUS	�ance na �sp�n� tr�nink pasivn�ch schopnost� zv��ena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_PAS_NO_BOOK_DELAY	V p��pad�, �e se tr�nink pasivn� schopnosti nepovede, bude� je moci tr�novat ihned znovu.	SNA
+TOOLTIP_APPLY_SKILE_PET_BOOK_BONUS	�ance na �sp�n� tr�nink schopnost� mazl��ka zv��ena 2.5x	SNA
+TOOLTIP_APPLY_SKILE_PET_NO_BOOK_DELAY	V p��pad�, �e se tr�nink schopnosti mazl��ka nepovede, bude� jej moci tr�novat ihned znovu.	SNA
+TOOLTIP_ATTBONUS_DUNGEON	S�la v dungeonech +%d%%	SA
+TOOLTIP_BUYPRICE_TEXT	|cFF96e000[Prodejn� cena]|r	
+TOOLTIP_DROP_INFO_PREFIX	� %s	
+TOOLTIP_DROP_INFO_RANGE_COUNT	Mo�n� z�skat: %s - %s	
+TOOLTIP_DROP_INFO_SINGLE_COUNT	Mo�n� z�skat:	
+TOOLTIP_ITEMSHOP_UNIQUE_ITEM	[Unik�tn� p�edm�t %d z %d]	
+TOOLTIP_MALL_ITEMBONUS_STATIC_NEW	Zv��ena �ance na drop truhel v dungeonech.	SNA
+TOOLTIP_MALL_PICKUP	Automatick� sb�r�n� p�edm�t�.	SNA
+TOOLTIP_PASYWKI_MASTER	Pasivn� schopnosti - Dodate�n� bonus	
+TOOLTIP_RESIST_BOSS	Odolnost proti boss�m: %d%%	SA
+TOOLTIP_RESIST_MONSTER	Odolnost proti p��er�m: %d%%	SA
+TOOLTIP_RESIST_WLADCA	Odolnost proti vl�dc�m: %d%%	SA
+TOOLTIP_STAT_BONUS	Statistiky +%s	SA
+TOURNAMENT_ALL_CHARACTER	V�echna zam��en�	
+TOURNAMENT_EVENT	Turnaj PvP (%s - Lv %d - Lv %d)	
+UI_LOCATION_01	Zapsat	
+UI_LOCATION_02	Na��st	
+UI_LOCATION_03	Odebrat	
+UI_LOCATION_04	Nezapsan� pozice	
+UI_LOCATION_05	Tato pozice je ji� zabran�, pou�ij jinou	
+UI_LOCATION_06	Nejprve dokon�i z�pis p�edchoz� pozice	
+UI_LOCATION_07	Tuto pozici nelze pou��t	
+UI_LOCATION_08	Maxim�ln� d�lka n�zvu je %d znak�	
+USE_ITEM_FAILURE_OFFLINE_SHOP	Nem��e� pou��t tento p�edm�t p�i otev�r�n� st�nku!	
+WHELL_OF_FORTUNE_EVENT	Kolo �t�st�	
+WONEXCHANGE_CONFIRM_QUESTION_1	Chce� prodat %d Won za %s Yang�.	
+WONEXCHANGE_CONFIRM_QUESTION_2	Chce� zakopit %d Won za %s Yang�.	
+WONEXCHANGE_CONFIRM_QUESTION_3	Pokra�ovat?	
+YANG_DROP_EVENT	Zv�t�en� drop Yang�: %d%%	
+YELLOW_KINGDOM	|cFFFDE696Chunjo|h|r	
+AUTO_HUNT_TITLE	Auto Hunt
+AUTO_HUNT_SKILLS	Skills
+AUTO_HUNT_RESET	Reset
+AUTO_HUNT_OPTION	Options
+AUTO_HUNT_START	Start
+AUTO_HUNT_STOP	Stop
+AUTO_HUNT_RANGE	Range
+AUTO_HUNT_MOB_FARM	Mob Farm
+AUTO_HUNT_STONE_FARM	Stone Farm
+AUTO_HUNT_AUTO_LOGIN	Auto Login
+AUTO_HUNT_CANT_CHANGE_ACTIVE	You can't change settings while active!
+AUTO_HUNT_NEED_DEACTIVE	Deactivate first!
+AUTO_HUNT_MOUNT	Mount
+AUTO_HUNT_NO_AFFECT	You don't have the Auto Hunt permission!

@@ -1,0 +1,67 @@
+ScriptType               MotionData
+
+MotionFileName           "d:\ymir work\monster\c07\atk.gr2"
+MotionDuration           5.233334
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Weapon_R_Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/cref/c07/light2.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Weapon_R_Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/cref/c07/light3.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         2.796938
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Weapon_R_Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/cref/c01/explosion.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         2.796938
+        DuringTime           0.100000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          2
+        StiffenTime          0.000000
+        InvisibleTime        0.000000
+        ExternalForce        0.100000
+        HitLimitCount        0
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           500.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

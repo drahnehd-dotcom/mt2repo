@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_ice_mon_3\run.GR2"
+MotionDuration           1.000000
+Accumulation             0.00	-537.787536	0.00
+

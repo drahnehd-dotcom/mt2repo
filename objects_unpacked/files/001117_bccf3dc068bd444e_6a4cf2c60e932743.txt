@@ -1,0 +1,3 @@
+Diffuse=LV_AncientRuins_Object_A_IronDoor01_D_NWCSTE
+Normal=LV_AncientRuins_Object_A_IronDoor01_N_NWCSTE
+Specular=LV_AncientRuins_Object_A_IronDoor01_SP_NWCSTE

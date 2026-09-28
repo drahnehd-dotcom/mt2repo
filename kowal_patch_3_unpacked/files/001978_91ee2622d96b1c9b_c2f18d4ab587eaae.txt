@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_egyptian_chapter\plechi_ancient_lowboss\run.GR2"
+MotionDuration           2.266667
+Accumulation             0.00	-1090.47	0.00
+

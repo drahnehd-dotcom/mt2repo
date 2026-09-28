@@ -1,0 +1,57 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\metinstone_fairyland_3\wait.GR2"
+MotionDuration           2.000000
+
+Group MotionEventData
+{
+    MotionEventDataCount     4
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "bone_102"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/shining/stone/attack4.mse"
+        EffectPosition       0.000000 0.000000 100.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.626305
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "bone_102"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/shining/stone/attack4.mse"
+        EffectPosition       0.000000 0.000000 100.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         1.177453
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "bone_102"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/shining/stone/attack4.mse"
+        EffectPosition       0.000000 0.000000 100.000000
+    }
+    Group Event03
+    {
+        MotionEventType      1
+        StartingTime         1.628392
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "bone_102"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/shining/stone/attack4.mse"
+        EffectPosition       0.000000 0.000000 100.000000
+    }
+}

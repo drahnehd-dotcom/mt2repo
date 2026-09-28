@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\shiro_pet_19\run.GR2"
+MotionDuration           0.800000
+Accumulation             0.00	-372.640	0.00
+

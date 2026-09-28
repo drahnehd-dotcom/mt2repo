@@ -1,0 +1,26 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\npc_pet\ervelia_pet_event01\ervelia_pet_event01.gr2"
+
+Group AttachingData
+{
+    AttachingDataCount       1
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           60.000000
+            Position         0.000000 0.000000 10.000000
+        }
+    }
+}

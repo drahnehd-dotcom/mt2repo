@@ -1,0 +1,3 @@
+Diffuse=LV_Carcerem_Object_Prison_D_NWCMIN
+Normal=LV_Carcerem_Object_Prison_N_NWCMIN
+Specular=LV_Carcerem_Object_Prison_SP_NWCMIN

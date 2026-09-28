@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/npc/ridack_wolfmount/00.gr2"
+MotionDuration           5.333333
+

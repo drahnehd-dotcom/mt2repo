@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\plechito_egyptian_chapter\plechi_scarab_stone\stay00.GR2"
+MotionDuration           0.333333
+Accumulation             0.00	0.00	0.00
+

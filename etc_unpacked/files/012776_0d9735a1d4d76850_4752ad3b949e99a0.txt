@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "wonexchange_002.dds"
+left 45
+top 99
+right 60
+bottom 114

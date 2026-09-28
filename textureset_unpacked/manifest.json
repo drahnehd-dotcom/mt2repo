@@ -1,0 +1,66 @@
+{
+  "format": "KowalMT2-ZARC-v4",
+  "source_path": "D:\\Pliki\\kowalmt2_Nowe\\textureset",
+  "source_name": "textureset",
+  "header_file": "header.bin",
+  "header": {
+    "version": 2,
+    "meta_key": 5999166653518725458,
+    "meta_size": 160,
+    "data_start": 264,
+    "count_a": 2,
+    "count_b": 2,
+    "meta_hash": 4796298782177648222,
+    "seed": 4480954864533228704
+  },
+  "files": [
+    {
+      "index": 0,
+      "hash0": 15343104819185712401,
+      "hash1": 12865263024554428688,
+      "size": 199,
+      "first_chunk": 0,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000000_d4eda88ab325fd11_b28a988ec888c910.txt",
+      "sha256": "1afa36a5fa9bcb18fae3b101ca70cca82ad6b297d5b92e0006fff66f43894f69",
+      "chunks": [
+        {
+          "index": 0,
+          "offset": 264,
+          "packed_size": 119,
+          "unpacked_size": 199,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 12363449606322246795
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "hash0": 15972162114621664469,
+      "hash1": 78765315323975546,
+      "size": 967,
+      "first_chunk": 1,
+      "packed_info": 12884901889,
+      "chunk_count": 1,
+      "file_flags": 3,
+      "reserved": 0,
+      "output_path": "files/000001_dda884d1b0f9ecd5_0117d4a31081d77a.txt",
+      "sha256": "d4da78ad33d0f2c765e4942f2dad4ec5a5eadf7a91a9486e38d00ba3db555755",
+      "chunks": [
+        {
+          "index": 1,
+          "offset": 383,
+          "packed_size": 164,
+          "unpacked_size": 967,
+          "flags": 3,
+          "reserved": 0,
+          "cipher_hash": 12565964149045405699
+        }
+      ]
+    }
+  ]
+}

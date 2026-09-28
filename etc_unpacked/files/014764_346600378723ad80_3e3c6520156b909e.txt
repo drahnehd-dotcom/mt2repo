@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "pet_skill.tga"
+left 164
+top 49
+right 196
+bottom 81

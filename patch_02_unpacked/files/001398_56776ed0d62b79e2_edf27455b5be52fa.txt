@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechi_darkhwang_dragon\stay02.GR2"
+MotionDuration           3.066667
+Accumulation             0.00	0.00	0.00
+

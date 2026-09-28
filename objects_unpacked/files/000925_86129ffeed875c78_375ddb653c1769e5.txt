@@ -1,0 +1,3 @@
+Diffuse=Gorilla_PillarSet_Diff
+Normal=Gorilla_PillarSet_Norm
+Specular=Gorilla_PillarSet_Spec

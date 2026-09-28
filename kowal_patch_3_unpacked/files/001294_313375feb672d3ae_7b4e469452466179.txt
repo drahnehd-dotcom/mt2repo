@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_dark_boss_1\run.GR2"
+MotionDuration           1.066667
+Accumulation             0.00	-1585.829834	0.00
+

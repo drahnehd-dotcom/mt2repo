@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\realis_dark_dragon\wait.gr2"
+MotionDuration           2.166667
+Accumulation             0.000000	0.000000	0.000000
+

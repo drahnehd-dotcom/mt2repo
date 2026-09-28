@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "public_ranking.dds"
+left 660
+top 0
+right 725
+bottom 25

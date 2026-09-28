@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	2	6
+BasePosition	947200	1100800
+TextureSet	textureset\0000000_alune_zywiol_2.txt
+Environment	alune_map_light.msenv
+

@@ -1,0 +1,90 @@
+ScriptType         EnvironmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.500000 0.500000 -0.500000
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.831373 0.831373 0.831373 1.000000
+        Ambient       0.396078 0.400000 0.396078 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.831373 0.831373 0.831373 1.000000
+        Ambient       0.546078 0.550000 0.546078 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 1.000000 1.000000 1.000000
+    Ambient       0.741176 0.713726 0.631373 1.000000
+    Emissive      0.200000 0.200000 0.200000 1.000000
+}
+
+Group Fog
+{
+    Enable        1
+    NearDistance  5000.000000
+    FarDistance   40000.000000
+    Color         0.047059 0.117647 0.164706 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         1.000000 1.000000 1.000000 0.000000
+    AlphaSrc      2
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 1024.000000 1024.000000 512.000000
+    GradientLevelUpper    2
+    GradientLevelLower    1
+    FrontFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\front.dds"
+    BackFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\back.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\left.dds"
+    RightFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\right.dds"
+    TopFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\top.dds"
+    BottomFaceFileName	   "D:\ymir work\environment\alune_zywiol\alune_map_blysk\bottom.dds"
+    
+    CloudScale            100000.000000 100000.000000
+    CloudHeight           4000.000000
+    CloudTextureScale     4.000000 4.000000
+    CloudSpeed            0.002000 0.002000
+    CloudTextureFileName  ""
+    List CloudColor
+    {
+        1.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.411765 0.654902 0.654902 0.000000
+        0.364706 0.400000 0.419608 0.000000
+        
+        0.372549 0.400000 0.423529 0.000000
+        0.490196 0.474510 0.427451 0.000000
+        
+        0.490196 0.474510 0.427451 0.000000
+        0.537255 0.537255 0.537255 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              1.000000
+    MainFlareEnable            0
+    MainFlareTextureFileName   ""
+    MainFlareSize              0.200000
+}
+

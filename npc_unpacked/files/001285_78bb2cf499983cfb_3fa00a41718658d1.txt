@@ -1,0 +1,7 @@
+NoLoadSound	1
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/npc_mount/christmas_2016_mammoth/run.GR2"
+MotionDuration           0.533333
+Accumulation             0.00	-618.30	0.00
+

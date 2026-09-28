@@ -1,0 +1,754 @@
+1	Utwórz gildię
+4	Tak
+5	Nie
+16	GM: Ogranicz.
+17	Wpisz nick gracza, którego chcesz ograniczyć!
+18	Gracz o nicku:
+19	nie istnieje!
+20	GM: Sprawdź.
+21	Posiada gildię:
+22	Jest mistrzem:
+23	Królestwo:
+24	Królestwo NPC:
+25	Opuść gildię
+26	Czy naprawdę chcesz opuścić gildię?
+27	Opuściłeś gildię.
+28	Rozwiąż gildię
+29	Czy naprawdę chcesz rozwiązać gildię?
+30	Gildia została rozwiązana.
+31	Nie możesz założyć gildii, już w niej jesteś!
+32	Czy na pewno chcesz założyć gildię?
+33	Nie masz przedmiotu wymaganego do utworzenia gildii.
+34	Nie masz wystarczającej ilości pieniędzy, aby stworzyć gildię.
+35	Nie masz wystarczającego poziomu przywództwa.
+36	Zanim oddasz kolejny przedmiot, musisz jeszcze chwilę poczekać.
+37	Ten przedmiot miał świetną jakość!
+38	Ukończyłeś misję biologa.
+39	Ten przedmiot miał bardzo słabą jakość!
+40	Nie masz przedmiotu wymaganego do badań.
+41	Twój poziom jest zbyt niski.
+42	Ukończyłeś misję kolekcjonerską.
+54	Limit zostanie zresetowany za:
+55	%d godzin i %d minut.
+56	0 godzin i 0 minut.
+79	Zabij szefa!
+82	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Jaskinię Lodową |cFFc5ff8c(Poz. 125)|r w czasie: |cFFf7b983%s!
+85	Baek-Go
+86	Rzemiosło
+87	Rzemiosło - kamienie duszy
+88	Rzemiosło - eliksiry
+89	Rzemiosło
+96	Sklep
+97	Ryby
+98	Relikty i wytapianie
+113	Zbij HP sługi poniżej 66%
+115	Zniszcz wszystkie 6 metinów
+118	Zbij HP sługi poniżej 33%
+121	Zabij 4 dżiny.
+129	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Cesarski Wąwóz |cFFc5ff8c(Poz. 150)|r w czasie: |cFFf7b983%s!
+131	Nie masz żadnych umiejętności.
+132	Nie można używać w dungeonie.
+133	Kamień Duszy:
+135	efekt Zwoju Egzorcyzmu.
+136	Nie masz żadnych umiejętności na poziomie G.
+137	Wybierz umiejętność, którą chcesz trenować:
+167	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Wieżę Demonów |cFFc5ff8c(Poz. 75)|r w czasie: |cFFf7b983%s!
+600	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Wieżę Orków |cFFc5ff8c(Poz. 30)|r w czasie: |cFFf7b983%s!
+601	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Kryjówkę Baronówny |cFFc5ff8c(Poz. 61)|r w czasie: |cFFf7b983%s!
+169	Chcesz wrócić do dungeonu?
+186	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Sala Królowej Pająków |cFFc5ff8c(Poz. 50)|r w czasie: |cFFf7b983%s!
+204	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Wielkanocny Dungeon |cFFc5ff8c|r w czasie: |cFFf7b983%s!
+227	[Bramy Piekieł] Zabij minibossy!
+228	[Bramy Piekieł] Zabij bossa!
+229	Wejdź do Bram Piekieł (150+)
+231	[Bramy Piekieł] Witaj w dungeonie!
+234	[Bramy Piekieł] Pojawiły się metiny!
+238	Zabij minibossy
+239	[Bramy Piekieł] Pojawił się boss!
+240	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Bramy Piekieł |cFFc5ff8c(Poz. 150)|r w czasie: |cFFf7b983%s!
+257	Deokbae:
+260	Aktualizacja nie powiodła się...
+276	Shinsoo
+277	Jinno
+278	Anuluj
+281	Poddaj się
+282	Anuluj
+298	Aktualizacja nie powiodła się.
+316	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Starożytną Dżunglę |cFFc5ff8c(Poz. 175)|r w czasie: |cFFf7b983%s!
+317	Łączenie szarf
+318	Chcesz połączyć szarfy?
+323	[Ruiny Skorpiona] Zabij 3 minibossów!
+324	[Ruiny Skorpiona] Zabij bossa!
+325	Wejdź do Ruin Skorpiona (100+)
+328	[Ruiny Skorpiona] Witaj w dungeonie!
+331	[Ruiny Skorpiona] Pojawiły się metiny!
+335	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Ruiny Skorpiona |cFFc5ff8c(Poz. 100)|r w czasie: |cFFf7b983%s!
+337	Body
+338	Mental
+339	Sztylety
+340	Łuk
+341	WP
+342	BM
+343	Buff
+344	Heal
+345	Wybierz specjalizację:
+350	Wybierz rodzaj kostiumu:
+351	Kostium PvP
+352	Kostium PvM
+353	Otrzymałeś kostium PvP!
+356	Otrzymałeś kostium PvM!
+360	Spróbuj ponownie za 10 sekund.
+364	minut lub użyj Zwoju Egzorcyzmu.
+367	Trening umiejętności nie daje 100% szans.
+369	Witaj,
+370	jeśli chcesz zresetować skille
+373	Chcesz zresetować skille?
+384	Magazyn
+385	ItemShop
+407	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Statek Widmo (I) |cFFc5ff8c(Poz. 149)|r w czasie: |cFFf7b983%s|r
+414	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Statek Widmo (II) |cFFc5ff8c(Poz. 200)|r w czasie: |cFFf7b983%s|r
+417	[Góry Wukonga] Zabij 3 minibossy!
+418	Wejdź do Gór Wukonga (75+)
+420	[Góry Wukonga] Witaj w dungeonie!
+423	[Góry Wukonga] Pojawiły się metiny!
+427	|cFFf7dd83%s|r |cFFc5ff8c(Poz. %d)|r ukończył(a) |cFFf7dd83Góry Wukonga |cFFc5ff8c(Poz. 75)|r w czasie: |cFFf7b983%s!
+433	Poziomy osiągnięć
+439	Wybierz kostium:
+443	Wybierz nakładkę broni:
+444	To działanie jest nieodwracalne.
+446	Anulowano.
+448	Skrzydła PvP
+449	Skrzydła PvM
+453	Nie da się tego zrobić w dungeonie.
+454	Nie masz wystarczającej ilości miejsca w ekwipunku.
+455	[Jaskinia Lodowa] Zabij 50 potworów, a potem użyj pieczęci!
+456	[Jaskinia Lodowa] Zniszcz wszystkie metiny!
+457	[Jaskinia Lodowa] Zabij 3 minibossy!
+458	[Jaskinia Lodowa] Zabij bossa!
+459	Wejdź do Jaskini Lodowej (125+)
+460	Strażnik: 
+461	Witaj!
+462	Chcesz wejść do Jaskini Lodowej?
+463	Bez wymaganych przedmiotów 
+464	i poziomu nie wpuszczę cię dalej.
+465	Dzisiejsze wejścia: 
+466	 / 80
+467	Potrzebujesz: 
+469	Chcesz kontynuować?
+470	Jasne!
+471	Raczej nie.
+472	Teleportacja jest obecnie niemożliwa!
+473	Tego dungeonu nie da się robić w grupie.
+474	Nie masz wymaganego przedmiotu!
+475	[Jaskinia Lodowa] Witaj w dungeonie!
+476	[Jaskinia Lodowa] Pojawiły się potwory!
+477	Zabij 50 potworów
+478	[Jaskinia Lodowa] Użyj pieczęci, aby przejść dalej!
+479	[Jaskinia Lodowa] Udało się!
+480	[Jaskinia Lodowa] Za 5 sekund pojawi się kolejne zadanie!
+481	[Jaskinia Lodowa] Pojawiły się metiny!
+482	Zniszcz 8 metinów
+483	[Jaskinia Lodowa] Świetna robota!
+484	[Jaskinia Lodowa] Pozostało: 
+486	 metinów!
+487	Zabij 3 minibossy
+488	[Jaskinia Lodowa] Udało ci się zabić minibossy!
+489	Zniszcz 4 metiny
+491	[Jaskinia Lodowa] Pojawił się boss!
+492	[Jaskinia Lodowa] Udało ci się zabić bossa!
+493	[Jaskinia Lodowa] Za minutę zostaniesz teleportowany z dungeonu!
+505	Zmiana nicku
+506	Witaj,
+507	chcesz zmienić nick?
+508	Nick nie może zawierać znaków specjalnych!
+509	Czy chcesz ustawić ten nick?
+510	Nick został zmieniony pomyślnie!
+511	Twój nowy nick to: 
+512	
+513	Aby zmiana była widoczna, wyloguj się i zaloguj ponownie.
+514	Dobrze, może innym razem...
+515	Ten nick jest już zajęty!
+516	Tytuły, pety i wierzchowce
+517	Sklep PO
+518	Kolekcja Wędkarska
+519	Wielkanocne przedmioty
+520	Wytwarzanie letnich przedmiotów
+521	[Cesarski Wąwóz] Zabij 50 potworów!
+522	[Cesarski Wąwóz] Pojawił się sługa cesarza!
+523	[Cesarski Wąwóz] Zniszcz 6 metinów!
+524	[Cesarski Wąwóz] Zabij 4 dżiny!
+525	[Cesarski Wąwóz] Pojawiła się Cesarska Naga!
+526	Wejdź do Cesarskiego Wąwozu (Lv. 201+)
+527	Chcesz wejść do Cesarskiego Wąwozu?
+528	[Cesarski Wąwóz] Witaj w Cesarskim Wąwozie!
+529	[Cesarski Wąwóz] Pojawiły się potwory!
+530	Zabij potwory we wąwozie.
+531	[Cesarski Wąwóz] Zabiłeś wszystkie potwory!
+532	[Cesarski Wąwóz] Sługa cesarza się budzi...
+533	[Cesarski Wąwóz] Pozostało potworów: 
+534	[Cesarski Wąwóz] Sługa przywołał metiny!
+535	[Cesarski Wąwóz] Wszystkie metiny zostały zniszczone!
+536	[Cesarski Wąwóz] Kontynuuj walkę ze sługą!
+537	[Cesarski Wąwóz] Pozostało metinów: 
+538	[Cesarski Wąwóz] Sługa przywołuje posiłki!
+539	[Cesarski Wąwóz] Pokonałeś wszystkie dżiny!
+540	[Cesarski Wąwóz] Zabij sługę cesarza!
+541	Zabij Sługę Cesarza
+542	[Cesarski Wąwóz] Pozostało dżinów: 
+543	[Cesarski Wąwóz] Sługa Cesarza!
+544	[Cesarski Wąwóz] Ale chwila... coś tu nie gra...
+545	Zabij Cesarską Nagę!
+546	[Cesarski Wąwóz] Udało ci się zabić bossa!
+547	[Cesarski Wąwóz] Za minutę zostaniesz teleportowany z dungeonu!
+551	Nie można tego teraz zrobić.
+552	Użycie tego przedmiotu zużyje
+553	Nie można tego teraz zrobić.
+554	Trening umiejętności zakończył się sukcesem.
+555	Mityczna alchemia: zmiana bonusów
+556	Czy na pewno chcesz otworzyć okno zmiany bonusów?
+557	[Sanktuarium Demonów] Zabij 50 potworów, a potem użyj pieczęci!
+558	[Sanktuarium Demonów] Zniszcz wszystkie metiny!
+559	[Sanktuarium Demonów] Zabij 3 minibossy!
+560	[Sanktuarium Demonów] Zabij bossa!
+561	Wejdź do Sanktuarium Demonów (75+)
+562	Chcesz wejść do Sanktuarium Demonów?
+563	[Sanktuarium Demonów] Witaj w dungeonie!
+564	[Sanktuarium Demonów] Pojawiły się potwory!
+565	[Sanktuarium Demonów] Użyj pieczęci, aby przejść dalej!
+566	[Sanktuarium Demonów] Udało się!
+567	[Sanktuarium Demonów] Za 5 sekund pojawi się kolejne zadanie!
+568	[Sanktuarium Demonów] Pojawiły się metiny!
+569	[Sanktuarium Demonów] Świetna robota!
+570	[Sanktuarium Demonów] Pozostało: 
+572	[Sanktuarium Demonów] Udało ci się zabić minibossy!
+574	[Sanktuarium Demonów] Pojawił się boss!
+575	[Sanktuarium Demonów] Udało ci się zabić bossa!
+576	[Sanktuarium Demonów] Za minutę zostaniesz teleportowany z dungeonu!
+577	Powrót do dungeonu
+578	[Sala Królowej Pająków] Zabij 50 potworów, a potem użyj pieczęci!
+579	[Sala Królowej Pająków] Zniszcz wszystkie metiny!
+580	[Sala Królowej Pająków] Zabij 3 minibossy!
+581	[Sala Królowej Pająków] Zabij bossa!
+582	Wejdź do Sali Królowej Pająków (50+)
+583	Chcesz wejść do Sali Królowej Pająków?
+584	[Sala Królowej Pająków] Witaj w dungeonie!
+585	[Sala Królowej Pająków] Pojawiły się potwory!
+586	[Sala Królowej Pająków] Użyj pieczęci, aby przejść dalej!
+587	[Sala Królowej Pająków] Udało się!
+588	[Sala Królowej Pająków] Za 5 sekund pojawi się kolejne zadanie!
+589	[Sala Królowej Pająków] Pojawiły się metiny!
+590	Zniszcz 5 metinów
+591	[Sala Królowej Pająków] Świetna robota!
+592	[Sala Królowej Pająków] Pozostało: 
+593	[Sala Królowej Pająków] Udało ci się zabić minibossy!
+594	[Sala Królowej Pająków] Pojawił się boss!
+595	[Sala Królowej Pająków] Udało ci się zabić bossa!
+596	[Sala Królowej Pająków] Za 20 sekund zostaniesz teleportowany z dungeonu!
+606	 godz. i 
+607	 min.
+609	[Wielkanocny Dungeon] Zabij 150 potworów, a potem użyj pieczęci!
+610	[Wielkanocny Dungeon] Zniszcz wszystkie metiny!
+611	[Wielkanocny Dungeon] Zabij 3 minibossy!
+612	[Wielkanocny Dungeon] Zabij bossa!
+613	Wielkanocny Dungeon
+614	Chcesz wejść do Wielkanocnego Dungeonu?
+615	Bez wymaganych przedmiotów nie wpuszczę cię dalej.
+616	[Wielkanocny Dungeon] Witaj w dungeonie!
+617	[Wielkanocny Dungeon] Pojawiły się potwory!
+618	Zabij 150 potworów
+619	[Wielkanocny Dungeon] Użyj pieczęci, aby przejść dalej!
+620	[Wielkanocny Dungeon] Udało się!
+621	[Wielkanocny Dungeon] Za 5 sekund pojawi się kolejne zadanie!
+622	[Wielkanocny Dungeon] Pojawiły się metiny!
+623	[Wielkanocny Dungeon] Świetna robota!
+624	[Wielkanocny Dungeon] Pozostało: 
+625	[Wielkanocny Dungeon] Udało ci się zabić minibossy!
+626	[Wielkanocny Dungeon] Pojawił się boss!
+627	[Wielkanocny Dungeon] Udało ci się zabić bossa!
+628	[Wielkanocny Dungeon] Za 20 sekund zostaniesz teleportowany z dungeonu!
+631	[Bramy Piekieł] Zabij 50 potworów, a potem użyj pieczęci!
+632	[Bramy Piekieł] Zniszcz wszystkie metiny!
+633	[Bramy Piekieł] Zabij 3 minibossy!
+634	Chcesz wejść do Bram Piekieł?
+635	[Bramy Piekieł] Pojawiły się potwory!
+636	[Bramy Piekieł] Użyj pieczęci, aby przejść dalej!
+637	[Bramy Piekieł] Udało się!
+638	[Bramy Piekieł] Za 5 sekund pojawi się kolejne zadanie!
+639	[Bramy Piekieł] Świetna robota!
+640	[Bramy Piekieł] Pozostało: 
+642	[Bramy Piekieł] Udało ci się zabić minibossy!
+644	[Bramy Piekieł] Udało ci się zabić bossa!
+645	[Bramy Piekieł] Za minutę zostaniesz teleportowany z dungeonu!
+646	Zmiana płci
+647	Nie możesz zmienić płci, jeśli masz założony kostium przeciwnej płci!
+648	Zmiana płci
+649	Musisz mieć minimum 50 poziom!
+650	Nie możesz zmienić płci, jeśli jesteś z kimś w małżeństwie!
+651	Nie możesz zmienić płci, gdy jesteś przemieniony!
+652	Musisz odczekać 24 godziny!
+653	Pozostały czas:
+655	Czy na pewno chcesz zmienić płeć?
+656	Płeć została zmieniona.
+657	Aby dokończyć zmianę, wyloguj się i zaloguj ponownie.
+658	[Kupon PO] Nie można tego teraz zrobić.
+659	[Kupon PO] Nie masz wymaganego kuponu!
+660	[
+661	]
+662	blue
+663	 PO zwiększono o 
+667	Nie ukończyłeś jeszcze startowego dungeonu.
+668	Masz zbyt niski poziom, aby teleportować się do tej lokacji!
+669	Masz zbyt niski lub zbyt wysoki poziom, aby teleportować się do tej lokacji!
+670	Wystąpił problem podczas teleportacji.
+671	Twój poziom jest zbyt wysoki, aby przebywać na tej mapie.
+672	Wytwarzanie odłamków
+673	Ten kilof ma za mało punktów.
+674	Czy na pewno chcesz ulepszyć kilof?
+675	Teraz wygląda znacznie lepiej.
+676	Niestety ulepszenie kilofa się nie powiodło.
+677	Kilof ma teraz niższy poziom.
+678	[Zmiana Królestwa] Nie można tego teraz zrobić.
+679	Zmiana Królestwa:
+680	Dzięki temu przedmiotowi możesz zmienić swoje królestwo,
+681	ale to nie jest darmowe, wszystko ma swoją cenę.
+682	Królestwo możesz zmieniać co 3 dni,
+683	będziesz też potrzebować 100.000.000 yang.
+684	Chcesz zmienić królestwo?
+685	[Zmiana Królestwa] Nie masz 100.000.000 yang.
+686	[Zmiana Królestwa] Ten przedmiot jest obecnie wyłączony.
+687	[Zmiana Królestwa] Najpierw musisz opuścić gildię.
+688	[Zmiana Królestwa] Najpierw musisz się rozwieść.
+689	Wybierz nowe królestwo
+690	Anuluj
+691	[Zmiana Królestwa] Jesteś już w tym królestwie.
+692	[Zmiana Królestwa] Królestwo zostało zmienione! Wyloguj się i zaloguj ponownie, żeby zmiany zadziałały.
+693	'..l..'
+694	:
+695	[WINDOW_SIZE width;
+696	|height;
+697	[INSERT_IMAGE image_type;item|idx;
+698	|title;
+699	|desc;
+700	|index;
+701	|total;
+702	 porzuciłeś to zadanie
+703	Nie wszyscy członkowie grupy znajdują się na tej mapie!
+704	Niektórzy członkowie grupy nie mają wymaganego poziomu: 
+705	- 
+706	Nie masz wymaganego poziomu, żeby wejść do tego dungeonu!
+707	Niektórzy gracze nie mają wymaganej przepustki: 
+708	Niektórzy gracze nie mogą się teleportować: 
+709	Chcieliście oskubać strażnika czy jak?...
+763	W tej wędce nie ma wystarczającej liczby punktów!
+764	Twoja wędka ma już maksymalny poziom!
+765	Czy na pewno chcesz ulepszyć tę wędkę?
+766	Ulepszenie wędki zakończyło się sukcesem!
+767	Spróbuj ponownie później!
+783	[Starożytna Dżungla] Zabij 50 potworów, a potem użyj pieczęci!
+784	[Starożytna Dżungla] Zniszcz wszystkie metiny!
+785	[Starożytna Dżungla] Zabij 3 minibossy!
+786	[Starożytna Dżungla] Zabij minibossy!
+787	[Starożytna Dżungla] Zabij bossa!
+788	Wejdź do Starożytnej Dżungli (175+)
+789	Chcesz wejść do Starożytnej Dżungli?
+790	[Starożytna Dżungla] Witaj w dungeonie!
+791	[Starożytna Dżungla] Pojawiły się potwory!
+792	[Starożytna Dżungla] Użyj pieczęci, aby przejść dalej!
+793	[Starożytna Dżungla] Udało się!
+794	[Starożytna Dżungla] Za 5 sekund pojawi się kolejne zadanie!
+795	[Starożytna Dżungla] Pojawiły się metiny!
+796	[Starożytna Dżungla] Świetna robota!
+797	[Starożytna Dżungla] Pozostało: 
+799	[Starożytna Dżungla] Udało ci się zabić minibossy!
+801	[Starożytna Dżungla] Pojawił się boss!
+802	[Starożytna Dżungla] Udało ci się zabić bossa!
+803	[Starożytna Dżungla] Za minutę zostaniesz teleportowany z dungeonu!
+804	Absorpcja przedmiotu
+805	Czy chcesz zaabsorbować broń do szarfy?
+859	[Ruiny Skorpiona] Zabij 50 potworów, a potem użyj pieczęci!
+860	[Ruiny Skorpiona] Zniszcz wszystkie metiny!
+861	Chcesz wejść do Ruin Skorpiona?
+862	[Ruiny Skorpiona] Pojawiły się potwory!
+863	[Ruiny Skorpiona] Użyj pieczęci, aby przejść dalej!
+864	[Ruiny Skorpiona] Udało się!
+865	[Ruiny Skorpiona] Za 5 sekund pojawi się kolejne zadanie!
+866	[Ruiny Skorpiona] Świetna robota!
+867	[Ruiny Skorpiona] Pozostało: 
+868	[Ruiny Skorpiona] Udało ci się zabić minibossy!
+869	Zniszcz 6 metinów
+870	[Ruiny Skorpiona] Pojawił się boss!
+871	[Ruiny Skorpiona] Udało ci się zabić bossa!
+872	[Ruiny Skorpiona] Za minutę zostaniesz teleportowany z dungeonu!
+873	Wybór specjalizacji
+874	Wybierz specjalizację:
+875	Wybierz swoją specjalizację.
+876	Wybiorę później
+877	Wybrałeś specjalizację!
+878	Wybierz nakładkę broni PvP:
+879	Wybierz nakładkę broni PvM:
+880	Wybierz skrzydła PvP:
+881	Otrzymałeś Skrzydła PvP, peta i wierzchowca!
+882	Wybierz skrzydła PvM:
+883	Otrzymałeś Skrzydła PvM, peta i wierzchowca!
+884	Zły przedmiot.
+885	 Umiejętność możesz trenować ponownie za 
+886	 godz.
+887	Trening umiejętności zakończył się sukcesem.
+888	Umiejętność możesz trenować ponownie za 8 godzin.
+889	Trening umiejętności nie powiódł się.
+890	Reset skilli
+891	i wybrać nową specjalizację, będzie to kosztować.
+892	Cena: 1.000.000 Yang.
+893	Tej zmiany nie da się cofnąć!
+894	[Staruszka] Nie masz 1.000.000 yang.
+895	[Staruszka] Nie możesz tego teraz zrobić.
+896	[Staruszka] Nie wybrałeś jeszcze specjalizacji.
+897	Skille możesz zresetować ponownie za:
+951	[Statek Widmo] Zniszcz metin!
+952	[Statek Widmo] Zabij wszystkie potwory na wierzchowcu!
+953	[Statek Widmo] Zniszcz metin z ziemi!
+954	[Statek Widmo] Zabij wszystkie potwory
+955	[Statek Widmo] Zniszcz wszystkie metiny!
+956	[Statek Widmo] Zabij bossa!
+957	[Statek Widmo] Zniszcz skrzynię kapitana!
+958	Wejdź na Statek Widmo (Lv. 200)
+959	Chcesz wejść na Statek Widmo?
+960	- Grupa (2 graczy)
+961	[Statek Widmo] Musisz mieć obok siebie przynajmniej jeszcze 1 gracza.
+962	[Statek Widmo] Nie jesteś liderem grupy!
+963	[Statek Widmo] Nie masz wystarczającego poziomu!
+964	[Statek Widmo] Twój poziom jest zbyt wysoki!
+965	[Statek Widmo] Lider nie ma wystarczającej liczby przepustek! (x2)
+966	[Statek Widmo] Witaj na Statku Widmo!
+967	Nie zdążyliście ukończyć dungeonu na czas. Wszyscy zostaną teleportowani z dungeonu!
+968	[Statek Widmo] Pojawił się metin!
+969	[Statek Widmo] Udało się!
+970	[Statek Widmo] Za 5 sekund pojawi się kolejne zadanie!
+971	[Statek Widmo] Pojawiły się potwory!
+972	[Statek Widmo] Świetna robota!
+973	[Statek Widmo] Pojawił się boss!
+974	[Statek Widmo] Udało wam się zabić bossa!
+975	[Statek Widmo] Pojawiła się skrzynia!
+976	[Statek Widmo] Zabijcie bossa!
+977	[Statek Widmo] Zniszczyliście skrzynię!
+978	[Statek Widmo] Za minutę wszyscy zostaną teleportowani z dungeonu!
+979	Wejdź na Statek Widmo (Lv. 149)
+980	[Góry Wukonga] Zabij 50 potworów, a potem użyj pieczęci!
+981	[Góry Wukonga] Zniszcz wszystkie metiny!
+982	[Góry Wukonga] Zabij minibossy!
+983	[Góry Wukonga] Zabij bossa!
+984	Chcesz wejść do Gór Wukonga?
+985	[Góry Wukonga] Pojawiły się potwory!
+986	Zabij 100 potworów
+987	[Góry Wukonga] Użyj pieczęci, aby przejść dalej!
+988	[Góry Wukonga] Udało się!
+989	[Góry Wukonga] Za 5 sekund pojawi się kolejne zadanie!
+990	Zniszcz 5 metinów
+991	[Góry Wukonga] Świetna robota!
+992	[Góry Wukonga] Pozostało: 
+994	[Góry Wukonga] Udało ci się zabić minibossy!
+996	[Góry Wukonga] Pojawił się boss!
+997	[Góry Wukonga] Udało ci się zabić bossa!
+998	[Góry Wukonga] Za minutę zostaniesz teleportowany z dungeonu!
+999	Trzystronne Cięcie
+1000	Wir Miecza
+1001	Berserk
+1002	Aura Miecza
+1003	Szarża
+1004	Duchowe Uderzenie
+1005	Walnięcie
+1006	Tąpnięcie
+1007	Silne Ciało
+1008	Uderzenie Miecza
+1009	Zasadzka
+1010	Szybki Atak
+1011	Wirujący Sztylet
+1012	Krycie Się
+1013	Trująca Chmura
+1014	Powtarzalny Strzał
+1015	Deszcz Strzał
+1016	Ognista Strzała
+1017	Bezszelestny Chód
+1018	Trująca Strzała
+1019	Uderzenie Palcem
+1020	Smoczy Wir
+1021	Czarowane Ostrze
+1022	Strach
+1023	Czarowana Zbroja
+1024	Rozproszenie Magii
+1025	Mroczne Uderzenie
+1026	Ogniste Uderzenie
+1027	Ognisty Duch
+1028	Mroczna Ochrona
+1029	Duchowy Cios
+1030	Mroczna Sfera
+1031	Latający Talizman
+1032	Strzelający Smok
+1033	Smoczy Skowyt
+1034	Błogosławieństwo
+1035	Odbicie
+1036	Pomoc Smoka
+1037	Rzut Piorunem
+1038	Przywołanie Błyskawicy
+1039	Burzowy Szpon
+1040	Leczenie
+1041	Zwinność
+1042	Atak+
+1043	Wyjdź
+1044	Przepustka Kowal
+1045	Przepustka Wukonga
+1046	Przepustka Skorpiona
+1047	Arktyczna Przepustka
+1048	Ognista Przepustka
+1049	Starożytna Przepustka
+1050	Piracka Przepustka (I)
+1051	Piracka Przepustka (II)
+1052	Przepustka Cesarza
+1053	Wielkanocna Przepustka
+1054	Udoskonalanie Smoczych Kamieni
+1055	Chcesz udoskonalic swoje Smocze Kamienie?
+1056	Najpierw wybierz umiejętność, którą chcesz szkolić\!
+
+# === Letni Event (Summer Event) — IDs 1500-1599 ===
+# Common phrases
+1500	Witaj!
+1501	Cześć!
+1502	Strażnik:
+1503	Wymagany przedmiot
+1504	Potrzebujesz:
+1505	Nie masz wymaganego przedmiotu!
+1506	Tego teraz nie można zrobić.
+1507	Teraz nie można się teleportować!
+1508	Chcesz kontynuować?
+1509	Tak!
+1510	Lepiej nie.
+1511	Nie teraz
+# summermap_teleport
+1520	Mapa letnia
+1521	Do Lśniącej Laguny możesz znów za:
+1522	%1% godzin i %2% minut.
+1523	(Ograniczenie postaci)
+1524	(Ograniczenie HWID)
+1525	Chcesz się teleportować do Lśniącej Laguny?
+1526	 - Do mapy można wejść raz na 3 godziny (CHAR + HWID)
+1527	 - Czas oczekiwania liczony od momentu wejścia do mapy
+1528	 - W mapie możesz być maksymalnie 30 minut
+1529	Teleportuj
+1530	Lśniąca Laguna jest niedostępna.
+1531	Twój czas wygasł. Zostaniesz teleportowany do miasta.
+# summer_dungeon
+1540	Dungeon
+1541	[Solargonowa Jaskinia]
+1542	Czy dobrze rozumiem? Chcesz wejść do Solargonowej Jaskini?
+1543	Bez wymaganych przedmiotów dalej cię nie wpuszczę.
+1544	Nie możesz wejść do lochu!
+1545	Pozostały czas (postać): %1%
+1546	Pozostały czas (HWID): %1%
+1547	Tego lochu nie można robić w grupie.
+1548	[Solargonowa Jaskinia] Witaj w Solargonowej Jaskini!
+1549	[Solargonowa Jaskinia] Pojawiły się Ołtarze Solargona i potwory!
+1550	[Solargonowa Jaskinia] Zniszcz 3 fale potworów!
+1551	[Solargonowa Jaskinia] Pozostałych potworów: %1%
+1552	[Solargonowa Jaskinia] Zabiłeś wszystkie fale!
+1553	[Solargonowa Jaskinia] Zbierz przedmiot do niszczenia Ołtarzy Solargona!
+1554	[Solargonowa Jaskinia] Brak Ołtarzy do zniszczenia!
+1555	[Solargonowa Jaskinia] Zniszczyłeś Ołtarz! Pozostało: %1%
+1556	[Solargonowa Jaskinia] Użyj przemiany, którą masz teraz w plecaku i upiecz serce Solargona!
+1557	[Solargonowa Jaskinia] Zniszcz 6 serc Solargona!
+1558	[Solargonowa Jaskinia] Pozostałych serc: %1%
+1559	[Solargonowa Jaskinia] Zniszczyłeś wszystkie serca!
+1560	[Solargonowa Jaskinia] Zniszcz kolejne 3 fale potworów!
+1561	[Solargonowa Jaskinia] Zabij mini bossa!
+1562	[Solargonowa Jaskinia] Zabiłeś mini bossa!
+1563	[Solargonowa Jaskinia] Użyj przemiany, którą masz teraz w plecaku i upiecz martwe serce Solargona!
+1564	[Solargonowa Jaskinia] Zniszcz 6 martwych serc Solargona!
+1565	[Solargonowa Jaskinia] Pozostałych martwych serc: %1%
+1566	[Solargonowa Jaskinia] Finalny boss Solargon się pojawił!
+1567	[Solargonowa Jaskinia] Boss ma poniżej 50%% HP!
+1568	[Solargonowa Jaskinia] Ostatni Ołtarz zaczął się teleportować!
+1569	[Solargonowa Jaskinia] Musisz być bliżej teleportującego Ołtarza!
+1570	[Solargonowa Jaskinia] Zniszczyłeś ostatni Ołtarz! Teraz możesz zabić Solargona!
+1571	[Solargonowa Jaskinia] Solargon wrócił do 50%% HP!
+1572	[Solargonowa Jaskinia] Ołtarz się przesunął!
+1573	[Solargonowa Jaskinia] Udało Ci się zabić Solargona!
+1574	[Solargonowa Jaskinia] Za minutę zostaniesz teleportowany z lochu!
+1575	|cFFf7dd83%1%|r |cFFc5ff8c(Lv. %2%)|r ukończył/a |cFFf7dd83Solargonową Jaskinię |cFFc5ff8c(Letni dungeon)|r w czasie: |cFFf7b983%3%!
+# summer_free_is
+1580	Letnie kostiumy za darmo!
+1581	Witaj!
+1582	Oto twoje darmowe przedmioty z item shop na letni event!
+1583	Zawierają pełne bonusy i są na 3 dni.
+1584	Sklep Sztabek
+1585	Skrytka pozwala bezpiecznie przechowywać przedmioty i yang.
+1586	Pierwsze odblokowanie kosztuje 500 yang.[ENTER]Chcesz je odblokować?
+1587	Nie masz wystarczająco yang. Potrzebujesz 500 yang.
+1588	Skrytka została odblokowana. Miłego korzystania!
+1589	Zapłać 500 yang
+1590	Grota Wygnańców
+1591	Grota Wygnańców
+1592	Mogę przenieść Cię do Groty Wygnańców. Wymagany poziom 75 oraz Krwisty Kamień.
+1593	Musisz osiągnąć poziom 75, aby wejść do Groty Wygnańców.
+1594	Potrzebujesz Krwistego Kamienia, aby się przenieść.
+1595	Nie możesz się teraz przenieść.
+1596	[Staruszka] Reset skilli możliwy tylko do 30 poziomu.
+1597	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83pokonał bossa: 
+1598	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83zniszczył metina: 
+1599	Wymagania do założenia gildii:
+1600	- poziom min. %1%, Twój: %2%
+1601	- %1% yang, Twoje: %2%
+1602	- po rozwiązaniu gildii odczekaj jeszcze %1% h
+1603	- po usunięciu z gildii odczekaj jeszcze %1% h
+1604	Nazwa gildii: 2-12 znaków, tylko litery A-Z i cyfry.
+1605	Bez spacji i polskich znaków. Musi być wolna.
+1606	Koszt pobierany po założeniu gildii.
+1607	 (OK)
+1608	 (BRAK)
+1609	Nie spełniasz wszystkich wymagań.
+1610	Czy chcesz założyć gildię?
+1611	- %1% x %2%, Twoje: %3%
+1620	Twoja Ranga jest zbyt niska, aby kontynuować trening.
+1621	Koszt treningu w punktach Rangi:
+1622	Masz ujemną Rangę, więc koszt jest podwojony.
+1623	Uwaga: po treningu twoja Ranga spadnie poniżej zera.
+1624	Kontynuować?
+1625	Utracone punkty Rangi:
+1626	Nieudany trening kosztował cię punktów Rangi:
+1627	Zemsta Handlarza Pierścionków
+1628	Starsza Pani
+1629	Dorosłeś, czy chcesz dowieść swojej odwagi?[ENTER]Znasz może Jin-Hee? Był kiedyś taki Handlarz[ENTER]Pierścionków w naszej wiosce, który sprzedawał[ENTER]obrączki zakochanym. Jeden z Jin-Hee zabił[ENTER]Handlarza, bo nienawidził zakochanych. Czy[ENTER]mógłbyś pomścić śmierć tego Handlarza i zabić 30[ENTER]Jin-Hee?
+1630	Pomszczę Handlarza Pierścionków.
+1631	Nie, Jin-Hee są dla mnie za silni.
+1632	To bardzo rozsądna i honorowa decyzja! Jednak[ENTER]pamiętaj - musisz zabić 30 Jin-Hee. Bądź[ENTER]ostrożny, są bardzo przebiegli i trudno ich[ENTER]znaleźć!
+1633	Wielka szkoda, ale nic nie mogę na to poradzić.[ENTER]Konsekwencją nieuzasadnionej odwagi jest śmierć.[ENTER]Uważaj na siebie!
+1634	Pozostało Jin-Hee
+1635	Pokonałeś wszystkich Jin Hee!
+1636	Teraz, gdy Handlarz Pierścionków został[ENTER]odpowiednio pomszczony, moja misja została[ENTER]wykonana.
+1637	Pokonaj Jin-Hee
+1638	Informacja:
+1639	Starsza Pani poprosiła cię o pomoc: Jej[ENTER]przyjaciel, Handlarz Pierścionków, został[ENTER]zamordowany przez Jin-Hee, elitę Zakonu[ENTER]Zaprzysiężonych. Pomścij go zabijając 30 Jin-Hee.
+1640	Pozostało Jin-Hee
+1641	Oh, pokonałeś wszystkich Jin-Hee?[ENTER]Wdaje mi się, że jednak nie wypełniłeś jeszcze[ENTER]swojego zadania. Powiedz mi, jeżeli ta misja jest[ENTER]dla Ciebie za trudna.
+1642	Dalej
+1643	Anuluj
+1644	Rodzina Handlarza chce zemsty za jego śmierć![ENTER]Jeśli możesz dopomóc im w ich żalu, zrób to.
+1645	Co za szkoda, że nie chcesz pomścić Handlarza.[ENTER]Oczywiście lubisz być żywy... Cokolwiek powiesz,[ENTER]każde życie ma swoją wartość.
+1646	Widziałeś coś świecącego w ręce kobiety, gdy się[ENTER]odwracała. Był to jakiś błyszczący obiekt.[ENTER]Przedmiot ten wyglądał na bardzo cenny.
+1647	Spróbuję ponownie.
+1648	Nie jestem zainteresowana cennymi kamieniami.[ENTER]Chcę tylko zemsty za śmierć handlarza. Dobrze, że[ENTER]to przemyślałeś, ruszaj więc dokonać dzieła.
+1649	Szkoda mi rodziny Handlarza. Przykro mi, że nie[ENTER]podjąłeś się zadania...
+1650	Powróć do Starszej Pani
+1651	Wróć do Starszej Pani i powiedz jej, że pomściłeś[ENTER]śmierć Handlarza Pierścionków zabijając Jin-Hees.
+1652	Pokonałeś 30 Jin-Hee!
+1653	Pokonałeś wszystkich Jin-Hee. Świetna robota![ENTER]Handlarz w niebiosach powinien być teraz[ENTER]zadowolony. Oto pierścień, który mi powierzył.[ENTER]Będzie twój, oto nagroda za wykonanie misji.[ENTER]Wiem, że chciałby żeby był twój.
+1654	Otrzymałeś Pierścionek Zaręczynowy!
+1655	Pierścionek Zaręczynowy
+1656	Ten pierścień symbolizuje zbliżające się wesele.
+1657	Chcę wziąć Ślub
+1658	Starsza Pani
+1659	Aktualnie trwa inny ślub.[ENTER]Proszę, poczekaj chwilkę lub przyjdź później!
+1660	Jesteś za młody aby wziąć ślub... Nie jesteś[ENTER]jeszcze gotów. Młodzi ludzie bardzo szybko się[ENTER]rozwodzą. Nie popieram tego. Wróć gdy będziesz[ENTER]miał więcej doświadczenia.
+1661	Informacja:
+1662	Śluby są możliwe od poziomu 25.
+1663	Co? Chcesz wziąć Ślub bez Obrączki?
+1664	Pierścionek Zaręczynowy
+1665	Musisz zdobyć Pierścionek Zaręczynowy.[ENTER]Dopiero wtedy będziesz mógł wziąć Ślub.
+1666	Naprawdę chcesz wziąć Ślub w takim stroju?[ENTER]Bierzesz ślub raz w życiu, więc powinieneś być[ENTER]przynajmniej stosownie ubrany.
+1667	Garnitur
+1668	Jeśli chcesz wziąć ślub, musisz mieć na sobie[ENTER]Smoking.
+1669	Suknia Ślubna
+1670	Jeżeli chcesz wziąć Ślub, musisz mieć na sobie[ENTER]Suknię Ślubną
+1671	To oczywiste, że potrzebujesz trochę Yang na ten[ENTER]ślub. Jednak nie masz wystarczającej ilości.[ENTER]Zbierz co najmniej 1 milion Yang.
+1672	Potrzebujesz 1.000.000 Yang.
+1673	Jesteś już wystarczająco dojrzały.[ENTER]No i w końcu ładnie wyglądasz. Kogo chcesz[ENTER]poślubić?
+1674	Wpisz nazwę osoby, z którą chcesz wziąć ślub.
+1675	Jesteś w takim szoku, że nawet nie potrafisz[ENTER]wpisać nazwy? Spróbuj ponownie...
+1676	Jesteś tak podekscytowany, że nie potrafisz podać[ENTER]imienia? Spróbuj ponownie.
+1677	%s nie jest online.
+1678	Twój partner musi być blisko, abym mogła zając[ENTER]się waszą ceremonią. Przyprowadź tu swojego[ENTER]partnera.
+1679	%s jest za daleko.
+1680	Nie twoje imię... musisz podać imię wybranej[ENTER]osoby...
+1681	Wpisz nazwę twojego partnera.
+1682	Przykro mi.[ENTER][ENTER]Nie możesz wziąć Ślubu z osobą tej samej płci.
+1683	Tylko osoby z tego samego Królestwa mogą wziąć[ENTER]Ślub.
+1684	Osoba z którą zamierzasz wziąć ślub jest już[ENTER]poślubiona, wiedziałeś o tym? Znajdź samotną[ENTER]osobę.
+1685	%s jest już aktualnie w związku.
+1686	Ta osoba nie jest jeszcze odpowiednio dojrzała.[ENTER]Twój partner musi mieć co najmniej 25. poziom[ENTER]postaci!
+1687	Wy dwoje nie pasujecie do siebie. A jeśli do[ENTER]siebie nie pasujecie, to nie mogę zezwolić na ten[ENTER]ślub. Różnica poziomów nie może być większa niż[ENTER]15, dlatego nie możecie wziąć ślubu.
+1688	Teraz, proszę wymienić obrączki.
+1689	Starsza Pani:[ENTER]Ślub to bardzo ważny krok w życiu.[ENTER]Czy twój partner nie mógł chociaż kupić Obrączki?
+1690	Twój partner również musi mieć Obrączkę.
+1691	Twój partner nie jest odpowiednio ubrany.[ENTER]Czy nie jesteś zażenowany stojąc obok takiej[ENTER]osoby?
+1692	Twój partner musi mieć na sobie Smoking.
+1693	Twoja partnerka musi mieć na sobie Suknię Ślubną.
+1694	%s Ci się oświadczył. Czy się zgadzasz?
+1695	Tak więc... jesteśmy gotowi. Możemy zaczynać.[ENTER]Wyślę was na wyspę kochanków. Życzę wam, by wasze[ENTER]małżeństwo było długie i szczęśliwe. Gratulacje![ENTER]Zostaniecie przeniesieni na Wyspę automatycznie.
+1696	Twój partner nie chce Cię poślubić.[ENTER]Warto to wyjaśnić, teraz...
+1697	Powrót na Wyspę Kochanków
+1698	Czemu wciąż tu stoisz? Twój partner tęskni za[ENTER]Tobą. Wyślę Cię do niego.
+1699	Pozwolenie na Ślub.
+1700	Organizator Ślubu:
+1701	Rozmawiam z twoim partnerem, sekundkę.
+1702	Będę Wam pomagała przy Ślubie.[ENTER]Na początek wpisz imię swojego partnera.
+1703	Takiego imienia nie mam w rozpisce, przejrzysz[ENTER]jeszcze raz swoje oświadczenie?
+1704	Wybacz. Przyjdź tu z partnerem.[ENTER]Muszę przekazać mu kilka informacji i przepytać[ENTER]go.
+1705	%s musi być bliżej.
+1706	Proszę, nie wpisuj swojego imienia.[ENTER][ENTER]To musi być imię wybranej przez Ciebie osoby.
+1707	Organizator Ślubu:
+1708	Coś mi tu nie pasuje. To nie jest ta osoba.[ENTER]Czy możesz to sprawdzić?
+1709	Twój partner nie jest gotowy na małżeństwo.[ENTER]Porozmawiajcie ze sobą.
+1710	Dobrze, przygotowania zakończone. Ceremonia może[ENTER]się zacząć.
+1711	To będzie piękny Ślub!
+1712	Rozpocznij Marsz Weselny
+1713	Zakończ Marsz Weselny
+1714	Noc
+1715	Śnieg
+1716	Zakończenie Ślubu
+1717	Poczekaj chwilkę, rozmawiam z twoim partnerem.
+1718	Czy chcesz kontynuować Ślub?
+1719	Tak
+1720	Nie
+1721	Twój partner musi także wyrazić zgodę na[ENTER]kontynuację.[ENTER]Ślub nie może być kontynuowany, ponieważ twój[ENTER]partner nie jest online.
+1722	Musimy czekać na zgodę twojego partnera.[ENTER]Jeszcze jej nie mamy.
+1723	Czy chcesz kontynuować Ślub?
+1724	Twój partner nie wyraził zgody!
+1725	Rozwód
+1726	Rozwód
+1727	Strażnik:
+1728	Nie możesz się rozwieść legalnie pod nieobecność[ENTER]partnera. Wróć z partnerem! Rozwód jest sprawą[ENTER]majątkową , nieprawdaż..?
+1729	Aby wziąć legalny rozwód, potrzebujesz 500.000[ENTER]Yang i zgody od twojego partnera.[ENTER]Czy naprawdę chcesz to zrobić?
+1730	Tak
+1731	Ah, to był taki żart.
+1732	Przynieś Obrączkę Ślubną.
+1733	Niech twój partner przyniesie tutaj Obrączkę.
+1734	Nie stać Cię na rozwód. Masz za mało Yang!
+1735	Aby wziąć rozwód, potrzebujesz %s Yang.
+1736	Potrzebujesz 500.000 Yang na rozwód.
+1737	Czy naprawdę chcesz wziąć rozwód?[ENTER]To może być wielki błąd. Naprawdę tego chcesz?
+1738	Nie. Zmieniłem zdanie.
+1739	Zmieniam zdanie. Nie chcę brać rozwodu.
+1740	To na pewno lepsza droga. Życzę Ci długiego życia[ENTER]w pokoju.
+1741	Wziąłeś rozwód.
+1742	Czy zgadzasz się na Rozwód?
+1743	Rozwód został przeprowadzony.[ENTER]Jesteście teraz rozwiedzeni.
+1744	Wasze dokumenty nie są kompletne. Proszę,[ENTER]przyjdźcie później.
+1745	Rozwód został anulowany.
+1746	Twój partner nie chce rozwodu. Wyjaśnijcie to[ENTER]sobie.
+1747	Zdejmij Obrączkę Ślubną.
+1748	Zdejmij Obrączkę Ślubną.
+1749	Powinieneś zapomnieć o złych wspomnieniach. Tak[ENTER]szybko, jak to tylko możliwe.
+1750	Obrączka Ślubna została zdjęta.
+1751	Rozwód Jednostronny
+1752	Strażnik:
+1753	Potrzebujesz 1 miliona Yang aby rozwieść się[ENTER]jednostronnie. Czy na pewno chcesz tego dokonać?
+1754	Nie, to było tylko pytanie...
+1755	Nie masz wystarczającej ilości Yang na rozwód.[ENTER]Potrzebujesz tylu Yang, ile miałeś na Ślub.[ENTER]Wiec, może zechcesz rozważyć to ponownie...
+1756	Czy teraz już naprawdę chcesz się rozwieść?[ENTER]Zastanów się głęboko
+1757	Tak, chcę.
+1758	Muszę to jeszcze raz przemyśleć.
+1759	W porządku...[ENTER]Może to będzie lepsza droga.[ENTER]Przyjdź jak poważnie się zastanowisz, ale wpierw[ENTER]musisz to potraktować na serio.
+1760	Jeśli jesteś pewien, dobrze: zaczynamy![ENTER]Życzę Ci wszystkiego co najlepsze![ENTER][ENTER]Jednostronny Rozwód został przeprowadzony.
+1761	Lista ceremonii Ślubnych
+1762	Aktualnie nie odbywają się żadne ceremonie Ślubne.
+1763	Ślub %s i %s
+1764	Jesteś gościem na Weselu.[ENTER]Baw się dobrze!
+1765	Atrament jeszcze nie wysechł![ENTER]Dajcie sobie więcej czasu.

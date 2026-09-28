@@ -1,0 +1,76 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_dark_boss_3\skill2.GR2"
+MotionDuration           2.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     5
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01-Spine1"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/mehok/monster/hamza/6.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         0.523312
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01-L-Finger02"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/hamza/73.mse"
+        EffectPosition       0.000000 0.000000 300.000000
+    }
+    Group Event02
+    {
+        MotionEventType      1
+        StartingTime         1.447460
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01-L-Finger02"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/mehok/monster/hamza/71.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event03
+    {
+        MotionEventType      4
+        StartingTime         1.453027
+        DuringTime           0.200000
+        EnableHitProcess     1
+        
+        AttackType           0
+        HittingType          1
+        StiffenTime          0.000000
+        InvisibleTime        0.300000
+        ExternalForce        0.000000
+        HitLimitCount        8
+        CollisionType        4
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           600.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    Group Event04
+    {
+        MotionEventType      2
+        StartingTime         1.453027
+        
+        DuringTime           0.500000
+        Power                500
+        AffectingRange       500
+    }
+}

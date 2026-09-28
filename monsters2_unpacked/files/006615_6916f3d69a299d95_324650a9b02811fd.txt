@@ -1,0 +1,22 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_pirate_ship\plechi_pirateship_lowboss\spawn.GR2"
+MotionDuration           3.200000
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.000000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Root"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/monster/pirate_ship/boss1_spawn.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

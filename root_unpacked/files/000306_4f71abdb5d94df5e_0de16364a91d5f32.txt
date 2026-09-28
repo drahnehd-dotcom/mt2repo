@@ -1,0 +1,770 @@
+1	Gilde erstellen
+4	Ja
+5	Nein
+16	GM: Einschränken.
+17	Gib den Namen der Person ein, die du einschränken willst!
+18	Spieler wie:
+19	existiert nicht!
+20	GM: Prüfen.
+21	Hat Gilde: 
+22	Ist Meister: 
+23	Reich: 
+24	Reich NPC: 
+25	Gilde verlassen
+26	Möchtest du wirklich die Gilde verlassen?
+27	Du hast die Gilde verlassen.
+28	Gilde auflösen
+29	Möchtest du wirklich die Gilde auflösen?
+30	Die Gilde wurde aufgelöst.
+31	Es kann keine Gilde erstellt werden, du bist bereits in einer!
+32	Möchtest du wirklich eine Gilde erstellen?
+33	Du hast den erforderlichen Gegenstand zum Erstellen der Gilde nicht.
+34	Du hast nicht genug Geld, um eine Gilde zu erstellen.
+35	Du hast nicht das erforderliche Führungslevel.
+36	Du musst noch ein wenig warten, bevor du einen weiteren Gegenstand einreichst.
+37	Dieser Gegenstand hatte hohe Qualität!
+38	Du hast die Mission des Biologen abgeschlossen.
+39	Dieser Gegenstand hatte sehr geringe Qualität!
+40	Du hast den erforderlichen Gegenstand für die Forschung nicht.
+41	Dein Level ist zu niedrig.
+42	Du hast die Sammlermission abgeschlossen.
+54	Das Limit wird zurückgesetzt in:
+55	%d Stunden und %d Minuten.
+56	0 Stunden und 0 Minuten.
+79	Töte den Boss!
+82	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Eishöhle |cFFc5ff8c(Lv. 125)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+85	Baek-Go
+86	Handwerk
+87	Handwerk – Seelensteine
+88	Handwerk – Elixiere
+89	Handwerk
+96	Laden
+97	Fisch
+98	Relikte und Schmelzen
+113	Reduziere die HP des Dieners unter 66%
+115	Zerstöre alle 6 Felsen
+118	Reduziere die HP des Dieners unter 33%
+121	Töte 4 Dschinns.
+129	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Kaiserschlucht |cFFc5ff8c(Lv. 150)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+131	Du hast keine Fertigkeiten.
+132	Kann nicht in einem Dungeon verwendet werden.
+133	Seelenstein:
+135	den Effekt der Exorzismus-Rolle.
+136	Du hast keine Fertigkeit auf G-Level.
+137	Wähle die Fertigkeit, die du trainieren willst:
+167	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Dämonenturm |cFFc5ff8c(Lv. 75)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+600	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Orkenturm |cFFc5ff8c(Lv. 30)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+601	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Versteck der Baronin |cFFc5ff8c(Lv. 61)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+169	Möchtest du zum Dungeon zurückkehren?
+186	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Halle der Spinnenkönigin |cFFc5ff8c(Lv. 50)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+204	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Oster-Dungeon |cFFc5ff8c|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+227	[Tore der Hölle] Töte die Mini-Bosse!
+228	[Tore der Hölle] Töte den Boss!
+229	Betritt die Tore der Hölle (150+)
+231	[Tore der Hölle] Willkommen im Dungeon!
+234	[Tore der Hölle] Felsblöcke sind erschienen!
+238	Töte die Mini-Bosse
+239	[Tore der Hölle] Der Boss ist erschienen!
+240	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Tore der Hölle |cFFc5ff8c(Lv. 150)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+257	Deokbae:
+260	Die Verbesserung ist fehlgeschlagen...
+276	Shinsoo
+277	Jinno
+278	Abbrechen
+281	Aufgeben
+282	Abbrechen
+298	Die Verbesserung ist fehlgeschlagen.
+316	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Uralter Dschungel |cFFc5ff8c(Lv. 175)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+317	Kombination
+318	Möchtest du die Bänder kombinieren?
+323	[Skorpion-Ruinen] Töte 3 Mini-Bosse!
+324	[Skorpion-Ruinen] Töte den Boss!
+325	Betritt die Skorpion-Ruinen (100+)
+328	[Skorpion-Ruinen] Willkommen im Dungeon!
+331	[Skorpion-Ruinen] Felsblöcke sind erschienen!
+335	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Skorpion-Ruinen |cFFc5ff8c(Lv. 100)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+337	Körper
+338	Mental
+339	Dolche
+340	Bogen
+341	WP
+342	BM
+343	Buff
+344	Heiler
+345	Wähle Fertigkeiten:
+350	Wähle den Kostümtyp:
+351	PvP-Kostüm
+352	PvM-Kostüm
+353	Du hast ein PvP-Kostüm erhalten!
+356	Du hast ein PvM-Kostüm erhalten!
+360	Versuche es in 10 Sekunden erneut.
+364	Minuten oder benutze eine Exorzismus-Rolle.
+367	Fertigkeitstraining ist nicht zu 100% erfolgreich.
+369	Willkommen,
+370	Wenn du deine Fertigkeiten zurücksetzen
+373	Möchtest du deine Fertigkeiten zurücksetzen?
+384	Lager
+385	ItemShop
+407	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Geisterschiff (I) |cFFc5ff8c(Lv. 149)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+414	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Geisterschiff (II) |cFFc5ff8c(Lv. 200)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+417	[Wukong-Berge] Töte 3 Mini-Bosse!
+418	Betritt die Wukong-Berge (75+)
+420	[Wukong-Berge] Willkommen im Dungeon!
+423	[Wukong-Berge] Felsblöcke sind erschienen!
+427	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r hat |cFFf7dd83Wukong-Berge |cFFc5ff8c(Lv. 75)|r in Zeit: |cFFf7b983%s!|r abgeschlossen
+433	Erfolgspunkte-Level
+439	Wähle Kostüm:
+443	Wähle Kostümwaffe:
+444	Diese Aktion ist unwiderruflich.
+446	Abgebrochen.
+448	PvP-Flügel
+449	PvM-Flügel
+453	Dies kann im Dungeon nicht durchgeführt werden.
+454	Du hast nicht genug Platz im Inventar.
+455	[Eishöhle] Töte 50 Monster und benutze dann das Siegel!
+456	[Eishöhle] Zerstöre alle Felsbrocken!
+457	[Eishöhle] Töte 3 Mini-Bosse!
+458	[Eishöhle] Töte den Boss!
+459	Betritt die Eishöhle (125+)
+460	Wächter: 
+461	Hallo!
+462	Verstehe ich das richtig? Möchtest du die Eishöhle betreten?
+463	Ohne die benötigten Gegenstände 
+464	und das erforderliche Level lasse ich dich nicht weiter.
+465	Heutige Eintritte: 
+466	 / 80
+467	Du benötigst: 
+469	Möchtest du fortfahren?
+470	Natürlich!
+471	Lieber nicht.
+472	Teleportation ist momentan nicht möglich!
+473	Dieser Dungeon kann nicht in einer Gruppe betreten werden.
+474	Dir fehlt der benötigte Gegenstand!
+475	[Eishöhle] Willkommen im Dungeon!
+476	[Eishöhle] Monster sind erschienen!
+477	Töte 50 Monster
+478	[Eishöhle] Benutze das Siegel, um weiterzukommen!
+479	[Eishöhle] Geschafft!
+480	[Eishöhle] In 5 Sekunden erscheint die nächste Aufgabe!
+481	[Eishöhle] Die Felsbrocken sind erschienen!
+482	Zerstöre 8 Felsbrocken
+483	[Eishöhle] Gute Arbeit!
+484	[Eishöhle] Verbleibend: 
+486	 Felsbrocken!
+487	Töte 3 Mini-Bosse
+488	[Eishöhle] Du hast die Mini-Bosse besiegt!
+489	Zerstöre 4 Felsbrocken
+491	[Eishöhle] Der Boss ist erschienen!
+492	[Eishöhle] Du hast den Boss besiegt!
+493	[Eishöhle] In einer Minute wirst du aus dem Dungeon teleportiert!
+505	Namensänderung:
+506	Hallo,
+507	also möchtest du deinen Namen ändern?
+508	Der Name darf keine Sonderzeichen enthalten!
+509	Möchtest du deinen Namen ändern?
+510	Die Namensänderung war erfolgreich!
+511	Dein neuer Name lautet: 
+512	
+513	Damit die Änderung sichtbar wird, musst du dich ausloggen!
+514	Gut, dann vielleicht ein anderes Mal...
+515	Dieser Charaktername ist bereits vergeben!
+516	Titel, Pet und Reittiere
+517	Erfolgspunkte-Shop
+518	Angel-Sammlung
+519	Oster-Gegenstände
+520	Herstellung von Sommer-Gegenständen
+521	[Kaiserschlucht] Töte 50 Monster!
+522	[Kaiserschlucht] Der Diener des Kaisers ist erschienen!
+523	[Kaiserschlucht] Zerstöre 6 Felsbrocken!
+524	[Kaiserschlucht] Töte 4 Dschinns!
+525	[Kaiserschlucht] Die Kaiserliche Naga ist erschienen!
+526	Betritt die Kaiserschlucht (Lv. 201+)
+527	Verstehe ich das richtig? Möchtest du die Kaiserschlucht betreten?
+528	[Kaiserschlucht] Willkommen in der Kaiserschlucht!
+529	[Kaiserschlucht] Monster sind erschienen!
+530	Töte die Monster in der Schlucht.
+531	[Kaiserschlucht] Du hast alle Monster besiegt!
+532	[Kaiserschlucht] Der Diener des Kaisers erwacht...
+533	[Kaiserschlucht] Verbleibende Monster: 
+534	[Kaiserschlucht] Der Diener hat Felsbrocken beschworen!
+535	[Kaiserschlucht] Alle Felsbrocken wurden zerstört!
+536	[Kaiserschlucht] Setze den Kampf mit dem Diener fort!
+537	[Kaiserschlucht] Verbleibende Felsbrocken: 
+538	[Kaiserschlucht] Der Diener ruft Verstärkung!
+539	[Kaiserschlucht] Du hast alle Dschinns besiegt!
+540	[Kaiserschlucht] Töte den Diener des Kaisers!
+541	Töte den Diener des Kaisers
+542	[Kaiserschlucht] Verbleibende Dschinns: 
+543	[Kaiserschlucht] Diener des Kaisers!
+544	[Kaiserschlucht] Aber warte... irgendetwas stimmt hier nicht...
+545	Töte die Kaiserliche Naga!
+546	[Kaiserschlucht] Du hast den Boss besiegt!
+547	[Kaiserschlucht] In einer Minute wirst du aus dem Dungeon teleportiert!
+551	Das kann jetzt nicht gemacht werden.
+552	Die Benutzung dieses Gegenstands verbraucht
+553	Das kann jetzt nicht gemacht werden.
+554	Das Fertigkeitstraining war erfolgreich.
+555	Mythische Alchemie: Boni ändern
+556	Möchtest du wirklich das Fenster zum Ändern der Boni öffnen?
+557	[Dämonenheiligtum] Töte 50 Monster und benutze dann das Siegel!
+558	[Dämonenheiligtum] Zerstöre alle Felsbrocken!
+559	[Dämonenheiligtum] Töte 3 Mini-Bosse!
+560	[Dämonenheiligtum] Töte den Boss!
+561	Betritt das Dämonenheiligtum (75+)
+562	Verstehe ich das richtig? Möchtest du das Dämonenheiligtum betreten?
+563	[Dämonenheiligtum] Willkommen im Dungeon!
+564	[Dämonenheiligtum] Monster sind erschienen!
+565	[Dämonenheiligtum] Benutze das Siegel, um weiterzukommen!
+566	[Dämonenheiligtum] Geschafft!
+567	[Dämonenheiligtum] In 5 Sekunden erscheint die nächste Aufgabe!
+568	[Dämonenheiligtum] Die Felsbrocken sind erschienen!
+569	[Dämonenheiligtum] Gute Arbeit!
+570	[Dämonenheiligtum] Verbleibend: 
+572	[Dämonenheiligtum] Du hast die Mini-Bosse besiegt!
+574	[Dämonenheiligtum] Der Boss ist erschienen!
+575	[Dämonenheiligtum] Du hast den Boss besiegt!
+576	[Dämonenheiligtum] In einer Minute wirst du aus dem Dungeon teleportiert!
+577	Rückkehr zum Dungeon
+578	[Halle der Spinnenkönigin] Töte 50 Monster und benutze dann das Siegel!
+579	[Halle der Spinnenkönigin] Zerstöre alle Felsbrocken!
+580	[Halle der Spinnenkönigin] Töte 3 Mini-Bosse!
+581	[Halle der Spinnenkönigin] Töte den Boss!
+582	Betritt die Halle der Spinnenkönigin (50+)
+583	Verstehe ich das richtig? Möchtest du die Halle der Spinnenkönigin betreten?
+584	[Halle der Spinnenkönigin] Willkommen im Dungeon!
+585	[Halle der Spinnenkönigin] Monster sind erschienen!
+586	[Halle der Spinnenkönigin] Benutze das Siegel, um weiterzukommen!
+587	[Halle der Spinnenkönigin] Geschafft!
+588	[Halle der Spinnenkönigin] In 5 Sekunden erscheint die nächste Aufgabe!
+589	[Halle der Spinnenkönigin] Die Felsbrocken sind erschienen!
+590	Zerstöre 5 Felsbrocken
+591	[Halle der Spinnenkönigin] Gute Arbeit!
+592	[Halle der Spinnenkönigin] Verbleibend: 
+593	[Halle der Spinnenkönigin] Du hast die Mini-Bosse besiegt!
+594	[Halle der Spinnenkönigin] Der Boss ist erschienen!
+595	[Halle der Spinnenkönigin] Du hast den Boss besiegt!
+596	[Halle der Spinnenkönigin] In 20 Sekunden wirst du aus dem Dungeon teleportiert!
+606	 Std. und 
+607	 Min.
+609	[Oster-Dungeon] Töte 150 Monster und benutze dann das Siegel!
+610	[Oster-Dungeon] Zerstöre alle Felsbrocken!
+611	[Oster-Dungeon] Töte 3 Mini-Bosse!
+612	[Oster-Dungeon] Töte den Boss!
+613	Oster-Dungeon
+614	Verstehe ich das richtig? Möchtest du den Oster-Dungeon betreten?
+615	Ohne die benötigten Gegenstände lasse ich dich nicht weiter.
+616	[Oster-Dungeon] Willkommen im Dungeon!
+617	[Oster-Dungeon] Monster sind erschienen!
+618	Töte 150 Monster
+619	[Oster-Dungeon] Benutze das Siegel, um weiterzukommen!
+620	[Oster-Dungeon] Geschafft!
+621	[Oster-Dungeon] In 5 Sekunden erscheint die nächste Aufgabe!
+622	[Oster-Dungeon] Die Felsbrocken sind erschienen!
+623	[Oster-Dungeon] Gute Arbeit!
+624	[Oster-Dungeon] Verbleibend: 
+625	[Oster-Dungeon] Du hast die Mini-Bosse besiegt!
+626	[Oster-Dungeon] Der Boss ist erschienen!
+627	[Oster-Dungeon] Du hast den Boss besiegt!
+628	[Oster-Dungeon] In 20 Sekunden wirst du aus dem Dungeon teleportiert!
+631	[Tore der Hölle] Töte 50 Monster und benutze dann das Siegel!
+632	[Tore der Hölle] Zerstöre alle Felsbrocken!
+633	[Tore der Hölle] Töte 3 Mini-Bosse!
+634	Verstehe ich das richtig? Möchtest du die Tore der Hölle betreten?
+635	[Tore der Hölle] Monster sind erschienen!
+636	[Tore der Hölle] Benutze das Siegel, um weiterzukommen!
+637	[Tore der Hölle] Geschafft!
+638	[Tore der Hölle] In 5 Sekunden erscheint die nächste Aufgabe!
+639	[Tore der Hölle] Gute Arbeit!
+640	[Tore der Hölle] Verbleibend: 
+642	[Tore der Hölle] Du hast die Mini-Bosse besiegt!
+644	[Tore der Hölle] Du hast den Boss besiegt!
+645	[Tore der Hölle] In einer Minute wirst du aus dem Dungeon teleportiert!
+646	Geschlechtswechsel-Zauber
+647	Du kannst dein Geschlecht nicht ändern, solange du ein Kostüm des anderen Geschlechts trägst!
+648	Geschlechtswechsel-Zauber
+649	Du musst mindestens Level 50 sein!
+650	Du kannst dein Geschlecht nicht ändern, solange du verheiratet bist!
+651	Du kannst dein Geschlecht nicht ändern, solange du verwandelt bist!
+652	Du musst 24 Stunden warten!
+653	Verbleibende Zeit:
+655	Möchtest du wirklich dein Geschlecht ändern?
+656	Das Geschlecht wurde geändert.
+657	Bitte logge dich aus und wieder ein, um die Änderung abzuschließen.
+658	[AP-Gutschein] Das kann jetzt nicht gemacht werden.
+659	[AP-Gutschein] Du hast nicht den benötigten Gutschein!
+660	[
+661	]
+662	blue
+663	 Erfolgspunkte wurden erhöht um 
+667	Du hast den Anfänger-Dungeon noch nicht abgeschlossen.
+668	Dein Level ist zu niedrig, um dich zu diesem Ort zu teleportieren!
+669	Dein Level ist zu niedrig oder zu hoch, um dich zu diesem Ort zu teleportieren!
+670	Bei der Teleportation ist ein Problem aufgetreten.
+671	Dein Level ist zu hoch, um auf dieser Karte zu sein.
+672	Splitter-Herstellung
+673	Diese Spitzhacke hat zu wenige Punkte.
+674	Möchtest du die Spitzhacke wirklich verbessern?
+675	Sie sieht jetzt viel besser aus.
+676	Die Verbesserung der Spitzhacke ist leider fehlgeschlagen.
+677	Die Spitzhacke hat jetzt ein niedrigeres Level.
+678	[Reichswechsel] Das kann jetzt nicht durchgeführt werden.
+679	Reichswechsel:
+680	Mit diesem Gegenstand kannst du dein Reich wechseln,
+681	aber es ist nicht kostenlos, alles hat seinen Preis.
+682	Du kannst dein Reich alle 3 Tage wechseln,
+683	außerdem benötigst du 100.000.000 Yang.
+684	Möchtest du dein Reich wechseln?
+685	[Reichswechsel] Du hast keine 100.000.000 Yang.
+686	[Reichswechsel] Dieser Gegenstand ist derzeit deaktiviert.
+687	[Reichswechsel] Du musst zuerst deine Gilde verlassen.
+688	[Reichswechsel] Du musst dich zuerst scheiden lassen.
+689	Wähle ein neues Reich
+690	Abbrechen
+691	[Reichswechsel] Du bist bereits in diesem Reich.
+692	[Reichswechsel] Reich gewechselt! Du musst dich ausloggen und wieder einloggen, damit die Änderung wirksam wird.
+693	'..l..'
+694	:
+695	[WINDOW_SIZE width;
+696	|height;
+697	[INSERT_IMAGE image_type;item|idx;
+698	|title;
+699	|desc;
+700	|index;
+701	|total;
+702	 du hast diese Quest aufgegeben
+703	Nicht alle Gruppenmitglieder befinden sich auf dieser Karte!
+704	Einige Gruppenmitglieder haben nicht das erforderliche Level: 
+705	- 
+706	Du hast nicht das erforderliche Level, um diesen Dungeon zu betreten!
+707	Einige Spieler haben nicht die erforderliche Eintrittskarte: 
+708	Einige Spieler können nicht teleportiert werden: 
+709	Wolltet ihr etwa den Wächter übers Ohr hauen?...
+763	Diese Angelrute hat nicht genug Punkte!
+764	Deine Angelrute hat bereits das maximale Level!
+765	Möchtest du diese Angelrute wirklich verbessern?
+766	Die Verbesserung der Angelrute war erfolgreich!
+767	Versuche es später erneut!
+783	[Uralter Dschungel] Töte 50 Monster und benutze dann das Siegel!
+784	[Uralter Dschungel] Zerstöre alle Felsbrocken!
+785	[Uralter Dschungel] Töte 3 Mini-Bosse!
+786	[Uralter Dschungel] Töte die Mini-Bosse!
+787	[Uralter Dschungel] Töte den Boss!
+788	Betritt den Uralten Dschungel (175+)
+789	Verstehe ich das richtig? Möchtest du den Uralten Dschungel betreten?
+790	[Uralter Dschungel] Willkommen im Dungeon!
+791	[Uralter Dschungel] Monster sind erschienen!
+792	[Uralter Dschungel] Benutze das Siegel, um weiterzukommen!
+793	[Uralter Dschungel] Geschafft!
+794	[Uralter Dschungel] In 5 Sekunden erscheint die nächste Aufgabe!
+795	[Uralter Dschungel] Die Felsbrocken sind erschienen!
+796	[Uralter Dschungel] Gute Arbeit!
+797	[Uralter Dschungel] Verbleibend: 
+799	[Uralter Dschungel] Du hast die Mini-Bosse besiegt!
+801	[Uralter Dschungel] Der Boss ist erschienen!
+802	[Uralter Dschungel] Du hast den Boss besiegt!
+803	[Uralter Dschungel] In einer Minute wirst du aus dem Dungeon teleportiert!
+804	Gegenstandsabsorption
+805	Möchtest du eine Waffe in das Band absorbieren?
+859	[Skorpion-Ruinen] Töte 50 Monster und benutze dann das Siegel!
+860	[Skorpion-Ruinen] Zerstöre alle Felsbrocken!
+861	Verstehe ich das richtig? Möchtest du die Skorpion-Ruinen betreten?
+862	[Skorpion-Ruinen] Monster sind erschienen!
+863	[Skorpion-Ruinen] Benutze das Siegel, um weiterzukommen!
+864	[Skorpion-Ruinen] Geschafft!
+865	[Skorpion-Ruinen] In 5 Sekunden erscheint die nächste Aufgabe!
+866	[Skorpion-Ruinen] Gute Arbeit!
+867	[Skorpion-Ruinen] Verbleibend: 
+868	[Skorpion-Ruinen] Du hast die Mini-Bosse besiegt!
+869	Zerstöre 6 Felsbrocken
+870	[Skorpion-Ruinen] Der Boss ist erschienen!
+871	[Skorpion-Ruinen] Du hast den Boss besiegt!
+872	[Skorpion-Ruinen] In einer Minute wirst du aus dem Dungeon teleportiert!
+873	Fertigkeitstraining
+874	Wähle Fertigkeiten: 
+875	Wähle deine Spezialisierung.
+876	Später wählen
+877	Du hast deine Spezialisierung gewählt!
+878	Wähle eine PvP-Kostümwaffe:
+879	Wähle eine PvM-Kostümwaffe:
+880	Wähle PvP-Flügel:
+881	Du hast PvP-Flügel, ein Pet und ein Reittier erhalten!
+882	Wähle PvM-Flügel:
+883	Du hast PvM-Flügel, ein Pet und ein Reittier erhalten!
+884	Falscher Gegenstand.
+885	 Du kannst die Fertigkeit erneut trainieren in 
+886	 Std.
+887	Das Fertigkeitstraining war erfolgreich.
+888	Du kannst die Fertigkeit in 8 Stunden erneut trainieren.
+889	Das Fertigkeitstraining ist fehlgeschlagen.
+890	Fertigkeiten zurücksetzen
+891	und eine neue Spezialisierung wählen, das wird dich etwas kosten.
+892	Preis: 1.000.000 Yang.
+893	Diese Änderung kann nicht rückgängig gemacht werden!
+894	[Alte Frau] Du hast keine 1.000.000 Yang.
+895	[Alte Frau] Das kannst du jetzt nicht tun.
+896	[Alte Frau] Du hast keine Fertigkeiten.
+897	Du kannst die Fertigkeiten erneut zurücksetzen in:
+951	[Geisterschiff] Zerstöre den Felsbrocken
+952	[Geisterschiff] Töte alle Monster (auf dem Reittier)
+953	[Geisterschiff] Zerstöre den Felsbrocken vom Boden aus.
+954	[Geisterschiff] Töte alle Monster
+955	[Geisterschiff] Zerstöre alle Felsbrocken!
+956	[Geisterschiff] Töte den Boss!
+957	[Geisterschiff] Zerstöre die Kapitänstruhe!
+958	Betritt das Geisterschiff (Lv. 200)
+959	Verstehe ich das richtig? Möchtest du das Geisterschiff betreten?
+960	- Gruppe (2 Spieler)
+961	[Geisterschiff] Du musst mindestens 1 weiteren Spieler in deiner Nähe haben.
+962	[Geisterschiff] Du bist nicht der Gruppenleiter!
+963	[Geisterschiff] Dein Level ist zu niedrig!
+964	[Geisterschiff] Dein Level ist zu hoch!
+965	[Geisterschiff] Der Gruppenleiter hat nicht genug Eintrittskarten! (x2)
+966	[Geisterschiff] Willkommen im Dungeon!
+967	Ihr habt den Dungeon nicht rechtzeitig abgeschlossen. Alle werden aus dem Dungeon teleportiert!
+968	[Geisterschiff] Ein Felsbrocken ist erschienen!
+969	[Geisterschiff] Geschafft!
+970	[Geisterschiff] In 5 Sekunden erscheint die nächste Aufgabe!
+971	[Geisterschiff] Monster sind erschienen!
+972	[Geisterschiff] Gute Arbeit!
+973	[Geisterschiff] Der Boss ist erschienen!
+974	[Geisterschiff] Ihr habt den Boss besiegt!
+975	[Geisterschiff] Eine Truhe ist erschienen!
+976	[Geisterschiff] Tötet den Boss!
+977	[Geisterschiff] Ihr habt die Truhe zerstört!
+978	[Geisterschiff] In einer Minute werden alle aus dem Dungeon teleportiert!
+979	Betritt das Geisterschiff (Lv. 149)
+980	[Wukong-Berge] Töte 50 Monster und benutze dann das Siegel!
+981	[Wukong-Berge] Zerstöre alle Felsbrocken!
+982	[Wukong-Berge] Töte die Mini-Bosse!
+983	[Wukong-Berge] Töte den Boss!
+984	Verstehe ich das richtig? Möchtest du die Wukong-Berge betreten?
+985	[Wukong-Berge] Monster sind erschienen!
+986	Töte 100 Monster
+987	[Wukong-Berge] Benutze das Siegel, um weiterzukommen!
+988	[Wukong-Berge] Geschafft!
+989	[Wukong-Berge] In 5 Sekunden erscheint die nächste Aufgabe!
+990	Zerstöre 5 Felsbrocken
+991	[Wukong-Berge] Gute Arbeit!
+992	[Wukong-Berge] Verbleibend: 
+994	[Wukong-Berge] Du hast die Mini-Bosse besiegt!
+996	[Wukong-Berge] Der Boss ist erschienen!
+997	[Wukong-Berge] Du hast den Boss besiegt!
+998	[Wukong-Berge] In einer Minute wirst du aus dem Dungeon teleportiert!
+999	Dreiwege-Schnitt
+1000	Schwertwirbel
+1001	Kampfrausch
+1002	Aura des Schwertes
+1003	Sausen
+1004	Durchschlag
+1005	Heftiges Schlagen
+1006	Stampfer
+1007	Starker Körper
+1008	Schwertschlag
+1009	Hinterhalt
+1010	Blitzangriff
+1011	Degenwirbel
+1012	Tarnung
+1013	Giftwolke
+1014	Wiederholter Schuss
+1015	Pfeilregen
+1016	Feuerpfeil
+1017	Federschreiten
+1018	Giftpfeil
+1019	Fingerschlag
+1020	Drachenwirbel
+1021	Verzauberte Klinge
+1022	Furcht
+1023	Verzauberte Rüstung
+1024	Zauber aufheben
+1025	Dunkler Schlag
+1026	Flammenschlag
+1027	Geist der Flamme
+1028	Dunkler Schutz
+1029	Geisterschlag
+1030	Dunkler Stein
+1031	Fliegender Talisman
+1032	Drachenschießen
+1033	Drachengebrüll
+1034	Segen
+1035	Reflektieren
+1036	Hilfe des Drachen
+1037	Blitzwurf
+1038	Blitz heraufbeschwören
+1039	Blitzkralle
+1040	Kurieren
+1041	Schnelligkeit
+1042	Angriff+
+1043	Verlassen
+1044	Kowal-Pass
+1045	Wukong-Pass
+1046	Skorpion-Pass
+1047	Arktis-Pass
+1048	Feuer-Pass
+1049	Uralt-Pass
+1050	Piraten-Pass (I)
+1051	Piraten-Pass (II)
+1052	Kaiser-Pass
+1053	Oster-Pass
+1054	Drachenstein-Veredelung
+1055	Möchtest du deine Drachensteine veredeln?
+1056	Wähle zuerst die Fertigkeit aus, die du trainieren möchtest\!
+
+# === Sommer-Event (Summer Event) — IDs 1500-1599 ===
+# Common phrases
+1500	Willkommen!
+1501	Hallo!
+1502	Wächter:
+1503	Benötigter Gegenstand
+1504	Du brauchst:
+1505	Du hast den benötigten Gegenstand nicht!
+1506	Das geht jetzt nicht.
+1507	Momentan kann nicht teleportiert werden!
+1508	Möchtest du fortfahren?
+1509	Ja!
+1510	Lieber nicht.
+1511	Jetzt nicht
+# summermap_teleport
+1520	Sommerkarte
+1521	Zur Glitzernden Lagune kannst du wieder in:
+1522	%1% Stunden und %2% Minuten.
+1523	(Charakter-Limit)
+1524	(HWID-Limit)
+1525	Möchtest du dich zur Glitzernden Lagune teleportieren?
+1526	 - Karte kann alle 3 Stunden betreten werden (CHAR + HWID)
+1527	 - Wartezeit zählt ab dem Betreten der Karte
+1528	 - Du kannst maximal 30 Minuten auf der Karte bleiben
+1529	Teleportieren
+1530	Die Glitzernde Lagune ist momentan nicht verfügbar.
+1531	Deine Zeit ist abgelaufen. Du wirst zurück in die Stadt teleportiert.
+# summer_dungeon
+1540	Dungeon
+1541	[Solargons Höhle]
+1542	Verstehe ich richtig? Möchtest du Solargons Höhle betreten?
+1543	Ohne die benötigten Gegenstände lasse ich dich nicht hinein.
+1544	Du kannst das Dungeon nicht betreten!
+1545	Verbleibende Zeit (Char): %1%
+1546	Verbleibende Zeit (HWID): %1%
+1547	Dieses Dungeon kann nicht in einer Gruppe absolviert werden.
+1548	[Solargons Höhle] Willkommen in Solargons Höhle!
+1549	[Solargons Höhle] Solargons Altäre und Monster sind erschienen!
+1550	[Solargons Höhle] Zerstöre 3 Wellen von Monstern!
+1551	[Solargons Höhle] Verbleibende Monster: %1%
+1552	[Solargons Höhle] Du hast alle Wellen besiegt!
+1553	[Solargons Höhle] Sammle den Gegenstand, der zum Zerstören von Solargons Altären benötigt wird!
+1554	[Solargons Höhle] Keine Altäre zum Zerstören!
+1555	[Solargons Höhle] Du hast einen Altar zerstört! Verbleibend: %1%
+1556	[Solargons Höhle] Verwende die Polymorphung in deinem Inventar und grille Solargons Herz!
+1557	[Solargons Höhle] Zerstöre 6 Herzen von Solargon!
+1558	[Solargons Höhle] Verbleibende Herzen: %1%
+1559	[Solargons Höhle] Du hast alle Herzen zerstört!
+1560	[Solargons Höhle] Zerstöre weitere 3 Wellen von Monstern!
+1561	[Solargons Höhle] Töte den Mini-Boss!
+1562	[Solargons Höhle] Du hast den Mini-Boss besiegt!
+1563	[Solargons Höhle] Verwende die Polymorphung und grille Solargons totes Herz!
+1564	[Solargons Höhle] Zerstöre 6 tote Herzen von Solargon!
+1565	[Solargons Höhle] Verbleibende tote Herzen: %1%
+1566	[Solargons Höhle] Endboss Solargon ist erschienen!
+1567	[Solargons Höhle] Boss ist unter 50%% HP!
+1568	[Solargons Höhle] Der letzte Altar hat angefangen zu teleportieren!
+1569	[Solargons Höhle] Du musst näher am teleportierenden Altar sein!
+1570	[Solargons Höhle] Du hast den letzten Altar zerstört! Jetzt kannst du Solargon töten!
+1571	[Solargons Höhle] Solargon ist auf 50%% HP zurück!
+1572	[Solargons Höhle] Der Altar hat sich verschoben!
+1573	[Solargons Höhle] Du hast Solargon besiegt!
+1574	[Solargons Höhle] In einer Minute wirst du aus dem Dungeon teleportiert!
+1575	|cFFf7dd83%1%|r |cFFc5ff8c(Lv. %2%)|r hat |cFFf7dd83Solargons Höhle |cFFc5ff8c(Sommer-Dungeon)|r abgeschlossen in der Zeit: |cFFf7b983%3%!
+# summer_free_is
+1580	Kostenlose Sommerkostüme!
+1581	Hallo!
+1582	Hier sind deine kostenlosen Itemshop-Items für das Sommer-Event!
+1583	Sie enthalten volle Boni und halten 3 Tage.
+1584	Barren-Shop
+1585	Das Lager erlaubt dir, Gegenstände und Yang sicher zu lagern.
+1586	Die erste Freischaltung kostet 500 Yang. Möchtest du sie freischalten?
+1587	Du hast nicht genug Yang. Du brauchst 500 Yang.
+1588	Das Lager wurde freigeschaltet. Viel Spaß!
+1589	500 Yang zahlen
+1590	Grotte der Verbannung
+1591	Grotte der Verbannung
+1592	Ich kann dich zur Grotte der Verbannung bringen. Du brauchst Stufe 75 und einen Blutstein.
+1593	Du musst mindestens Stufe 75 sein, um die Grotte der Verbannung zu betreten.
+1594	Du brauchst einen Blutstein, um dich zu teleportieren.
+1595	Du kannst dich gerade nicht teleportieren.
+1596	[Alte Frau] Skill-Reset nur bis Level 30.
+1597	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83besiegte Boss: 
+1598	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83zerstörte Metin: 
+1599	Voraussetzungen für eine Gilde:
+1600	- Level min. %1%, dein Level: %2%
+1601	- %1% Yang, du hast: %2%
+1602	- nach Gildenauflösung noch %1% Std. warten
+1603	- nach Gildenausschluss noch %1% Std. warten
+1604	Gildenname: 2-12 Zeichen, nur Buchstaben A-Z und Ziffern.
+1605	Keine Leerzeichen und Umlaute. Muss noch frei sein.
+1606	Kosten werden nach der Gründung abgezogen.
+1607	 (OK)
+1608	 (FEHLT)
+1609	Du erfüllst nicht alle Voraussetzungen.
+1610	Möchtest du eine Gilde gründen?
+1611	- %1% x %2%, du hast: %3%
+1620	Dein Ansehen ist zu niedrig, um das Training fortzusetzen.
+1621	Trainingskosten in Ansehenspunkten:
+1622	Dein Ansehen ist negativ, daher verdoppeln sich die Kosten.
+1623	Achtung: Nach dem Training faellt dein Ansehen unter null.
+1624	Fortfahren?
+1625	Verlorene Ansehenspunkte:
+1626	Das misslungene Training kostete dich Ansehenspunkte:
+1627	Rache fďż˝r den Ringhďż˝ndler
+1628	Alte Frau:
+1629	Du zďż˝hlst nun zu den Kďż˝mpfern des Dorfes. Ich[ENTER]wďż˝sste, wie du deine neu gewonnenen Fďż˝higkeiten[ENTER]nutzen kďż˝nntest. Hast du jemals von den Jin-Hee[ENTER]gehďż˝rt? Es sind gefďż˝hrliche Elitekriegerinnen.[ENTER]Eine der ihren tďż˝tete den Ringhďż˝ndler unseres[ENTER]Dorfes. Der Hďż˝ndler war nicht nur ein guter[ENTER]Bekannter von mir, sondern auch ein fairer Mann,[ENTER]der Schmuckstďż˝cke an junge Paare verkaufte, die[ENTER]eine Heirat beabsichtigten. Bist du bereit,[ENTER]seinen Tod zu rďż˝chen? Dazu mďż˝sstest du 30 der[ENTER]Jin-Hee tďż˝ten...
+1630	Ich werde den Ringhďż˝ndler rďż˝chen.
+1631	Nein, die Jin-Hee sind mir zu stark.
+1632	Das ist eine gute und ehrenhafte Entscheidung![ENTER]Denk dran - du musst 30 Jin-Hee tďż˝ten.[ENTER]Aber sei vorsichtig, denn sie sind listig und[ENTER]wissen sich gut zu verbergen!
+1633	Das ist eine bedauerliche Entscheidung, aber auch[ENTER]dein gutes Recht. Immerhin kann unvernďż˝nftige[ENTER]Tapferkeit rasch zum Tod fďż˝hren.[ENTER]Pass weiterhin auf dich auf!
+1634	Anzahl der verbleibenden Jin-Hee
+1635	Du hast alle Jin-Hee besiegt.
+1636	Damit ist der Tod des Ringhďż˝ndlers nun endlich[ENTER]gerďż˝cht worden. Der Auftrag ist somit[ENTER]abgeschlossen.
+1637	Besiege die Jin-Hee
+1638	Information:
+1639	Die Alte Frau hat dich um Unterstďż˝tzung gebeten:[ENTER]ihr Freund, der Ringhďż˝ndler, wurde von den[ENTER]Jin-Hee ermordet, der Elite des Weiďż˝en Eid.[ENTER]Rďż˝che den Ringhďż˝ndler, indem du 30 Jin-Hee[ENTER]tďż˝test.
+1640	Anzahl der verbleibenden Jin-Hee: %s
+1641	Oh ich sehe, du hast gegen die Jin-Hee gekďż˝mpft.[ENTER]Anscheinend konntest du sie jedoch noch nicht[ENTER]alle besiegen. Ich weiďż˝ um ihre Kraft und ihr[ENTER]Geschick - es ist keine leichte Aufgabe.
+1642	Weiter
+1643	Anuluj
+1644	Der Ringhďż˝ndler besaďż˝ eine Familie, die durch[ENTER]seinen Tod in tiefe Trauer gestďż˝rzt wurde. Wenn[ENTER]diese durch deinen Einsatz gelindert werden kann,[ENTER]so wďż˝re das eine Tat, um die ich dich innig[ENTER]bitten wďż˝rde!
+1645	Bedauerlich, dass du es vorziehst, den Tod des[ENTER]Ringhďż˝ndlers nicht zu rďż˝chen. Aber jedes Leben[ENTER]hat seinen Wert - und ich kann verstehen, dass[ENTER]dein Leben dir viel bedeutet.
+1646	Als die alte Frau sich abwendet, bemerkst du,[ENTER]dass sie etwas in ihren Hďż˝nden hďż˝lt. Es handelt[ENTER]sich um einen glďż˝nzenden Gegenstand - es kďż˝nnte[ENTER]ein wertvoller Stein sein.
+1647	Ich versuche es weiter.
+1648	An Geld und wertvollen Steinen bin ich nicht[ENTER]interessiert. Ich wďż˝nsche mir lediglich, dass der[ENTER]Tod des Ringhďż˝ndlers im Namen seiner Familie[ENTER]gerďż˝cht wird. Gut, dass du es dir noch einmal[ENTER]ďż˝berlegt hast.
+1649	Mein Mitgefďż˝hl gehďż˝rt in diesen Tagen der Familie[ENTER]des Ringhďż˝ndlers. Daher ist es bedauerlich, dass[ENTER]du die Herausforderung nicht annimmst.
+1650	Zurďż˝ck zur alten Frau
+1651	Kehre zur alten Frau zurďż˝ck und berichte ihr,[ENTER]dass der Tod des Ringhďż˝ndlers durch die[ENTER]Beseitigung der Jin-Hee gerďż˝cht wurde.
+1652	Die 30 Jin-Hee sind besiegt!
+1653	Du hast alle Jin-Hee besiegt. Gut gemacht![ENTER]Die Seele des Ringhďż˝ndlers kann nun in Frieden[ENTER]ruhen. Hier ist das Schmuckstďż˝ck, das er mir[ENTER]anvertraute - ein besonderer Verlobungsring.[ENTER]Er soll nun dir gehďż˝ren. Ich bin mir sicher, dass[ENTER]er es so gewollt hďż˝tte.
+1654	Du hast einen Verlobungsring erhalten.
+1655	Verlobungsring
+1656	Dieser Ring verkďż˝ndet eine baldige Hochzeit.
+1657	Ich mďż˝chte heiraten.
+1658	Alte Frau:
+1659	Derzeit findet eine andere Hochzeit statt. Bitte[ENTER]warte einen Moment oder komme spďż˝ter wieder!
+1660	Bist du nicht noch zu jung, um zu heiraten? Man[ENTER]braucht viel Verantwortungen fďż˝r das Eheleben und[ENTER]dazu scheinst du mir noch nicht reif genug. Junge[ENTER]Leute lassen sich zu schnell scheiden, daher[ENTER]werde ich es nicht genehmigen. Du solltest[ENTER]zunďż˝chst noch Erfahrungen sammeln.
+1661	Information:
+1662	Eine Hochzeit kann erst ab Level 25 durchgefďż˝hrt[ENTER]werden.
+1663	Du mďż˝chtest ohne Ring heiraten?
+1664	Verlobungsring
+1665	Du musst erst einen Verlobungsring besorgen.[ENTER]Dann darfst du heiraten.
+1666	Willst du wirklich so heiraten? Das ist eine[ENTER]wichtige Situation in deinem Leben, du solltest[ENTER]dich daher ein wenig festlicher kleiden.
+1667	Smoking
+1668	Wenn du heiraten mďż˝chtest, musst du einen Smoking[ENTER]tragen.
+1669	Brautkleid
+1670	Wenn du heiraten mďż˝chtest, musst du ein[ENTER]Brautkleid anziehen.
+1671	Nur mit Liebe allein lďż˝sst sich leider keine[ENTER]Hochzeit arrangieren, du benďż˝tigst auch etwas[ENTER]Yang. Deine Ersparnisse reichen bisher aber nicht[ENTER]aus. Wenn du eine Million Yang gespart hast,[ENTER]werde ich gerne die Zeremonie planen.
+1672	Du benďż˝tigst eine Million Yang.
+1673	Ja, das richtige Alter hast du, ebenfalls den[ENTER]entschlossenen Gesichtsausdruck. Wen mďż˝chtest du[ENTER]heiraten?
+1674	Bitte gib den Namen der Person an, die du zu[ENTER]heiraten wďż˝nschst.
+1675	Bist du so aufgeregt, dass du nicht einmal[ENTER]den Namen niederschreiben kannst? Versuche es[ENTER]noch einmal.
+1676	Du weiďż˝t also den Namen der Person nicht, die du[ENTER]zu heiraten wďż˝nschst? Du bist dir aber sicher,[ENTER]dass du eine Hochzeit mďż˝chtest?
+1677	%s ist nicht online.
+1678	Dein Partner muss in der Nďż˝he sein, damit[ENTER]ich die Zeremonie durchfďż˝hren kann.[ENTER]Bringe ihn also bitte her.
+1679	%s befindet sich zu weit weg.
+1680	Hier benďż˝tige ich nicht deinen Namen, sondern den[ENTER]deines Partners.
+1681	Gib hier den Namen deines Partners an.
+1682	Tut mir leid, aber gleichgeschlechtliche Paare[ENTER]kann ich nicht trauen.
+1683	Es kďż˝nnen nur Paare aus demselben Reich heiraten.
+1684	Die Person die du zu heiraten wďż˝nschst, ist[ENTER]bereits verheiratet. Wusstest du das nicht? Du[ENTER]solltest dir einen ledigen Partner suchen.
+1685	%s ist verheiratet.
+1686	Die Person ist noch nicht bereit fďż˝r die Ehe.[ENTER]Dein Partner sollte mindestens Level 25 besitzen.
+1687	Es tut mir leid, aber ich kann euch beide nicht[ENTER]trauen. Ihr passt nicht zueinander, da eure[ENTER]Erfahrungs-Differenz mehr als 15 Level betrďż˝gt.
+1688	Nun tauscht die Ringe.
+1689	Die Heiraten ist eine wichtige Angelegenheit[ENTER]im Leben, da hďż˝tte dein Partner doch wenigstens[ENTER]einen Ehering mitbringen kďż˝nnen?
+1690	Dein Partner muss ebenfalls einen Ehering[ENTER]bei sich haben.
+1691	Dein Partner trďż˝gt gar kein Hochzeitsgewand![ENTER]Ist dir das nicht peinlich?
+1692	Dein Partner muss einen Smoking[ENTER]tragen.
+1693	Deine Partnerin muss ein Brautkleid[ENTER]tragen.
+1694	%s hat dir einen Heiratsantrag gemacht. Annehmen?
+1695	Nun ist es so weit: Ihr zwei habt den Bund der[ENTER]Ehe geschlossen und kďż˝nnt nun ein wenig Zeit[ENTER]miteinder verbringen. Ich werde euch zu der[ENTER]Insel der Liebenen schicken. Eine lange und[ENTER]glďż˝ckliche Ehe wďż˝nsche ich euch, meine[ENTER]Gratulation.[ENTER]Demnďż˝chst wirst du automatisch zur Insel[ENTER]der Liebenen geschickt.
+1696	Dein Partner hat anscheinend nicht die Absicht,[ENTER]dich zu heiraten. Vielleicht solltest du das[ENTER]zunďż˝chst klďż˝ren.
+1697	Zurďż˝ck zum Hochzeitsraum
+1698	Warum bist du immer noch hier?[ENTER]Dein Partner wartet bereits sehnsďż˝chtig auf dich.[ENTER]Du solltest rasch folgen.
+1699	Genehmigung fďż˝r die Hochzeit
+1700	Hochzeitsplanerin:
+1701	Ich spreche mit deinem Partner. Gedulde dich[ENTER]bitte einen Moment.
+1702	Ich bin hier, um den reibungslosen Ablauf eurer[ENTER]Zeremonie zu gewďż˝hrleisten. Zunďż˝chst notiere hier[ENTER]unten den Namen deines Partners.
+1703	Dieser Name ist nicht registriert.[ENTER]ďż˝berprďż˝fe bitte deine Angaben.
+1704	Hole bitte deinen Partner her. Ich muss mit ihm[ENTER]reden, um einige Dinge zu prďż˝fen.
+1705	%s ist noch zu weit entfernt.
+1706	Du musst den Name deines Partners schreiben,[ENTER]nicht deinen eigenen.
+1707	Hochzeitsplanerin:
+1708	Hier stimmt was nicht - das ist nicht die Person,[ENTER]die mir angekďż˝ndigt wurde.
+1709	Dein Partner scheint noch nicht bereit fďż˝r die[ENTER]Hochzeit zu sein. Klďż˝rt das untereinander.
+1710	Nun sind alle Vorbereitungen getroffen. Die[ENTER]Zeremonie kann beginnen.
+1711	Das wird eine wunderschďż˝ne Hochzeit!
+1712	Beginn des Hochzeitsmarsches
+1713	Hochzeitsmarsch beenden
+1714	Nacht
+1715	Schnee
+1716	Ende der Hochzeit
+1717	Bitte warte einen Moment, ich spreche gerade mit[ENTER]deinem Partner.
+1718	Mďż˝chtest du die Hochzeit fortsetzen?
+1719	Ja
+1720	Nein
+1721	Dein Partner muss mit dem Abbruch der Hochzeit[ENTER]einverstanden sein. Sie kann jetzt nicht beendet[ENTER]werden, da dein Partner nicht online ist.
+1722	Ohne die Zustimmung deines Partners kďż˝nnen wir[ENTER]die Zeremonie nicht durchfďż˝hren. Du musst dich[ENTER]daher ein wenig gedulden.
+1723	Wďż˝nschst du die Hochzeit zu beenden?
+1724	Dein Partner mďż˝chte nicht.
+1725	Scheidung
+1726	Scheidung
+1727	Wďż˝chter des Dorfplatzes:
+1728	Es ist nicht mďż˝glich, in Abwesenheit deines[ENTER]Partners eine Scheidung durchzufďż˝hren. Ihr mďż˝sst[ENTER]noch einmal zusammen wiederkommen.
+1729	Fďż˝r die rechtmďż˝ďż˝ige Scheidung benďż˝tigst du[ENTER]500.000 Yang und das Einverstďż˝ndnis deines[ENTER]Partners.[ENTER]Willst du dich wirklich scheiden lassen?
+1730	Ja.
+1731	Nein, war nur ein Scherz.
+1732	Den Ehering bitte.
+1733	Auch dein Partner muss seinen Ring hier bei sich[ENTER]haben.
+1734	Die Summe reicht leider nicht, um die Scheidung[ENTER]durchzufďż˝hren.
+1735	Um sich scheiden zu lassen, benďż˝tigt man[ENTER]%s Yang.
+1736	Man benďż˝tigt 500.000 Yang fďż˝r eine Scheidung.
+1737	Willst du dich wirklich scheiden lassen?[ENTER]Das ist eine Entscheidung, die man nicht[ENTER]leichtfertig fďż˝llen sollte.
+1738	Nein. Ich habe meine Meinung geďż˝ndert.
+1739	Ich habe meine Meinung geďż˝ndert.[ENTER]Ich mďż˝chte mich nicht scheiden lassen.
+1740	Es ist besser auf diese Weise. Ich wďż˝nsche dir[ENTER]ein langes und schďż˝nes Leben.
+1741	Die Scheidung ist vollzogen.
+1742	Bist du einverstanden mit der Scheidung?
+1743	Die Scheidung ist vollzogen.[ENTER]Ihr seid nun geschieden.
+1744	Diese Unterlagen sind nicht vollstďż˝ndig.[ENTER]Du musst daher noch einmal wiederkommen.
+1745	Die Scheidung wird fďż˝r ungďż˝ltig erklďż˝rt.
+1746	Der Partner verweigert die Scheidung.[ENTER]Ihr solltet dies zunďż˝chst klďż˝ren.
+1747	Ehering wegstecken
+1748	Ehering wegstecken
+1749	Unangenehme Erinnerungen sollte man schnell[ENTER]hinter sich lassen.
+1750	Der Ehering wurde weggesteckt.
+1751	Einseitige Scheidung
+1752	Wďż˝chter des Dorfplatzes:
+1753	Du benďż˝tigst eine Million Yang fďż˝r die einseitige[ENTER]Scheidung. Bist du sicher, dass du dich scheiden[ENTER]lassen willst?
+1754	Nein, ich wollte nur einmal nachfragen.
+1755	Deine Ersparnisse reichen nicht aus fďż˝r eine[ENTER]Scheidung. Du benďż˝tigst dazu genauso viel[ENTER]Yang wie fďż˝r deine Hochzeit.
+1756	Bist du dir sicher, dass du dich scheiden lassen[ENTER]willst?
+1757	Ja, ich will.
+1758	Ich sollte das noch einmal ďż˝berdenken.
+1759	Nun, womďż˝glich ist es besser so. Wenn du sicher[ENTER]bist, dass du es wirklich mďż˝chtest, dann komme[ENTER]noch einmal wieder.
+1760	Da du dir sicher bist, werde ich die Scheidung[ENTER]nun vollziehen. Ich wďż˝nsche euch dennoch alles[ENTER]Gute fďż˝r die Zukunft.
+1761	Liste der Hochzeiten
+1762	Es findet zurzeit keine Hochzeit statt.
+1763	Hochzeit von %s und %s
+1764	Du bist Hochzeitgast! Viel Spaďż˝!
+1765	Die Tinte ist doch nicht einmal trocken![ENTER]Lass dir ein wenig mehr Zeit.
+1766	Du hast bereits eine aktive Mission aus einem Missionsbuch.
+1767	Belohnung abholen
+1768	Wähle eine Mission:
+1769	Nach Abschluss der Mission kannst du eine Belohnung wählen:
+1770	Nach Abschluss der Mission erhältst du:
+1771	Möchtest du die Mission abbrechen?
+1772	Wähle deine Belohnung:
+1773	Besiege %sx %s
+1774	%sx %s (%s)
+1775	Mission abgeschlossen![ENTER]Du erhältst folgende Belohnung:
+1776	%s Yang
+1777	%s Erfahrungspunkte
+1778	Braunbären wagen sich immer näher an die Hauptstadt[ENTER]und greifen Reisende auf den Straßen an.[ENTER]Besiege %s von ihnen, um eine Belohnung zu erhalten.
+1779	Tiger streifen in der Nähe der Hauptstadt umher,[ENTER]greifen Menschen an und lauern Händlern auf.[ENTER]Besiege %s von ihnen, um eine Belohnung zu erhalten.
+1780	Besiege Feinde anderer Reiche
+1781	Feinde

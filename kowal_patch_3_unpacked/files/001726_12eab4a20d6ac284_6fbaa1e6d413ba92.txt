@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\metinstone_witchforest_1\metinstone_loop.gr2"
+MotionDuration           0.200000
+

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc2\plechito_halloween2024_pets\plechi_h2024_pet11\run.GR2"
+MotionDuration           1.000000
+Accumulation             0.00	-375.77	0.00
+

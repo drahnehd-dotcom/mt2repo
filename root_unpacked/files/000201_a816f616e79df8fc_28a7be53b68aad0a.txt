@@ -1,0 +1,624 @@
+#Example	508	"D:/ymir work/item/weapon/effect1.mse"
+40201	"D:\ymir work\pc\common\effect\animated_weapons_9\sword.mse"
+40920	"D:\ymir work\effect\plechito\weapons\easter2023_1\sword_glow.mse"
+41908	"D:\ymir work\effect\plechito\weapons\easter2023_1\costume_glow.mse"
+
+24000	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24001	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24002	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24003	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24004	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24005	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24006	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24007	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24008	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24009	"D:\ymir work\effect\ridack_shadow\ridack_armor.mse"
+24010	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24011	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24012	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24013	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24014	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24015	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24016	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24017	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24018	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24019	"D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse"
+24020	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24021	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24022	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24023	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24024	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24025	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24026	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24027	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24028	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24029	"D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse"
+24030	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24031	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24032	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24033	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24034	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24035	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24036	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24037	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24038	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24039	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse"
+24040	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24041	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24042	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24043	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24044	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24045	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24046	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24047	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24048	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24049	"D:\ymir work\pc\common\effect\exp_2_armor.mse"
+24050	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24051	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24052	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24053	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24054	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24055	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24056	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24057	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24058	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24059	"D:\ymir work\pc\common\effect\exp_5_armor.mse"
+24060	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24061	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24062	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24063	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24064	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24065	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24066	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24067	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24068	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24069	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24069	"D:\ymir work\pc\common\effect\exp_3_armor.mse"
+24070	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24071	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24072	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24073	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24074	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24075	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24076	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24077	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24078	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24079	"D:\ymir work\pc\common\effect\pvp4\zbr.mse"
+24080	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24081	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24082	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24083	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24084	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24085	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24086	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24087	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24088	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24089	"D:\ymir work\item\weapon\wicked snake\armor.mse"
+24090	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24091	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24092	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24093	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24094	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24095	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24096	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24097	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24098	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24099	"D:\ymir work\pc\common\effect\pvp2\zbr.mse"
+24100	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24101	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24102	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24103	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24104	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24105	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24106	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24107	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24108	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24109	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24110	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24111	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24112	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24113	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24114	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24115	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24116	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24117	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24118	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24119	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24120	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24121	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24122	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24123	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24124	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24125	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24126	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24127	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24128	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24129	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24130	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24131	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24132	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24133	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24134	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24135	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24136	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24137	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24138	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24139	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24140	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24141	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24142	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24143	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24144	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24145	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24146	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24147	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24148	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24149	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24150	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24151	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24152	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24153	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24154	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24155	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24156	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24157	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24158	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24159	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24160	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24161	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24162	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24163	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24164	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24165	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24166	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24167	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24168	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24169	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24170	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24171	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24172	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24173	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24174	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24175	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24176	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24177	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24178	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24179	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24180	D:\ymir work\item\weapon\wicked snake\armor.mse
+24181	D:\ymir work\item\weapon\wicked snake\armor.mse
+24182	D:\ymir work\item\weapon\wicked snake\armor.mse
+24183	D:\ymir work\item\weapon\wicked snake\armor.mse
+24184	D:\ymir work\item\weapon\wicked snake\armor.mse
+24185	D:\ymir work\item\weapon\wicked snake\armor.mse
+24186	D:\ymir work\item\weapon\wicked snake\armor.mse
+24187	D:\ymir work\item\weapon\wicked snake\armor.mse
+24188	D:\ymir work\item\weapon\wicked snake\armor.mse
+24189	D:\ymir work\item\weapon\wicked snake\armor.mse
+24190	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24191	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24192	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24193	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24194	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24195	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24196	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24197	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24198	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24199	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24200	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24201	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24202	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24203	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24204	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24205	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24206	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24207	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24208	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24209	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24210	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24211	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24212	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24213	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24214	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24215	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24216	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24217	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24218	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24219	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24220	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24221	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24222	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24223	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24224	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24225	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24226	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24227	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24228	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24229	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24230	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24231	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24232	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24233	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24234	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24235	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24236	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24237	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24238	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24239	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24240	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24241	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24242	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24243	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24244	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24245	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24246	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24247	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24248	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24249	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24250	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24251	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24252	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24253	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24254	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24255	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24256	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24257	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24258	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24259	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24260	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24261	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24262	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24263	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24264	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24265	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24266	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24267	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24268	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24269	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24270	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24271	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24272	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24273	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24274	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24275	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24276	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24277	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24278	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24279	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24280	D:\ymir work\item\weapon\wicked snake\armor.mse
+24281	D:\ymir work\item\weapon\wicked snake\armor.mse
+24282	D:\ymir work\item\weapon\wicked snake\armor.mse
+24283	D:\ymir work\item\weapon\wicked snake\armor.mse
+24284	D:\ymir work\item\weapon\wicked snake\armor.mse
+24285	D:\ymir work\item\weapon\wicked snake\armor.mse
+24286	D:\ymir work\item\weapon\wicked snake\armor.mse
+24287	D:\ymir work\item\weapon\wicked snake\armor.mse
+24288	D:\ymir work\item\weapon\wicked snake\armor.mse
+24289	D:\ymir work\item\weapon\wicked snake\armor.mse
+24290	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24291	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24292	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24293	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24294	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24295	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24296	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24297	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24298	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24299	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24300	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24301	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24302	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24303	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24304	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24305	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24306	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24307	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24308	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24309	D:\ymir work\effect\ridack_shadow\ridack_armor.mse
+24310	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24311	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24312	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24313	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24314	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24315	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24316	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24317	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24318	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24319	D:\ymir work\effect\ridack_knighteffect2\ridack_armor.mse
+24320	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24321	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24322	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24323	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24324	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24325	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24326	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24327	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24328	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24329	D:\ymir work\effect\ridack_knighteffect\ridack_armor.mse
+24330	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24331	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24332	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24333	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24334	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24335	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24336	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24337	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24338	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24339	D:\ymir work\effect\plechito\weapons\bloody_knight_set\costume_glow.mse
+24340	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24341	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24342	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24343	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24344	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24345	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24346	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24347	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24348	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24349	D:\ymir work\pc\common\effect\exp_2_armor.mse
+24350	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24351	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24352	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24353	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24354	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24355	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24356	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24357	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24358	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24359	D:\ymir work\pc\common\effect\exp_5_armor.mse
+24360	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24361	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24362	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24363	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24364	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24365	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24366	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24367	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24368	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24369	D:\ymir work\pc\common\effect\exp_3_armor.mse
+24370	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24371	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24372	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24373	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24374	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24375	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24376	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24377	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24378	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24379	D:\ymir work\pc\common\effect\pvp4\zbr.mse
+24380	D:\ymir work\item\weapon\wicked snake\armor.mse
+24381	D:\ymir work\item\weapon\wicked snake\armor.mse
+24382	D:\ymir work\item\weapon\wicked snake\armor.mse
+24383	D:\ymir work\item\weapon\wicked snake\armor.mse
+24384	D:\ymir work\item\weapon\wicked snake\armor.mse
+24385	D:\ymir work\item\weapon\wicked snake\armor.mse
+24386	D:\ymir work\item\weapon\wicked snake\armor.mse
+24387	D:\ymir work\item\weapon\wicked snake\armor.mse
+24388	D:\ymir work\item\weapon\wicked snake\armor.mse
+24389	D:\ymir work\item\weapon\wicked snake\armor.mse
+24390	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24391	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24392	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24393	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24394	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24395	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24396	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24397	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24398	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+24399	D:\ymir work\pc\common\effect\pvp2\zbr.mse
+
+26009	"D:\ymir work\effect\ridack_shadow\ridack_sword.mse"
+26019	"D:\ymir work\effect\ridack_knighteffect2\ridack_sword.mse"
+26029	"D:\ymir work\effect\ridack_knighteffect\ridack_sword.mse"
+26039	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\sword_glow.mse"
+26039	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\sword_glow_mesh.mse"
+26049	"D:\ymir work\pc\common\effect\exp_2_sword.mse"
+26059	"D:\ymir work\pc\common\effect\exp_5_sword.mse"
+26069	"D:\ymir work\pc\common\effect\exp_3_sword.mse"
+26079	"D:\ymir work\pc\common\effect\pvp4\sword.mse"
+26089	"D:\ymir work\item\weapon\wicked snake\sword.mse"
+26099	"D:\ymir work\pc\common\effect\pvp2\sword.mse"
+
+26109	"D:\ymir work\effect\ridack_shadow\ridack_swords.mse"
+26119	"D:\ymir work\effect\ridack_knighteffect2\ridack_sword.mse"
+26129	"D:\ymir work\effect\ridack_knighteffect\ridack_sword.mse"
+26139	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\sura_sword_glow_mesh.mse"
+26149	"D:\ymir work\pc\common\effect\exp_2_2hand.mse"
+26159	"D:\ymir work\pc\common\effect\exp_5_sword.mse"
+26169	"D:\ymir work\pc\common\effect\exp_3_sword.mse"
+26179	"D:\ymir work\pc\common\effect\pvp4\sword.mse"
+26189	"D:\ymir work\item\weapon\wicked snake\sword.mse"
+26199	"D:\ymir work\pc\common\effect\pvp2\sword.mse"
+
+26209	"D:\ymir work\effect\ridack_shadow\ridack_spear.mse"
+26219	"D:\ymir work\effect\ridack_knighteffect2\ridack_sword_2hand.mse"
+26229	"D:\ymir work\effect\ridack_knighteffect\ridack_sword_2hand.mse"
+26239	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\twohand_glow_mesh.mse"
+26249	"D:\ymir work\pc\common\effect\exp_2_sword.mse"
+26259	"D:\ymir work\pc\common\effect\exp_5_2hand.mse"
+26269	"D:\ymir work\pc\common\effect\exp_3_2hand.mse"
+26279	"D:\ymir work\pc\common\effect\pvp4\2hand.mse"
+26289	"D:\ymir work\item\weapon\wicked snake\twohand.mse"
+26299	"D:\ymir work\pc\common\effect\pvp2\2hand.mse"
+
+26309	"D:\ymir work\effect\ridack_shadow\ridack_knife.mse"
+26319	"D:\ymir work\effect\ridack_knighteffect2\ridack_knife.mse"
+26329	"D:\ymir work\effect\ridack_knighteffect\ridack_knife.mse"
+26339	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\dagger_glow_mesh.mse"
+26349	"D:\ymir work\pc\common\effect\exp_2_dagger.mse"
+26359	"D:\ymir work\pc\common\effect\exp_5_dagger.mse"
+26369	"D:\ymir work\pc\common\effect\exp_3_dagger.mse"
+26379	"D:\ymir work\pc\common\effect\pvp4\dagger.mse"
+26389	"D:\ymir work\item\weapon\wicked snake\dagger.mse"
+26399	"D:\ymir work\pc\common\effect\pvp2\dagger.mse"
+
+26409	"D:\ymir work\effect\ridack_shadow\ridack_bow.mse"
+26419	"D:\ymir work\effect\ridack_knighteffect2\ridack_bow.mse"
+26429	"D:\ymir work\effect\ridack_knighteffect\ridack_bow.mse"
+26439	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\bow_glow_mesh.mse"
+26449	"D:\ymir work\pc\common\effect\exp_2_bow.mse"
+26459	"D:\ymir work\pc\common\effect\exp_5_bow.mse"
+26469	"D:\ymir work\pc\common\effect\exp_3_bow.mse"
+26479	"D:\ymir work\pc\common\effect\pvp4\bow.mse"
+26489	"D:\ymir work\item\weapon\wicked snake\bow.mse"
+26499	"D:\ymir work\pc\common\effect\pvp2\bow.mse"
+
+26509	"D:\ymir work\effect\ridack_shadow\ridack_bell.mse"
+26519	"D:\ymir work\effect\ridack_knighteffect2\ridack_bell.mse"
+26529	"D:\ymir work\effect\ridack_knighteffect\ridack_bell.mse"
+26539	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\bell_glow_mesh.mse"
+26549	"D:\ymir work\pc\common\effect\exp_2_bell.mse"
+26559	"D:\ymir work\pc\common\effect\exp_5_bell.mse"
+26569	"D:\ymir work\pc\common\effect\exp_3_bell.mse"
+26579	"D:\ymir work\pc\common\effect\pvp4\bell.mse"
+26589	"D:\ymir work\item\weapon\wicked snake\bell.mse"
+26599	"D:\ymir work\pc\common\effect\pvp2\bell.mse"
+
+26609	"D:\ymir work\effect\ridack_shadow\ridack_fan.mse"
+26619	"D:\ymir work\effect\ridack_knighteffect2\ridack_fan.mse"
+26629	"D:\ymir work\effect\ridack_knighteffect\ridack_fan.mse"
+26639	"D:\ymir work\effect\plechito\weapons\bloody_knight_set\fan_glow_mesh.mse"
+26649	"D:\ymir work\pc\common\effect\exp_2_fan.mse"
+26659	"D:\ymir work\pc\common\effect\exp_5_fan.mse"
+26669	"D:\ymir work\pc\common\effect\exp_3_fan.mse"
+26679	"D:\ymir work\pc\common\effect\pvp4\fan.mse"
+26689	"D:\ymir work\item\weapon\wicked snake\fan.mse"
+26699	"D:\ymir work\pc\common\effect\pvp2\fan.mse"
+
+41926	"D:/ymir work/effect/plechito/weapons/viking_set/costume_glow.mse"
+41927	"D:/ymir work/effect/plechito/weapons/viking_set/costume_glow.mse"
+40944	"D:/ymir work/effect/plechito/weapons/viking_set/bell_glow.mse"
+40942	"D:/ymir work/effect/plechito/weapons/viking_set/bow_glow.mse"
+48674	"D:/ymir work/effect/plechito/weapons/viking_set/claw_glow.mse"
+40941	"D:/ymir work/effect/plechito/weapons/viking_set/dagger_glow.mse"
+40945	"D:/ymir work/effect/plechito/weapons/viking_set/fan_glow.mse"
+40940	"D:/ymir work/effect/plechito/weapons/viking_set/sword_glow.mse"
+40946	"D:/ymir work/effect/plechito/weapons/viking_set/sura_axe_glow.mse"
+40943	"D:/ymir work/effect/plechito/weapons/viking_set/twohand_glow.mse"
+
+41928	"D:/ymir work/effect/plechito/weapons/frozen_warrior/costume_glow_male.mse"
+41929	"D:/ymir work/effect/plechito/weapons/frozen_warrior/costume_glow_female.mse"
+40950	"D:/ymir work/effect/plechito/weapons/frozen_warrior/sword_glow.mse"
+40951	"D:/ymir work/effect/plechito/weapons/frozen_warrior/dagger_glow.mse"
+40952	"D:/ymir work/effect/plechito/weapons/frozen_warrior/bow_glow.mse"
+40953	"D:/ymir work/effect/plechito/weapons/frozen_warrior/twohand_glow.mse"
+40954	"D:/ymir work/effect/plechito/weapons/frozen_warrior/bell_glow.mse"
+40955	"D:/ymir work/effect/plechito/weapons/frozen_warrior/fan_glow.mse"
+40956	"D:/ymir work/effect/plechito/weapons/frozen_warrior/sura_axe_glow.mse"
+
+41930	"D:/ymir work/effect/plechito/weapons/fire_warrior/costume_glow_male.mse"
+41931	"D:/ymir work/effect/plechito/weapons/fire_warrior/costume_glow_female.mse"
+40960	"D:/ymir work/effect/plechito/weapons/fire_warrior/sword_glow.mse"
+40961	"D:/ymir work/effect/plechito/weapons/fire_warrior/dagger_glow.mse"
+40962	"D:/ymir work/effect/plechito/weapons/fire_warrior/bow_glow.mse"
+40963	"D:/ymir work/effect/plechito/weapons/fire_warrior/twohand_glow.mse"
+40964	"D:/ymir work/effect/plechito/weapons/fire_warrior/bell_glow.mse"
+40965	"D:/ymir work/effect/plechito/weapons/fire_warrior/fan_glow.mse"
+40966	"D:/ymir work/effect/plechito/weapons/fire_warrior/sura_axe_glow.mse"
+
+41932	"D:/ymir work/effect/plechito/weapons/thunder_spirit/costume_glow.mse"
+41933	"D:/ymir work/effect/plechito/weapons/thunder_spirit/costume_glow.mse"
+40970	"D:/ymir work/effect/plechito/weapons/thunder_spirit/sword_glow.mse"
+40971	"D:/ymir work/effect/plechito/weapons/thunder_spirit/dagger_glow.mse"
+40972	"D:/ymir work/effect/plechito/weapons/thunder_spirit/bow_glow.mse"
+40973	"D:/ymir work/effect/plechito/weapons/thunder_spirit/twohand_glow.mse"
+40974	"D:/ymir work/effect/plechito/weapons/thunder_spirit/bell_glow.mse"
+40975	"D:/ymir work/effect/plechito/weapons/thunder_spirit/fan_glow.mse"
+40976	"D:/ymir work/effect/plechito/weapons/thunder_spirit/sura_scythe_glow.mse"
+
+41934	"D:/ymir work/effect/plechito/weapons/skull_necromancer/costume_glow.mse"
+41935	"D:/ymir work/effect/plechito/weapons/skull_necromancer/costume_glow.mse"
+40980	"D:/ymir work/effect/plechito/weapons/skull_necromancer/sword_glow.mse"
+40981	"D:/ymir work/effect/plechito/weapons/skull_necromancer/dagger_glow.mse"
+40982	"D:/ymir work/effect/plechito/weapons/skull_necromancer/bow_glow.mse"
+40983	"D:/ymir work/effect/plechito/weapons/skull_necromancer/twohand_glow.mse"
+40984	"D:/ymir work/effect/plechito/weapons/skull_necromancer/bell_glow.mse"
+40985	"D:/ymir work/effect/plechito/weapons/skull_necromancer/fan_glow.mse"
+40986	"D:/ymir work/effect/plechito/weapons/skull_necromancer/sura_sword_glow.mse"
+
+41936	"D:/ymir work/effect/plechito/weapons/halfmoon_set/costume_glow.mse"
+41937	"D:/ymir work/effect/plechito/weapons/halfmoon_set/costume_glow.mse"
+40990	"D:/ymir work/effect/plechito/weapons/halfmoon_set/sword_glow.mse"
+40991	"D:/ymir work/effect/plechito/weapons/halfmoon_set/dagger_glow.mse"
+40992	"D:/ymir work/effect/plechito/weapons/halfmoon_set/bow_glow.mse"
+40993	"D:/ymir work/effect/plechito/weapons/halfmoon_set/twohand_glow.mse"
+40994	"D:/ymir work/effect/plechito/weapons/halfmoon_set/bell_glow.mse"
+40995	"D:/ymir work/effect/plechito/weapons/halfmoon_set/fan_glow.mse"
+40996	"D:/ymir work/effect/plechito/weapons/halfmoon_set/sura_sword_glow.mse"
+
+41938	"D:/ymir work/effect/plechito/weapons/dark_hwang/costume_glow.mse"
+41939	"D:/ymir work/effect/plechito/weapons/dark_hwang/costume_glow.mse"
+40800	"D:/ymir work/effect/plechito/weapons/dark_hwang/sword_glow.mse"
+40801	"D:/ymir work/effect/plechito/weapons/dark_hwang/dagger_glow.mse"
+40802	"D:/ymir work/effect/plechito/weapons/dark_hwang/bow_glow.mse"
+40803	"D:/ymir work/effect/plechito/weapons/dark_hwang/twohand_glow.mse"
+40804	"D:/ymir work/effect/plechito/weapons/dark_hwang/bell_glow.mse"
+40805	"D:/ymir work/effect/plechito/weapons/dark_hwang/fan_glow.mse"
+40806	"D:/ymir work/effect/plechito/weapons/dark_hwang/sura_axe_glow.mse"
+
+41940	"D:/ymir work/effect/plechito/weapons/necromancer/costume_glow.mse"
+41941	"D:/ymir work/effect/plechito/weapons/necromancer/costume_glow.mse"
+40810	"D:/ymir work/effect/plechito/weapons/necromancer/sword_glow.mse"
+40811	"D:/ymir work/effect/plechito/weapons/necromancer/dagger_glow.mse"
+40812	"D:/ymir work/effect/plechito/weapons/necromancer/bow_glow.mse"
+40813	"D:/ymir work/effect/plechito/weapons/necromancer/twohand_glow.mse"
+40814	"D:/ymir work/effect/plechito/weapons/necromancer/bell_glow.mse"
+40815	"D:/ymir work/effect/plechito/weapons/necromancer/fan_glow.mse"
+40816	"D:/ymir work/effect/plechito/weapons/necromancer/sura_sword_glow.mse"
+
+41942	"D:/ymir work/effect/plechito/weapons/doctor_death_set/costume_glow_male.mse"
+41943	"D:/ymir work/effect/plechito/weapons/doctor_death_set/costume_glow_female.mse"
+40820	"D:/ymir work/effect/plechito/weapons/doctor_death_set/sword_glow.mse"
+40821	"D:/ymir work/effect/plechito/weapons/doctor_death_set/dagger_glow.mse"
+40822	"D:/ymir work/effect/plechito/weapons/doctor_death_set/bow_glow.mse"
+40823	"D:/ymir work/effect/plechito/weapons/doctor_death_set/twohand_glow.mse"
+40824	"D:/ymir work/effect/plechito/weapons/doctor_death_set/bell_glow.mse"
+40825	"D:/ymir work/effect/plechito/weapons/doctor_death_set/fan_glow.mse"
+40826	"D:/ymir work/effect/plechito/weapons/doctor_death_set/sura_sword_glow.mse"
+
+40830	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/sword.mse"
+40831	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/dagger.mse"
+40832	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/bow.mse"
+40833	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/twohand.mse"
+40834	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/bell.mse"
+40835	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/fan.mse"
+40836	"D:/ymir work/effect/plechito/weapons/frost_dragon_set/sword.mse"
+
+41946	"D:/ymir work/item/weapon/halloween_2022/armor.mse"
+41947	"D:/ymir work/item/weapon/halloween_2022/armor.mse"
+40841	"D:/ymir work/item/weapon/halloween_2022/dagger.mse"
+40840	"D:/ymir work/item/weapon/halloween_2022/sword.mse"
+40841	"D:/ymir work/item/weapon/halloween_2022/dagger.mse"
+40842	"D:/ymir work/item/weapon/halloween_2022/bow.mse"
+40843	"D:/ymir work/item/weapon/halloween_2022/twohand.mse"
+40844	"D:/ymir work/item/weapon/halloween_2022/bell.mse"
+40845	"D:/ymir work/item/weapon/halloween_2022/fan.mse"
+40846	"D:/ymir work/item/weapon/halloween_2022/sura_sword.mse"
+
+41948	"D:/ymir work/effect/plechito/weapons/summer2022_2/costume_glow.mse"
+41949	"D:/ymir work/effect/plechito/weapons/summer2022_2/costume_glow.mse"
+40850	"D:/ymir work/effect/plechito/weapons/summer2022_2/sword_glow.mse"
+40851	"D:/ymir work/effect/plechito/weapons/summer2022_2/dagger_glow.mse"
+40852	"D:/ymir work/effect/plechito/weapons/summer2022_2/bow_glow.mse"
+40853	"D:/ymir work/effect/plechito/weapons/summer2022_2/twohand_glow.mse"
+40854	"D:/ymir work/effect/plechito/weapons/summer2022_2/bell_glow.mse"
+40855	"D:/ymir work/effect/plechito/weapons/summer2022_2/fan_glow.mse"
+40856	"D:/ymir work/effect/plechito/weapons/summer2022_2/sura_sword_glow.mse"
+
+41950	"D:/ymir work/effect/plechito/weapons/christmas2022_2/costume_glow.mse"
+41951	"D:/ymir work/effect/plechito/weapons/christmas2022_2/costume_glow.mse"
+40860	"D:/ymir work/effect/plechito/weapons/christmas2022_2/sword_glow.mse"
+40861	"D:/ymir work/effect/plechito/weapons/christmas2022_2/dagger_glow.mse"
+40862	"D:/ymir work/effect/plechito/weapons/christmas2022_2/bow_glow.mse"
+40863	"D:/ymir work/effect/plechito/weapons/christmas2022_2/twohand_glow.mse"
+40864	"D:/ymir work/effect/plechito/weapons/christmas2022_2/bell_glow.mse"
+40865	"D:/ymir work/effect/plechito/weapons/christmas2022_2/fan_glow.mse"
+40866	"D:/ymir work/effect/plechito/weapons/christmas2022_2/sura_sword_glow.mse"
+
+41952	"D:/ymir work/effect/plechito/weapons/summer2024_4/costume_glow.mse"
+41953	"D:/ymir work/effect/plechito/weapons/summer2024_4/costume_glow.mse"
+40870	"D:/ymir work/effect/plechito/weapons/summer2024_4/sword_glow.mse"
+40871	"D:/ymir work/effect/plechito/weapons/summer2024_4/dagger_glow.mse"
+40872	"D:/ymir work/effect/plechito/weapons/summer2024_4/bow_glow.mse"
+40873	"D:/ymir work/effect/plechito/weapons/summer2024_4/twohand_glow.mse"
+40874	"D:/ymir work/effect/plechito/weapons/summer2024_4/bell_glow.mse"
+40875	"D:/ymir work/effect/plechito/weapons/summer2024_4/fan_light.mse"
+40876	"D:/ymir work/effect/plechito/weapons/summer2024_4/sura_scythe_glow.mse"

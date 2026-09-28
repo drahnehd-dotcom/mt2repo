@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_christmas2023\plechi_ch2023_monster2\run.GR2"
+MotionDuration           0.933333
+Accumulation             0.00	-286.34	0.00
+

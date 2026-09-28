@@ -1,0 +1,23 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/npc/ridack_wolfmount/03.gr2"
+MotionDuration           0.766666
+Accumulation             0.00	-920.71	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.200000
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    ""
+        FollowingEnable      1
+        EffectFileName       "D:/ymir work/npc/ridack_wolfmount/03.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        }
+    }
+}

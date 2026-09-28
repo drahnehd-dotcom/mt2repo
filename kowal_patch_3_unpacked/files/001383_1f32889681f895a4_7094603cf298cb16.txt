@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_fire_boss_1\run.GR2"
+MotionDuration           1.333333
+Accumulation             0.00	-700.00	0.00
+

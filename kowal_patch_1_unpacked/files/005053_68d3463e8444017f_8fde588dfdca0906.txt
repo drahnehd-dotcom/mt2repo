@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "public_save.dds"
+left 0
+top 207
+right 340
+bottom 231

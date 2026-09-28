@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "edgeless_buttons.tga"
+left 0
+top 144
+right 100
+bottom 178

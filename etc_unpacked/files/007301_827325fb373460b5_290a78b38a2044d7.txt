@@ -1,0 +1,86 @@
+ScriptType         EnvironmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.096307 -0.158352 -0.982675
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.623529 0.796078 0.862745 1.000000
+        Ambient       0.286275 0.325490 0.411765 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.623529 0.796078 0.862745 1.000000
+        Ambient       0.436275 0.475490 0.561765 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       0.831373 1.000000 0.929412 1.000000
+    Ambient       0.647059 0.658824 0.784314 1.000000
+    Emissive      0.203922 0.337255 0.356863 1.000000
+}
+
+Group Wind
+{
+    Enable    1
+    Strength  0.250000
+    Random    0.000000
+}
+
+Group Fog
+{
+    Enable        1
+    NearDistance  14000.000000
+    FarDistance   40000.000000
+    Color         0.058824 0.074510 0.105882 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.294118 0.094118 0.094118 0.020000
+    AlphaSrc      2
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 1500.000000 1500.000000 1500.000000
+    GradientLevelUpper    0
+    GradientLevelLower    0
+    FrontFaceFileName	   "D:\ymir work\environment\ervelia_water\f.dds"
+    BackFaceFileName	   "D:\ymir work\environment\ervelia_water\b.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\ervelia_water\l.dds"
+    RightFaceFileName	   "D:\ymir work\environment\ervelia_water\r.dds"
+    TopFaceFileName	   "D:\ymir work\environment\ervelia_water\t.dds"
+    BottomFaceFileName	   "D:\ymir work\environment\ervelia_water\d.dds"
+    
+    CloudScale            300000.000000 300000.000000
+    CloudHeight           15000.000000
+    CloudTextureScale     14.000000 14.000000
+    CloudSpeed            0.020000 0.005000
+    CloudTextureFileName  "D:\ymir work\environment\clouds_zone09.tga"
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     1
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              0.320000
+    MainFlareEnable            0
+    MainFlareTextureFileName   ""
+    MainFlareSize              0.200000
+}
+

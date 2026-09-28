@@ -1,0 +1,34 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc2\plechi_fire_dragon\stay01.GR2"
+MotionDuration           3.433333
+Accumulation             0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.690000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01-tongue_02"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/npc2/plechi_fire_dragon/stay01_eff.mse"
+        EffectPosition       0.000000 0.000000 -10.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.640000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01-tongue_02"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/npc2/plechi_fire_dragon/stay01_eff.mse"
+        EffectPosition       0.000000 0.000000 -10.000000
+    }
+}

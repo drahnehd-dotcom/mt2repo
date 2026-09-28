@@ -1,0 +1,18 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\Ymir Work\npc\Asenis_Rybak_Mount_3\Asenis_Rybak_Mount_3.GR2"
+
+Group ShapeData
+{
+    PathName 		 "d:/ymir work/npc/Asenis_Rybak_Mount_3/"
+    ShapeDataCount 		 1
+	Group ShapeData00
+	Specular            100	
+	{
+		ShapeIndex			0
+
+		Model				"Asenis_Rybak_Mount_3.gr2"
+		SourceSkin			"Asenis_Rybak_Mount_3.dds"
+		TargetSkin			"Asenis_Rybak_Mount_3.dds"		
+	}
+}

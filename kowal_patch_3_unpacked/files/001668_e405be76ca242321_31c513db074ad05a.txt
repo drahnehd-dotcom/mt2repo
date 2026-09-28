@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_world_boss_4\run.GR2"
+MotionDuration           0.800000
+Accumulation             0.00	-1723.843994	0.00
+

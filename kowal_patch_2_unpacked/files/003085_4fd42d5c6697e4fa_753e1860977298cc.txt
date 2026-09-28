@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/npc2/ridack_babydemon/03.gr2"
+MotionDuration           0.833333
+Accumulation             0.00	-350.61	0.00

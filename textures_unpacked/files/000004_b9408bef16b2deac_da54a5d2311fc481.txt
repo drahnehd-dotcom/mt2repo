@@ -1,0 +1,14 @@
+TextureSet
+
+TextureCount 1
+
+Start Texture001
+    "d:\ymir work\terrainmaps\4k_tex\o\dreinull.dds"
+    1.000000
+    1.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture001

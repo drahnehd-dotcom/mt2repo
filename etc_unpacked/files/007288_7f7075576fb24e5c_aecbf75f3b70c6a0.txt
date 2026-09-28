@@ -1,0 +1,96 @@
+ScriptType         EnvironmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     -0.023307 0.958329 -0.284715
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       0.694118 0.486275 0.376471 1.000000
+        Ambient       0.564706 0.411765 0.337255 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       0.694118 0.486275 0.376471 1.000000
+        Ambient       0.714706 0.561765 0.487255 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 0.611765 0.611765 1.000000
+    Ambient       0.474510 0.294118 0.294118 1.000000
+    Emissive      0.258824 0.149020 0.149020 1.000000
+}
+
+Group Fog
+{
+    Enable        0
+    NearDistance  1000.000000
+    FarDistance   25000.000000
+    Color         0.313726 0.031373 0.000000 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.556863 0.329412 0.329412 0.000000
+    AlphaSrc      1
+    AlphaDest     1
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 1500.000000 3500.000000 1500.000000
+    GradientLevelUpper    4
+    GradientLevelLower    1
+    FrontFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_front.dds"
+    BackFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_back.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_left.dds"
+    RightFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_right.dds"
+    TopFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_top.dds"
+    BottomFaceFileName	   "D:\ymir work\environment\plechito\lava_map_01\lava_top.dds"
+    
+    CloudScale            0.000000 0.000000
+    CloudHeight           30000.000000
+    CloudTextureScale     0.000000 0.000000
+    CloudSpeed            0.000000 0.000000
+    CloudTextureFileName  ""
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+        
+        0.231373 0.403922 0.729412 0.000000
+        0.376471 0.498039 0.729412 0.000000
+        
+        0.376471 0.498039 0.729412 0.000000
+        0.568627 0.678431 0.882353 0.000000
+        
+        0.568627 0.678431 0.882353 0.000000
+        0.850980 0.901961 1.000000 0.000000
+        
+        0.850980 0.901961 1.000000 0.000000
+        0.533333 0.564706 0.623529 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     0
+    BrightnessColor            0.980392 0.980392 0.980392 1.000000
+    MaxBrightness              0.110000
+    MainFlareEnable            0
+    MainFlareTextureFileName   "D:\Ymir Work\environment\sunflare.dds"
+    MainFlareSize              0.110000
+}
+

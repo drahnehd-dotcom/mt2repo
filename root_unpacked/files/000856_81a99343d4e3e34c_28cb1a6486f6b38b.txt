@@ -1,0 +1,193 @@
+"""Battle Pass - uiscript (KowalMT2).
+
+Statyczna chromowka okna 799x415 wg projektu graficznego.
+Elementy dynamiczne (kolumny nagrod, wiersze zadan, scrollbary)
+buduje uibattlepass.py w kodzie - patrz stale REWARD_* / MISSION_*.
+"""
+
+PATH = "d:/ymir work/ui/battle_pass/"
+
+SIZE_X = 799
+SIZE_Y = 415
+
+WIDTH = (SCREEN_WIDTH // 2) - (SIZE_X // 2)
+HEIGHT = (SCREEN_HEIGHT // 2) - (SIZE_Y // 2)
+
+COLOR_LEVEL = 0xFFFF9628
+COLOR_POINTS = 0xFFF0F0EB
+
+
+window = {
+    "name": "BattlePassWindow",
+    "style": ("movable", "float"),
+    "x": WIDTH,
+    "y": HEIGHT,
+    "width": SIZE_X,
+    "height": SIZE_Y,
+
+    "children": (
+        {
+            "name": "Background",
+            "type": "image",
+            "style": ("not_pick",),
+            "x": 0, "y": 0,
+            "image": PATH + "battlepass_bg.png",
+        },
+
+        # ---------------- plansza: NAGRODY ----------------
+        # UWAGA: kontenery pokrywajace cale okno MUSZA miec "attach".
+        # RunMouseLeftButtonDown (PythonWindowManager.cpp:906-918) przechwytuje
+        # NAJGLEBSZE trafione okno, a RunMouseMove (:830-834) przeciaga tylko je -
+        # bez "attach" (ktore przekierowuje na GetRoot) klikniecie w plansze
+        # zjada przeciaganie i styl "movable" okna staje sie martwy.
+        {
+            "name": "BoardRewards",
+            "type": "window",
+            "style": ("attach",),
+            "x": 0, "y": 0,
+            "width": SIZE_X, "height": SIZE_Y,
+            "children": (
+                {
+                    "name": "RewardIconFree",
+                    "type": "image",
+                    "style": ("not_pick",),
+                    "x": 17, "y": 98,
+                    "image": PATH + "nagrody_zwykle_icon.png",
+                },
+                {
+                    "name": "RewardIconPremium",
+                    "type": "image",
+                    "style": ("not_pick",),
+                    "x": 13, "y": 242,
+                    "image": PATH + "nagrody_premium_icon.png",
+                },
+                {
+                    "name": "RewardPlates",
+                    "type": "image",
+                    "style": ("not_pick",),
+                    "x": 110, "y": 208,
+                    "image": PATH + "nagrody_under.png",
+                },
+                # kontener na 7 widocznych kolumn (wypelnia kod)
+                {
+                    "name": "RewardColumnSlot",
+                    "type": "window",
+                    "style": ("attach",),
+                    "x": 110, "y": 95,
+                    "width": 663, "height": 259,
+                },
+                # miejsce na poziomy scrollbar (tworzy kod)
+                {
+                    "name": "RewardScrollSlot",
+                    "type": "window",
+                    "style": ("attach",),
+                    "x": 113, "y": 368,
+                    "width": 656, "height": 17,
+                },
+            ),
+        },
+
+        # ---------------- plansza: ZADANIA ----------------
+        {
+            "name": "BoardMissions",
+            "type": "window",
+            "style": ("attach",),
+            "x": 0, "y": 0,
+            "width": SIZE_X, "height": SIZE_Y,
+            "children": (
+                # kontener na 2 kolumny x 4 wiersze (wypelnia kod)
+                {
+                    "name": "MissionRowSlot",
+                    "type": "window",
+                    "style": ("attach",),
+                    "x": 30, "y": 85,
+                    "width": 711, "height": 322,
+                },
+                # miejsce na pionowy scrollbar (tworzy kod)
+                {
+                    "name": "MissionScrollSlot",
+                    "type": "window",
+                    "style": ("attach",),
+                    "x": 758, "y": 86,
+                    "width": 17, "height": 308,
+                },
+            ),
+        },
+
+        # ---------------- naglowek (wspolny) ----------------
+        {
+            "name": "TabButton",
+            "type": "button",
+            "x": 164, "y": 17,
+            "default_image": PATH + "zadania_button_normal.png",
+            "over_image": PATH + "zadania_button_hover.png",
+            "down_image": PATH + "zadania_button_down.png",
+        },
+        # LevelPanel celowo BEZ "not_pick" - dzieki temu lapie najechanie
+        # mysza i pokazuje tooltip z czasem do konca sezonu
+        # (uibattlepass.BattlePassWindow.__SetSeasonTooltip).
+        # "attach" dziala tylko na wcisnieciu przycisku myszy (FLAG_ATTACH jest
+        # czytana wylacznie w RunMouseLeftButtonDown/RightButtonDown), wiec
+        # tooltip z najechania dziala dalej, a okno da sie przeciagnac za panel.
+        {
+            "name": "LevelPanel",
+            "type": "image",
+            "style": ("attach",),
+            "x": 323, "y": 12,
+            "image": PATH + "background_level.png",
+            "children": (
+                {
+                    "name": "LevelGauge",
+                    "type": "expanded_image",
+                    "style": ("not_pick",),
+                    "x": 12, "y": 32,
+                    "image": PATH + "level_gauge.png",
+                },
+                # x-y wyliczone dla najszerszego przypadku: "30 POZIOM" (70px)
+                # + "10000/10000 Pkt" (111px) + 8px odstepu = 189px, wysrodkowane
+                # na plytce panelu (x 22..216). W projekcie byly ciasniej (86/153),
+                # ale tam pokazano "50/100 Pkt" - realne wartosci sa duzo szersze.
+                {
+                    "name": "LevelText",
+                    "type": "text",
+                    "style": ("not_pick",),
+                    "x": 58, "y": 19,
+                    "text": "",
+                    "text_horizontal_align": "center",
+                    "text_vertical_align": "center",
+                    "fontname": "Tahoma:12b",
+                    "color": COLOR_LEVEL,
+                    "outline": 1,
+                },
+                {
+                    "name": "PointsText",
+                    "type": "text",
+                    "style": ("not_pick",),
+                    "x": 157, "y": 19,
+                    "text": "",
+                    "text_horizontal_align": "center",
+                    "text_vertical_align": "center",
+                    "fontname": "Tahoma:12b",
+                    "color": COLOR_POINTS,
+                    "outline": 1,
+                },
+            ),
+        },
+        {
+            "name": "BuyPremiumButton",
+            "type": "button",
+            "x": 568, "y": 17,
+            "default_image": PATH + "kuppremium_button_normal.png",
+            "over_image": PATH + "kuppremium_button_hover.png",
+            "down_image": PATH + "kuppremium_button_down.png",
+        },
+        {
+            "name": "ExitButton",
+            "type": "button",
+            "x": 764, "y": 2,
+            "default_image": PATH + "exit_btn_normal.png",
+            "over_image": PATH + "exit_btn_hover.png",
+            "down_image": PATH + "exit_btn_down.png",
+        },
+    ),
+}

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_ice_boss_1\run.GR2"
+MotionDuration           1.200000
+Accumulation             0.00	-799.999938	0.00
+

@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/npc2/ridack_pet6/03.gr2"
+MotionDuration           0.833333
+Accumulation             0.00	-260.47	0.00
+

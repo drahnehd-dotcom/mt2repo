@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster2\plechito_pirate_ship\plechi_pirateship_monster3\run.GR2"
+MotionDuration           0.933333
+Accumulation             0.00	-537.24	0.00
+

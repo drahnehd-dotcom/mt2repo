@@ -1,0 +1,2 @@
+Diffuse=LV_BranForest_Camp_TotemMiddle01_D_KSR
+Normal=LV_BranForest_Camp_TotemMiddle01_N_KSR

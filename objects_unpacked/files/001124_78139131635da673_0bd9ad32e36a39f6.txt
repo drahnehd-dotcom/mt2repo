@@ -1,0 +1,3 @@
+Diffuse=LV_Binterrante_Object_Sundries01_3_D_NWCSKP
+Normal=LV_Binterrante_Object_Sundries01_3_N_NWCSKP
+Specular=LV_Binterrante_Object_Sundries01_3_D_NWCSKP

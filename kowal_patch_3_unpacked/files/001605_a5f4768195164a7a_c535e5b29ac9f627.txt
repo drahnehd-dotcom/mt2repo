@@ -1,0 +1,5 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\e_world_boss_1\die.GR2"
+MotionDuration           4.500000
+

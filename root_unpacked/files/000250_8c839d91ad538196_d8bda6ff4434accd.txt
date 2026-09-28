@@ -1,0 +1,770 @@
+1	Vytvorit cech
+4	Ano
+5	Ne
+16	GM: Omezit.
+17	Napiš jméno osoby, kterou chceš omezit!
+18	Hráce takového jako:
+19	není!
+20	GM: Zkontroluj.
+21	Má cech: 
+22	Je mistrem: 
+23	Království: 
+24	Království NPC: 
+25	Vystoupit z cechu
+26	Opravdu chceš vystoupit z cechu?
+27	Vystoupil jsi z cechu.
+28	Rozpustit cech
+29	Opravdu chceš rozpustit cech?
+30	Cech byl rozpušten.
+31	Nelze vytvorit cech, již v jednom jsi!
+32	Opravdu chceš vytvorit cech?
+33	Nemáš potrebný predmet pro vytvorení cechu.
+34	Nemáš dostatek penez na vytvorení cechu.
+35	Nemáš dostatecnou úroven vudcovství.
+36	Pred odevzdáním dalšího predmetu musíš ješte pockat.
+37	Tento predmet mel skvelou kvalitu!
+38	Dokoncil jsi misi biologa.
+39	Tento predmet mel velmi špatnou kvalitu!
+40	Nemáš predmet potrebný k výzkumu.
+41	Máš príliš nízkou úroven.
+42	Dokoncil jsi misi sberatele.
+54	Limit bude vyresetován za:
+55	%d hodin a %d minut.
+56	0 hodin a 0 minut.
+79	Zabij bosse!
+82	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Ledovou jeskyni |cFFc5ff8c(Lv. 125)|r v case: |cFFf7b983%s!
+85	Baek-Go
+86	Výroba
+87	Výroba - kameny duše
+88	Výroba - elixíry
+89	Výroba
+96	Obchod
+97	Ryby
+98	Relikvie a tavby
+113	Sundej životy služebníka pod 66%
+115	Znič všech 6 balvanů
+118	Sundej životy služebníka pod 33%
+121	Zabij 4 džiny.
+129	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Císarovu rokli |cFFc5ff8c(Lv. 150)|r v case: |cFFf7b983%s!
+131	Nemáš žádné schopnosti.
+132	Nelze použít v dungeonu.
+133	Kámen duše:
+135	efekt z pergamenu exorcismu.
+136	Nemáš žádnou schopnost na úrovni G.
+137	Vyber schopnost, kterou chceš vytrénovat:
+167	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Věž démonů |cFFc5ff8c(Lv. 75)|r v case: |cFFf7b983%s!
+600	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Věž orků |cFFc5ff8c(Lv. 30)|r v case: |cFFf7b983%s!
+601	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Úkryt baronky |cFFc5ff8c(Lv. 61)|r v case: |cFFf7b983%s!
+169	Chceš se vrátit do dungeonu?
+186	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Sín Královny Pavouku |cFFc5ff8c(Lv. 50)|r v case: |cFFf7b983%s!
+204	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Velikonocní dungeon |cFFc5ff8c|r v case: |cFFf7b983%s!
+227	[Brány pekel] Zabij mini bosse!
+228	[Brány pekel] Zabij bosse!
+229	Vstup do Brány pekel (150+)
+231	[Brány pekel] Vítej v dungeonu!
+234	[Brány pekel] Objevily se balvany!
+238	Zabij mini bosse
+239	[Brány pekel] Objevil se boss!
+240	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Brány pekel |cFFc5ff8c(Lv. 150)|r v case: |cFFf7b983%s!
+257	Deokbae:
+260	Vylepšení se nepovedlo...
+276	Shinsoo
+277	Jinno
+278	Zrušit
+281	Vzdat se
+282	Zrušit
+298	Vylepšení se nepovedlo.
+316	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Starovekou džungli |cFFc5ff8c(Lv. 175)|r v case: |cFFf7b983%s!
+317	Kombinace
+318	Chceš kombinovat šerpy?
+323	[Ruiny škorpiona] Zabij 3 mini bosse!
+324	[Ruiny škorpiona] Zabij bosse!
+325	Vstup do Ruin škorpiona (100+)
+328	[Ruiny škorpiona] Vítej v dungeonu!
+331	[Ruiny škorpiona] Objevily se balvany!
+335	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Ruiny škorpiona |cFFc5ff8c(Lv. 100)|r v case: |cFFf7b983%s!
+337	Tělo
+338	Mental
+339	Dýky
+340	Luk
+341	WP
+342	BM
+343	Buff
+344	Léčitel
+345	Vyber schopností:
+350	Vyber typ kostýmu:
+351	PvP kostým
+352	PvM kostým
+353	Obdržel jsi PvP kostým!
+356	Obdržel jsi PvM kostým!
+360	Zkus to znovu za 10 sekund.
+364	min nebo použij pergamen exorcismu.
+367	Trénink schopnosti není 100%.
+369	Vítej,
+370	Pokud chceš vyresetovat své schopnosti
+373	Chceš vyresetovat schopnosti?
+384	Sklad
+385	ItemShop
+407	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Lod duchu (I) |cFFc5ff8c(Lv. 149)|r v case: |cFFf7b983%s|r
+414	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Lod duchu (II) |cFFc5ff8c(Lv. 200)|r v case: |cFFf7b983%s|r
+417	[Hory Wukonga] Zabij 3 mini bosse!
+418	Vstup do Hor Wukonga (75+)
+420	[Hory Wukonga] Vítej v dungeonu!
+423	[Hory Wukonga] Objevily se balvany!
+427	|cFFf7dd83%s|r |cFFc5ff8c(Lv. %d)|r dokoncil/a |cFFf7dd83Hory Wukonga |cFFc5ff8c(Lv. 75)|r v case: |cFFf7b983%s!
+433	Úrovně za body úspěchu
+439	Výběr kostýmu:
+443	Vyber kostýmovou zbraň:
+444	Po výběru není cesty zpět.
+446	Výběr zrušen.
+448	PvP Křídla
+449	PvM Křídla
+453	Toto nelze udělat v dungeonu.
+454	Nemáš dostatek místa v inventáři.
+455	[Ledová jeskyně] Zabij 50 příšer a potom použij pečeť!
+456	[Ledová jeskyně] Znič všechny balvany!
+457	[Ledová jeskyně] Zabij 3 mini bosse!
+458	[Ledová jeskyně] Zabij bosse!
+459	Vstup do ledové jeskyně (125+) 
+460	Strážce: 
+461	Zdravíčko!
+462	Rozumím tomu dobře? Chceš vstoupit do ledové jeskyně?
+463	Bez potřebných předmětů 
+464	a úrovně tě ale dál nepustím.
+465	Počet vstupů dnes: 
+466	 / 80
+467	Potřebuješ: 
+469	Chceš pokračovat?
+470	Jasně!
+471	Raději ne.
+472	Momentálně se nelze teleportovat!
+473	Tento dungeon nelze chodit ve skupině.
+474	Nemáš potřebný předmět!
+475	[Ledová jeskyně] Vítej v dungeonu!
+476	[Ledová jeskyně] Objevily se příšery!
+477	Zabij 50 příšer
+478	[Ledová jeskyně] Použij pečeť k postupu dále!
+479	[Ledová jeskyně] Povedlo se!
+480	[Ledová jeskyně] Za 5 sekund se objeví další zadání!
+481	[Ledová jeskyně] Objevily se balvany!
+482	Znič 8 balvanů 
+483	[Ledová jeskyně] Skvělá práce!
+484	[Ledová jeskyně] Ještě zbývá: 
+486	 balvanů!
+487	Zabij 3 mini bosse
+488	[Ledová jeskyně] Podařilo se ti zabít mini bosse!
+489	Znič 4 balvany
+491	[Ledová jeskyně] Objevil se boss!
+492	[Ledová jeskyně] Podařilo se ti zabít bosse!
+493	[Ledová jeskyně] Za minutu budeš teleportován/a pryč z dungeonu!
+505	Změna jména:
+506	Ahoj,
+507	Takže ty chceš změnit jméno? 
+508	Jméno nesmí obsahovat speciální znaky!
+509	Chceš změnít jméno?
+510	Změna jména byla úspěšná!
+511	Tvé nové jméno je: 
+512	 
+513	Pro viditelnost změny je nutné se odhlásit!
+514	Dobře, tak někdy jindy...
+515	Toto jméno postavy je již zabrané!
+516	Hodnost, mazlíček, jezdecká zvířata
+517	Obchod body úspěchu
+518	Rybářská kolekce
+519	Velikonoční předměty
+520	Výroba letních předmětů 
+521	[Císařova rokle] Zabij 50 příšer!
+522	[Císařova rokle] Objevil se služebník císaře!
+523	[Císařova rokle] Znič 6 balvanů!
+524	[Císařova rokle] Zabij 4 džiny!
+525	[Císařova rokle] Objevila se Císařská Naga!
+526	Císařova rokle (Lv 201+)
+527	Rozumím tomu dobře? Chceš vstoupit do císařovy rokle?
+528	[Císařova rokle] Vítej v Císařovy rokli!
+529	[Císařova rokle] Objevily se příšery!
+530	Pozabíjej příšery v rokli.
+531	[Císařova rokle] Zabil jsi všechny příšery!
+532	[Císařova rokle] Služebník císaře se probouzí...
+533	[Císařova rokle] Zbývajícíh příšer: 
+534	[Císařova rokle] Služebník přivolal balvany!
+535	[Císařova rokle] Všechny balvany byly zničeny!
+536	[Císařova rokle] Pokračuj v souboji se služebníkem!
+537	[Císařova rokle] Zbývajících balvanů: 
+538	[Císařova rokle] Služebník přivolává posily!
+539	[Císařova rokle] Porazil jsi všechny džiny!
+540	[Císařova rokle] Zabij služebníka císaře!
+541	Zabij Služebníka Císaře
+542	[Císařova rokle] Zbývajících džinů: 
+543	[Císařova rokle] Služebník Císaře!
+544	[Císařova rokle] Ale počkat... něco tu nehraje...
+545	Zabij Císařskou Nagu!
+546	[Císařova rokle] Podařilo se ti zabít bosse!
+547	[Císařova rokle] Za minutu budeš teleportován/a pryč z dungeonu!
+551	Toto teď nelze udělat.
+552	Použití toho předmětu odebere
+553	 Toto teď nelze udělat.
+554	Trénink schopnosti, byl úspěšný.
+555	Mýtická alchymie: Změna bonusů 
+556	Opravdu chceš otevřít okno změny bonusů?
+557	[Svatyně démonů] Zabij 50 příšer a potom použij pečeť!
+558	[Svatyně démonů] Znič všechny balvany!
+559	[Svatyně démonů] Zabij 3 mini bosse!
+560	[Svatyně démonů] Zabij bosse!
+561	Vstup do svatyně démonů (75+)
+562	Rozumím tomu dobře? Chceš vstoupit do svatyně démonů?
+563	[Svatyně démonů] Vítej v dungeonu!
+564	[Svatyně démonů] Objevily se příšery!
+565	[Svatyně démonů] Použij pečeť k postupu dále!
+566	[Svatyně démonů] Povedlo se!
+567	[Svatyně démonů] Za 5 sekund se objeví další zadání!
+568	[Svatyně démonů] Objevily se balvany!
+569	[Svatyně démonů] Skvělá práce!
+570	[Svatyně démonů] Ještě zbývá: 
+572	[Svatyně démonů] Podařilo se ti zabít mini bosse!
+574	[Svatyně démonů] Objevil se boss!
+575	[Svatyně démonů] Podařilo se ti zabít bosse!
+576	[Svatyně démonů] Za minutu budeš teleportován/a pryč z dungeonu!
+577	Návrat do dungeonu 
+578	[Síň královny pavouků] Zabij 50 příšer a potom použij pečeť!
+579	[Síň královny pavouků] Znič všechny balvany!
+580	[Síň královny pavouků] Zabij 3 mini bosse!
+581	[Síň královny pavouků] Zabij bosse!
+582	Vstup do Síně královny pavouků (50+)
+583	Rozumím tomu dobře? Chceš vstoupit do síně královny pavouků?
+584	[Síň královny pavouků] Vítej v dungeonu!
+585	[Síň královny pavouků] Objevily se příšery!
+586	[Síň královny pavouků] Použij pečeť k postupu dále!
+587	[Síň královny pavouků] Povedlo se!
+588	[Síň královny pavouků] Za 5 sekund se objeví další zadání!
+589	[Síň královny pavouků] Objevily se balvany!
+590	Znič 5 balvanů 
+591	[Síň královny pavouků] Skvělá práce!
+592	[Síň královny pavouků] Ještě zbývá: 
+593	[Síň královny pavouků] Podařilo se ti zabít mini bosse!
+594	[Síň královny pavouků] Objevil se boss!
+595	[Síň královny pavouků] Podařilo se ti zabít bosse!
+596	[Síň královny pavouků] Za 20 sekund budeš teleportován/a pryč z dungeonu!
+606	 hodinu a 
+607	 minut.
+609	[Velikonoční dungeon] Zabij 150 příšer a potom použij pečeť!
+610	[Velikonoční dungeon] Znič všechny balvany!
+611	[Velikonoční dungeon] Zabij 3 mini bosse!
+612	[Velikonoční dungeon] Zabij bosse!
+613	Velikonoční dungeon
+614	Rozumím tomu dobře? Chceš vstoupit do velikonočního dungeonu?
+615	Bez potřebných předmětů tě ale dál nepustím.
+616	[Velikonoční dungeon] Vítej v dungeonu!
+617	[Velikonoční dungeon] Objevily se příšery!
+618	Zabij 150 příšer
+619	[Velikonoční dungeon] Použij pečeť k postupu dále!
+620	[Velikonoční dungeon] Povedlo se!
+621	[Velikonoční dungeon] Za 5 sekund se objeví další zadání!
+622	[Velikonoční dungeon] Objevily se balvany!
+623	[Velikonoční dungeon] Skvělá práce!
+624	[Velikonoční dungeon] Ještě zbývá: 
+625	[Velikonoční dungeon] Podařilo se ti zabít mini bosse!
+626	[Velikonoční dungeon] Objevil se boss!
+627	[Velikonoční dungeon] Podařilo se ti zabít bosse!
+628	[Velikonoční dungeon] Za 20 sekund budeš teleportován/a pryč z dungeonu!
+631	[Brány pekel] Zabij 50 příšer a potom použij pečeť!
+632	[Brány pekel] Znič všechny balvany!
+633	[Brány pekel] Zabij 3 mini bosse!
+634	Rozumím tomu dobře? Chceš vstoupit do bran pekel?
+635	[Brány pekel] Objevily se příšery!
+636	[Brány pekel] Použij pečeť k postupu dále!
+637	[Brány pekel] Povedlo se!
+638	[Brány pekel] Za 5 sekund se objeví další zadání!
+639	[Brány pekel] Skvělá práce!
+640	[Brány pekel] Ještě zbývá: 
+642	[Brány pekel] Podařilo se ti zabít mini bosse!
+644	[Brány pekel] Podařilo se ti zabít bosse!
+645	[Brány pekel] Za minutu budeš teleportován/a pryč z dungeonu!
+646	Kouzlo změny 
+647	Nelze změnit pohlaví, pokud máš na sobě kostým pro jiné pohlaví!
+648	Kouzlo změny
+649	Musíš mít minimálně úroveň 50!
+650	Nelze změnit pohlaví v případě, že jsi s někým ve sňatku!
+651	Nelze změnit pohlaví, když jsi proměněný!
+652	Musíš počkat 24 hodin!
+653	Zbývající čas:
+655	Opravdu chceš změnit pohlaví?
+656	Pohlaví bylo změněno.
+657	Pro dokončení se prosím odhlaš a znovu přihlaš.
+658	[Kupon BÚ] Toto teď nelze udělat.
+659	[Kupon BÚ] Nemáš potřebný kupon!
+660	[
+661	]
+662	blue
+663	 Body Úspěchu byly navýšeny o 
+667	Ještě jsi nedokončil začátečnický dungeon.
+668	Pro teleportaci do této lokace máš nízkou úroveň!
+669	Pro teleportaci do této lokace máš nízkou nebo vysokou úroveň!
+670	Při teleportaci nastal problém.
+671	Tvá úroveň je příliš vysoká na to, abys mohl být v této mapě.
+672	Výroba úlomků 
+673	Tento krumpáč má málo bodů.
+674	Opravdu chceš vylepšit krumpáč?
+675	Teď vypadá mnohem líp.
+676	Vylepšení krumpáče se bohužel nepovedlo.
+677	Krumpáč má nyní nižší úroveň.
+678	[Změna říše] Toto teď nelze provést.
+679	Změna říše:
+680	Díky tomuto předmětu můžeš změnit svou říši,
+681	ale není to zadarmo, všechno něco stojí.
+682	Říši můžeš měnit každé 3 dny,
+683	budeš také potřebovat 100.000.000 yangů.
+684	Chceš změnit říši?
+685	[Změna říše] Nemáš 100.000.000 yangů.
+686	[Změna říše] Předmět je nyní vypnut.
+687	[Změna říše] Nejprve musíš odejít z cechu.
+688	[Změna říše] Nejprve se musíš nechat rozvést.
+689	Vyber novou říši
+690	Zrušit
+691	[Změna říše] V této říši už jsi.
+692	[Změna říše] Změněna říše! Musíš se odhlásit a přihlásit, aby se projevily změny.
+693	'..l..'
+694	:
+695	[WINDOW_SIZE width;
+696	|height;
+697	[INSERT_IMAGE image_type;item|idx;
+698	|title;
+699	|desc;
+700	|index;
+701	|total;
+702	 you gave up on this quest
+703	Ne všichni ze skupiny jsou na této mapě!
+704	Někteří člěnové skupiny nemají potřebnou úroveň: 
+705	- 
+706	Nemáš dostatečnou úroveň pro vstup do tohoto dungeonu!
+707	Někteří hráči nemají potřebnou propustku: 
+708	Někteří hráči se nemohou teleportovat: 
+709	Vy jste snad chtěli oškubat strážníka?... 
+763	V tomto prutu není dostatek bodů!
+764	Tvůj prut je již na maximální úrovni!
+765	Opavdu chceš vylepšit tento prut?
+766	Vylepšení prutu bylo úspěšné!
+767	Zkus to znovu později!
+783	[Starověká džungle] Zabij 50 příšer a potom použij pečeť!
+784	[Starověká džungle] Znič všechny balvany!
+785	[Starověká džungle] Zabij 3 mini bosse!
+786	[Starověká džungle] Zabij mini bosse!
+787	[Starověká džungle] Zabij bosse!
+788	Vstup do Starověké džungle (175+) 
+789	Rozumím tomu dobře? Chceš vstoupit do starověké džungle?
+790	[Starověká džungle] Vítej v dungeonu!
+791	[Starověká džungle] Objevily se příšery!
+792	[Starověká džungle] Použij pečeť k postupu dále!
+793	[Starověká džungle] Povedlo se!
+794	[Starověká džungle] Za 5 sekund se objeví další zadání!
+795	[Starověká džungle] Objevily se balvany!
+796	[Starověká džungle] Skvělá práce!
+797	[Starověká džungle] Ještě zbývá: 
+799	[Starověká džungle] Podařilo se ti zabít mini bosse!
+801	[Starověká džungle] Objevil se boss!
+802	[Starověká džungle] Podařilo se ti zabít bosse!
+803	[Starověká džungle] Za minutu budeš teleportován/a pryč z dungeonu!
+804	Absorbce předmětu
+805	Chceš absorbovat zbraň do šerpy?
+859	[Ruiny škorpiona] Zabij 50 příšer a potom použij pečeť!
+860	[Ruiny škorpiona] Znič všechny balvany!
+861	Rozumím tomu dobře? Chceš vstoupit do ruin škorpiona?
+862	[Ruiny škorpiona] Objevily se příšery!
+863	[Ruiny škorpiona] Použij pečeť k postupu dále!
+864	[Ruiny škorpiona] Povedlo se!
+865	[Ruiny škorpiona] Za 5 sekund se objeví další zadání!
+866	[Ruiny škorpiona] Skvělá práce!
+867	[Ruiny škorpiona] Ještě zbývá: 
+868	[Ruiny škorpiona] Podařilo se ti zabít mini bosse!
+869	Pokonajcie 6 balvanů 
+870	[Ruiny škorpiona] Objevil se boss!
+871	[Ruiny škorpiona] Podařilo se ti zabít bosse!
+872	[Ruiny škorpiona] Za minutu budeš teleportován/a pryč z dungeonu!
+873	Trénink schopností 
+874	Vyber schopností: 
+875	Vyber si své zaměření.
+876	Vybrat pozdějí 
+877	Vybral sis své zaměření !
+878	Vyber PvP kostýmovou zbraň:
+879	Vyber PvM kostýmovou zbraň:
+880	Vyber PvP Křídla:
+881	Obdržel jsi PvP Křídla, mazlíčka a jezdecké zvíře!
+882	Vyber PvM Křídla:
+883	Obdržel jsi PvM Křídla, mazlíčka a jezdecké zvíře!
+884	Špatný předmět.
+885	 Trénovat schopnost můžeš znovu za 
+886	h 
+887	Trénink schopnosti byl úspěšný.
+888	Schopnost můžeš trénovat znovu za 8 hodin.
+889	Trénink schopnosti se nezdařil.
+890	Resetování schopností 
+891	a zvolit si nové zaměření, tak tě to něco bude stát.
+892	Cena: 1.000.000 Yangů.
+893	Tato změna se nedá vrátit!
+894	[Stařenka] Nemáš 1.000.000 yangů.
+895	[Stařenka] Toto teď nemůžeš udělat.
+896	[Stařenka] Nemáš žádné schopnosti.
+897	Vyresetovat schopnosti můžeš znovu za:
+951	[Loď duchů] Zničte balvan
+952	[Loď duchů] Zabijte všechny příšery (na jezdeckém zvířeti)
+953	[Loď duchů] Zničte balvan ze země.
+954	[Loď duchů] Zabijte všechny příšery
+955	[Loď duchů] Zničte všechny balvany!
+956	[Loď duchů] Zabij bosse!
+957	[Loď duchů] Zničte truhlu kapitána!
+958	Vstup na Loď duchů (200 Lvl)
+959	Rozumím tomu dobře? Chceš vstoupit na Loď duchů?
+960	- Skupina (2 hráči)
+961	[Loď duchů] Musíš mít poblíž sebe alespoň 1 dalšího hráče.
+962	[Loď duchů] Nejsi vůdcem skupiny!
+963	[Loď duchů] Nemáš dostatečnou úroveň!
+964	[Loď duchů] Tvá úroveň je příliš vysoká!
+965	[Loď duchů] Vůdce nemá dostatek propustek! (x2)
+966	[Loď duchů] Vítej v dungeonu!
+967	Nestihli jste dokončit dungeon včas. Všichni budou teleportováni pryč z dungeonu!
+968	[Loď duchů] Objevil se balvan!
+969	[Loď duchů] Povedlo se!
+970	[Loď duchů] Za 5 sekund se objeví další zadání!
+971	[Loď duchů] Objevily se příšery!
+972	[Loď duchů] Skvělá práce!
+973	[Loď duchů] Objevil se boss!
+974	[Loď duchů] Podařilo se vám zabít bosse!
+975	[Loď duchů] Objevila se truhla!
+976	[Loď duchů] Zabijte bosse!
+977	[Loď duchů] Zničili jste truhlu!
+978	[Loď duchů] Za minutu budou všichni teleportování pryč z dungeonu!
+979	Vstup na Loď duchů (149 Lvl)
+980	[Hory Wukonga] Zabij 50 příšer a potom použij pečeť!
+981	[Hory Wukonga] Znič všechny balvany!
+982	[Hory Wukonga] Zabij mini bosse!
+983	[Hory Wukonga] Zabij bosse!
+984	Rozumím tomu dobře? Chceš vstoupit do hor Wukonga?
+985	[Hory Wukonga] Objevily se příšery!
+986	Zabij 100 příšer
+987	[Hory Wukonga] Použij pečeť k postupu dále!
+988	[Hory Wukonga] Povedlo se!
+989	[Hory Wukonga] Za 5 sekund se objeví další zadání!
+990	Pokonajcie 5 balvanů 
+991	[Hory Wukonga] Skvělá práce!
+992	[Hory Wukonga] Ještě zbývá: 
+994	[Hory Wukonga] Podařilo se ti zabít mini bosse!
+996	[Hory Wukonga] Objevil se boss!
+997	[Hory Wukonga] Podařilo se ti zabít bosse!
+998	[Hory Wukonga] Za minutu budeš teleportován/a pryč z dungeonu!
+999	Trojcestný střih
+1000	Smršť meče
+1001	Bojové zuření
+1002	Aura meče
+1003	Pádit
+1004	Průraz
+1005	Prudká rána
+1006	Dupnutí
+1007	Silné tělo
+1008	Rána mečem
+1009	Léčka
+1010	Bleskový útok
+1011	Víření kordů
+1012	Zamaskování
+1013	Jedovatý oblak
+1014	Opakované výstřely
+1015	Smršť šípů
+1016	Ohnivý šíp
+1017	Našlapování polehoučku
+1018	Otrávený šíp
+1019	Rána prstem
+1020	Dračí vír
+1021	Začarovaná čepel
+1022	Strach
+1023	Začarované brnění
+1024	Zrušit kouzlo
+1025	Temná rána
+1026	Rána plameny
+1027	Duch plamene
+1028	Temná ochrana
+1029	Rána ducha
+1030	Tmavý kámen
+1031	Létající talisman
+1032	Střílení na draky
+1033	Řev draků
+1034	Požehnání
+1035	Zrcadlit
+1036	Pomoc draka
+1037	Bleskový vrh
+1038	Zaříkat blesk
+1039	Bleskový dráp
+1040	Ošetřit
+1041	Běžet
+1042	Útok+
+1043	Odejít
+1044	Propustka Kowal
+1045	Propustka Wukonga
+1046	Propustka škorpiona
+1047	Mrazivá propustka
+1048	Ohnivá propustka
+1049	Starověká propustka
+1050	Pirátská propustka (I)
+1051	Pirátská propustka (II)
+1052	Propustka císaře
+1053	Velikonoční propustka
+1054	Vylepšení Dračích Run
+1055	Chceš vylepšit své Dračí Runy?
+1056	Nejprve vyber dovednost, kterou chceš trénovat\!
+
+# === Letní Event (Summer Event) — IDs 1500-1599 ===
+# Common phrases
+1500	Vítej!
+1501	Zdravíčko!
+1502	Strážce:
+1503	Potřebný předmět
+1504	Potřebuješ:
+1505	Nemáš potřebný předmět!
+1506	Toto teď nelze udělat.
+1507	Momentálně se nelze teleportovat!
+1508	Chceš pokračovat?
+1509	Jasně!
+1510	Raději ne.
+1511	Teď ne
+# summermap_teleport
+1520	Letní mapa
+1521	Do Třpytivé Laguny můžeš znovu za:
+1522	%1% hodin a %2% minut.
+1523	(Charakter omezení)
+1524	(HWID omezení)
+1525	Chceš se teleportovat do Třpytivé Laguny?
+1526	 - Do mapy lze vstoupit 1 za 3 hodiny (CHAR + HWID)
+1527	 - Čekací doba se počítá od chvíle kdy do mapy vstoupíš
+1528	 - V mapě můžeš být maximálně 30 minut
+1529	Teleportovat
+1530	Třpytivá Laguna není momentálně dostupná.
+1531	Tvůj čas vypršel. Budeš teleportován zpět do města.
+# summer_dungeon
+1540	Dungeon
+1541	[Solargonova Jeskyně]
+1542	Rozumím tomu dobře? Chceš vstoupit do Solargonovy Jeskyně?
+1543	Bez potřebných předmětů tě ale dál nepustím.
+1544	Nemůžeš vstoupit do dungeonu!
+1545	Zbývající čas (char): %1%
+1546	Zbývající čas (HWID): %1%
+1547	Tento dungeon nelze chodit ve skupině.
+1548	[Solargonova Jeskyně] Vítej v Solargonově Jeskyni!
+1549	[Solargonova Jeskyně] Objevily se Solargonovy Oltáře a příšery!
+1550	[Solargonova Jeskyně] Zniš 3 vlny příšer!
+1551	[Solargonova Jeskyně] Zbývajících příšer: %1%
+1552	[Solargonova Jeskyně] Zabil jsi všechny vlny!
+1553	[Solargonova Jeskyně] Sebr předmět potřebný k ničení Solargonových Oltářů!
+1554	[Solargonova Jeskyně] Žádné Oltáře k zničení!
+1555	[Solargonova Jeskyně] Zničil jsi Oltář! Zbývá: %1%
+1556	[Solargonova Jeskyně] Použij proměnu, kterou máš nyní v inventáři a ugriluj srdce Solargona!
+1557	[Solargonova Jeskyně] Zniš 6 srdcí Solargona!
+1558	[Solargonova Jeskyně] Zbývajících srdcí: %1%
+1559	[Solargonova Jeskyně] Zničil jsi všechna srdce!
+1560	[Solargonova Jeskyně] Zniš další 3 vlny příšer!
+1561	[Solargonova Jeskyně] Zabij mini bosse!
+1562	[Solargonova Jeskyně] Zabil jsi mini bosse!
+1563	[Solargonova Jeskyně] Použij proměnu, kterou máš nyní v inventáři a ugriluj mrtvé srdce Solargona!
+1564	[Solargonova Jeskyně] Zniš 6 mrtvých srdcí Solargona!
+1565	[Solargonova Jeskyně] Zbývajících mrtvých srdcí: %1%
+1566	[Solargonova Jeskyně] Finální boss Solargon se objevil!
+1567	[Solargonova Jeskyně] Boss je pod 50%% HP!
+1568	[Solargonova Jeskyně] Poslední Oltář se začal teleportovat!
+1569	[Solargonova Jeskyně] Musíš být blíže k teleportujícímu Oltáři!
+1570	[Solargonova Jeskyně] Zničil jsi poslední Oltář! Teď můžeš zabít Solargona!
+1571	[Solargonova Jeskyně] Solargon se vrátil na 50%% HP!
+1572	[Solargonova Jeskyně] Oltář se přesunul!
+1573	[Solargonova Jeskyně] Podařilo se ti zabít Solargona!
+1574	[Solargonova Jeskyně] Za minutu budeš teleportován pryč z dungeonu!
+1575	|cFFf7dd83%1%|r |cFFc5ff8c(Lv. %2%)|r dokončil/a |cFFf7dd83Solargonovu Jeskyni |cFFc5ff8c(Letní dungeon)|r v čase: |cFFf7b983%3%!
+# summer_free_is
+1580	Letní kostýmy zdarma!
+1581	Zdravíčko!
+1582	Zde jsou tvé free itemshop předměty k letnímu eventu!
+1583	Obsahují full bonusy a jsou na 3 dny.
+1584	Obchod s pruty
+1585	Sklad ti umožňuje bezpečně uložit předměty a yang.
+1586	První odemčení stojí 500 yang. Chceš ho odemknout?
+1587	Nemáš dostatek yangu. Potřebuješ 500 yang.
+1588	Sklad byl odemčen. Užívej!
+1589	Zaplatit 500 yang
+1590	Jeskyně Vyhnanství
+1591	Jeskyně Vyhnanství
+1592	Mohu tě přenést do Jeskyně Vyhnanství. Potřebuješ úroveň 75 a Krvavý kámen.
+1593	Musíš být alespoň úrovně 75, abys mohl vstoupit do Jeskyně Vyhnanství.
+1594	Potřebuješ Krvavý kámen k teleportaci.
+1595	Momentálně se nemůžeš teleportovat.
+1596	[Stařenka] Reset dovedností jen do úrovně 30.
+1597	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83porazil bosse: 
+1598	|cFFf7dd83[Lv.%s] |cFFc5ff8c%s |cFFf7dd83zničil metin: 
+1599	Požadavky pro založení cechu:
+1600	- úroveň min. %1%, tvá: %2%
+1601	- %1% Yang, máš: %2%
+1602	- po zrušení cechu ještě %1% h počkej
+1603	- po vyloučení z cechu ještě %1% h počkej
+1604	Název cechu: 2-12 znaků, jen písmena A-Z a číslice.
+1605	Bez mezer a diakritiky. Musí být volný.
+1606	Cena se strhne po založení cechu.
+1607	 (OK)
+1608	 (CHYBÍ)
+1609	Nesplňuješ všechny požadavky.
+1610	Chceš založit cech?
+1611	- %1% x %2%, máš: %3%
+1620	Tvá Hodnost je příliš nízká, abys mohl pokračovat v tréninku.
+1621	Cena tréninku v bodech Hodnosti:
+1622	Máš zápornou Hodnost, cena je proto dvojnásobná.
+1623	Pozor: po tréninku klesne tvá Hodnost pod nulu.
+1624	Pokračovat?
+1625	Ztracené body Hodnosti:
+1626	Neúspěšný trénink tě stál body Hodnosti:
+1627	Zemsta Handlarza Pierścionków
+1628	Starsza Pani
+1629	Dorosłeś, czy chcesz dowieść swojej odwagi?[ENTER]Znasz może Jin-Hee? Był kiedyś taki Handlarz[ENTER]Pierścionków w naszej wiosce, który sprzedawał[ENTER]obrączki zakochanym. Jeden z Jin-Hee zabił[ENTER]Handlarza, bo nienawidził zakochanych. Czy[ENTER]mógłbyś pomścić śmierć tego Handlarza i zabić 30[ENTER]Jin-Hee?
+1630	Pomszczę Handlarza Pierścionków.
+1631	Nie, Jin-Hee są dla mnie za silni.
+1632	To bardzo rozsądna i honorowa decyzja! Jednak[ENTER]pamiętaj - musisz zabić 30 Jin-Hee. Bądź[ENTER]ostrożny, są bardzo przebiegli i trudno ich[ENTER]znaleźć!
+1633	Wielka szkoda, ale nic nie mogę na to poradzić.[ENTER]Konsekwencją nieuzasadnionej odwagi jest śmierć.[ENTER]Uważaj na siebie!
+1634	Pozostało Jin-Hee
+1635	Pokonałeś wszystkich Jin Hee!
+1636	Teraz, gdy Handlarz Pierścionków został[ENTER]odpowiednio pomszczony, moja misja została[ENTER]wykonana.
+1637	Pokonaj Jin-Hee
+1638	Informacja:
+1639	Starsza Pani poprosiła cię o pomoc: Jej[ENTER]przyjaciel, Handlarz Pierścionków, został[ENTER]zamordowany przez Jin-Hee, elitę Zakonu[ENTER]Zaprzysiężonych. Pomścij go zabijając 30 Jin-Hee.
+1640	Pozostało Jin-Hee
+1641	Oh, pokonałeś wszystkich Jin-Hee?[ENTER]Wdaje mi się, że jednak nie wypełniłeś jeszcze[ENTER]swojego zadania. Powiedz mi, jeżeli ta misja jest[ENTER]dla Ciebie za trudna.
+1642	Dalej
+1643	Anuluj
+1644	Rodzina Handlarza chce zemsty za jego śmierć![ENTER]Jeśli możesz dopomóc im w ich żalu, zrób to.
+1645	Co za szkoda, że nie chcesz pomścić Handlarza.[ENTER]Oczywiście lubisz być żywy... Cokolwiek powiesz,[ENTER]każde życie ma swoją wartość.
+1646	Widziałeś coś świecącego w ręce kobiety, gdy się[ENTER]odwracała. Był to jakiś błyszczący obiekt.[ENTER]Przedmiot ten wyglądał na bardzo cenny.
+1647	Spróbuję ponownie.
+1648	Nie jestem zainteresowana cennymi kamieniami.[ENTER]Chcę tylko zemsty za śmierć handlarza. Dobrze, że[ENTER]to przemyślałeś, ruszaj więc dokonać dzieła.
+1649	Szkoda mi rodziny Handlarza. Przykro mi, że nie[ENTER]podjąłeś się zadania...
+1650	Powróć do Starszej Pani
+1651	Wróć do Starszej Pani i powiedz jej, że pomściłeś[ENTER]śmierć Handlarza Pierścionków zabijając Jin-Hees.
+1652	Pokonałeś 30 Jin-Hee!
+1653	Pokonałeś wszystkich Jin-Hee. Świetna robota![ENTER]Handlarz w niebiosach powinien być teraz[ENTER]zadowolony. Oto pierścień, który mi powierzył.[ENTER]Będzie twój, oto nagroda za wykonanie misji.[ENTER]Wiem, że chciałby żeby był twój.
+1654	Otrzymałeś Pierścionek Zaręczynowy!
+1655	Pierścionek Zaręczynowy
+1656	Ten pierścień symbolizuje zbliżające się wesele.
+1657	Chcę wziąć Ślub
+1658	Starsza Pani
+1659	Aktualnie trwa inny ślub.[ENTER]Proszę, poczekaj chwilkę lub przyjdź później!
+1660	Jesteś za młody aby wziąć ślub... Nie jesteś[ENTER]jeszcze gotów. Młodzi ludzie bardzo szybko się[ENTER]rozwodzą. Nie popieram tego. Wróć gdy będziesz[ENTER]miał więcej doświadczenia.
+1661	Informacja:
+1662	Śluby są możliwe od poziomu 25.
+1663	Co? Chcesz wziąć Ślub bez Obrączki?
+1664	Pierścionek Zaręczynowy
+1665	Musisz zdobyć Pierścionek Zaręczynowy.[ENTER]Dopiero wtedy będziesz mógł wziąć Ślub.
+1666	Naprawdę chcesz wziąć Ślub w takim stroju?[ENTER]Bierzesz ślub raz w życiu, więc powinieneś być[ENTER]przynajmniej stosownie ubrany.
+1667	Garnitur
+1668	Jeśli chcesz wziąć ślub, musisz mieć na sobie[ENTER]Smoking.
+1669	Suknia Ślubna
+1670	Jeżeli chcesz wziąć Ślub, musisz mieć na sobie[ENTER]Suknię Ślubną
+1671	To oczywiste, że potrzebujesz trochę Yang na ten[ENTER]ślub. Jednak nie masz wystarczającej ilości.[ENTER]Zbierz co najmniej 1 milion Yang.
+1672	Potrzebujesz 1.000.000 Yang.
+1673	Jesteś już wystarczająco dojrzały.[ENTER]No i w końcu ładnie wyglądasz. Kogo chcesz[ENTER]poślubić?
+1674	Wpisz nazwę osoby, z którą chcesz wziąć ślub.
+1675	Jesteś w takim szoku, że nawet nie potrafisz[ENTER]wpisać nazwy? Spróbuj ponownie...
+1676	Jesteś tak podekscytowany, że nie potrafisz podać[ENTER]imienia? Spróbuj ponownie.
+1677	%s nie jest online.
+1678	Twój partner musi być blisko, abym mogła zając[ENTER]się waszą ceremonią. Przyprowadź tu swojego[ENTER]partnera.
+1679	%s jest za daleko.
+1680	Nie twoje imię... musisz podać imię wybranej[ENTER]osoby...
+1681	Wpisz nazwę twojego partnera.
+1682	Przykro mi.[ENTER][ENTER]Nie możesz wziąć Ślubu z osobą tej samej płci.
+1683	Tylko osoby z tego samego Królestwa mogą wziąć[ENTER]Ślub.
+1684	Osoba z którą zamierzasz wziąć ślub jest już[ENTER]poślubiona, wiedziałeś o tym? Znajdź samotną[ENTER]osobę.
+1685	%s jest już aktualnie w związku.
+1686	Ta osoba nie jest jeszcze odpowiednio dojrzała.[ENTER]Twój partner musi mieć co najmniej 25. poziom[ENTER]postaci!
+1687	Wy dwoje nie pasujecie do siebie. A jeśli do[ENTER]siebie nie pasujecie, to nie mogę zezwolić na ten[ENTER]ślub. Różnica poziomów nie może być większa niż[ENTER]15, dlatego nie możecie wziąć ślubu.
+1688	Teraz, proszę wymienić obrączki.
+1689	Starsza Pani:[ENTER]Ślub to bardzo ważny krok w życiu.[ENTER]Czy twój partner nie mógł chociaż kupić Obrączki?
+1690	Twój partner również musi mieć Obrączkę.
+1691	Twój partner nie jest odpowiednio ubrany.[ENTER]Czy nie jesteś zażenowany stojąc obok takiej[ENTER]osoby?
+1692	Twój partner musi mieć na sobie Smoking.
+1693	Twoja partnerka musi mieć na sobie Suknię Ślubną.
+1694	%s Ci się oświadczył. Czy się zgadzasz?
+1695	Tak więc... jesteśmy gotowi. Możemy zaczynać.[ENTER]Wyślę was na wyspę kochanków. Życzę wam, by wasze[ENTER]małżeństwo było długie i szczęśliwe. Gratulacje![ENTER]Zostaniecie przeniesieni na Wyspę automatycznie.
+1696	Twój partner nie chce Cię poślubić.[ENTER]Warto to wyjaśnić, teraz...
+1697	Powrót na Wyspę Kochanków
+1698	Czemu wciąż tu stoisz? Twój partner tęskni za[ENTER]Tobą. Wyślę Cię do niego.
+1699	Pozwolenie na Ślub.
+1700	Organizator Ślubu:
+1701	Rozmawiam z twoim partnerem, sekundkę.
+1702	Będę Wam pomagała przy Ślubie.[ENTER]Na początek wpisz imię swojego partnera.
+1703	Takiego imienia nie mam w rozpisce, przejrzysz[ENTER]jeszcze raz swoje oświadczenie?
+1704	Wybacz. Przyjdź tu z partnerem.[ENTER]Muszę przekazać mu kilka informacji i przepytać[ENTER]go.
+1705	%s musi być bliżej.
+1706	Proszę, nie wpisuj swojego imienia.[ENTER][ENTER]To musi być imię wybranej przez Ciebie osoby.
+1707	Organizator Ślubu:
+1708	Coś mi tu nie pasuje. To nie jest ta osoba.[ENTER]Czy możesz to sprawdzić?
+1709	Twój partner nie jest gotowy na małżeństwo.[ENTER]Porozmawiajcie ze sobą.
+1710	Dobrze, przygotowania zakończone. Ceremonia może[ENTER]się zacząć.
+1711	To będzie piękny Ślub!
+1712	Rozpocznij Marsz Weselny
+1713	Zakończ Marsz Weselny
+1714	Noc
+1715	Śnieg
+1716	Zakończenie Ślubu
+1717	Poczekaj chwilkę, rozmawiam z twoim partnerem.
+1718	Czy chcesz kontynuować Ślub?
+1719	Tak
+1720	Nie
+1721	Twój partner musi także wyrazić zgodę na[ENTER]kontynuację.[ENTER]Ślub nie może być kontynuowany, ponieważ twój[ENTER]partner nie jest online.
+1722	Musimy czekać na zgodę twojego partnera.[ENTER]Jeszcze jej nie mamy.
+1723	Czy chcesz kontynuować Ślub?
+1724	Twój partner nie wyraził zgody!
+1725	Rozwód
+1726	Rozwód
+1727	Strażnik:
+1728	Nie możesz się rozwieść legalnie pod nieobecność[ENTER]partnera. Wróć z partnerem! Rozwód jest sprawą[ENTER]majątkową , nieprawdaż..?
+1729	Aby wziąć legalny rozwód, potrzebujesz 500.000[ENTER]Yang i zgody od twojego partnera.[ENTER]Czy naprawdę chcesz to zrobić?
+1730	Tak
+1731	Ah, to był taki żart.
+1732	Przynieś Obrączkę Ślubną.
+1733	Niech twój partner przyniesie tutaj Obrączkę.
+1734	Nie stać Cię na rozwód. Masz za mało Yang!
+1735	Aby wziąć rozwód, potrzebujesz %s Yang.
+1736	Potrzebujesz 500.000 Yang na rozwód.
+1737	Czy naprawdę chcesz wziąć rozwód?[ENTER]To może być wielki błąd. Naprawdę tego chcesz?
+1738	Nie. Zmieniłem zdanie.
+1739	Zmieniam zdanie. Nie chcę brać rozwodu.
+1740	To na pewno lepsza droga. Życzę Ci długiego życia[ENTER]w pokoju.
+1741	Wziąłeś rozwód.
+1742	Czy zgadzasz się na Rozwód?
+1743	Rozwód został przeprowadzony.[ENTER]Jesteście teraz rozwiedzeni.
+1744	Wasze dokumenty nie są kompletne. Proszę,[ENTER]przyjdźcie później.
+1745	Rozwód został anulowany.
+1746	Twój partner nie chce rozwodu. Wyjaśnijcie to[ENTER]sobie.
+1747	Zdejmij Obrączkę Ślubną.
+1748	Zdejmij Obrączkę Ślubną.
+1749	Powinieneś zapomnieć o złych wspomnieniach. Tak[ENTER]szybko, jak to tylko możliwe.
+1750	Obrączka Ślubna została zdjęta.
+1751	Rozwód Jednostronny
+1752	Strażnik:
+1753	Potrzebujesz 1 miliona Yang aby rozwieść się[ENTER]jednostronnie. Czy na pewno chcesz tego dokonać?
+1754	Nie, to było tylko pytanie...
+1755	Nie masz wystarczającej ilości Yang na rozwód.[ENTER]Potrzebujesz tylu Yang, ile miałeś na Ślub.[ENTER]Wiec, może zechcesz rozważyć to ponownie...
+1756	Czy teraz już naprawdę chcesz się rozwieść?[ENTER]Zastanów się głęboko
+1757	Tak, chcę.
+1758	Muszę to jeszcze raz przemyśleć.
+1759	W porządku...[ENTER]Może to będzie lepsza droga.[ENTER]Przyjdź jak poważnie się zastanowisz, ale wpierw[ENTER]musisz to potraktować na serio.
+1760	Jeśli jesteś pewien, dobrze: zaczynamy![ENTER]Życzę Ci wszystkiego co najlepsze![ENTER][ENTER]Jednostronny Rozwód został przeprowadzony.
+1761	Lista ceremonii Ślubnych
+1762	Aktualnie nie odbywają się żadne ceremonie Ślubne.
+1763	Ślub %s i %s
+1764	Jesteś gościem na Weselu.[ENTER]Baw się dobrze!
+1765	Atrament jeszcze nie wysechł![ENTER]Dajcie sobie więcej czasu.
+1766	Již máš aktivní misi z Knihy misí.
+1767	Vyzvednout odměnu
+1768	Vyber si misi:
+1769	Po splnění mise si vybereš jednu z odměn:
+1770	Po splnění mise obdržíš:
+1771	Chceš zrušit misi?
+1772	Vyber si odměnu:
+1773	Poraz %sx %s
+1774	%sx %s (%s)
+1775	Mise splněna![ENTER]Získáváš tuto odměnu:
+1776	%s Yang
+1777	%s bodů zkušeností
+1778	Hnědí medvědi se přibližují k hlavnímu městu[ENTER]a napadají pocestné na cestách.[ENTER]Poraz jich %s a získáš odměnu.
+1779	Tygři se potulují poblíž hlavního města, útočí[ENTER]na lidi a přepadávají obchodníky na cestách.[ENTER]Poraz jich %s a získáš odměnu.
+1780	Poraz nepřátele z jiných říší
+1781	Nepřátelé

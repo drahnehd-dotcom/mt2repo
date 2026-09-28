@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\fire_4\run.GR2"
+MotionDuration           1.000000
+Accumulation             0.000000	-740.433716	0.000000
+
