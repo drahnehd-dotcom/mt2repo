@@ -16,18 +16,11 @@ def LoadLocaleFile(srcFileName, localeDict):
 	localeDict["CUBE_REQUIRE_MATERIAL_OR"] = "or"
 
 	try:
-		localeFile = open(srcFileName, "r")
-		try:
-			lines = localeFile.readlines()
-		finally:
-			localeFile.close()
-	except (IOError, OSError):
-		try:
-			import dbg
-			dbg.LogBox("LoadUIScriptLocaleError(%(srcFileName)s)" % locals())
-		except Exception:
-			pass
-		return
+		lines = open(srcFileName, "r").readlines()
+	except IOError:
+		import dbg
+		dbg.LogBox("LoadUIScriptLocaleError(%(srcFileName)s)" % locals())
+		pass
 
 	for line in lines:
 		tokens = line[:-1].split("\t")

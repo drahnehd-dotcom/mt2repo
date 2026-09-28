@@ -3,7 +3,7 @@ import ui
 import localeInfo
 import uiScriptLocale
 
-ENABLE_HELP_MULTIPAGE = 1
+ENABLE_HELP_MULTIPAGE = 0
 
 
 class HelpWindow(ui.ScriptWindow):

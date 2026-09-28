@@ -41,6 +41,7 @@ import mouseModule
 import consoleModule
 import localeInfo
 import interfaceModule
+import uiAutoHunt as localAutoHunt
 if app.ENABLE_SKILL_SELECT_FEATURE:
 	import uiskillchoose
 if app.ENABLE_OFFLINE_SHOP:
@@ -80,6 +81,624 @@ cameraRotation = 0.0
 cameraHeight = 100.0
 
 testAlignment = 0
+
+class DrazePotionConfigWindow(ui.BoardWithTitleBar):
+	WINDOW_WIDTH = 360
+	WINDOW_HEIGHT = 300
+
+	def __init__(self, owner):
+		ui.BoardWithTitleBar.__init__(self)
+		self.owner = owner
+		self.SetWindowName("DrazePotionConfig")
+		self.SetTitleName("Auto Potion - ustawienia")
+		self.SetSize(self.WINDOW_WIDTH, self.WINDOW_HEIGHT)
+		self.SetCenterPosition()
+		self.AddFlag("movable")
+		self.AddFlag("float")
+
+		self.body = ui.ThinBoard()
+		self.body.SetParent(self)
+		self.body.SetPosition(10, 34)
+		self.body.SetSize(self.WINDOW_WIDTH - 20, self.WINDOW_HEIGHT - 44)
+		self.body.Show()
+
+		self.hpLabel = self._CreateLabel("Czerwony potion / HP", 20, 14)
+		self.spLabel = self._CreateLabel("Niebieski potion / SP", 20, 112)
+
+		self.hpSlotFrame = self._CreateSlotFrame(16, 34)
+		self.spSlotFrame = self._CreateSlotFrame(16, 132)
+		self.hpSlot = self._CreateSlot(20, 38, "hp")
+		self.spSlot = self._CreateSlot(20, 136, "sp")
+
+		self.hpValue = self._CreateValueLabel(80, 41)
+		self.spValue = self._CreateValueLabel(80, 139)
+
+		self.hpThresholdLabel = self._CreateLabel("Uzyj ponizej: 50%", 20, 72)
+		self.spThresholdLabel = self._CreateLabel("Uzyj ponizej: 30%", 20, 170)
+
+		self.hpSlider = ui.SliderBar()
+		self.hpSlider.SetParent(self.body)
+		self.hpSlider.SetPosition(20, 91)
+		self.hpSlider.SetSliderPos(0.50)
+		self.hpSlider.SetEvent(ui.__mem_func__(self._OnHPSlider))
+		self.hpSlider.Show()
+
+		self.spSlider = ui.SliderBar()
+		self.spSlider.SetParent(self.body)
+		self.spSlider.SetPosition(20, 189)
+		self.spSlider.SetSliderPos(0.30)
+		self.spSlider.SetEvent(ui.__mem_func__(self._OnSPSlider))
+		self.spSlider.Show()
+
+		self.tip = self._CreateLabel("Lewy klik na potion w EQ, potem klik w odpowiedni slot. PPM czyści slot.", 14, 218)
+
+		self.closeButton = ui.Button()
+		self.closeButton.SetParent(self)
+		self.closeButton.SetPosition(268, 258)
+		self.closeButton.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
+		self.closeButton.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
+		self.closeButton.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
+		self.closeButton.SetText("ZAMKNIJ")
+		self.closeButton.SetEvent(ui.__mem_func__(self.Hide))
+		self.closeButton.Show()
+
+		self.SetCloseEvent(ui.__mem_func__(self.Hide))
+		self.Hide()
+
+	def _CreateLabel(self, text, x, y):
+		label = ui.TextLine()
+		label.SetParent(self.body)
+		label.SetPosition(x, y)
+		label.SetText(text)
+		label.SetPackedFontColor(0xFFE0E7EF)
+		label.Show()
+		return label
+
+	def _CreateSlotFrame(self, x, y):
+		frame = ui.Bar("UI")
+		frame.SetParent(self.body)
+		frame.SetPosition(x, y)
+		frame.SetSize(48, 48)
+		frame.SetColor(grp.GenerateColor(0.10, 0.12, 0.15, 0.95))
+		frame.Show()
+		return frame
+
+	def _CreateValueLabel(self, x, y):
+		label = ui.TextLine()
+		label.SetParent(self.body)
+		label.SetPosition(x, y)
+		label.SetText("Brak")
+		label.SetPackedFontColor(0xFF98A8BC)
+		label.Show()
+		return label
+
+	def _CreateSlot(self, x, y, kind):
+		slot = ui.SlotWindow()
+		slot.SetParent(self.body)
+		slot.SetPosition(x, y)
+		slot.SetSize(40, 40)
+		slot.AppendSlot(0, 0, 0, 40, 40)
+		slot.SetSlotBaseImage("d:/ymir work/ui/public/slot_base.sub", 1.0, 1.0, 1.0, 1.0)
+		if kind == "hp":
+			slot.SetSelectEmptySlotEvent(ui.__mem_func__(self._SelectHPSlot))
+			slot.SetSelectItemSlotEvent(ui.__mem_func__(self._SelectHPSlot))
+			slot.SetUnselectItemSlotEvent(ui.__mem_func__(self._SelectHPSlot))
+			slot.SetUseSlotEvent(ui.__mem_func__(self._SelectHPSlot))
+			slot.SetUnselectEmptySlotEvent(ui.__mem_func__(self._SelectHPSlot))
+		else:
+			slot.SetSelectEmptySlotEvent(ui.__mem_func__(self._SelectSPSlot))
+			slot.SetSelectItemSlotEvent(ui.__mem_func__(self._SelectSPSlot))
+			slot.SetUnselectItemSlotEvent(ui.__mem_func__(self._SelectSPSlot))
+			slot.SetUseSlotEvent(ui.__mem_func__(self._SelectSPSlot))
+			slot.SetUnselectEmptySlotEvent(ui.__mem_func__(self._SelectSPSlot))
+		slot.Show()
+		return slot
+
+	def _GetAttachedInventorySlot(self):
+		if not mouseModule.mouseController.isAttached():
+			return -1, 0, 0
+		attachedType = mouseModule.mouseController.GetAttachedType()
+		slot = mouseModule.mouseController.GetAttachedSlotNumber()
+		vnum = mouseModule.mouseController.GetAttachedItemIndex()
+		count = mouseModule.mouseController.GetAttachedItemCount()
+		if attachedType != player.SLOT_TYPE_INVENTORY:
+			return -1, 0, 0
+		return slot, vnum, count
+
+	def _Assign(self, kind):
+		slot, attachedVnum, attachedCount = self._GetAttachedInventorySlot()
+		if slot < 0:
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Przeciagnij potion z normalnego EQ do slotu.")
+			except: pass
+			return False
+		# Najwazniejsze: czytamy realny VNUM z pozycji EQ po puszczeniu.
+		vnum = player.GetItemIndex(slot) or attachedVnum
+		count = player.GetItemCount(slot) or attachedCount
+		if count <= 0 or vnum <= 0:
+			return False
+		if not self.owner.IsPotionVnum(vnum, kind):
+			try:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Ten item nie jest %s potka." % ("czerwona" if kind == "hp" else "niebieska"))
+			except: pass
+			return False
+		self.owner.SetManualPotionSlot(kind, slot, vnum)
+		mouseModule.mouseController.DeattachObject()
+		self.Refresh()
+		try:
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Potka %s wykryta. Bede uzywal VNUM %d z EQ %d (x%d)." % ("czerwona" if kind == "hp" else "niebieska", vnum, slot, count))
+		except: pass
+		return True
+
+	def _SelectHPSlot(self, slotIndex):
+		self._Assign("hp")
+
+	def _SelectSPSlot(self, slotIndex):
+		self._Assign("sp")
+
+	def _ClearHPSlot(self, slotIndex):
+		self.owner.SetManualPotionSlot("hp", -1, 0)
+		self.Refresh()
+
+	def _ClearSPSlot(self, slotIndex):
+		self.owner.SetManualPotionSlot("sp", -1, 0)
+		self.Refresh()
+
+	def _OnHPSlider(self):
+		value = int(round(self.hpSlider.GetSliderPos() * 100.0))
+		value = max(1, min(99, value))
+		self.owner.hpThreshold = value
+		self.hpThresholdLabel.SetText("Uzyj ponizej: %d%%" % value)
+
+	def _OnSPSlider(self):
+		value = int(round(self.spSlider.GetSliderPos() * 100.0))
+		value = max(1, min(99, value))
+		self.owner.spThreshold = value
+		self.spThresholdLabel.SetText("Uzyj ponizej: %d%%" % value)
+
+	def Refresh(self):
+		hpSlot = self.owner.hpSlot
+		spSlot = self.owner.spSlot
+		self.hpSlot.ClearSlot(0)
+		self.spSlot.ClearSlot(0)
+		if hpSlot >= 0:
+			vnum = player.GetItemIndex(hpSlot)
+			count = player.GetItemCount(hpSlot)
+			if vnum and count and vnum == self.owner.hpVnum and self.owner.IsPotionVnum(vnum, "hp"):
+				self.hpSlot.SetItemSlot(0, vnum, count)
+				self.hpValue.SetText("VNUM %d  |  EQ %d  |  x%d" % (vnum, hpSlot, count))
+			else:
+				found = self.owner._FindExactPotionSlot("hp")
+				if found >= 0:
+					hpSlot = found
+					vnum = player.GetItemIndex(found)
+					self.hpSlot.SetItemSlot(0, vnum, player.GetItemCount(found))
+					self.hpValue.SetText("VNUM %d  |  EQ %d  |  x%d" % (vnum, found, player.GetItemCount(found)))
+				else:
+					self.hpValue.SetText("Brak w EQ | VNUM %d" % self.owner.hpVnum if self.owner.hpVnum > 0 else "Brak")
+		else:
+			self.hpValue.SetText("AUTO")
+
+		if spSlot >= 0:
+			vnum = player.GetItemIndex(spSlot)
+			count = player.GetItemCount(spSlot)
+			if vnum and count and vnum == self.owner.spVnum and self.owner.IsPotionVnum(vnum, "sp"):
+				self.spSlot.SetItemSlot(0, vnum, count)
+				self.spValue.SetText("VNUM %d  |  EQ %d  |  x%d" % (vnum, spSlot, count))
+			else:
+				found = self.owner._FindExactPotionSlot("sp")
+				if found >= 0:
+					spSlot = found
+					vnum = player.GetItemIndex(found)
+					self.spSlot.SetItemSlot(0, vnum, player.GetItemCount(found))
+					self.spValue.SetText("VNUM %d  |  EQ %d  |  x%d" % (vnum, found, player.GetItemCount(found)))
+				else:
+					self.spValue.SetText("Brak w EQ | VNUM %d" % self.owner.spVnum if self.owner.spVnum > 0 else "Brak")
+		else:
+			self.spValue.SetText("AUTO")
+
+		self.hpSlider.SetSliderPos(float(self.owner.hpThreshold) / 100.0)
+		self.spSlider.SetSliderPos(float(self.owner.spThreshold) / 100.0)
+		self.hpThresholdLabel.SetText("Uzyj ponizej: %d%%" % self.owner.hpThreshold)
+		self.spThresholdLabel.SetText("Uzyj ponizej: %d%%" % self.owner.spThreshold)
+
+	def Open(self):
+		self.Refresh()
+		self.Show()
+		self.SetTop()
+
+	def OnPressEscapeKey(self):
+		self.Hide()
+		return True
+
+
+class DrazeWindow(ui.BoardWithTitleBar):
+	WINDOW_WIDTH = 460
+	WINDOW_HEIGHT = 380
+	POTION_USE_DELAY = 0.60
+
+	HP_POTION_VNUMS = (27051, 27122, 27201, 27202, 27203, 70056, 71108, 76033)
+	SP_POTION_VNUMS = (27052, 27204, 27205, 27206)
+
+	def __init__(self):
+		ui.BoardWithTitleBar.__init__(self)
+		self.SetWindowName("DrazeV01")
+		self.SetTitleName("Draze V0.1")
+		self.SetSize(self.WINDOW_WIDTH, self.WINDOW_HEIGHT)
+		self.SetCenterPosition()
+		self.AddFlag("movable")
+		self.AddFlag("float")
+
+		self._LoadSettings()
+		self.body = ui.Bar("UI")
+		self.body.SetParent(self)
+		self.body.SetPosition(12, 34)
+		self.body.SetSize(self.WINDOW_WIDTH - 24, self.WINDOW_HEIGHT - 46)
+		self.body.SetColor(grp.GenerateColor(0.055, 0.065, 0.080, 0.96))
+		self.body.AddFlag("not_pick")
+		self.body.Show()
+
+		self.modeLabel = ui.TextLine()
+		self.modeLabel.SetParent(self.body)
+		self.modeLabel.SetPosition(18, 16)
+		self.modeLabel.SetText("AUTOMATYCZNE UZYWANIE POTIONOW")
+		self.modeLabel.SetPackedFontColor(0xFFE8EEF6)
+		self.modeLabel.Show()
+
+		self.toggleButton = self._CreateButton(18, 42, 150, "AUTO POT: OFF", self.ToggleAutoPotion)
+		self.configButton = self._CreateButton(178, 42, 100, "USTAW POT", self.OpenPotionConfig)
+		self.saveButton = self._CreateButton(286, 42, 90, "ZAPISZ", self.SaveSettings)
+		self.pickupButton = self._CreateButton(18, 76, 150, "AUTO PICK: OFF", self.ToggleAutoPickup)
+		self.autoSkillToggle = self._CreateButton(178, 76, 100, "AUTO SKILE: OFF", self.ToggleAutoSkills)
+		self.autoSkillConfigButton = self._CreateButton(286, 76, 90, "USTAW SKILE", self.OpenAutoSkillConfig)
+
+		self.statusText = ui.TextLine()
+		self.statusText.SetParent(self.body)
+		self.statusText.SetPosition(18, 112)
+		self.statusText.SetText("HP: AUTO    SP: AUTO")
+		self.statusText.SetPackedFontColor(0xFF98A8BC)
+		self.statusText.Show()
+
+		self.hpInfo = self._CreateInfo("HP", 18, 144)
+		self.spInfo = self._CreateInfo("SP", 18, 172)
+
+		self.helper = ui.TextLine()
+		self.helper.SetParent(self.body)
+		self.autoHuntButton = self._CreateButton(18, 238, 160, "AUTO HUNT F6", self.OpenAutoHunt)
+		self.farmButton = self._CreateButton(188, 238, 160, "FARMA F8", self.OpenFarmWindow)
+
+		self.helper.SetPosition(18, 275)
+		self.helper.SetText("F6 = Auto Hunt    |    F8 = Farma Metinow")
+		self.helper.SetPackedFontColor(0xFF7E8A9A)
+		self.helper.Show()
+
+		self.potionConfig = DrazePotionConfigWindow(self)
+		# Auto Skills live in the same Home panel as Auto Potion / Auto Pickup.
+		# Reuse the shared Auto Hunt skill engine and its six-slot settings window.
+		try:
+			self.autoSkillSettings = localAutoHunt.AutoSkillSettings()
+		except Exception:
+			self.autoSkillSettings = None
+		self._RefreshStateText()
+		self.SetCloseEvent(ui.__mem_func__(self.Hide))
+		self.Hide()
+
+	def OpenAutoHunt(self):
+		try:
+			interface = constInfo.GetInterfaceInstance()
+			if interface:
+				interface.OpenAutoHunt()
+		except Exception as exc:
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Auto Hunt: BLAD %s" % (exc,))
+			except Exception: pass
+
+	def OpenFarmWindow(self):
+		try:
+			interface = constInfo.GetInterfaceInstance()
+			if interface:
+				interface.OpenRespWindow()
+		except Exception as exc:
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Farma F8: BLAD %s" % (exc,))
+			except Exception: pass
+
+	def ToggleAutoSkills(self):
+		try:
+			localAutoHunt.SetAutoSkillsEnabled(not localAutoHunt.IsAutoSkillsEnabled())
+			self._RefreshStateText()
+		except Exception as exc:
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Auto Skile: BLAD %s" % (exc,))
+			except Exception: pass
+
+	def OpenAutoSkillConfig(self):
+		try:
+			if self.autoSkillSettings:
+				self.autoSkillSettings.Open()
+		except Exception as exc:
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Nie mozna otworzyc ustawien skili: %s" % (exc,))
+			except Exception: pass
+
+	def _CreateButton(self, x, y, width, text, event):
+		button = ui.Button()
+		button.SetParent(self.body)
+		button.SetPosition(x, y)
+		button.SetUpVisual("d:/ymir work/ui/public/middle_button_01.sub")
+		button.SetOverVisual("d:/ymir work/ui/public/middle_button_02.sub")
+		button.SetDownVisual("d:/ymir work/ui/public/middle_button_03.sub")
+		button.SetText(text)
+		button.SetEvent(ui.__mem_func__(event))
+		button.Show()
+		return button
+
+	def _CreateInfo(self, label, x, y):
+		line = ui.TextLine()
+		line.SetParent(self.body)
+		line.SetPosition(x, y)
+		line.SetText(label + ": --")
+		line.SetPackedFontColor(0xFFD3DCE8)
+		line.Show()
+		return line
+
+	def _LoadSettings(self):
+		self.autoPotionEnabled = int(settings.get("draze_auto_potion_enabled", 0)) == 1
+		self.hpThreshold = max(1, min(99, int(settings.get("draze_auto_potion_hp_threshold", 50))))
+		self.spThreshold = max(1, min(99, int(settings.get("draze_auto_potion_sp_threshold", 30))))
+		self.hpSlot = int(settings.get("draze_auto_potion_hp_slot", -1))
+		self.spSlot = int(settings.get("draze_auto_potion_sp_slot", -1))
+		self.hpVnum = int(settings.get("draze_auto_potion_hp_vnum", 0))
+		self.spVnum = int(settings.get("draze_auto_potion_sp_vnum", 0))
+		self.autoPickupEnabled = int(settings.get("draze_auto_pickup_enabled", 0)) == 1
+		self.lastPotionUse = 0.0
+		self.lastPickup = 0.0
+		self.PICKUP_DELAY = 0.20
+		self._chatPotionState = {"hp": None, "sp": None}
+		self._lastPickupChat = None
+
+	def SaveSettings(self):
+		settings.set("draze_auto_potion_enabled", 1 if self.autoPotionEnabled else 0)
+		settings.set("draze_auto_potion_hp_threshold", self.hpThreshold)
+		settings.set("draze_auto_potion_sp_threshold", self.spThreshold)
+		settings.set("draze_auto_potion_hp_slot", self.hpSlot)
+		settings.set("draze_auto_potion_sp_slot", self.spSlot)
+		settings.set("draze_auto_potion_hp_vnum", self.hpVnum)
+		settings.set("draze_auto_potion_sp_vnum", self.spVnum)
+		settings.set("draze_auto_pickup_enabled", 1 if self.autoPickupEnabled else 0)
+		self._RefreshStateText()
+		try:
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Ustawienia Auto Potion / Pickup zapisane.")
+		except:
+			pass
+
+	def ToggleAutoPotion(self):
+		self.autoPotionEnabled = not self.autoPotionEnabled
+		self._chatPotionState = {"hp": None, "sp": None}
+		self._RefreshStateText()
+		try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Auto Potion: %s" % ("ON" if self.autoPotionEnabled else "OFF"))
+		except: pass
+
+	def OpenPotionConfig(self):
+		self.potionConfig.Open()
+
+	def SetManualPotionSlot(self, kind, slot, vnum=0):
+		if kind == "hp":
+			self.hpSlot = slot
+			self.hpVnum = int(vnum or 0)
+		else:
+			self.spSlot = slot
+			self.spVnum = int(vnum or 0)
+		self._RefreshStateText()
+
+	def IsPotionVnum(self, vnum, kind):
+		if not vnum:
+			return False
+		if kind == "hp" and vnum in self.HP_POTION_VNUMS:
+			return True
+		if kind == "sp" and vnum in self.SP_POTION_VNUMS:
+			return True
+		try:
+			item.SelectItem(vnum)
+			subType = item.GetItemSubType()
+			if subType not in (item.USE_POTION, item.USE_POTION_NODELAY):
+				return False
+			healHP = item.GetValue(0)
+			healSP = item.GetValue(1)
+			healPercentHP = item.GetValue(3)
+			healPercentSP = item.GetValue(4)
+			if kind == "hp":
+				return healHP > 0 or healPercentHP > 0
+			return healSP > 0 or healPercentSP > 0
+		except:
+			return False
+
+	def _FindExactPotionSlot(self, kind):
+		vnumWanted = self.hpVnum if kind == "hp" else self.spVnum
+		if vnumWanted <= 0:
+			return -1
+		if kind == "hp":
+			slot = self.hpSlot
+		else:
+			slot = self.spSlot
+		if slot >= 0 and player.GetItemIndex(slot) == vnumWanted and player.GetItemCount(slot) > 0:
+			return slot
+		inventorySize = player.INVENTORY_PAGE_SIZE * player.INVENTORY_PAGE_COUNT
+		for checkSlot in range(inventorySize):
+			if player.GetItemIndex(checkSlot) == vnumWanted and player.GetItemCount(checkSlot) > 0:
+				if kind == "hp":
+					self.hpSlot = checkSlot
+				else:
+					self.spSlot = checkSlot
+				return checkSlot
+		return -1
+
+	def _FindPotionSlot(self, kind, manualSlot):
+		wantedVnum = self.hpVnum if kind == "hp" else self.spVnum
+		if manualSlot >= 0 and wantedVnum > 0:
+			if player.GetItemIndex(manualSlot) == wantedVnum and player.GetItemCount(manualSlot) > 0:
+				return manualSlot
+		if wantedVnum > 0:
+			exact = self._FindExactPotionSlot(kind)
+			if exact >= 0:
+				return exact
+		inventorySize = player.INVENTORY_PAGE_SIZE * player.INVENTORY_PAGE_COUNT
+		bestSlot = -1
+		bestPower = -1
+		for checkSlot in range(inventorySize):
+			vnum = player.GetItemIndex(checkSlot)
+			count = player.GetItemCount(checkSlot)
+			if count <= 0 or not self.IsPotionVnum(vnum, kind):
+				continue
+			try:
+				item.SelectItem(vnum)
+				healHP = max(0, item.GetValue(0)) + max(0, item.GetValue(3))
+				healSP = max(0, item.GetValue(1)) + max(0, item.GetValue(4))
+				power = healHP if kind == "hp" else healSP
+			except:
+				power = 0
+			if power > bestPower:
+				bestPower = power
+				bestSlot = checkSlot
+		if bestSlot >= 0:
+			chosenVnum = player.GetItemIndex(bestSlot)
+			if kind == "hp":
+				self.hpVnum = chosenVnum
+				self.hpSlot = bestSlot
+			else:
+				self.spVnum = chosenVnum
+				self.spSlot = bestSlot
+		return bestSlot
+
+	def _GetPercent(self, current, maximum):
+		if maximum <= 0:
+			return 100.0
+		return (float(current) * 100.0) / float(maximum)
+
+	def _TryUsePotion(self, kind, threshold):
+		manual = self.hpSlot if kind == "hp" else self.spSlot
+		slot = self._FindPotionSlot(kind, manual)
+		name = "czerwonej" if kind == "hp" else "niebieskiej"
+		if slot < 0:
+			state = "missing"
+			if self._chatPotionState.get(kind) != state:
+				self._chatPotionState[kind] = state
+				try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Nie wykryto %s potki w EQ." % name)
+				except: pass
+			return False
+		vnum = player.GetItemIndex(slot)
+		if vnum <= 0 or player.GetItemCount(slot) <= 0 or not self.IsPotionVnum(vnum, kind):
+			return False
+		if kind == "hp":
+			self.hpSlot, self.hpVnum = slot, vnum
+		else:
+			self.spSlot, self.spVnum = slot, vnum
+		state = "found:%d:%d" % (vnum, slot)
+		if self._chatPotionState.get(kind) != state:
+			self._chatPotionState[kind] = state
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Potka %s wykryta. Bede uzywal VNUM %d z EQ %d." % (name, vnum, slot))
+			except: pass
+		try:
+			net.SendItemUsePacket(slot)
+			self.lastPotionUse = app.GetTime()
+			return True
+		except:
+			return False
+
+	def AutoPotionUpdate(self):
+		if not self.autoPotionEnabled:
+			return
+		try:
+			if constInfo.GET_ITEM_QUESTION_DIALOG_STATUS():
+				return
+		except:
+			pass
+		now = app.GetTime()
+		if now - self.lastPotionUse < self.POTION_USE_DELAY:
+			return
+		hp = player.GetStatus(player.HP)
+		maxHp = player.GetStatus(player.MAX_HP)
+		sp = player.GetStatus(player.SP)
+		maxSp = player.GetStatus(player.MAX_SP)
+		hpPercent = self._GetPercent(hp, maxHp)
+		spPercent = self._GetPercent(sp, maxSp)
+		self.hpInfo.SetText("HP: %d / %d (%.0f%%) < %d%%" % (hp, maxHp, hpPercent, self.hpThreshold))
+		self.spInfo.SetText("SP: %d / %d (%.0f%%) < %d%%" % (sp, maxSp, spPercent, self.spThreshold))
+		hpSlot = self._FindPotionSlot("hp", self.hpSlot)
+		spSlot = self._FindPotionSlot("sp", self.spSlot)
+		if hpSlot < 0 and self._chatPotionState.get("hp") != "missing":
+			self._chatPotionState["hp"] = "missing"
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Nie wykryto czerwonej potki w EQ.")
+			except: pass
+		if spSlot < 0 and self._chatPotionState.get("sp") != "missing":
+			self._chatPotionState["sp"] = "missing"
+			try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Nie wykryto niebieskiej potki w EQ.")
+			except: pass
+		if hp > 0 and hpPercent <= self.hpThreshold and hpSlot >= 0:
+			if self._TryUsePotion("hp", self.hpThreshold):
+				return
+		if sp > 0 and spPercent <= self.spThreshold and spSlot >= 0:
+			self._TryUsePotion("sp", self.spThreshold)
+
+	def ToggleAutoPickup(self):
+		self.autoPickupEnabled = not self.autoPickupEnabled
+		self._lastPickupChat = None
+		self._RefreshStateText()
+		try: chat.AppendChat(chat.CHAT_TYPE_INFO, "[Draze] Auto Pickup: %s" % ("ON" if self.autoPickupEnabled else "OFF"))
+		except: pass
+
+	def AutoPickupUpdate(self):
+		if not self.autoPickupEnabled:
+			return
+		now = app.GetTime()
+		if now - self.lastPickup < self.PICKUP_DELAY:
+			return
+		try:
+			player.PickCloseItem()
+			self.lastPickup = now
+		except:
+			pass
+
+	def _RefreshStateText(self):
+		self.toggleButton.SetText("AUTO POTION: %s" % ("ON" if self.autoPotionEnabled else "OFF"))
+		self.pickupButton.SetText("AUTO PICK: %s" % ("ON" if self.autoPickupEnabled else "OFF"))
+		try:
+			self.autoSkillToggle.SetText("AUTO SKILE: %s" % ("ON" if localAutoHunt.IsAutoSkillsEnabled() else "OFF"))
+		except Exception:
+			pass
+		hp = "AUTO" if self.hpSlot < 0 else "EQ %d / VNUM %d" % (self.hpSlot, self.hpVnum)
+		sp = "AUTO" if self.spSlot < 0 else "EQ %d / VNUM %d" % (self.spSlot, self.spVnum)
+		self.statusText.SetText("HP: %s  |  SP: %s  |  progi: %d%% / %d%%" % (hp, sp, self.hpThreshold, self.spThreshold))
+
+	def Toggle(self):
+		if self.IsShow():
+			self.Hide()
+			if self.potionConfig.IsShow():
+				self.potionConfig.Hide()
+		else:
+			self.Show()
+			self.SetTop()
+
+	def Open(self):
+		self.Show()
+		self.SetTop()
+
+	def Close(self):
+		self.Hide()
+		self.potionConfig.Hide()
+		try:
+			if self.autoSkillSettings:
+				self.autoSkillSettings.Hide()
+		except Exception:
+			pass
+
+	def OnPressEscapeKey(self):
+		try:
+			if self.autoSkillSettings and self.autoSkillSettings.IsShow():
+				self.autoSkillSettings.Hide()
+				return True
+		except Exception:
+			pass
+		if self.potionConfig.IsShow():
+			self.potionConfig.Hide()
+		else:
+			self.Hide()
+		return True
 
 class GameWindow(ui.ScriptWindow):
 	def __init__(self, stream):
@@ -170,6 +789,8 @@ class GameWindow(ui.ScriptWindow):
 
 		self.playerGauge = uiPlayerGauge.PlayerGauge(self)
 		self.playerGauge.Hide()
+
+		self.drazeWindow = DrazeWindow()
 		
 		self.itemDropQuestionDialog = None
 
@@ -200,7 +821,7 @@ class GameWindow(ui.ScriptWindow):
 		self.quickSlotPageIndex = 0
 		self.PickingCharacterIndex = -1
 		self.PickingItemIndex = -1
-		self.consoleEnable = True
+		self.consoleEnable = False
 		self.isShowDebugInfo = False
 		self.ShowNameFlag = False
 
@@ -297,13 +918,6 @@ class GameWindow(ui.ScriptWindow):
 		app.TracyMsg("GameWindow.Open: pre-SendEnterGame")
 		net.SendEnterGamePacket()
 		app.TracyMsg("GameWindow.Open: post-SendEnterGame")
-
-		# Jezyk klienta dla serwera - flaga kraju zamiast [Shinsoo]/[Jinno] przy wolaniu.
-		# Serwer trzyma go tylko w pamieci, wiec wysylamy przy kazdym wejsciu (takze po warpie).
-		try:
-			net.SendChatPacket("/client_lang " + app.GetLocaleName())
-		except:
-			pass
 
 		try:
 			self.StartGame()
@@ -542,11 +1156,10 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_F3]	= lambda : self.__PressQuickSlot(6)
 		onPressKeyDict[app.DIK_F4]	= lambda : self.__PressQuickSlot(7)
 		onPressKeyDict[app.DIK_F5]	= lambda : self.__SafeInterfaceCall('wndBoosters', 'btnUse')
-		# F6 tymczasowo wylaczone (otwieralo panel auto-hunt/switchbot) — narazie ma nie otwierac nic
-		#onPressKeyDict[app.DIK_F6]	= lambda : self.__SafeInterfaceCallMethod('ToggleSwitchbotWindow')
+		# F6 toggles the local Auto Hunt panel.
+		onPressKeyDict[app.DIK_F6]	= lambda : self.__SafeInterfaceCallMethod('OpenAutoHunt')
 		onPressKeyDict[app.DIK_F7]	= lambda : self.__SafeInterfaceCallMethod('ToggleSaveLocationWindow')
-		# F8 wylaczone — system "Teleportacja do Wladcow/Metinow" nieaktywny (client-side)
-		#onPressKeyDict[app.DIK_F8]	= lambda : self.__SafeInterfaceCallMethod('OpenRespWindow')
+		onPressKeyDict[app.DIK_F8]	= lambda : self.__SafeInterfaceCallMethod('OpenRespWindow')
 		if app.ENABLE_OFFLINE_SHOP:
 			onPressKeyDict[app.DIK_F9]		= lambda : self.OpenShopSearch()
 		onPressKeyDict[app.DIK_RETURN]	= lambda : self.ChangeBonus()
@@ -601,7 +1214,6 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_SUBTRACT]	= lambda : self.__SafeInterfaceCallMethod('MiniMapScaleDown')
 		onPressKeyDict[app.DIK_L]			= lambda : self.__SafeInterfaceCallMethod('ToggleChatLogWindow')
 		onPressKeyDict[app.DIK_COMMA]		= lambda : self.ShowConsole()
-		onPressKeyDict[app.DIK_F10]		= lambda : self.ShowConsole()
 		onPressKeyDict[app.DIK_LSHIFT]		= lambda : self.__SetQuickPageMode()
 		onPressKeyDict[app.DIK_J]			= lambda : self.__PressJKey()
 		onPressKeyDict[app.DIK_H]			= lambda : self.__PressHKey()
@@ -770,19 +1382,14 @@ class GameWindow(ui.ScriptWindow):
 				self.interface.wndBoosters.btnUse()
 			elif type == player.KEY_OPEN_MARBLE:
 				if app.__AUTO_HUNT__:
-					# Auto-hunt tymczasowo wylaczony — F6/KEY_OPEN_MARBLE ma NIE otwierac panelu ani NIE wyswietlac komunikatu
-					pass
-					#if constInfo.AUTO_HUNT_HAS_AFFECT:
-					#	self.interface.OpenAutoHunt()
-					#else:
-					#	chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.AUTO_HUNT_NO_AFFECT)
+					# Local Auto Hunt: F6/KEY_OPEN_MARBLE opens the local panel.
+					self.__SafeInterfaceCallMethod('OpenAutoHunt')
 				else:
 					self.__SafeInterfaceCallMethod('ToggleSwitchbotWindow')
 			elif type == player.KEY_OPEN_SAVE_LOCATION:
 				self.interface.ToggleSaveLocationWindow()
-			# KEY_OPEN_RESP wylaczone — system "Teleportacja do Wladcow/Metinow" nieaktywny
-			#elif type == player.KEY_OPEN_RESP:
-			#	self.interface.OpenRespWindow()
+			elif type == player.KEY_OPEN_RESP:
+				self.__SafeInterfaceCallMethod('OpenRespWindow')
 			elif type == player.KEY_OPEN_BUFF:
 				self.OpenShopSearch()
 			elif type == player.KEY_OPEN_MISSION:
@@ -1069,10 +1676,10 @@ class GameWindow(ui.ScriptWindow):
 			self.interface.DragonSoulDeactivate()
 
 		if app.__AUTO_HUNT__:
-			# Gdy znika affect-uprawnienie Auto Hunt -> zatrzymaj bota na serwerze i zablokuj panel
+			# Local Auto Hunt: affect change only updates the legacy flag.
+			# Do not send /auto_hunt end to the server.
 			if type == chr.NEW_AFFECT_AUTO_HUNT:
 				constInfo.AUTO_HUNT_HAS_AFFECT = 0
-				net.SendChatPacket("/auto_hunt end")
 
 	if app.ENABLE_AFFECT_FIX:
 		def RefreshAffectWindow(self):
@@ -1159,6 +1766,10 @@ class GameWindow(ui.ScriptWindow):
 			
 			self.targetBoard.SetHP(iMinHP, iMaxHP)
 			self.targetBoard.Show()
+			try:
+				localAutoHunt.OnTargetHPUpdate(int(vid), int(iMinHP), int(iMaxHP))
+			except Exception:
+				pass
 
 	def CloseTargetBoardIfDifferent(self, vid):
 		if vid != self.targetBoard.GetTargetVID():
@@ -1238,20 +1849,73 @@ class GameWindow(ui.ScriptWindow):
 	def OnSafeBoxError(self):
 		self.PopupMessage(localeInfo.SAFEBOX_ERROR)
 
+	def _GetActiveFarmFishing(self):
+		# F8 Auto Fish is owned by RespawnDialog. Do not rely on a
+		# GameWindow.__farmFishing attribute, because this GameWindow never
+		# creates that attribute. The native fishing callbacks arrive here.
+		try:
+			import uiFarmFishing
+			return uiFarmFishing.GetActiveController()
+		except Exception:
+			return None
+
 	def OnFishingSuccess(self, isFish, fishName):
 		chat.AppendChatWithDelay(chat.CHAT_TYPE_INFO, localeInfo.FISHING_SUCCESS(isFish, fishName), 2000)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingSuccess(isFish, fishName)
+		except Exception:
+			pass
 
 	def OnFishingNotifyUnknown(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_UNKNOWN)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingNotifyUnknown()
+		except Exception:
+			pass
 
 	def OnFishingWrongPlace(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_WRONG_PLACE)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingWrongPlace()
+		except Exception:
+			pass
+
+	def _GetActiveFarmFishing(self):
+		try:
+			import uiFarmFishing
+			return uiFarmFishing.GetActiveController()
+		except Exception:
+			return None
 
 	def OnFishingNotify(self, isFish, fishName):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_NOTIFY(isFish, fishName))
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingNotify(isFish, fishName)
+		except Exception:
+			pass
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingNotify(isFish, fishName)
+		except Exception:
+			pass
 
 	def OnFishingFailure(self):
 		chat.AppendChatWithDelay(chat.CHAT_TYPE_INFO, localeInfo.FISHING_FAILURE, 2000)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingFailure()
+		except Exception:
+			pass
 
 	def OnCannotPickItem(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.GAME_CANNOT_PICK_ITEM)
@@ -1528,6 +2192,42 @@ class GameWindow(ui.ScriptWindow):
 			
 
 	def OnKeyDown(self, key):
+		# Local Auto Hunt: handle F6 here because ENABLE_KEYCHANGE_SYSTEM routes
+		# normal keys to player.OnKeyDown() and bypasses onPressKeyDict.
+		# Keep this before the key-change/capture handling so F6 always opens the panel.
+		if key == getattr(app, "DIK_F6", -10000):
+			try:
+				if self.interface:
+					self.interface.OpenAutoHunt()
+				else:
+					chat.AppendChat(chat.CHAT_TYPE_INFO, "[F6] Interface jest niedostepny.")
+			except Exception as exc:
+				try:
+					chat.AppendChat(chat.CHAT_TYPE_INFO, "[F6] Blad Auto Hunt: %s" % exc)
+				except Exception:
+					pass
+			return True
+
+		# F8 must be handled here for the same reason as F6: with
+		# ENABLE_KEYCHANGE_SYSTEM the onPressKeyDict entry is bypassed.
+		if key == getattr(app, "DIK_F8", -10000):
+			try:
+				if self.interface:
+					self.interface.OpenRespWindow()
+				else:
+					chat.AppendChat(chat.CHAT_TYPE_INFO, "[F8] Interface jest niedostepny.")
+			except Exception as exc:
+				try:
+					chat.AppendChat(chat.CHAT_TYPE_INFO, "[F8] Blad panelu Farma: %s" % exc)
+				except Exception:
+					pass
+			return True
+
+		# Draze V0.1: toggle the custom window with HOME before normal key routing.
+		if key == getattr(app, "DIK_HOME", -10000) and self.drazeWindow:
+			self.drazeWindow.Toggle()
+			return True
+
 		if self.interface.wndWeb and self.interface.wndWeb.IsShow():
 			return
 
@@ -1901,6 +2601,13 @@ class GameWindow(ui.ScriptWindow):
 		except:
 			pass
 
+		# Local Auto Hunt runs every game update and does not send /auto_hunt
+		# start/end commands to the server.
+		try:
+			localAutoHunt.Update()
+		except:
+			pass
+
 		if app.ENABLE_OFFLINE_SHOP:
 			# Ciagle naprowadzanie do sklepu z wyszukiwarki - przestawia strzalke
 			# w miare marszu. Sama funkcja jest tania: wychodzi od razu, gdy
@@ -1926,11 +2633,22 @@ class GameWindow(ui.ScriptWindow):
 		except:
 			pass
 
-		if app.__AUTO_HUNT__:
-			# Auto-login: po wejsciu do gry wznow okno + bota
-			if constInfo.autoHuntAutoLoginDict["status"] == 1 and constInfo.autoHuntAutoLoginDict["leftTime"] > 0 and constInfo.autoHuntAutoLoginDict["leftTime"] < app.GetGlobalTimeStamp():
-				constInfo.autoHuntAutoLoginDict["leftTime"] = 0
-				self.interface.CheckAutoLogin()
+		# F8 Auto Fish keeps running even when the main F8 panel is hidden.
+		# The controller itself is independent of the skill selector window.
+		try:
+			if getattr(self.interface, "wndResp", None):
+				self.interface.wndResp.TickFarmFishing()
+		except:
+			pass
+
+		try:
+			if self.drazeWindow:
+				self.drazeWindow.AutoPotionUpdate()
+				self.drazeWindow.AutoPickupUpdate()
+		except:
+			pass
+
+		# Legacy server Auto Hunt auto-login intentionally disabled in local mode.
 
 		if hasattr(app, "ENABLE_PREMIUM_PRIVATE_SHOP_OFFICIAL") and app.ENABLE_PREMIUM_PRIVATE_SHOP_OFFICIAL:
 			uiPrivateShop.UpdateTitleBoard()

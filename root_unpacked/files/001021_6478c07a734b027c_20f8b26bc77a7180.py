@@ -13,6 +13,7 @@ if app.BL_MOVE_CHANNEL:
 import player
 
 SYSTEM_MENU_FOR_PORTAL = False
+
 class SystemDialog(ui.ScriptWindow):
 
 	def __init__(self):

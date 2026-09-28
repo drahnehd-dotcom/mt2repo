@@ -14,14 +14,12 @@ import introLogo
 class PopupDialog(ui.ScriptWindow):
 
 	def __init__(self):
-		print("NEW POPUP DIALOG ----------------------------------------------------------------------------"
-)
+		print("NEW POPUP DIALOG ----------------------------------------------------------------------------")
 		ui.ScriptWindow.__init__(self)
 		self.CloseEvent = 0
 
 	def __del__(self):
-		print("---------------------------------------------------------------------------- DELETE POPUP DIALOG "
-)
+		print("---------------------------------------------------------------------------- DELETE POPUP DIALOG ")
 		ui.ScriptWindow.__del__(self)
 
 	def LoadDialog(self):
@@ -75,8 +73,7 @@ class MainStream(object):
 	isChrData=0
 
 	def __init__(self):
-		print("NEWMAIN STREAM ----------------------------------------------------------------------------"
-)
+		print("NEWMAIN STREAM ----------------------------------------------------------------------------")
 		net.SetHandler(self)
 		net.SetTCPRecvBufferSize(64 * 128*1024)
 		net.SetTCPSendBufferSize(64 * 4096)
@@ -97,8 +94,7 @@ class MainStream(object):
 		self.newPhaseWindow = 0
 
 	def __del__(self):
-		print("---------------------------------------------------------------------------- DELETE MAIN STREAM "
-)
+		print("---------------------------------------------------------------------------- DELETE MAIN STREAM ")
 
 	def Destroy(self):
 		if self.curPhaseWindow:
@@ -435,10 +431,11 @@ class DebugWindow(ui.ScriptWindow):
 			self.squarebox.Hide()
 			self.squaretips.Hide()
 	def LoadWindow(self):
-		# DebugWindow is fully constructed in LoadDefaultWindow().
-		# The original root does not contain lib/DebugWindow.py, so attempting
-		# to load it only creates repeated MakeWindow::LoadWindow errors.
-		return
+		try:
+			pyScrLoader = ui.PythonScriptLoader()
+			pyScrLoader.LoadScriptData(self, open("lib/DebugWindow.py", "rb").read())
+		except Exception as e:
+			dbg.TraceError("MakeWindow::LoadWindow Error: {}".format(e))
 	def Open(self):
 		self.SetSize(wndMgr.GetScreenWidth(), wndMgr.GetScreenHeight())
 		self.SetWindowName("MakeWindow")

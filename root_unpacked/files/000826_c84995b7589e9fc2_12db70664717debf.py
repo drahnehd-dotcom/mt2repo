@@ -7,7 +7,7 @@ from uiFishWiki import GetFishMissionData
 try:
 	app.WJ_ENABLE_TRADABLE_ICON
 except Exception:
-	app.WJ_ENABLE_TRADABLE_ICON = True
+	app.WJ_ENABLE_TRADABLE_ICON = False
 
 PAGE_BUILDER, PAGE_MYSHOP, PAGE_SAFEBOX, PAGE_SHOP = range(4)
 

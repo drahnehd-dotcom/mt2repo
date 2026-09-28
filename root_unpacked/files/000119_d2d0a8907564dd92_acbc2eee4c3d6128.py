@@ -25,8 +25,7 @@ if app.ENABLE_EVENT_MANAGER:
 if app.ENABLE_ODLAMKI_SYSTEM:
 	import uiFragments
 
-if app.__AUTO_HUNT__:
-	import uiAutoHunt
+import uiAutoHunt
 
 if app.ENABLE_LOADING_PERFORMANCE:
 	import uiWarpShower
@@ -115,6 +114,8 @@ import uiRanking
 if app.ENABLE_SECONDARY_LEVEL:
 	import uiSecondaryLevel
 import uiteleport
+# Local Auto Hunt is embedded in uiAutoHunt; keep the historical alias without importing a separate module.
+localAutoHunt = uiAutoHunt
 
 if app.ENABLE_VS_SHOP_SEARCH:
 	import uiShopSearch
@@ -216,8 +217,8 @@ class Interface(object):
 
 	def __init__(self):
 		systemSetting.SetInterfaceHandler(self)
-		if app.__AUTO_HUNT__:
-			self.wndAutoHunt = None
+		# Local Auto Hunt is available independently of server-side Auto Hunt.
+		self.wndAutoHunt = None
 		self.windowOpenPosition = 0
 		if app.WJ_ENABLE_TRADABLE_ICON:
 			self.onTopWindow = player.ON_TOP_WND_NONE
@@ -1077,27 +1078,50 @@ class Interface(object):
 				webbrowser.open(url)
 
 
-	if app.__AUTO_HUNT__:
-		def AutoHuntStatus(self, status):
-			isActive = True if int(status) else False
-			constInfo.AUTO_HUNT_ACTIVE = 1 if isActive else 0
-			if self.wndAutoHunt:
-				self.wndAutoHunt.SetStatus(isActive)
+	def AutoHuntStatus(self, status):
+		# Kept for compatibility with older server callbacks. The local bot
+		# does not depend on these callbacks to start or stop.
+		isActive = True if int(status) else False
+		constInfo.AUTO_HUNT_ACTIVE = 1 if isActive else 0
+		if self.wndAutoHunt:
+			self.wndAutoHunt.SetStatus(isActive)
 
-		def CheckAutoLogin(self):
-			if self.wndAutoHunt == None:
-				self.wndAutoHunt = uiAutoHunt.Window()
-			self.wndAutoHunt.CheckAutoLogin()
+	def CheckAutoLogin(self):
+		# Local mode deliberately ignores server Auto Hunt restore requests.
+		return
 
-		def OpenAutoHunt(self):
-			# Auto-hunt tymczasowo wylaczony — panel ma sie NIE otwierac (narazie). Reszta metody martwa.
-			return
+	def OpenAutoHunt(self):
+		try:
 			if self.wndAutoHunt == None:
 				self.wndAutoHunt = uiAutoHunt.Window()
 			if self.wndAutoHunt.IsShow():
 				self.wndAutoHunt.Close()
 			else:
 				self.wndAutoHunt.Open()
+		except Exception as e:
+			try:
+				dbg.TraceError("[F6] OpenAutoHunt exception: %s" % e)
+			except Exception:
+				pass
+
+	def OpenRespWindow(self):
+		try:
+			if self.wndResp is None and app.ENABLE_RESP_SYSTEM:
+				self.wndResp = uiRespawn.RespawnDialog()
+				self.wndResp.Hide()
+			if self.wndResp and self.wndResp.IsShow():
+				self.wndResp.Hide()
+			elif self.wndResp:
+				try:
+					self.wndResp.ShowDefaultF8Tab()
+				except Exception:
+					pass
+				self.wndResp.Show()
+		except Exception as e:
+			try:
+				dbg.TraceError("[F8] OpenRespWindow exception: %s" % e)
+			except Exception:
+				pass
 
 	def Close(self):
 		# Tabela obrazen bossa dopisywala wpis na kazdy VID bossa i nigdy go nie kasowala
@@ -1106,11 +1130,10 @@ class Interface(object):
 		if app.TAKE_LEGEND_DAMAGE_BOARD_SYSTEM:
 			constInfo.LEGEND_DAMAGE_DATA.clear()
 
-		if app.__AUTO_HUNT__:
-			if self.wndAutoHunt:
-				self.wndAutoHunt.Close()
-				self.wndAutoHunt.Destroy()
-				self.wndAutoHunt = None
+		if self.wndAutoHunt:
+			self.wndAutoHunt.Close()
+			self.wndAutoHunt.Destroy()
+			self.wndAutoHunt = None
 		if app.ENABLE_EVENT_MANAGER:
 			if self.wndEventManager:
 				self.wndEventManager.Hide()
@@ -2607,7 +2630,7 @@ class Interface(object):
 				self.wndInventory.RefreshBagSlotWindow()
 
 	if app.ENABLE_RESP_SYSTEM:
-		def OpenRespWindow(self):
+		def _OpenRespWindowLegacy(self):
 			if self.wndResp.IsShow():
 				self.wndResp.Hide()
 			else:

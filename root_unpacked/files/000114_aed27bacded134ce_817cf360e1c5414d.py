@@ -200,7 +200,7 @@ class GameWindow(ui.ScriptWindow):
 		self.quickSlotPageIndex = 0
 		self.PickingCharacterIndex = -1
 		self.PickingItemIndex = -1
-		self.consoleEnable = True
+		self.consoleEnable = False
 		self.isShowDebugInfo = False
 		self.ShowNameFlag = False
 
@@ -594,7 +594,6 @@ class GameWindow(ui.ScriptWindow):
 		onPressKeyDict[app.DIK_SUBTRACT]	= lambda : self.__SafeInterfaceCallMethod('MiniMapScaleDown')
 		onPressKeyDict[app.DIK_L]			= lambda : self.__SafeInterfaceCallMethod('ToggleChatLogWindow')
 		onPressKeyDict[app.DIK_COMMA]		= lambda : self.ShowConsole()
-		onPressKeyDict[app.DIK_F10]		= lambda : self.ShowConsole()
 		onPressKeyDict[app.DIK_LSHIFT]		= lambda : self.__SetQuickPageMode()
 		onPressKeyDict[app.DIK_J]			= lambda : self.__PressJKey()
 		onPressKeyDict[app.DIK_H]			= lambda : self.__PressHKey()
@@ -1233,18 +1232,55 @@ class GameWindow(ui.ScriptWindow):
 
 	def OnFishingSuccess(self, isFish, fishName):
 		chat.AppendChatWithDelay(chat.CHAT_TYPE_INFO, localeInfo.FISHING_SUCCESS(isFish, fishName), 2000)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingSuccess(isFish, fishName)
+		except Exception:
+			pass
 
 	def OnFishingNotifyUnknown(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_UNKNOWN)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingNotifyUnknown()
+		except Exception:
+			pass
 
 	def OnFishingWrongPlace(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_WRONG_PLACE)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingWrongPlace()
+		except Exception:
+			pass
+
+	def _GetActiveFarmFishing(self):
+		try:
+			import uiFarmFishing
+			return uiFarmFishing.GetActiveController()
+		except Exception:
+			return None
 
 	def OnFishingNotify(self, isFish, fishName):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.FISHING_NOTIFY(isFish, fishName))
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingNotify(isFish, fishName)
+		except Exception:
+			pass
 
 	def OnFishingFailure(self):
 		chat.AppendChatWithDelay(chat.CHAT_TYPE_INFO, localeInfo.FISHING_FAILURE, 2000)
+		try:
+			bot = self._GetActiveFarmFishing()
+			if bot:
+				bot.OnFishingFailure()
+		except Exception:
+			pass
 
 	def OnCannotPickItem(self):
 		chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.GAME_CANNOT_PICK_ITEM)

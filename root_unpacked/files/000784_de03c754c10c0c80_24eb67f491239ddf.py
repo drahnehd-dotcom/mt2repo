@@ -11,6 +11,10 @@ import playerSettingModule
 import quest
 import localeInfo
 import item
+try:
+	import uiAutoHunt
+except Exception:
+	uiAutoHunt = None
 
 def _decode_bytes(v):
 	return v.decode("utf-8", "replace") if isinstance(v, bytes) else v
@@ -278,6 +282,8 @@ class CharacterWindow(ui.ScriptWindow):
 		self.skillGroupButton1 = None
 		self.skillGroupButton2 = None
 		self.activeSkillGroupName = None
+		self.autoSkillMasterButton = None
+		self.autoSkillToggleButtons = {}
 
 		self.guildNameSlot = None
 		self.guildNameValue = None
@@ -431,6 +437,8 @@ class CharacterWindow(ui.ScriptWindow):
 		)
 
 
+		self.__InitAutoSkillControls()
+
 		global SHOW_ONLY_ACTIVE_SKILL
 		global HIDE_SUPPORT_SKILL_POINT
 		if SHOW_ONLY_ACTIVE_SKILL or HIDE_SUPPORT_SKILL_POINT:
@@ -475,6 +483,259 @@ class CharacterWindow(ui.ScriptWindow):
 				self.questNameList.append(self.GetChild("Quest_Name_0" + str(i)))
 				self.questLastTimeList.append(self.GetChild("Quest_LastTime_0" + str(i)))
 				self.questLastCountList.append(self.GetChild("Quest_LastCount_0" + str(i)))
+
+	def __autoSkillSourceSlots(self):
+		"""Return the real source skill slots displayed by the native V window."""
+		result = []
+		try:
+			active = self.skillPageDict["ACTIVE"]
+			start = int(active.GetStartIndex())
+			for i in range(self.ACTIVE_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		try:
+			support = self.skillPageDict["SUPPORT"]
+			start = int(support.GetStartIndex())
+			for i in range(self.SUPPORT_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		return result
+
+	def __autoSkillToggle(self, sourceSlot):
+		if uiAutoHunt is None:
+			return
+		try:
+			selected = not bool(uiAutoHunt.IsAutoSkillSourceSelected(int(sourceSlot)))
+			uiAutoHunt.SetAutoSkillSourceSlot(int(sourceSlot), selected)
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillToggle: %s" % exc)
+
+	def __autoSkillMaster(self):
+		if uiAutoHunt is None:
+			return
+		try:
+			uiAutoHunt.SetAutoSkillMaster(not uiAutoHunt.IsAutoSkillsEnabled())
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillMaster: %s" % exc)
+
+	def __autoSkillSourceSlots(self):
+		result = []
+		try:
+			active = self.skillPageDict["ACTIVE"]
+			start = int(active.GetStartIndex())
+			for i in range(self.ACTIVE_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		try:
+			support = self.skillPageDict["SUPPORT"]
+			start = int(support.GetStartIndex())
+			for i in range(self.SUPPORT_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		return result
+
+	def __autoSkillToggle(self, sourceSlot):
+		if uiAutoHunt is None:
+			return
+		try:
+			selected = not uiAutoHunt.IsAutoSkillSourceSelected(int(sourceSlot))
+			uiAutoHunt.SetAutoSkillSourceSlot(int(sourceSlot), selected)
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillToggle: %s" % exc)
+
+	def __autoSkillMaster(self):
+		if uiAutoHunt is None:
+			return
+		try:
+			uiAutoHunt.SetAutoSkillMaster(not uiAutoHunt.IsAutoSkillsEnabled())
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillMaster: %s" % exc)
+
+	def __AutoSkillDrop(self, slotIndex):
+		if uiAutoHunt is None:
+			return
+		try:
+			if not mouseModule.mouseController.isAttached():
+				return
+			if mouseModule.mouseController.GetAttachedType() != player.SLOT_TYPE_SKILL:
+				return
+			source_slot = int(mouseModule.mouseController.GetAttachedSlotNumber())
+			uiAutoHunt.SetAutoSkillSlot(int(slotIndex), source_slot, True)
+			mouseModule.mouseController.DeattachObject()
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__AutoSkillDrop: %s" % exc)
+
+	def __autoSkillSourceSlots(self):
+		result = []
+		try:
+			active = self.skillPageDict["ACTIVE"]
+			start = int(active.GetStartIndex())
+			for i in range(self.ACTIVE_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		try:
+			support = self.skillPageDict["SUPPORT"]
+			start = int(support.GetStartIndex())
+			for i in range(self.SUPPORT_PAGE_SLOT_COUNT + 1):
+				slot = start + i
+				if int(player.GetSkillIndex(slot)) > 0:
+					result.append(slot)
+		except Exception:
+			pass
+		return result
+
+	def __autoSkillToggle(self, sourceSlot):
+		if uiAutoHunt is None:
+			return
+		try:
+			selected = not uiAutoHunt.IsAutoSkillSourceSelected(int(sourceSlot))
+			uiAutoHunt.SetAutoSkillSourceSlot(int(sourceSlot), selected)
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillToggle: %s" % exc)
+
+	def __autoSkillMaster(self):
+		if uiAutoHunt is None:
+			return
+		try:
+			uiAutoHunt.SetAutoSkillMaster(not uiAutoHunt.IsAutoSkillsEnabled())
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__autoSkillMaster: %s" % exc)
+
+	def __AutoSkillDrop(self, slotIndex):
+		if uiAutoHunt is None:
+			return
+		try:
+			if not mouseModule.mouseController.isAttached():
+				return
+			if mouseModule.mouseController.GetAttachedType() != player.SLOT_TYPE_SKILL:
+				return
+			source_slot = int(mouseModule.mouseController.GetAttachedSlotNumber())
+			uiAutoHunt.SetAutoSkillSlot(int(slotIndex), source_slot, True)
+			mouseModule.mouseController.DeattachObject()
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__AutoSkillDrop: %s" % exc)
+
+	def __InitAutoSkillControls(self):
+		if uiAutoHunt is None or self.autoSkillMasterButton is not None:
+			return
+		try:
+			parent = self.titleBarDict["SKILL"]
+			btn = ui.Button()
+			btn.SetParent(parent)
+			btn.SetPosition(122, 2)
+			btn.SetSize(84, 20)
+			btn.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
+			btn.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
+			btn.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
+			btn.SetEvent(ui.__mem_func__(self.__autoSkillMaster))
+			btn.Show()
+			self.autoSkillMasterButton = btn
+
+			active_origin = self.skillPageDict["ACTIVE"].GetGlobalPosition()
+			support_origin = self.skillPageDict["SUPPORT"].GetGlobalPosition()
+			self_origin = self.GetGlobalPosition()
+			aox, aoy = int(active_origin[0]-self_origin[0]), int(active_origin[1]-self_origin[1])
+			sox, soy = int(support_origin[0]-self_origin[0]), int(support_origin[1]-self_origin[1])
+			active_pos = {1:(1,4),2:(113,4),3:(1,40),4:(113,40),5:(1,76),6:(113,76)}
+
+			for sourceSlot in self.__autoSkillSourceSlots():
+				if sourceSlot in self.autoSkillToggleButtons:
+					continue
+				if sourceSlot < 100:
+					pos = active_pos.get(sourceSlot)
+					if pos is None:
+						continue
+					x, y = aox + pos[0] + 8, aoy + pos[1] + 1
+				else:
+					local = sourceSlot - 101
+					if local < 0 or local >= self.SUPPORT_PAGE_SLOT_COUNT:
+						continue
+					col, row = local % 6, local // 6
+					x, y = sox + 1 + col*37 + 14, soy + 1 + row*36 + 14
+
+				cb=ui.Button()
+				cb.SetParent(self)
+				cb.SetPosition(int(x),int(y))
+				cb.SetSize(22,16)
+				cb.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
+				cb.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
+				cb.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
+				cb.SetText("+")
+				cb.SetEvent(ui.__mem_func__(self.__autoSkillToggle), int(sourceSlot))
+				cb.Show()
+				self.autoSkillToggleButtons[int(sourceSlot)] = cb
+
+			label=ui.TextLine()
+			label.SetParent(self)
+			label.SetPosition(18,318)
+			label.SetText("AUTO SKILE:")
+			label.SetPackedFontColor(0xffd4c39f)
+			label.Show()
+			self.autoSkillDropLabel=label
+			drop=ui.SlotWindow()
+			drop.SetParent(self)
+			drop.SetPosition(84,313)
+			drop.SetSize(170,36)
+			for i in range(6):
+				drop.AppendSlot(i,i*28,0,26,26)
+			drop.SetSelectEmptySlotEvent(ui.__mem_func__(self.__AutoSkillDrop))
+			drop.SetSelectItemSlotEvent(ui.__mem_func__(self.__AutoSkillDrop))
+			drop.SetUseSlotEvent(ui.__mem_func__(self.__AutoSkillDrop))
+			drop.Show()
+			self.autoSkillDropSlot=drop
+			self.__RefreshAutoSkillControls()
+		except Exception as exc:
+			dbg.TraceError("CharacterWindow.__InitAutoSkillControls: %s" % exc)
+
+	def __RefreshAutoSkillControls(self):
+		if uiAutoHunt is None:
+			return
+		try:
+			if self.autoSkillMasterButton:
+				self.autoSkillMasterButton.SetText("AUTO ON" if uiAutoHunt.IsAutoSkillsEnabled() else "AUTO OFF")
+			for sourceSlot, btn in self.autoSkillToggleButtons.items():
+				btn.SetText("X" if uiAutoHunt.IsAutoSkillSourceSelected(sourceSlot) else "+")
+			slots, active = uiAutoHunt.GetAutoSkillConfig()
+			if self.autoSkillDropSlot:
+				for dropIndex in range(6):
+					self.autoSkillDropSlot.ClearSlot(dropIndex)
+				for i, sourceSlot in enumerate(slots[:6]):
+					if sourceSlot is None:
+						continue
+					try:
+						skillIndex=int(player.GetSkillIndex(int(sourceSlot)))
+						grade=int(player.GetSkillGrade(int(sourceSlot)))
+						level=int(player.GetSkillLevel(int(sourceSlot)))
+						self.autoSkillDropSlot.SetSkillSlotNew(i,skillIndex,grade,level)
+						self.autoSkillDropSlot.SetSlotCountNew(i,grade,level)
+					except Exception:
+						pass
+				self.autoSkillDropSlot.RefreshSlot()
+		except Exception:
+			pass
 
 	def __SetSkillSlotEvent(self):
 		for skillPageValue in self.skillPageDict.values():
@@ -1182,6 +1443,7 @@ class CharacterWindow(ui.ScriptWindow):
 			self.__RefreshSkillPage("SUPPORT", self.SUPPORT_PAGE_SLOT_COUNT)
 
 		self.RefreshSkillPlusButtonList()
+		self.__RefreshAutoSkillControls()
 
 	def CanShowPlusButton(self, skillIndex, skillLevel, curStatPoint):
 

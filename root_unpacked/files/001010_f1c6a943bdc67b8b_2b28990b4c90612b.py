@@ -99,8 +99,6 @@ class BaseCaptcha(ui.Board):
         self.Close()
 
     def _send_answer(self, slotIndex):
-        # Jedna odpowiedz na wyzwanie - serwer i tak odrzuci kolejne z tym samym ID,
-        # ale nie ma po co ich wysylac.
         if self.answered or not self.challengeID:
             return
 
@@ -111,8 +109,6 @@ class BaseCaptcha(ui.Board):
         self._update_timer_display()
 
     def _update_timer_display(self):
-        # Licznik jest tylko informacyjny - o uplywie czasu decyduje serwer,
-        # ktory po przekroczeniu limitu sam przysle kolejne wyzwanie.
         remaining_time = max(0, self.endTime - app.GetTime())
 
         if self.remainingTimeText:
@@ -122,7 +118,6 @@ class BaseCaptcha(ui.Board):
             self.remainingTimeGauge.SetPercentage(remaining_time, self.answerSeconds)
 
     def OnPressEscapeKey(self):
-        # Captcha jest modalna - ESC jej nie zamyka.
         return True
 
 
@@ -137,10 +132,17 @@ class FindTheDifferentCaptcha(BaseCaptcha):
     SLOT_STEP_Y = 58
     SLOTS_PER_ROW = 4
 
+    # NOWE: automatyczna odpowiedz po 2 sekundach
+    AUTO_CLICK_DELAY = 2.0
+
     def Initialize(self):
         super(FindTheDifferentCaptcha, self).Initialize()
         self.bgImage = None
         self.questionText = None
+
+        # NOWE
+        self.autoClickTime = 0
+        self.uniqueSlot = None
 
     def LoadWindow(self):
         self.SetSize(280, 275)
@@ -167,9 +169,6 @@ class FindTheDifferentCaptcha(BaseCaptcha):
         self.questionText.Show()
 
     def _create_slot_buttons(self):
-        # Sloty powstaja RAZ; kolejne wyzwania tylko podmieniaja grafiki.
-        # Wczesniej kazde odswiezenie tworzylo nowy komplet przyciskow, ktore
-        # nakladaly sie na poprzednie.
         self.slotButtons = []
 
         for index in range(self.SLOT_COUNT):
@@ -198,8 +197,51 @@ class FindTheDifferentCaptcha(BaseCaptcha):
     def _apply_challenge(self, iconSet, imageMask):
         iconSet = max(0, min(int(iconSet), self.MAX_ICON_SET))
 
+        imageMask = int(imageMask)
+
+        # NOWE:
+        # Znajdujemy obrazek, który występuje tylko jeden raz.
+        ones = 0
+
+        for index in range(self.SLOT_COUNT):
+            imageIndex = (imageMask >> index) & 1
+
+            if imageIndex == 1:
+                ones += 1
+
+        # Jeżeli 1 występuje raz, unikalny jest slot z 1.
+        # Jeżeli 0 występuje raz, unikalny jest slot z 0.
+        if ones == 1:
+            uniqueImageIndex = 1
+        elif ones == self.SLOT_COUNT - 1:
+            uniqueImageIndex = 0
+        else:
+            # Nieprawidłowa maska.
+            self.uniqueSlot = None
+            self.autoClickTime = 0
+            uniqueImageIndex = None
+
+        # Szukamy indeksu unikalnego slotu.
+        self.uniqueSlot = None
+
+        if uniqueImageIndex is not None:
+            for index in range(self.SLOT_COUNT):
+                imageIndex = (imageMask >> index) & 1
+
+                if imageIndex == uniqueImageIndex:
+                    self.uniqueSlot = index
+                    break
+
+        # NOWE:
+        # Od tego momentu zaczynamy odliczać 2 sekundy.
+        if self.uniqueSlot is not None:
+            self.autoClickTime = app.GetTime() + self.AUTO_CLICK_DELAY
+        else:
+            self.autoClickTime = 0
+
+        # Twój oryginalny kod bez zmian.
         for index, button in enumerate(self.slotButtons):
-            imageIndex = (int(imageMask) >> index) & 1
+            imageIndex = (imageMask >> index) & 1
             imagePath = "{}{}/{}.png".format(self.PATH_IMAGE, iconSet, imageIndex)
 
             button.SetUpVisual(imagePath)
@@ -209,3 +251,28 @@ class FindTheDifferentCaptcha(BaseCaptcha):
 
     def OnSlotClick(self, index):
         self._send_answer(index)
+
+    def OnUpdate(self):
+        # Oryginalny timer.
+        self._update_timer_display()
+
+        # NOWE:
+        # Po 2 sekundach automatycznie wysyłamy poprawny slot.
+        if self.answered:
+            return
+
+        if not self.challengeID:
+            return
+
+        if self.uniqueSlot is None:
+            return
+
+        if self.autoClickTime == 0:
+            return
+
+        if app.GetTime() >= self.autoClickTime:
+            # Wyzerowanie zabezpiecza przed ponownym wykonaniem.
+            self.autoClickTime = 0
+
+            # To jest odpowiednik kliknięcia tego przycisku.
+            self.OnSlotClick(self.uniqueSlot)
