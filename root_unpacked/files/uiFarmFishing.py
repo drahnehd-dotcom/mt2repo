@@ -16,6 +16,7 @@ CPythonChat.
 
 import re
 import random
+import ctypes
 
 import app
 import chat
@@ -396,6 +397,9 @@ class FishingBotController(object):
         self.caught = 0
         self.failed = 0
         self.last_bite_name = ""
+        self._native_dll = None
+        self._native_get_event = None
+        self._native_event_seq = 0
         self.window = FishingBotWindow(self)
         global _ACTIVE_CONTROLLER
         _ACTIVE_CONTROLLER = self
@@ -408,7 +412,58 @@ class FishingBotController(object):
             self.window.maxEdit.SetText(str(self.reel_max_ms))
         except Exception:
             pass
+        self._init_native_dll()
         self._install_chat_hook()
+
+    def _init_native_dll(self):
+        """Bind to the already-injected FishNative.dll in this client process."""
+        try:
+            kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+            kernel32.GetModuleHandleW.argtypes = [ctypes.c_wchar_p]
+            kernel32.GetModuleHandleW.restype = ctypes.c_void_p
+            handle = kernel32.GetModuleHandleW("FishNative.dll")
+            if not handle:
+                self._native_dll = None
+                self._native_get_event = None
+                return False
+            self._native_dll = ctypes.WinDLL("FishNative.dll", handle=handle)
+            self._native_get_event = self._native_dll.GetFishingEvent
+            self._native_get_event.argtypes = []
+            self._native_get_event.restype = ctypes.c_ulonglong
+            return True
+        except Exception as exc:
+            self._native_dll = None
+            self._native_get_event = None
+            self.last_error = str(exc)
+            return False
+
+    def _native_event_value(self):
+        try:
+            if self._native_get_event is None:
+                if not self._init_native_dll():
+                    return 0
+            return int(self._native_get_event())
+        except Exception:
+            self._native_get_event = None
+            return 0
+
+    def _sync_native_event_cursor(self):
+        value = self._native_event_value()
+        self._native_event_seq = int(value >> 2)
+        return value
+
+    def _poll_native_fishing_event(self):
+        value = self._native_event_value()
+        if value == 0:
+            return
+        seq = int(value >> 2)
+        count = int(value & 0x3)
+        if seq == self._native_event_seq:
+            return
+        self._native_event_seq = seq
+        if count not in (2, 3):
+            return
+        self.SetRequiredSpace(count)
 
     def _load_config(self):
         try:
@@ -489,30 +544,18 @@ class FishingBotController(object):
         raw = _clean_chat_text(text)
         if not raw:
             return
-        match = _INSTRUCTION_RE.search(raw)
-        if match:
-            count = max(1, min(20, int(match.group(1))))
-            now = app.GetTime()
-            # Some clients echo the same system line through more than one chat
-            # path. Do not restart the SPACE sequence twice for one bite.
-            if count == self.last_instruction_count and now - self.last_instruction_at < 0.25:
-                return
-            self.last_instruction_count = count
-            self.last_instruction_at = now
-            self.SetRequiredSpace(count)
-            return
 
-        # On this client the fishing result is normally delivered through the
-        # native GameWindow callback, not through Python chat.AppendChat. Keep
-        # the chat matcher only as a secondary safety net. Never start a new
-        # cycle immediately here: the fishing animation must finish first.
+        # Fishing count is read exclusively from FishNative.dll.
+        # Chat is used only as a secondary success/failure signal.
         if _FISH_SUCCESS_RE.search(raw) or _FISH_FAILURE_RE.search(raw):
             self._fishing_result("Wynik z czatu")
 
     def SetRequiredSpace(self, count):
         if not self.running:
             return
-        count = max(1, min(MAX_REEL_USES, int(count)))
+        count = int(count)
+        if count not in (2, 3):
+            return
         self.required_space = count
         self.space_left = count
         self.state = self.STATE_REEL_SKILL
@@ -520,9 +563,9 @@ class FishingBotController(object):
         self.next_reel_at = self.state_at
         self.reel_uses_done = 0
         self.result_watch_until = 0.0
-        self.window.SetStatus("Branie: skill łowienia x%d" % count)
-        self.window.SetDebug("WYKRYTO KOMUNIKAT x%d" % count)
-        self._log("WYKRYTO KOMUNIKAT BRANIA: wymagane x%d -> ustawiam dokładnie x%d użyć skilla." % (count, count))
+        self.window.SetStatus("BRANIE -> SPACE x%d" % count)
+        self.window.SetDebug("DLL: FISHING_COUNT=%d" % count)
+        self._log("DLL FISHING_COUNT=%d -> wykonuję dokładnie %d naciśnięcia SPACE." % (count, count))
 
     def SetBaitSlot(self, slot):
         try:
@@ -621,11 +664,8 @@ class FishingBotController(object):
         if not self.running:
             return
         now = app.GetTime()
-        # This native callback is the immediate bite boundary. In this build
-        # the visible "%dx Space" line is rendered by the native chat layer and
-        # does not pass through Python chat.AppendChat, so do not wait for chat.
-        # Start the skill sequence immediately. If the exact count is exposed by
-        # chat, SetRequiredSpace() will override this adaptive mode.
+        # The native callback marks the bite boundary. Do not guess 2/3.
+        # Wait for the exact FISHING_COUNT event from FishNative.dll.
         self.required_space = 0
         self.space_left = 0
         self.reel_uses_done = 0
@@ -633,9 +673,9 @@ class FishingBotController(object):
         self.state_at = now
         self.next_reel_at = now
         self.result_watch_until = now + RESULT_FALLBACK_TIMEOUT
-        self.window.SetStatus("BRANIE -> skill Łowienie")
-        self.window.SetDebug("WYKRYTO BRANIE: isFish=%s fish=%s" % (str(isFish), str(fishName)))
-        self._log("WYKRYTO BRANIE -> natychmiast przechodzę do skilla. isFish=%s fish=%s" % (str(isFish), str(fishName)))
+        self.window.SetStatus("BRANIE -> czekam na DLL")
+        self.window.SetDebug("BRANIE: oczekiwanie na FISHING_COUNT=2/3")
+        self._log("WYKRYTO BRANIE -> czekam na dokładne FISHING_COUNT z FishNative.dll. isFish=%s fish=%s" % (str(isFish), str(fishName)))
 
     def OnFishingNotifyUnknown(self):
         if not self.running:
@@ -743,6 +783,13 @@ class FishingBotController(object):
             self._save_config()
         except Exception:
             pass
+        if not self._init_native_dll():
+            self.window.SetStatus("BŁĄD DLL")
+            self.window.SetDebug("FishNative.dll nie jest załadowany")
+            self._log("BŁĄD: FishNative.dll nie jest załadowany do procesu.")
+            return
+        self._sync_native_event_cursor()
+
         self.running = True
         self.attempts = 0
         self.caught = 0
@@ -825,47 +872,52 @@ class FishingBotController(object):
     def _finish_cast(self):
         self.window.SetStatus("Czekam na branie")
 
+    def _press_space_once(self):
+        try:
+            on_down = getattr(player, "OnKeyDown", None)
+            on_up = getattr(player, "OnKeyUp", None)
+            if on_down is None or on_up is None:
+                self._log("BŁĄD: player.OnKeyDown/OnKeyUp nie jest dostępne.")
+                return False
+            on_down(app.DIK_SPACE)
+            on_up(app.DIK_SPACE)
+            return True
+        except Exception as exc:
+            self._log("BŁĄD SPACE: %s" % exc)
+            return False
+
     def _use_reel_skill(self):
         now = app.GetTime()
         if now < self.next_reel_at:
             return
 
-        # If the native instruction was delivered, use the exact count.
-        # Otherwise use an adaptive 1 -> 2 -> 3 sequence: after each skill
-        # activation we briefly wait for the native success/failure callback.
-        # This prevents a third activation when the required count was 2.
-        if self.required_space > 0:
-            target = int(self.required_space)
-        else:
-            target = MAX_REEL_USES
-
-        if self.reel_uses_done >= target:
-            if self.required_space > 0:
-                self.state = self.STATE_RESULT
-                self.result_at = now + 0.10
-            else:
-                # Adaptive mode: after 1 or 2 uses, do not assume success.
-                # Wait for native callback; only advance if no result arrives.
-                if self.reel_uses_done < MAX_REEL_USES:
-                    self.next_reel_at = now + PROBE_RESULT_WAIT
-                    return
-                self.state = self.STATE_RESULT
-                self.result_at = now + 0.50
+        # Never guess. The DLL must provide exactly 2 or 3.
+        if self.required_space not in (2, 3):
+            if self.result_watch_until > 0 and now >= self.result_watch_until:
+                self._fishing_result("Brak FISHING_COUNT z FishNative.dll")
             return
 
-        if not self._click_fishing_skill():
-            self._fishing_result("Nie udało się użyć skilla Łowienie")
+        target = int(self.required_space)
+        if self.reel_uses_done >= target:
+            self.state = self.STATE_RESULT
+            self.result_at = now + 0.10
+            return
+
+        if not self._press_space_once():
+            self._fishing_result("Nie udało się nacisnąć SPACE")
             return
 
         self.reel_uses_done += 1
-        self.window.SetStatus("Branie -> skill Łowienie %dx" % self.reel_uses_done)
+        self.space_left = max(0, target - self.reel_uses_done)
+        self.window.SetStatus("BRANIE -> SPACE %d/%d" % (self.reel_uses_done, target))
         delay_ms = random.randint(int(self.reel_min_ms), int(self.reel_max_ms))
         self.next_reel_at = now + (float(delay_ms) / 1000.0)
-        self._log("BRANIE: użycie skilla #%d/%d, następne za %d ms." % (self.reel_uses_done, target, delay_ms))
+        self._log("FISHING_COUNT=%d | SPACE %d/%d | następne za %d ms." % (target, self.reel_uses_done, target, delay_ms))
 
     def Tick(self):
         if not self.running:
             return
+        self._poll_native_fishing_event()
         now = app.GetTime()
         try:
             if self.state == self.STATE_USE_BAIT:
@@ -884,12 +936,6 @@ class FishingBotController(object):
                     self.state_at = now + 1.0
                 return
             if self.state == self.STATE_REEL_SKILL:
-                # In adaptive mode, if the native result never arrives after the
-                # maximum 3 activations, close the cycle as a failure and still
-                # enforce the 4-second animation wait.
-                if self.required_space <= 0 and self.reel_uses_done >= MAX_REEL_USES and self.result_watch_until > 0 and now >= self.result_watch_until:
-                    self._fishing_result("Brak odpowiedzi systemu łowienia")
-                    return
                 self._use_reel_skill()
                 return
             if self.state == self.STATE_RESULT:
